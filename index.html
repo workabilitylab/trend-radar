@@ -91,7 +91,7 @@
   .steep-tag.dark{color:var(--ink);}
   .fcard h4{font-size:20px;font-weight:700;letter-spacing:-.01em;line-height:1.22;margin:0 0 10px;transition:.15s;display:-webkit-box;-webkit-line-clamp:4;line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;}
   .fcard .kick{font-family:var(--mono);font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin:0 0 10px;}
-  .fcard .body{font-size:14px;color:var(--muted);line-height:1.5;margin:0 0 16px;}
+  .fcard .body{font-size:14px;color:var(--muted);line-height:1.5;margin:0 0 16px;display:-webkit-box;-webkit-line-clamp:6;line-clamp:6;-webkit-box-orient:vertical;overflow:hidden;}
   .fcard .foot{margin-top:auto;display:flex;flex-wrap:wrap;align-items:center;gap:10px;}
   .src{display:inline-flex;align-items:center;gap:8px;white-space:nowrap;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);border:1px solid var(--line);padding:8px 13px;transition:.12s;max-width:100%;}
   .src span{overflow:hidden;text-overflow:ellipsis;}
@@ -275,7 +275,7 @@
         '<span class="steep-tag'+dark+'">'+esc(st.label)+'</span>'+
         '<p class="kick">'+esc(s.heading)+'</p>'+
         '<h4>'+esc(s.headline)+'</h4>'+
-        (s.body?'<p class="body">'+esc(trunc(s.body,150))+'</p>':'')+
+        (s.body?'<p class="body">'+esc(s.body)+'</p>':'')+
         '<div class="foot">'+
           (s.url?'<a class="src" href="'+esc(s.url)+'" target="_blank" rel="noopener" onclick="event.stopPropagation()"><span>'+esc(s.source||"Source")+'</span><span class="arw">&nearr;</span></a>':'')+
           '<button class="pin'+(on?" on":"")+econ+'" onclick="toggleSignal(event,\''+attr(key)+'\')">'+(on?"&#10003; Signalled":"&#43; Signal")+'</button>'+
@@ -311,7 +311,7 @@
         '<span class="steep-tag'+dark+'">'+esc(st.label)+'</span>'+
         '<p class="kick">'+esc((it.editionTag?it.editionTag+" · ":"")+(it.editionDate||""))+'</p>'+
         '<h4>'+esc(it.headline)+'</h4>'+
-        (it.body?'<p class="body">'+esc(trunc(it.body,150))+'</p>':'')+
+        (it.body?'<p class="body">'+esc(it.body)+'</p>':'')+
         '<div class="foot">'+
           (it.url?'<a class="src" href="'+esc(it.url)+'" target="_blank" rel="noopener" onclick="event.stopPropagation()"><span>'+esc(it.source||"Source")+'</span><span class="arw">&nearr;</span></a>':'')+
           '<div class="foot-actions">'+
@@ -352,6 +352,7 @@
     if(!arr.length){body.innerHTML='<div class="empty">No signals yet. Hit &#43; Signal on any story to pin it here.</div>';return;}
     var filtered=arr.filter(sigMatches);
     body.innerHTML = filtered.length ? '<div class="grid">'+filtered.map(sigCard).join("")+'</div>' : '<div class="empty">No signals match this filter.</div>';
+    balanceCards();
   }
   function sigRender(){
     var arr=loadSignals();
@@ -524,7 +525,26 @@
       '</section>';
     });
     feed.innerHTML = shown ? html : '<div class="empty">No stories match this filter.</div>';
+    balanceCards();
   }
+
+  /* Adaptive title/body lines: title uses up to 4 lines, body fills the rest
+     of a ~9-line combined budget, clamped between 4 and 7 lines. */
+  function balanceCards(){
+    var cards=document.querySelectorAll(".fcard");
+    for(var i=0;i<cards.length;i++){
+      var h=cards[i].querySelector("h4"), b=cards[i].querySelector(".body");
+      if(!h||!b) continue;
+      if(h.offsetHeight===0) continue; /* hidden: keep CSS default */
+      var tlh=parseFloat(getComputedStyle(h).lineHeight)||24;
+      var tLines=Math.max(1,Math.min(4,Math.round(h.offsetHeight/tlh)));
+      var bLines=9-tLines; if(bLines<4)bLines=4; if(bLines>7)bLines=7;
+      b.style.webkitLineClamp=bLines; b.style.lineClamp=bLines;
+    }
+  }
+  var __balTimer;
+  window.addEventListener("resize",function(){clearTimeout(__balTimer);__balTimer=setTimeout(balanceCards,150);});
+  if(document.fonts&&document.fonts.ready){document.fonts.ready.then(balanceCards);}
 
   updateSigCount();
   renderChips();
