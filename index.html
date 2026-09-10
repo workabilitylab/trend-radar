@@ -12,12 +12,7 @@
 
 <style>
   :root{
-    --blue:#2E2BFF;
-    --ink:#0B0B0B;
-    --paper:#FFFFFF;
-    --line:#111111;
-    --hair:#E6E6E6;
-    --muted:#6B7280;
+    --blue:#2E2BFF;--ink:#0B0B0B;--paper:#FFFFFF;--line:#111111;--hair:#E6E6E6;--muted:#6B7280;
     --mono:"Space Mono", ui-monospace, "Cascadia Code", Menlo, Consolas, monospace;
     --sans:"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   }
@@ -28,7 +23,6 @@
   .wrap{max-width:1200px;margin:0 auto;padding:0 40px;width:100%;}
   @media(max-width:640px){.wrap{padding:0 20px;}}
 
-  /* ---------------- HEADER ---------------- */
   header.site{border-bottom:1px solid var(--line);background:var(--paper);position:sticky;top:0;z-index:40;}
   .hdr{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;height:76px;}
   .brand{justify-self:start;display:flex;align-items:center;cursor:pointer;}
@@ -38,16 +32,14 @@
   nav.center a:hover{color:var(--blue);}
   nav.center a.active{border-color:var(--blue);color:var(--blue);}
   .hdr-right{justify-self:end;font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);}
-  @media(max-width:720px){nav.center{gap:22px;} .hdr-right{display:none;} .hdr{grid-template-columns:1fr auto;}}
+  @media(max-width:720px){nav.center{gap:20px;} .hdr-right{display:none;} .hdr{grid-template-columns:1fr auto;}}
 
-  /* ---------------- HERO ---------------- */
   .hero{padding:54px 0 30px;border-bottom:1px solid var(--hair);}
   .eyebrow{font-family:var(--mono);font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--blue);margin-bottom:18px;}
   .hero h1{font-size:48px;line-height:1.04;letter-spacing:-.03em;font-weight:800;margin:0 0 16px;max-width:16ch;}
   .hero p{font-size:17px;color:var(--muted);max-width:64ch;margin:0;}
   @media(max-width:640px){.hero h1{font-size:32px;}}
 
-  /* ---------------- STICKY FILTER BAR ---------------- */
   .filterbar{position:sticky;top:76px;z-index:30;background:rgba(255,255,255,.94);backdrop-filter:blur(6px);border-bottom:1px solid var(--hair);}
   .filterbar .inner{padding-top:16px;padding-bottom:14px;}
   .search{width:100%;border:1px solid var(--line);background:#fff;padding:13px 15px;font-family:var(--mono);font-size:13px;letter-spacing:.04em;text-transform:uppercase;outline:none;color:var(--ink);margin-bottom:14px;}
@@ -60,14 +52,13 @@
   .chip .n{color:var(--muted);}
   .chip.on{color:#fff;background:var(--steep,#111);border-color:var(--steep,#111);}
   .chip.on .n{color:rgba(255,255,255,.8);}
-  .chip.on.econ{color:var(--ink);} /* yellow needs dark text */
+  .chip.on.econ{color:var(--ink);}
   .chip.on.econ .n{color:rgba(0,0,0,.55);}
   .chip.all i{background:linear-gradient(90deg,#E4572E,#E0A100,#128A4B,#2E2BFF,#7B2FF7);}
   .chip.all.on{background:var(--ink);border-color:var(--ink);color:#fff;}
   .chip.all.on i{opacity:1;}
 
-  /* ---------------- FEED ---------------- */
-  #feed{padding-bottom:60px;}
+  #feed,#boards,#boarddetail,#allsig{padding-bottom:60px;}
   .day{padding:0 0 8px;}
   .day-rule{height:6px;background:var(--blue);margin:0 0 30px;}
   .day:first-of-type .day-rule{display:none;}
@@ -81,7 +72,7 @@
   @media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr);}}
   @media(max-width:600px){.grid{grid-template-columns:1fr;}}
 
-  .fcard{border:1px solid var(--line);background:#fff;display:flex;flex-direction:column;overflow:hidden;transition:.15s;cursor:pointer;height:100%;}
+  .fcard{border:1px solid var(--line);background:#fff;display:flex;flex-direction:column;overflow:hidden;transition:.15s;position:relative;height:100%;cursor:pointer;}
   .fcard:hover{border-color:var(--steep);transform:translateY(-2px);}
   .fcard:hover h4{color:var(--steep);}
   .fcard .bar{height:6px;background:var(--steep);flex:0 0 auto;}
@@ -99,78 +90,140 @@
   .fcard:hover .src{border-color:var(--steep);}
   .src:hover{background:var(--steep);color:#fff;}
 
-  .empty{font-family:var(--mono);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:60px 0;text-align:center;}
-
-  /* ---------------- PIN / SIGNALS ---------------- */
-  .sig-badge{display:inline-flex;align-items:center;justify-content:center;min-width:18px;height:18px;padding:0 5px;margin-left:6px;border-radius:9px;background:var(--blue);color:#fff;font-family:var(--mono);font-size:10.5px;line-height:1;letter-spacing:0;vertical-align:middle;box-sizing:border-box;}
-  .sig-badge:empty{display:none;}
-  .pin{display:inline-flex;align-items:center;gap:7px;white-space:nowrap;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:#fff;border:1px solid var(--hair);padding:8px 12px;cursor:pointer;transition:.12s;}
-  .pin:hover{border-color:var(--steep,#2E2BFF);color:var(--steep,#2E2BFF);}
-  .pin.on{border-color:var(--steep,#2E2BFF);background:var(--steep,#2E2BFF);color:#fff;}
-  .pin.on.econ{color:var(--ink);}
+  /* Save-to-board button */
+  .save{display:inline-flex;align-items:center;gap:7px;white-space:nowrap;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:#fff;border:1px solid var(--hair);padding:8px 12px;cursor:pointer;transition:.12s;}
+  .save:hover{border-color:var(--steep,#2E2BFF);color:var(--steep,#2E2BFF);}
+  .save.on{border-color:var(--steep,#2E2BFF);background:var(--steep,#2E2BFF);color:#fff;}
+  .save.on.econ{color:var(--ink);}
+  .save .cnt{opacity:.85;}
   .sig-remove{display:inline-flex;align-items:center;gap:7px;white-space:nowrap;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:none;border:1px solid var(--hair);padding:8px 12px;cursor:pointer;transition:.12s;}
   .sig-remove:hover{border-color:#D11;color:#D11;}
-  .back{display:inline-flex;align-items:center;gap:9px;font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;background:none;border:none;cursor:pointer;color:var(--muted);margin:30px 0 4px;padding:0;}
-  .back:hover{color:var(--blue);}
-  .sig-head{padding:22px 0 20px;border-bottom:1px solid var(--hair);margin-bottom:8px;}
-  .sig-title{font-size:40px;font-weight:800;letter-spacing:-.03em;margin:0 0 8px;line-height:1;}
-  .sig-sub{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);}
-  #signals{padding-bottom:60px;}
-  #signals .grid{padding-top:26px;}
-  .sig-filter{margin:16px 0 6px;}
-
-  /* STEEP legend */
-  .steep-legend{display:flex;flex-wrap:wrap;gap:16px;margin:16px 0 0;}
-  .steep-legend span{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);}
-  .steep-legend i{width:11px;height:11px;border-radius:2px;display:inline-block;}
-
-  /* Signal card footer actions + download button */
   .foot-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
   .sig-dl{width:38px;height:38px;flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--hair);background:#fff;cursor:pointer;transition:.12s;color:var(--muted);}
   .sig-dl:hover{border-color:var(--blue);color:var(--blue);}
   .sig-dl svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;}
 
-  /* ---------------- FOOTER ---------------- */
+  .empty{font-family:var(--mono);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:60px 0;text-align:center;}
+  .empty .btn{margin-top:18px;}
+
+  /* page heads */
+  .page-head{padding:30px 0 20px;border-bottom:1px solid var(--hair);margin-bottom:8px;display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap;}
+  .page-title{font-size:40px;font-weight:800;letter-spacing:-.03em;margin:0 0 8px;line-height:1;}
+  .page-sub{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);}
+  .back{display:inline-flex;align-items:center;gap:9px;font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;background:none;border:none;cursor:pointer;color:var(--muted);margin:30px 0 4px;padding:0;}
+  .back:hover{color:var(--blue);}
+
+  /* generic button */
+  .btn{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;background:var(--ink);color:#fff;border:1px solid var(--ink);padding:11px 16px;cursor:pointer;transition:.12s;}
+  .btn:hover{background:var(--blue);border-color:var(--blue);}
+  .btn.ghost{background:#fff;color:var(--ink);}
+  .btn.ghost:hover{background:#fff;color:var(--blue);border-color:var(--blue);}
+  .btn.danger:hover{background:#D11;border-color:#D11;color:#fff;}
+
+  /* Boards grid */
+  .bgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;padding:26px 0 20px;}
+  @media(max-width:900px){.bgrid{grid-template-columns:repeat(2,1fr);}}
+  @media(max-width:600px){.bgrid{grid-template-columns:1fr;}}
+  .bcard{cursor:pointer;display:flex;flex-direction:column;position:relative;border:1px solid var(--line);background:#fff;overflow:hidden;transition:.15s;}
+  .bcard:hover{border-color:var(--blue);transform:translateY(-2px);}
+  .bedit{position:absolute;top:10px;right:10px;z-index:2;display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;background:rgba(255,255,255,.95);border:1px solid var(--line);color:var(--ink);padding:7px 10px;cursor:pointer;opacity:0;transform:translateY(-4px);transition:.14s;}
+  .bcard:hover .bedit{opacity:1;transform:none;}
+  .bedit:hover{background:var(--blue);border-color:var(--blue);color:#fff;}
+  .bedit svg{width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;}
+  .bcard .cover{aspect-ratio:4/3;width:100%;border-bottom:1px solid var(--hair);background:#f2f2f7;object-fit:cover;display:block;}
+  .bcard .cover-ph{aspect-ratio:4/3;width:100%;border-bottom:1px solid var(--hair);background:linear-gradient(135deg,#ececff,#f6f6f6);display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:34px;font-weight:700;color:var(--blue);}
+  .bcard .binner{padding:14px 16px 16px;}
+  .bcard .bname{font-size:19px;font-weight:700;letter-spacing:-.01em;margin:0 0 4px;}
+  .bcard .bmeta{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);}
+  .bcard .bdesc{font-size:13.5px;color:var(--muted);margin:6px 0 0;display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+
+  /* Save popover */
+  .picker{position:absolute;z-index:120;width:320px;max-width:calc(100vw - 24px);background:#fff;border:1px solid var(--line);box-shadow:0 18px 50px rgba(0,0,0,.18);padding:16px;}
+  .picker h5{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink);margin:0 0 12px;text-align:center;}
+  .picker .psearch{width:100%;border:1px solid var(--hair);padding:10px 12px;font-family:var(--sans);font-size:14px;outline:none;margin-bottom:12px;}
+  .picker .psearch:focus{border-color:var(--blue);}
+  .picker .plist{max-height:240px;overflow:auto;margin:0 -4px;}
+  .prow{display:flex;align-items:center;gap:12px;padding:9px 8px;cursor:pointer;border-radius:6px;}
+  .prow:hover{background:#f5f5ff;}
+  .prow .pthumb{width:44px;height:44px;flex:0 0 auto;object-fit:cover;background:#eee;border:1px solid var(--hair);}
+  .prow .pthumb-ph{width:44px;height:44px;flex:0 0 auto;display:flex;align-items:center;justify-content:center;background:#ececff;border:1px solid var(--hair);font-family:var(--mono);font-weight:700;color:var(--blue);}
+  .prow .pinfo{flex:1;min-width:0;}
+  .prow .pn{font-size:14px;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .prow .pc{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);}
+  .prow .pcheck{width:22px;height:22px;flex:0 0 auto;border:1.5px solid var(--hair);border-radius:5px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;}
+  .prow.checked .pcheck{background:var(--blue);border-color:var(--blue);}
+  .picker .pcreate{display:flex;gap:8px;margin-top:12px;padding-top:12px;border-top:1px solid var(--hair);}
+  .picker .pcreate input{flex:1;border:1px solid var(--hair);padding:9px 11px;font-family:var(--sans);font-size:14px;outline:none;}
+  .picker .pcreate input:focus{border-color:var(--blue);}
+  .picker .pcreate button{flex:0 0 auto;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;background:var(--ink);color:#fff;border:none;padding:0 14px;cursor:pointer;}
+  .picker .pcreate button:hover{background:var(--blue);}
+
+  /* Modal */
+  .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:200;display:flex;align-items:center;justify-content:center;padding:20px;}
+  .modal{background:#fff;border:1px solid var(--line);width:520px;max-width:100%;max-height:88vh;overflow:auto;padding:26px;}
+  .modal h3{font-size:24px;font-weight:800;letter-spacing:-.02em;margin:0 0 18px;}
+  .modal label{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 6px;}
+  .modal input[type=text],.modal textarea{width:100%;border:1px solid var(--hair);padding:11px 13px;font-family:var(--sans);font-size:15px;outline:none;margin-bottom:18px;}
+  .modal input[type=text]:focus,.modal textarea:focus{border-color:var(--blue);}
+  .modal textarea{min-height:80px;resize:vertical;}
+  .modal .cover-pick{display:grid;grid-template-columns:repeat(auto-fill,minmax(84px,1fr));gap:8px;margin-bottom:18px;max-height:220px;overflow:auto;align-items:start;}
+  .modal .cover-opt{height:72px;width:100%;object-fit:cover;border:2px solid transparent;cursor:pointer;background:#eee;display:block;}
+  .modal .cover-opt.sel{border-color:var(--blue);}
+  .modal .cover-none{height:72px;border:2px dashed var(--hair);display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:10px;text-transform:uppercase;color:var(--muted);cursor:pointer;}
+  .modal-actions{display:flex;gap:10px;justify-content:flex-end;align-items:center;margin-top:6px;}
+  .modal-actions .spacer{flex:1;}
+
   footer.site{margin-top:auto;background:var(--ink);color:#fff;}
-  .foot{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:24px;padding-top:22px;padding-bottom:22px;}
-  .foot .copy{font-family:var(--mono);font-size:12px;letter-spacing:.04em;color:#fff;}
-  .foot .conf{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-align:center;color:#fff;}
-  .foot .logos{display:flex;align-items:center;justify-content:flex-end;gap:28px;}
+  .site-foot{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:24px;padding-top:22px;padding-bottom:22px;}
+  .site-foot .copy{font-family:var(--mono);font-size:12px;letter-spacing:.04em;color:#fff;}
+  .site-foot .conf{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-align:center;color:#fff;}
+  .site-foot .logos{display:flex;align-items:center;justify-content:flex-end;gap:28px;}
   .dell-img{height:20px;width:auto;display:block;}
   .eldorado-img{height:34px;width:auto;display:block;}
-  @media(max-width:760px){.foot{grid-template-columns:1fr;text-align:center;gap:18px;}.foot .conf{text-align:center;}.foot .logos{justify-content:center;}}
+  @media(max-width:760px){.site-foot{grid-template-columns:1fr;text-align:center;gap:18px;}.site-foot .conf{text-align:center;}.site-foot .logos{justify-content:center;}}
 </style>
 </head>
 <body>
 
 <header class="site">
   <div class="wrap hdr">
-    <div class="brand" onclick="showEditions()"><img class="brand-logo" src="workability-logo.png" alt="Workability Lab" /></div>
-    <nav class="center"><a id="nav-ed" class="active" onclick="showEditions()">Editions</a><a id="nav-sig" onclick="showSignals()">Signals <span id="sig-count" class="sig-badge"></span></a></nav>
+    <div class="brand" onclick="showView('ed')"><img class="brand-logo" src="workability-logo.png" alt="Workability Lab" /></div>
+    <nav class="center">
+      <a id="nav-ed" class="active" onclick="showView('ed')">Editions</a>
+      <a id="nav-boards" onclick="showView('boards')">Boards <span id="boards-count" class="page-sub" style="text-transform:none;letter-spacing:0"></span></a>
+      <a id="nav-allsig" onclick="showView('allsig')">All Signals <span id="allsig-count" class="page-sub" style="text-transform:none;letter-spacing:0"></span></a>
+    </nav>
     <div class="hdr-right">EN Edition</div>
   </div>
 </header>
 
+<!-- EDITIONS -->
 <main id="ed-hero" class="wrap">
   <section class="hero">
     <div class="eyebrow">The Horizon Scan</div>
-    <h1>Design, AI &amp; society, decoded every morning.</h1>
-    <p>Every day is a section; every story is a card color-coded by STEEP — Social, Technological, Economic, Environmental, Political. Filter or search to find stories fast.</p>
+    <h1 id="hero-h1">Design, AI &amp; society, decoded every morning.</h1>
+    <p>Build your own collections while you read.<br>Group signals by theme, project or trend.</p>
   </section>
 </main>
-
 <div id="ed-filter" class="filterbar">
   <div class="wrap inner">
     <input id="search" class="search" type="text" placeholder="Search all stories..." oninput="render()" />
     <div id="chips" class="chips"></div>
   </div>
 </div>
-
 <main id="feed" class="wrap"></main>
-<main id="signals" class="wrap" style="display:none;"></main>
+
+<!-- BOARDS -->
+<main id="boards" class="wrap" style="display:none;"></main>
+
+<!-- BOARD DETAIL -->
+<main id="boarddetail" class="wrap" style="display:none;"></main>
+
+<!-- ALL SIGNALS -->
+<main id="allsig" class="wrap" style="display:none;"></main>
 
 <footer class="site">
-  <div class="wrap foot">
+  <div class="wrap site-foot">
     <div class="copy">Copyright &copy; Dell Inc. All Rights Reserved.</div>
     <div class="conf">Internal Use Confidential</div>
     <div class="logos">
@@ -182,17 +235,12 @@
 
 <script src="data.js"></script>
 <script>
-  var EDITIONS = (window.EDITIONS || []).slice().sort(function(a,b){
-    return a.date < b.date ? 1 : (a.date > b.date ? -1 : 0);
-  });
-
+  /* ---------------- shared setup ---------------- */
+  var EDITIONS = (window.EDITIONS || []).slice().sort(function(a,b){return a.date<b.date?1:(a.date>b.date?-1:0);});
   var IMG_ERR = "this.onerror=null;this.style.display='none';";
-  window.__SIGMETA = {};
   function esc(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
-  function attr(s){return String(s==null?"":s).replace(/"/g,"&quot;");}
-  function trunc(s,n){s=String(s||"");return s.length>n?s.slice(0,n).replace(/\s+\S*$/,"")+"…":s;}
+  function attr(s){return String(s==null?"":s).replace(/"/g,"&quot;").replace(/'/g,"&#39;");}
 
-  /* STEEP taxonomy */
   var STEEP={
     social:{label:"Social",color:"#E4572E"},
     technological:{label:"Technological",color:"#2E2BFF"},
@@ -211,63 +259,104 @@
     return "social";
   }
 
-  /* Flatten every story once, tagging with its day + STEEP category */
-  var STORIES=[];
+  var STORIES=[], STORY_BY_KEY={};
+  function storyKey(s){return s.url||(s.edId+"::"+s.headline);}
   EDITIONS.forEach(function(ed){
     (ed.sections||[]).forEach(function(sec){
       (sec.items||[]).forEach(function(it){
-        STORIES.push({
-          edId:ed.id, weekday:ed.weekday, tag:ed.tag, displayDate:ed.displayDate,
-          edition:ed.edition, intro:ed.intro,
-          heading:sec.heading, headline:it.headline, body:it.body,
-          source:it.source, url:it.url, image:it.image,
-          steep:classifySteep({section:sec.heading, headline:it.headline, body:it.body})
-        });
+        var s={edId:ed.id,tag:ed.tag,displayDate:ed.displayDate,edition:ed.edition,
+          heading:sec.heading,headline:it.headline,body:it.body,source:it.source,url:it.url,image:it.image,
+          steep:classifySteep({section:sec.heading,headline:it.headline,body:it.body})};
+        s.key=storyKey(s);
+        STORIES.push(s); STORY_BY_KEY[s.key]=s;
       });
     });
   });
 
-  var STATE={steep:"all", q:""};
+  /* ---------------- storage (per-browser) ---------------- */
+  var PB="wlab_boards", PS="wlab_signals";
+  function readJSON(k){try{var a=JSON.parse(localStorage.getItem(k)||"[]");return Array.isArray(a)?a:[];}catch(e){return [];}}
+  function writeJSON(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
+  function getBoards(){return readJSON(PB);}
+  function setBoards(a){writeJSON(PB,a);updateCounts();}
+  function getSaved(){return readJSON(PS);}
+  function setSaved(a){writeJSON(PS,a);updateCounts();}
 
-  function steepCounts(){
-    var c={all:STORIES.length,social:0,technological:0,economic:0,environmental:0,political:0};
-    STORIES.forEach(function(s){c[s.steep]++;});
-    return c;
+  function metaFor(key){
+    var m=STORY_BY_KEY[key];
+    if(!m){var saved=getSaved();for(var i=0;i<saved.length;i++){if(saved[i].key===key)return saved[i];}return null;}
+    return {key:key,headline:m.headline,body:m.body,source:m.source,url:m.url,image:m.image,
+      editionTag:m.tag,editionDate:m.displayDate,editionId:m.edId,section:m.heading,steep:m.steep};
   }
+  function isSaved(key){return getSaved().some(function(s){return s.key===key;});}
+  function ensureSaved(key){
+    var saved=getSaved();
+    if(!saved.some(function(s){return s.key===key;})){var m=metaFor(key);if(m){m.savedAt=Date.now();saved.push(m);setSaved(saved);}}
+  }
+  function boardsForKey(key){return getBoards().filter(function(b){return b.keys.indexOf(key)>-1;});}
+  function newId(){return "b"+Date.now().toString(36)+Math.random().toString(36).slice(2,6);}
 
+  function createBoard(name,desc){
+    var boards=getBoards();
+    var b={id:newId(),name:name||"Untitled board",description:desc||"",cover:null,keys:[],created:Date.now()};
+    boards.unshift(b); setBoards(boards); return b;
+  }
+  function updateBoard(id,patch){
+    var boards=getBoards();
+    for(var i=0;i<boards.length;i++){if(boards[i].id===id){for(var k in patch){boards[i][k]=patch[k];}}}
+    setBoards(boards);
+  }
+  function deleteBoard(id){setBoards(getBoards().filter(function(b){return b.id!==id;}));}
+  function toggleKeyInBoard(id,key){
+    ensureSaved(key);
+    var boards=getBoards();
+    for(var i=0;i<boards.length;i++){
+      if(boards[i].id===id){
+        var idx=boards[i].keys.indexOf(key);
+        if(idx>-1){boards[i].keys.splice(idx,1);}
+        else{boards[i].keys.push(key); if(!boards[i].cover){var m=metaFor(key); if(m&&m.image)boards[i].cover=m.image;}}
+      }
+    }
+    setBoards(boards);
+  }
+  function removeFromBoard(id,key){
+    var boards=getBoards();
+    for(var i=0;i<boards.length;i++){if(boards[i].id===id){var idx=boards[i].keys.indexOf(key);if(idx>-1)boards[i].keys.splice(idx,1);}}
+    setBoards(boards);
+  }
+  function deleteSignal(key){
+    setSaved(getSaved().filter(function(s){return s.key!==key;}));
+    var boards=getBoards();
+    boards.forEach(function(b){var idx=b.keys.indexOf(key);if(idx>-1)b.keys.splice(idx,1);});
+    setBoards(boards);
+  }
+  function boardById(id){var b=getBoards();for(var i=0;i<b.length;i++){if(b[i].id===id)return b[i];}return null;}
+
+  /* ---------------- Editions feed ---------------- */
+  var STATE={steep:"all",q:""};
   function renderChips(){
     var order=["all","social","technological","economic","environmental","political"];
     var html=order.map(function(k){
-      if(k==="all"){
-        return '<div class="chip all'+(STATE.steep==="all"?" on":"")+'" onclick="setSteep(\'all\')"><i></i>All</div>';
-      }
-      var st=STEEP[k], on=STATE.steep===k;
-      var econ=(k==="economic")?" econ":"";
+      if(k==="all")return '<div class="chip all'+(STATE.steep==="all"?" on":"")+'" onclick="setSteep(\'all\')"><i></i>All</div>';
+      var st=STEEP[k],on=STATE.steep===k,econ=(k==="economic")?" econ":"";
       return '<div class="chip'+(on?" on":"")+econ+'" style="--steep:'+st.color+'" onclick="setSteep(\''+k+'\')"><i></i>'+esc(st.label)+'</div>';
     }).join("");
     document.getElementById("chips").innerHTML=html;
   }
-
-  function setSteep(k){ STATE.steep=k; renderChips(); render(); }
-
+  function setSteep(k){STATE.steep=k;renderChips();render();}
   function matches(s){
-    if(STATE.steep!=="all" && s.steep!==STATE.steep) return false;
-    if(STATE.q){
-      var hay=(s.headline+" "+s.body+" "+s.source+" "+s.heading).toLowerCase();
-      if(hay.indexOf(STATE.q)===-1) return false;
-    }
+    if(STATE.steep!=="all"&&s.steep!==STATE.steep)return false;
+    if(STATE.q){var hay=(s.headline+" "+s.body+" "+s.source+" "+s.heading).toLowerCase();if(hay.indexOf(STATE.q)===-1)return false;}
     return true;
   }
-
-  function storyKey(s){return s.url||(s.edId+"::"+s.headline);}
+  function saveBtn(key,steep){
+    var n=boardsForKey(key).length, on=n>0, st=STEEP[steep]||STEEP.social, econ=(steep==="economic")?" econ":"";
+    var label=on?("Saved"+' <span class="cnt">· '+n+'</span>'):"&#43; Save";
+    return '<button class="save'+(on?" on":"")+econ+'" style="--steep:'+st.color+'" onclick="openPicker(event,\''+attr(key)+'\')">'+label+'</button>';
+  }
   function card(s){
-    var st=STEEP[s.steep]||STEEP.social;
-    var dark=(s.steep==="economic")?" dark":"";
-    var econ=(s.steep==="economic")?" econ":"";
-    var key=storyKey(s);
-    window.__SIGMETA[key]={headline:s.headline,body:s.body,source:s.source,url:s.url,image:s.image,editionTag:s.tag,editionDate:s.displayDate,editionId:s.edId,section:s.heading,steep:s.steep};
-    var on=isSignal(key);
-    var clickable=s.url?' onclick="window.open(\''+attr(s.url)+'\',\'_blank\')"':"";
+    var st=STEEP[s.steep]||STEEP.social, dark=(s.steep==="economic")?" dark":"";
+    var clickable=s.url?' onclick="if(!event.target.closest(\'.save\')&&!event.target.closest(\'.src\'))window.open(\''+attr(s.url)+'\',\'_blank\')"':"";
     return '<article class="fcard" style="--steep:'+st.color+'"'+clickable+'>'+
       '<div class="bar"></div>'+
       (s.image?'<img class="thumb" loading="lazy" src="'+attr(s.image)+'" alt="" onerror="'+IMG_ERR+'">':'')+
@@ -278,116 +367,181 @@
         (s.body?'<p class="body">'+esc(s.body)+'</p>':'')+
         '<div class="foot">'+
           (s.url?'<a class="src" href="'+esc(s.url)+'" target="_blank" rel="noopener" onclick="event.stopPropagation()"><span>'+esc(s.source||"Source")+'</span><span class="arw">&nearr;</span></a>':'')+
-          '<button class="pin'+(on?" on":"")+econ+'" onclick="toggleSignal(event,\''+attr(key)+'\')">'+(on?"&#10003; Signalled":"&#43; Signal")+'</button>'+
+          saveBtn(s.key,s.steep)+
         '</div>'+
       '</div>'+
     '</article>';
   }
-
-  /* ---- Signals: shared with production via localStorage key "wlab_signals" ---- */
-  var SIG_KEY="wlab_signals";
-  function loadSignals(){try{var a=JSON.parse(localStorage.getItem(SIG_KEY)||"[]");return Array.isArray(a)?a:[];}catch(e){return [];}}
-  function saveSignals(a){try{localStorage.setItem(SIG_KEY,JSON.stringify(a));}catch(e){}}
-  function isSignal(key){return loadSignals().some(function(s){return s.key===key;});}
-  function updateSigCount(){var b=document.getElementById("sig-count");if(b)b.textContent=loadSignals().length||"";}
-  function toggleSignal(ev,key){
-    if(ev)ev.stopPropagation();
-    var arr=loadSignals(), i=-1;
-    for(var k=0;k<arr.length;k++){if(arr[k].key===key){i=k;break;}}
-    if(i>-1){arr.splice(i,1);}
-    else{var m=window.__SIGMETA[key];if(m){var e={};for(var p in m)e[p]=m[p];e.key=key;e.savedAt=Date.now();arr.unshift(e);}}
-    saveSignals(arr); updateSigCount();
-    if(ev&&ev.currentTarget){var btn=ev.currentTarget,onNow=i<0;btn.classList.toggle("on",onNow);btn.innerHTML=onNow?"&#10003; Signalled":"&#43; Signal";}
-    if(document.getElementById("signals").style.display==="block"){sigRender();}
+  function render(){
+    STATE.q=(document.getElementById("search").value||"").toLowerCase().trim();
+    var feed=document.getElementById("feed"),html="",shown=0;
+    EDITIONS.forEach(function(ed){
+      var items=STORIES.filter(function(s){return s.edId===ed.id&&matches(s);});
+      if(!items.length)return;
+      shown+=items.length;
+      html+='<section class="day"><div class="day-rule"></div><div class="day-head">'+
+        '<h2 class="day-date">'+esc(ed.edition||ed.displayDate||"")+'</h2>'+
+        '<div class="day-meta">'+esc((ed.tag||"")+" · "+(ed.displayDate||""))+' &nbsp;/&nbsp; '+items.length+' '+(items.length===1?"story":"stories")+'</div>'+
+        (ed.intro?'<p class="day-intro">'+esc(ed.intro)+'</p>':'')+
+        '</div><div class="grid">'+items.map(card).join("")+'</div></section>';
+    });
+    feed.innerHTML=shown?html:'<div class="empty">No stories match this filter.</div>';
+    balanceCards();
   }
-  function sigCard(it){
-    var cat=it.steep||classifySteep(it), st=STEEP[cat]||STEEP.social;
-    var dark=(cat==="economic")?" dark":"";
-    var clickable=it.url?' onclick="window.open(\''+attr(it.url)+'\',\'_blank\')"':"";
+  function balanceCards(){
+    var cards=document.querySelectorAll(".fcard");
+    for(var i=0;i<cards.length;i++){
+      var h=cards[i].querySelector("h4"),b=cards[i].querySelector(".body");
+      if(!h||!b||h.offsetHeight===0)continue;
+      var tlh=parseFloat(getComputedStyle(h).lineHeight)||24;
+      var tLines=Math.max(1,Math.min(4,Math.round(h.offsetHeight/tlh)));
+      var bl=9-tLines; if(bl<4)bl=4; if(bl>7)bl=7;
+      b.style.webkitLineClamp=bl; b.style.lineClamp=bl;
+    }
+  }
+  var __balTimer;
+  window.addEventListener("resize",function(){clearTimeout(__balTimer);__balTimer=setTimeout(balanceCards,150);});
+  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(balanceCards);
+
+  /* ---------------- Save-to-board popover ---------------- */
+  var pickerEl=null, pickerKey=null, pickerQ="";
+  function closePicker(){if(pickerEl){pickerEl.remove();pickerEl=null;pickerKey=null;pickerQ="";document.removeEventListener("mousedown",onDocDown,true);document.removeEventListener("keydown",onPickKey,true);}}
+  function onDocDown(e){if(pickerEl&&!pickerEl.contains(e.target))closePicker();}
+  function onPickKey(e){if(e.key==="Escape")closePicker();}
+  function openPicker(ev,key){
+    ev.stopPropagation();
+    if(pickerEl&&pickerKey===key){closePicker();return;}
+    closePicker();
+    pickerKey=key;
+    pickerEl=document.createElement("div");
+    pickerEl.className="picker";
+    document.body.appendChild(pickerEl);
+    renderPicker();
+    var r=ev.currentTarget.getBoundingClientRect();
+    var top=r.bottom+window.scrollY+8, left=r.left+window.scrollX;
+    var pw=320; if(left+pw>window.scrollX+document.documentElement.clientWidth-12)left=window.scrollX+document.documentElement.clientWidth-pw-12;
+    if(left<window.scrollX+12)left=window.scrollX+12;
+    pickerEl.style.top=top+"px"; pickerEl.style.left=left+"px";
+    setTimeout(function(){document.addEventListener("mousedown",onDocDown,true);document.addEventListener("keydown",onPickKey,true);},0);
+    var si=pickerEl.querySelector(".psearch"); if(si)si.focus();
+  }
+  function renderPicker(){
+    if(!pickerEl)return;
+    var boards=getBoards().filter(function(b){return !pickerQ||b.name.toLowerCase().indexOf(pickerQ)>-1;});
+    var rows=boards.map(function(b){
+      var on=b.keys.indexOf(pickerKey)>-1;
+      var cov=b.cover?'<img class="pthumb" src="'+attr(b.cover)+'" onerror="'+IMG_ERR+'">':'<div class="pthumb-ph">'+esc((b.name||"?").charAt(0).toUpperCase())+'</div>';
+      return '<div class="prow'+(on?" checked":"")+'" onclick="pickToggle(\''+b.id+'\')">'+cov+
+        '<div class="pinfo"><div class="pn">'+esc(b.name)+'</div><div class="pc">'+b.keys.length+' saved</div></div>'+
+        '<div class="pcheck">'+(on?"&#10003;":"")+'</div></div>';
+    }).join("");
+    if(!boards.length)rows='<div class="pc" style="padding:14px 8px;color:#9CA3AF;font-family:var(--mono);font-size:11px;text-transform:uppercase;">No boards yet — create one below</div>';
+    pickerEl.innerHTML='<h5>Save to board</h5>'+
+      '<input class="psearch" placeholder="Search boards..." value="'+attr(pickerQ)+'" oninput="pickSearch(this.value)">'+
+      '<div class="plist">'+rows+'</div>'+
+      '<div class="pcreate"><input placeholder="Create new board..." onkeydown="if(event.key===\'Enter\')pickCreate(this.value)"><button onclick="pickCreate(this.previousElementSibling.value)">Create</button></div>';
+  }
+  function pickSearch(v){pickerQ=(v||"").toLowerCase();renderPicker();var si=pickerEl.querySelector(".psearch");si.focus();si.setSelectionRange(si.value.length,si.value.length);}
+  function pickToggle(id){toggleKeyInBoard(id,pickerKey);renderPicker();render();}
+  function pickCreate(name){name=(name||"").trim();if(!name)return;var b=createBoard(name);toggleKeyInBoard(b.id,pickerKey);pickerQ="";renderPicker();render();}
+
+  /* ---------------- Boards view ---------------- */
+  function renderBoards(){
+    var boards=getBoards();
+    var head='<div class="page-head"><div><h2 class="page-title">Boards</h2>'+
+      '<div class="page-sub">'+boards.length+' '+(boards.length===1?"board":"boards")+' &nbsp;/&nbsp; stored on this browser only</div></div>'+
+      '<button class="btn" onclick="openBoardModal()">&#43; New board</button></div>';
+    var body;
+    if(!boards.length){
+      body='<div class="empty">No boards yet.<br><button class="btn" onclick="openBoardModal()">&#43; Create your first board</button></div>';
+    }else{
+      body='<div class="bgrid">'+boards.map(function(b){
+        var cov=b.cover?'<img class="cover" src="'+attr(b.cover)+'" alt="" onerror="this.onerror=null;this.outerHTML=\'<div class=&quot;cover-ph&quot;>'+esc((b.name||"?").charAt(0).toUpperCase())+'</div>\'">':'<div class="cover-ph">'+esc((b.name||"?").charAt(0).toUpperCase())+'</div>';
+        return '<div class="bcard" onclick="showBoard(\''+b.id+'\')">'+
+          '<button class="bedit" title="Edit board" onclick="event.stopPropagation();openBoardModal(\''+b.id+'\')"><svg viewBox="0 0 24 24"><path d="M4 20h4L18.5 9.5a2.1 2.1 0 0 0-3-3L5 17v3z"/><path d="M13.5 6.5l3 3"/></svg>Edit</button>'+
+          cov+
+          '<div class="binner">'+
+            '<div class="bname">'+esc(b.name)+'</div>'+
+            '<div class="bmeta">'+b.keys.length+' '+(b.keys.length===1?"signal":"signals")+'</div>'+
+            (b.description?'<div class="bdesc">'+esc(b.description)+'</div>':'')+
+          '</div>'+
+        '</div>';
+      }).join("")+'</div>';
+    }
+    document.getElementById("boards").innerHTML=head+body;
+  }
+
+  /* ---------------- Board detail ---------------- */
+  var CUR_BOARD=null, BSTATE={steep:"all"};
+  function showBoard(id){CUR_BOARD=id;BSTATE.steep="all";showView("boarddetail");}
+  function setBoardSteep(k){BSTATE.steep=k;renderBoardDetail();}
+  function boardChips(all){
+    var counts={all:all.length,social:0,technological:0,economic:0,environmental:0,political:0};
+    all.forEach(function(m){if(counts[m.steep]!=null)counts[m.steep]++;});
+    var order=["all","social","technological","economic","environmental","political"];
+    return '<div class="chips" style="margin:22px 0 2px">'+order.map(function(k){
+      if(k==="all")return '<div class="chip all'+(BSTATE.steep==="all"?" on":"")+'" onclick="setBoardSteep(\'all\')"><i></i>All <span class="n">'+counts.all+'</span></div>';
+      var st=STEEP[k],on=BSTATE.steep===k,econ=(k==="economic")?" econ":"";
+      return '<div class="chip'+(on?" on":"")+econ+'" style="--steep:'+st.color+'" onclick="setBoardSteep(\''+k+'\')"><i></i>'+esc(st.label)+' <span class="n">'+counts[k]+'</span></div>';
+    }).join("")+'</div>';
+  }
+  function renderBoardDetail(){
+    var b=boardById(CUR_BOARD);
+    var el=document.getElementById("boarddetail");
+    if(!b){el.innerHTML='<button class="back" onclick="showView(\'boards\')">&larr; Back to boards</button><div class="empty">Board not found.</div>';return;}
+    var all=b.keys.map(metaFor).filter(Boolean);
+    var items=(BSTATE.steep==="all")?all:all.filter(function(m){return m.steep===BSTATE.steep;});
+    var head='<button class="back" onclick="showView(\'boards\')">&larr; Back to boards</button>'+
+      '<div class="page-head"><div><h2 class="page-title">'+esc(b.name)+'</h2>'+
+      '<div class="page-sub">'+all.length+' '+(all.length===1?"signal":"signals")+'</div>'+
+      (b.description?'<p class="day-intro" style="margin-top:12px">'+esc(b.description)+'</p>':'')+'</div>'+
+      '<div style="display:flex;gap:10px"><button class="btn ghost" onclick="openBoardModal(\''+b.id+'\')">Edit</button>'+
+      '<button class="btn ghost danger" onclick="confirmDeleteBoard(\''+b.id+'\')">Delete</button></div></div>';
+    var chips=all.length?boardChips(all):"";
+    var body = all.length
+      ? (items.length ? '<div class="grid">'+items.map(function(m){return sigCard(m,b.id);}).join("")+'</div>'
+                      : '<div class="empty">No signals in this category.</div>')
+      : '<div class="empty">This board is empty. Save stories to it from Editions.</div>';
+    el.innerHTML=head+chips+body;
+    balanceCards();
+  }
+  function confirmDeleteBoard(id){var b=boardById(id);if(!b)return;if(confirm('Delete board "'+b.name+'"? The signals stay in All Signals.')){deleteBoard(id);showView("boards");}}
+
+  /* ---------------- All Signals ---------------- */
+  function renderAllSig(){
+    var saved=getSaved();
+    var head='<div class="page-head"><div><h2 class="page-title">All signals</h2>'+
+      '<div class="page-sub">'+saved.length+' saved &nbsp;/&nbsp; stored on this browser only</div></div></div>';
+    var body = saved.length ? '<div class="grid">'+saved.slice().reverse().map(function(m){return sigCard(m,null);}).join("")+'</div>'
+      : '<div class="empty">No signals yet. Hit &#43; Save on any story in Editions.</div>';
+    document.getElementById("allsig").innerHTML=head+body;
+    balanceCards();
+  }
+
+  /* signal card, used in board detail (boardId set → Remove from board) and All Signals (boardId null → Remove everywhere) */
+  function sigCard(m,boardId){
+    var st=STEEP[m.steep]||STEEP.social, dark=(m.steep==="economic")?" dark":"";
+    var clickable=m.url?' onclick="if(!event.target.closest(\'button\')&&!event.target.closest(\'.src\'))window.open(\''+attr(m.url)+'\',\'_blank\')"':"";
+    var removeBtn = boardId
+      ? '<button class="sig-remove" onclick="removeFromBoard(\''+boardId+'\',\''+attr(m.key)+'\');renderBoardDetail()">&#10005; Remove</button>'
+      : '<button class="sig-remove" onclick="deleteSignal(\''+attr(m.key)+'\');renderAllSig()">&#10005; Remove</button>';
     return '<article class="fcard" style="--steep:'+st.color+'"'+clickable+'>'+
       '<div class="bar"></div>'+
-      (it.image?'<img class="thumb" loading="lazy" src="'+attr(it.image)+'" alt="" onerror="'+IMG_ERR+'">':'')+
+      (m.image?'<img class="thumb" loading="lazy" src="'+attr(m.image)+'" alt="" onerror="'+IMG_ERR+'">':'')+
       '<div class="inner">'+
         '<span class="steep-tag'+dark+'">'+esc(st.label)+'</span>'+
-        '<p class="kick">'+esc((it.editionTag?it.editionTag+" · ":"")+(it.editionDate||""))+'</p>'+
-        '<h4>'+esc(it.headline)+'</h4>'+
-        (it.body?'<p class="body">'+esc(it.body)+'</p>':'')+
+        '<p class="kick">'+esc((m.editionTag?m.editionTag+" · ":"")+(m.editionDate||""))+'</p>'+
+        '<h4>'+esc(m.headline)+'</h4>'+
+        (m.body?'<p class="body">'+esc(m.body)+'</p>':'')+
         '<div class="foot">'+
-          (it.url?'<a class="src" href="'+esc(it.url)+'" target="_blank" rel="noopener" onclick="event.stopPropagation()"><span>'+esc(it.source||"Source")+'</span><span class="arw">&nearr;</span></a>':'')+
+          (m.url?'<a class="src" href="'+esc(m.url)+'" target="_blank" rel="noopener" onclick="event.stopPropagation()"><span>'+esc(m.source||"Source")+'</span><span class="arw">&nearr;</span></a>':'')+
           '<div class="foot-actions">'+
-            '<button class="sig-remove" onclick="toggleSignal(event,\''+attr(it.key)+'\')">&#10005; Remove</button>'+
-            '<button class="sig-dl" title="Download as image (JPEG)" aria-label="Download this signal as image" onclick="downloadSignal(event,\''+attr(it.key)+'\')"><svg viewBox="0 0 24 24"><path d="M12 3v12M7 11l5 5 5-5M5 20h14"/></svg></button>'+
+            removeBtn+
+            '<button class="sig-dl" title="Download as image (JPEG)" aria-label="Download this signal as image" onclick="downloadSignal(event,\''+attr(m.key)+'\')"><svg viewBox="0 0 24 24"><path d="M12 3v12M7 11l5 5 5-5M5 20h14"/></svg></button>'+
           '</div>'+
         '</div>'+
       '</div>'+
     '</article>';
-  }
-  var SIG_STATE={steep:"all", q:""};
-  function renderSigChips(){
-    var order=["all","social","technological","economic","environmental","political"];
-    var html=order.map(function(k){
-      if(k==="all"){
-        return '<div class="chip all'+(SIG_STATE.steep==="all"?" on":"")+'" onclick="setSigSteep(\'all\')"><i></i>All</div>';
-      }
-      var st=STEEP[k], on=SIG_STATE.steep===k, econ=(k==="economic")?" econ":"";
-      return '<div class="chip'+(on?" on":"")+econ+'" style="--steep:'+st.color+'" onclick="setSigSteep(\''+k+'\')"><i></i>'+esc(st.label)+'</div>';
-    }).join("");
-    var el=document.getElementById("sig-chips"); if(el){el.innerHTML=html;}
-  }
-  function setSigSteep(k){ SIG_STATE.steep=k; renderSigChips(); sigRenderGrid(); }
-  function sigMatches(it){
-    var cat=it.steep||classifySteep(it);
-    if(SIG_STATE.steep!=="all" && cat!==SIG_STATE.steep) return false;
-    if(SIG_STATE.q){
-      var hay=((it.headline||"")+" "+(it.body||"")+" "+(it.source||"")+" "+(it.section||"")).toLowerCase();
-      if(hay.indexOf(SIG_STATE.q)===-1) return false;
-    }
-    return true;
-  }
-  function sigRenderGrid(){
-    var arr=loadSignals();
-    var qi=document.getElementById("sig-search");
-    if(qi){SIG_STATE.q=(qi.value||"").toLowerCase().trim();}
-    var body=document.getElementById("sig-body"); if(!body)return;
-    if(!arr.length){body.innerHTML='<div class="empty">No signals yet. Hit &#43; Signal on any story to pin it here.</div>';return;}
-    var filtered=arr.filter(sigMatches);
-    body.innerHTML = filtered.length ? '<div class="grid">'+filtered.map(sigCard).join("")+'</div>' : '<div class="empty">No signals match this filter.</div>';
-    balanceCards();
-  }
-  function sigRender(){
-    var arr=loadSignals();
-    arr.forEach(function(it){window.__SIGMETA[it.key]={headline:it.headline,body:it.body,source:it.source,url:it.url,image:it.image,editionTag:it.editionTag,editionDate:it.editionDate,editionId:it.editionId,section:it.section,steep:it.steep};});
-    var html='<button class="back" onclick="showEditions()">&larr; Back to feed</button>'+
-      '<div class="sig-head"><h2 class="sig-title">Your signals</h2>'+
-      '<div class="sig-sub">'+arr.length+' saved &nbsp;/&nbsp; stored on this browser only</div></div>'+
-      '<div class="sig-filter">'+
-        '<input id="sig-search" class="search" type="text" placeholder="Search your signals..." oninput="sigRenderGrid()" />'+
-        '<div id="sig-chips" class="chips"></div>'+
-      '</div>'+
-      '<div id="sig-body"></div>';
-    document.getElementById("signals").innerHTML=html;
-    var qi=document.getElementById("sig-search"); if(qi){qi.value=SIG_STATE.q;}
-    renderSigChips();
-    sigRenderGrid();
-  }
-  function showEditions(){
-    document.getElementById("ed-hero").style.display="";
-    document.getElementById("ed-filter").style.display="";
-    document.getElementById("feed").style.display="";
-    document.getElementById("signals").style.display="none";
-    document.getElementById("nav-ed").classList.add("active");
-    document.getElementById("nav-sig").classList.remove("active");
-    window.scrollTo(0,0);
-  }
-  function showSignals(){
-    sigRender();
-    document.getElementById("ed-hero").style.display="none";
-    document.getElementById("ed-filter").style.display="none";
-    document.getElementById("feed").style.display="none";
-    document.getElementById("signals").style.display="block";
-    document.getElementById("nav-sig").classList.add("active");
-    document.getElementById("nav-ed").classList.remove("active");
-    window.scrollTo(0,0);
   }
 
   /* ---- Download a signal as a shareable JPEG (STEEP-coded card) ---- */
@@ -419,8 +573,9 @@
   }
   function downloadSignal(ev,key){
     if(ev){ev.stopPropagation();}
-    var arr=loadSignals(), it=null;
+    var arr=getSaved(), it=null;
     for(var i=0;i<arr.length;i++){if(arr[i].key===key){it=arr[i];break;}}
+    if(!it)it=metaFor(key);
     if(!it)return;
     var cat=it.steep||classifySteep(it), st=STEEP[cat]||STEEP.social;
     var slug=(it.headline||"signal").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"").slice(0,50)||"signal";
@@ -505,49 +660,115 @@
     if(document.fonts&&document.fonts.ready){document.fonts.ready.then(go);}else{go();}
   }
 
-  function render(){
-    STATE.q=(document.getElementById("search").value||"").toLowerCase().trim();
-    var feed=document.getElementById("feed");
-    var html="", shown=0;
-    EDITIONS.forEach(function(ed){
-      var items=STORIES.filter(function(s){return s.edId===ed.id && matches(s);});
-      if(!items.length) return;
-      shown+=items.length;
-      html+='<section class="day">'+
-        '<div class="day-rule"></div>'+
-        '<div class="day-head">'+
-          '<h2 class="day-date">'+esc(ed.edition||ed.displayDate||"")+'</h2>'+
-          '<div class="day-meta">'+esc((ed.tag||"")+" · "+(ed.displayDate||""))+' &nbsp;/&nbsp; '+items.length+' '+(items.length===1?"story":"stories")+
-            (STATE.steep!=="all"||STATE.q?" shown":"")+'</div>'+
-          (ed.intro?'<p class="day-intro">'+esc(ed.intro)+'</p>':'')+
-        '</div>'+
-        '<div class="grid">'+items.map(card).join("")+'</div>'+
-      '</section>';
-    });
-    feed.innerHTML = shown ? html : '<div class="empty">No stories match this filter.</div>';
-    balanceCards();
+  /* ---------------- Board create/edit modal ---------------- */
+  var modalEl=null, modalCover=null;
+  function openBoardModal(id){
+    var b=id?boardById(id):null;
+    modalCover=b?b.cover:null;
+    var covers=[];
+    if(b){b.keys.map(metaFor).filter(Boolean).forEach(function(m){if(m.image&&covers.indexOf(m.image)===-1)covers.push(m.image);});}
+    var coverGrid = b && covers.length
+      ? '<label>Cover image</label><div class="cover-pick" id="cover-pick">'+
+          '<div class="cover-none'+(!modalCover?" sel":"")+'" onclick="setModalCover(null)">None</div>'+
+          covers.map(function(u){return '<img class="cover-opt'+(modalCover===u?" sel":"")+'" src="'+attr(u)+'" onclick="setModalCover(\''+attr(u)+'\')" onerror="'+IMG_ERR+'">';}).join("")+
+        '</div>'
+      : (b?'<label>Cover image</label><p class="page-sub" style="margin-bottom:18px">Add signals with images to pick a cover.</p>':'');
+    modalEl=document.createElement("div");
+    modalEl.className="modal-backdrop";
+    modalEl.onmousedown=function(e){if(e.target===modalEl)closeModal();};
+    modalEl.innerHTML='<div class="modal"><h3>'+(b?"Edit board":"New board")+'</h3>'+
+      '<label>Name</label><input type="text" id="m-name" value="'+attr(b?b.name:"")+'" placeholder="e.g. AI &amp; work" maxlength="60">'+
+      '<label>Description</label><textarea id="m-desc" placeholder="What is this board about? (optional)" maxlength="240">'+esc(b?b.description:"")+'</textarea>'+
+      coverGrid+
+      '<div class="modal-actions">'+
+        (b?'<button class="btn ghost danger" onclick="confirmDeleteBoard(\''+b.id+'\');closeModal()">Delete</button>':'')+
+        '<div class="spacer"></div>'+
+        '<button class="btn ghost" onclick="closeModal()">Cancel</button>'+
+        '<button class="btn" onclick="saveBoardModal('+(b?"'"+b.id+"'":"null")+')">'+(b?"Save":"Create")+'</button>'+
+      '</div></div>';
+    document.body.appendChild(modalEl);
+    document.addEventListener("keydown",onModalKey,true);
+    var ni=document.getElementById("m-name"); if(ni)ni.focus();
+  }
+  function onModalKey(e){if(e.key==="Escape")closeModal();}
+  function setModalCover(u){modalCover=u;var g=document.getElementById("cover-pick");if(!g)return;
+    Array.prototype.forEach.call(g.children,function(c){c.classList.remove("sel");});
+    if(u===null){g.querySelector(".cover-none").classList.add("sel");}
+    else{Array.prototype.forEach.call(g.querySelectorAll(".cover-opt"),function(img){if(img.getAttribute("src")===u)img.classList.add("sel");});}
+  }
+  function saveBoardModal(id){
+    var name=(document.getElementById("m-name").value||"").trim();
+    var desc=(document.getElementById("m-desc").value||"").trim();
+    if(!name){document.getElementById("m-name").focus();return;}
+    if(id){updateBoard(id,{name:name,description:desc,cover:modalCover});}
+    else{createBoard(name,desc);}
+    closeModal();
+    if(getCurrentView()==="boarddetail")renderBoardDetail();
+    renderBoards();
+  }
+  function closeModal(){if(modalEl){modalEl.remove();modalEl=null;document.removeEventListener("keydown",onModalKey,true);}}
+
+  /* ---------------- view routing ---------------- */
+  var VIEW="ed";
+  function getCurrentView(){return VIEW;}
+  function showView(v){
+    VIEW=v; closePicker();
+    var edOn=v==="ed";
+    document.getElementById("ed-hero").style.display=edOn?"":"none";
+    document.getElementById("ed-filter").style.display=edOn?"":"none";
+    document.getElementById("feed").style.display=edOn?"":"none";
+    document.getElementById("boards").style.display=v==="boards"?"":"none";
+    document.getElementById("boarddetail").style.display=v==="boarddetail"?"":"none";
+    document.getElementById("allsig").style.display=v==="allsig"?"":"none";
+    document.getElementById("nav-ed").classList.toggle("active",edOn);
+    document.getElementById("nav-boards").classList.toggle("active",v==="boards"||v==="boarddetail");
+    document.getElementById("nav-allsig").classList.toggle("active",v==="allsig");
+    if(v==="boards")renderBoards();
+    if(v==="boarddetail")renderBoardDetail();
+    if(v==="allsig")renderAllSig();
+    if(edOn)render();
+    window.scrollTo(0,0);
+  }
+  function updateCounts(){
+    var nb=getBoards().length, ns=getSaved().length;
+    document.getElementById("boards-count").textContent=nb?("("+nb+")"):"";
+    document.getElementById("allsig-count").textContent=ns?("("+ns+")"):"";
   }
 
-  /* Adaptive title/body lines: title uses up to 4 lines, body fills the rest
-     of a ~9-line combined budget, clamped between 4 and 7 lines. */
-  function balanceCards(){
-    var cards=document.querySelectorAll(".fcard");
-    for(var i=0;i<cards.length;i++){
-      var h=cards[i].querySelector("h4"), b=cards[i].querySelector(".body");
-      if(!h||!b) continue;
-      if(h.offsetHeight===0) continue; /* hidden: keep CSS default */
-      var tlh=parseFloat(getComputedStyle(h).lineHeight)||24;
-      var tLines=Math.max(1,Math.min(4,Math.round(h.offsetHeight/tlh)));
-      var bLines=9-tLines; if(bLines<4)bLines=4; if(bLines>7)bLines=7;
-      b.style.webkitLineClamp=bLines; b.style.lineClamp=bLines;
-    }
+  /* ---------------- rotating hero headline (one per day) ---------------- */
+  var HEADLINES=[
+    ["The future,","before it's obvious."],
+    ["Today's signals,","tomorrow's impact."],
+    ["See the shift","before everyone else."],
+    ["Where the future","leaks first."],
+    ["Catch the trend","while it's still a whisper."],
+    ["The patterns behind","the headlines."],
+    ["Spot what's coming.","Act before it lands."],
+    ["The world is changing.","Here's the early draft."],
+    ["Small signals,","big shifts."],
+    ["What's fringe today","is default tomorrow."],
+    ["The trends before","they trend."],
+    ["Weak signals,","strong futures."],
+    ["Change shows up","small first."],
+    ["Read the edges,","not the headlines."],
+    ["Find the signal","in the noise."],
+    ["What everyone","will notice later."],
+    ["The dots","before they connect."],
+    ["See it coming","while it's still small."],
+    ["Tomorrow starts","as a rumor."],
+    ["The quiet signals","that get loud."]
+  ];
+  function setHeadline(){
+    var el=document.getElementById("hero-h1"); if(!el)return;
+    var dayIndex=Math.floor(Date.now()/86400000);
+    var h=HEADLINES[((dayIndex%HEADLINES.length)+HEADLINES.length)%HEADLINES.length];
+    el.innerHTML=esc(h[0])+'<br>'+esc(h[1]);
   }
-  var __balTimer;
-  window.addEventListener("resize",function(){clearTimeout(__balTimer);__balTimer=setTimeout(balanceCards,150);});
-  if(document.fonts&&document.fonts.ready){document.fonts.ready.then(balanceCards);}
+  setHeadline();
 
-  updateSigCount();
+  /* ---------------- init ---------------- */
   renderChips();
+  updateCounts();
   render();
 </script>
 </body>
