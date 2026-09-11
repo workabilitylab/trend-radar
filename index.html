@@ -350,8 +350,8 @@
     return true;
   }
   function saveBtn(key,steep){
-    var n=boardsForKey(key).length, on=n>0, st=STEEP[steep]||STEEP.social, econ=(steep==="economic")?" econ":"";
-    var label=on?("Saved"+' <span class="cnt">· '+n+'</span>'):"&#43; Save";
+    var n=boardsForKey(key).length, saved=isSaved(key), on=saved, st=STEEP[steep]||STEEP.social, econ=(steep==="economic")?" econ":"";
+    var label=saved?("Saved"+(n>0?' <span class="cnt">· '+n+'</span>':'')):"&#43; Save";
     return '<button class="save'+(on?" on":"")+econ+'" style="--steep:'+st.color+'" onclick="openPicker(event,\''+attr(key)+'\')">'+label+'</button>';
   }
   function card(s){
@@ -436,12 +436,19 @@
         '<div class="pcheck">'+(on?"&#10003;":"")+'</div></div>';
     }).join("");
     if(!boards.length)rows='<div class="pc" style="padding:14px 8px;color:#9CA3AF;font-family:var(--mono);font-size:11px;text-transform:uppercase;">No boards yet — create one below</div>';
-    pickerEl.innerHTML='<h5>Save to board</h5>'+
+    var savedOn=isSaved(pickerKey);
+    var allRow='<div class="prow allrow'+(savedOn?" checked":"")+'" onclick="pickToggleAll()">'+
+      '<div class="pthumb-ph" style="background:#111;color:#fff;">&#9733;</div>'+
+      '<div class="pinfo"><div class="pn">All Signals</div><div class="pc">'+(savedOn?"Saved to your library":"Save without a board")+'</div></div>'+
+      '<div class="pcheck">'+(savedOn?"&#10003;":"")+'</div></div>';
+    var boardsLabel=(!pickerQ)?'<div class="pc" style="padding:10px 8px 4px;color:#9CA3AF;font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.08em;">Boards</div>':'';
+    pickerEl.innerHTML='<h5>Save signal</h5>'+
       '<input class="psearch" placeholder="Search boards..." value="'+attr(pickerQ)+'" oninput="pickSearch(this.value)">'+
-      '<div class="plist">'+rows+'</div>'+
+      '<div class="plist">'+(!pickerQ?allRow+boardsLabel:'')+rows+'</div>'+
       '<div class="pcreate"><input placeholder="Create new board..." onkeydown="if(event.key===\'Enter\')pickCreate(this.value)"><button onclick="pickCreate(this.previousElementSibling.value)">Create</button></div>';
   }
   function pickSearch(v){pickerQ=(v||"").toLowerCase();renderPicker();var si=pickerEl.querySelector(".psearch");si.focus();si.setSelectionRange(si.value.length,si.value.length);}
+  function pickToggleAll(){if(isSaved(pickerKey)){deleteSignal(pickerKey);}else{ensureSaved(pickerKey);}renderPicker();render();}
   function pickToggle(id){toggleKeyInBoard(id,pickerKey);renderPicker();render();}
   function pickCreate(name){name=(name||"").trim();if(!name)return;var b=createBoard(name);toggleKeyInBoard(b.id,pickerKey);pickerQ="";renderPicker();render();}
 
