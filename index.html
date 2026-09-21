@@ -235,7 +235,10 @@
   </div>
 </footer>
 
-<script src="data.js"></script>
+<script>
+  /* cache-busting loader: always fetch the latest data.js (avoids stale browser/CDN cache) */
+  document.write('<script src="data.js?v=' + Date.now() + '"><\/script>');
+</script>
 <script>
   /* ---------------- shared setup ---------------- */
   var EDITIONS = (window.EDITIONS || []).slice().sort(function(a,b){return a.date<b.date?1:(a.date>b.date?-1:0);});
