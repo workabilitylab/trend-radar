@@ -15,6 +15,189 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-09-23",
+    "date": "2026-09-23",
+    "displayDate": "09/23/2026",
+    "weekday": "Wednesday",
+    "tag": "WEDNESDAY",
+    "edition": "09/23/2026",
+    "cover": "https://www.yankodesign.com/images/design_news/2026/09/while-most-tvs-go-off-the-hisense-canvastv-switches-to-art/Hisense-S6-CanvasTV-Hero.jpg",
+    "intro": "Everything you need to start your day well informed. Covering what has surfaced since the last edition, the climate agenda moves from consumption to politics and health: Patagonia is paying customers to bring friends to the polls, while a plastic-free coffee maker targets microplastics in the kitchen. The AI race is still measured in gigawatts, with Alibaba promising 20GW of data centers by 2032. In design, objects that hide or get reused gain ground, from TVs that turn into paintings to old phones converted into portable computers. And on the social front, gig work, smart glasses in schools and online age verification show technology being framed by rules.",
+    "sections": [
+      {
+        "heading": "Environment, Climate and Energy",
+        "items": [
+          {
+            "headline": "Patagonia will pay you $100 to get your friends to vote.",
+            "body": "The brand is investing $11.2 million in a relational organizing campaign: anyone who nudges three acquaintances who skipped the last election gets store credit or a donation to the League of Conservation Voters. The bet is that climate-minded voters treat the crisis as a personal consumer failing rather than a political issue.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91610270/patagonia-will-pay-you-100-if-you-can-get-your-friends-to-vote",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/09/p-0-91610270-patagonia-new-approach.jpg"
+          },
+          {
+            "headline": "Caraway's $495 coffee maker is designed to keep plastic out of your coffee.",
+            "body": "After years of engineering its own parts (stainless steel tubing, a steel brew basket, a glass reservoir and carafe), the brand launches a machine with no plastic in the brew path, responding to growing concern about microplastics and its ambition to build \"nontoxic homes.\"",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91610499/caraways-coffee-maker-plastic-free",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/09/4-91610499-caraway-coffee-maker.jpg"
+          },
+          {
+            "headline": "Alibaba wants 20GW of data centers by 2032 and unveils its most powerful AI chip.",
+            "body": "The Zhenwu V900, entering production in early 2027, comes with plans for models of up to 10 trillion parameters. The CEO himself admits supply chain shortages limit the expansion, a snapshot of the energy and material appetite of the AI race.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/alibaba-zhenwu-v900-ai-chip-20gw-data-centres-qwen-5",
+            "image": "https://media.thenextweb.com/2026/08/Alibaba-logo-office.jpg"
+          },
+          {
+            "headline": "India's humble tuk-tuk reimagined as a Renault-style mini EV.",
+            "body": "The concept turns the motorized rickshaw, ubiquitous in Indian cities, into a compact electric vehicle with a contemporary design language, signaling how electrification can arrive through low-cost urban mobility.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/22/someone-designed-indias-humble-tuk-tuk-as-a-modern-day-renault-style-mini-ev/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/someone-designed-indias-humble-tuk-tuk-as-a-modern-day-renault-style-mini-car/cyberpunk_auto_rickshaw_1.jpeg"
+          },
+          {
+            "headline": "An old Galaxy becomes a weatherproof cyberdeck for under $100.",
+            "body": "The DIY project gives a retired smartphone a second life as a rugged portable computer, a practical example of reuse that fights e-waste.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/22/turn-your-old-galaxy-phone-into-a-weatherproof-cyberdeck-for-under-100/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/turn-your-old-galaxy-phone-into-a-weatherproof-cyberdeck-for-under-100/Galaxy-S10-Cyberdeck-DIY-7.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design, Product and Visual Culture",
+        "items": [
+          {
+            "headline": "While other TVs go dark, the Hisense CanvasTV turns into art.",
+            "body": "The set displays paintings when not in use, following the trend of electronics that disguise themselves as decorative objects to reduce the presence of the black screen at home.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/22/while-most-tvs-go-off-the-hisense-canvastv-switches-to-art/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/while-most-tvs-go-off-the-hisense-canvastv-switches-to-art/Hisense-S6-CanvasTV-Hero.jpg"
+          },
+          {
+            "headline": "A 20-foot tiny home ditched the loft, and it's better for it.",
+            "body": "By swapping the traditional sleeping loft for a single-level plan, the project makes the micro-home more accessible and comfortable, pointing to compact housing designed for all ages.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/22/this-20-foot-tiny-home-ditched-the-loft-and-its-better-for-it/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/luxe-6-0/luxe_6.0_yanko_design_01.jpg"
+          },
+          {
+            "headline": "The $22.5 billion plan to transform Dulles airport.",
+            "body": "Eero Saarinen's modernist terminal in Washington is considered an architectural masterpiece, but also one of the most frustrating airports to use. The overhaul, with construction starting in 2027 and completion in 2034, tries to reconcile heritage and passenger experience.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/22/the-22-5-billion-plan-to-turn-washingtons-most-frustrating-airport-into-its-most-impressive/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/draft-dulles-international-airport/dulles_airport_yanko_design_01.jpg"
+          },
+          {
+            "headline": "DeafCity Hub's visual identity fuses creative coding, British Sign Language and motion capture.",
+            "body": "Studio Templo translated BSL gestures into animated graphic forms, a case of brand design built from the deaf community itself and its language.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/templo-deafcity-hub-identity-graphic-design-project-220926"
+          },
+          {
+            "headline": "Logos and glyphs that grow out of agar and grapevines.",
+            "body": "Designer Emi Takahashi explores living forms in graphic design, cultivating letters and symbols in biological materials, an investigation that brings together typography, biodesign and growth time.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/emi-takahashi-graphic-design-discover-230926"
+          },
+          {
+            "headline": "What an anodized aluminum baseball cap holder says about our product landscape.",
+            "body": "The piece uses a superfluous, pricey object as a starting point to ask what the pioneers of industrial design would make of today's glut of niche products and accessories.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145429/What-an-Anodized-Aluminum-Baseball-Cap-Holder-Says-About-Our-Product-Landscape"
+          },
+          {
+            "headline": "H. Moser's Off-Grid watch hides minimal smart features under the surface.",
+            "body": "Limited to 1,000 pieces, the model keeps the look of traditional watchmaking while embedding discreet functions, a luxury answer to fatigue with notification-heavy smartwatches.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/22/h-mosers-off-grid-watch-limited-to-just-1000-examples-has-minimalist-smart-features-under-the-surface/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/h-mosers-off-grid-watch-limited-to-just-1000-examples-has-minimalist-smart-features-under-the-surface/H-Moser-Streamliner-Off-Grid-Watch-2.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "AI: Business, Power and Regulation",
+        "items": [
+          {
+            "headline": "Why AI model releases feel nonstop.",
+            "body": "Anthropic and OpenAI announced new models on the same day, but much of the acceleration comes from repackaging earlier advances at lower price points. Analysts note the cadence also serves to win customers and impress investors ahead of IPOs.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91611158/why-ai-model-releases-feel-nonstop",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/09/p-91611158-why-openai-and-anthropic-constantly-release-new-models.jpg"
+          },
+          {
+            "headline": "Jensen Huang accuses \"irresponsible\" AI leaders of scaring people for \"ulterior reasons.\"",
+            "body": "The Nvidia CEO suggested frontier labs call for new rules to avoid the consequences of violating existing laws, deepening the dispute over who sets the tone of the regulatory debate.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91611081/nvidia-ceo-jensen-huang-irresponsible-ai-leaders-are-scaring-people-for-ulterior-reasons",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/09/p-1-91611081-jensen-huang-commentary.jpg"
+          },
+          {
+            "headline": "OpenAI names the four priorities it wants outside safety assessors to test.",
+            "body": "The document argues auditors should get enough access to challenge the company's assumptions and spot overlooked risks, a step toward independent verification of AI safeguards.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/openai-third-party-assessment-priorities-principles",
+            "image": "https://media.thenextweb.com/2026/09/openai-logo-smartphone-laptop-zac-wolff-unsplash.avif"
+          },
+          {
+            "headline": "Bitdefender built a VPN that hides your AI agent, not you.",
+            "body": "In beta, the service protects the agents that browse and act on the user's behalf, acknowledging that digital security now has to extend to whoever operates for us.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/bitdefender-vpn-for-ai-agents-beta",
+            "image": "https://media.thenextweb.com/2026/09/bitdefender-headquarters-bucharest-tower.avif"
+          },
+          {
+            "headline": "Cyera has raised $1.4bn this year to police AI agents.",
+            "body": "With another $400 million from Goldman Sachs, the company is betting large corporations will only scale agents once they trust what those agents can see and do with data.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/cyera-400m-goldman-sachs-series-g-extension",
+            "image": "https://media.thenextweb.com/2026/09/cyera-founders-segev-bar-ilan.avif"
+          }
+        ]
+      },
+      {
+        "heading": "Society, Work and Digital Culture",
+        "items": [
+          {
+            "headline": "DoorDash will pay $131.5 million for late and miscalculated NYC delivery worker wages.",
+            "body": "More than 260,000 workers will receive about 200% of what they were owed, and the settlement requires the company to pay for online time between deliveries and share monthly data with the city for three years, a milestone for gig worker rights.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2265996/doordash-will-pay-131-5-million-for-missing-and-miscalculated-nyc-delivery-worker-wages/",
+            "image": "https://www.engadget.com/img/gallery/doordash-will-pay-131-5-million-for-missing-and-miscalculated-nyc-delivery-worker-wages/l-intro-1790113843.jpg"
+          },
+          {
+            "headline": "Western Australia announces the country's broadest ban on smart glasses in schools.",
+            "body": "The education minister said the devices have no place in classrooms, and the measure was formalized the same day, reflecting concern about privacy and discreet recording around children.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/western-australia-smart-glasses-ban-public-schools-ceo-instruction",
+            "image": "https://media.thenextweb.com/2026/09/alibaba-quark-smart-glasses-oversized-display.avif"
+          },
+          {
+            "headline": "Discord rolls out its revised age verification policy.",
+            "body": "Users who aren't automatically confirmed as adults will get several privacy-focused options, as platforms try to balance protecting minors with minimal data collection.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2265924/discord-rolls-out-its-revised-age-verification-policy/",
+            "image": "https://www.engadget.com/img/gallery/discord-rolls-out-its-revised-age-verification-policy/l-intro-1790108153.jpg"
+          },
+          {
+            "headline": "Heidi, the AI tool for doctors, raises $340m and doubles its valuation to $900m.",
+            "body": "Born as a tool for writing clinical notes, the Australian startup wants to go beyond documentation, a sign of how AI is moving into the routine and administrative load of healthcare professionals.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/heidi-340m-series-c-900m-valuation",
+            "image": "https://media.thenextweb.com/2026/09/heidi-founders-kelly-mussa-liu.avif"
+          },
+          {
+            "headline": "The AI boom runs on tens of millions of workers nobody has figured out how to pay.",
+            "body": "Papaya Global proposes payroll infrastructure for AI's global, dispersed workforce, which includes data labelers and output reviewers spread across many countries.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/papaya-global-ai-workforce-infrastructure-payroll",
+            "image": "https://media.thenextweb.com/2026/09/eynat-guez-papaya-global-portrait.avif"
+          }
+        ]
+      }
+    ]
+  },
+  {
     id:"2026-09-22", date:"2026-09-22", displayDate:"09/22/2026",
     weekday:"Tuesday", tag:"TUESDAY", edition:"09/22/2026",
     cover:"https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/wp-cms-2/2026/09/p-91609966-resolute-rgl.jpg",
