@@ -487,14 +487,15 @@
   var CUR_BOARD=null, BSTATE={steep:"all"};
   function showBoard(id){CUR_BOARD=id;BSTATE.steep="all";showView("boarddetail");}
   function setBoardSteep(k){BSTATE.steep=k;renderBoardDetail();}
-  function boardChips(all){
+  function boardChips(all,cur,fn){
+    cur=cur||BSTATE.steep; fn=fn||"setBoardSteep";
     var counts={all:all.length,social:0,technological:0,economic:0,environmental:0,political:0};
-    all.forEach(function(m){if(counts[m.steep]!=null)counts[m.steep]++;});
+    all.forEach(function(m){var k=STEEP[m.steep]?m.steep:"social";counts[k]++;});
     var order=["all","social","technological","economic","environmental","political"];
     return '<div class="chips" style="margin:22px 0 2px">'+order.map(function(k){
-      if(k==="all")return '<div class="chip all'+(BSTATE.steep==="all"?" on":"")+'" onclick="setBoardSteep(\'all\')"><i></i>All <span class="n">'+counts.all+'</span></div>';
-      var st=STEEP[k],on=BSTATE.steep===k,econ=(k==="economic")?" econ":"";
-      return '<div class="chip'+(on?" on":"")+econ+'" style="--steep:'+st.color+'" onclick="setBoardSteep(\''+k+'\')"><i></i>'+esc(st.label)+' <span class="n">'+counts[k]+'</span></div>';
+      if(k==="all")return '<div class="chip all'+(cur==="all"?" on":"")+'" onclick="'+fn+'(\'all\')"><i></i>All <span class="n">'+counts.all+'</span></div>';
+      var st=STEEP[k],on=cur===k,econ=(k==="economic")?" econ":"";
+      return '<div class="chip'+(on?" on":"")+econ+'" style="--steep:'+st.color+'" onclick="'+fn+'(\''+k+'\')"><i></i>'+esc(st.label)+' <span class="n">'+counts[k]+'</span></div>';
     }).join("")+'</div>';
   }
   function renderBoardDetail(){
@@ -520,13 +521,19 @@
   function confirmDeleteBoard(id){var b=boardById(id);if(!b)return;if(confirm('Delete board "'+b.name+'"? The signals stay in All Signals.')){deleteBoard(id);showView("boards");}}
 
   /* ---------------- All Signals ---------------- */
+  var ASTATE={steep:"all"};
+  function setAllSigSteep(k){ASTATE.steep=k;renderAllSig();}
   function renderAllSig(){
     var saved=getSaved();
+    var items=(ASTATE.steep==="all")?saved:saved.filter(function(m){return (STEEP[m.steep]?m.steep:"social")===ASTATE.steep;});
     var head='<div class="page-head"><div><h2 class="page-title">All signals</h2>'+
       '<div class="page-sub">'+saved.length+' saved &nbsp;/&nbsp; stored on this browser only</div></div></div>';
-    var body = saved.length ? '<div class="grid">'+saved.slice().reverse().map(function(m){return sigCard(m,null);}).join("")+'</div>'
+    var chips=saved.length?boardChips(saved,ASTATE.steep,"setAllSigSteep"):"";
+    var body = saved.length
+      ? (items.length ? '<div class="grid">'+items.slice().reverse().map(function(m){return sigCard(m,null);}).join("")+'</div>'
+                      : '<div class="empty">No signals in this category.</div>')
       : '<div class="empty">No signals yet. Hit &#43; Save on any story in Editions.</div>';
-    document.getElementById("allsig").innerHTML=head+body;
+    document.getElementById("allsig").innerHTML=head+chips+body;
     balanceCards();
   }
 
