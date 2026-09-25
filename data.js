@@ -15,6 +15,181 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-09-25",
+    "date": "2026-09-25",
+    "displayDate": "09/25/2026",
+    "weekday": "Thursday",
+    "tag": "THURSDAY",
+    "edition": "09/25/2026",
+    "cover": "https://www.yankodesign.com/images/design_news/2026/09/pat-mcgraths-new-pandora-charms-never-need-reapplying/pat-mcgrath-00-1050x788.jpg",
+    "intro": "Everything you need to start your day well informed. Covering what has surfaced since the last edition, corporate sustainability gets its first-ever WEF portrait just as AI reveals its energy appetite at a New York Climate Week side event, and a weather-modification startup raises $100 million to fight drought. At the UN, AI lab chiefs took the floor at the Security Council to call for brakes and bans, a day after the US rejected global rules there, and Anthropic became a target for Trump allies over its \"doomerism.\" In design, a makeup charm that never needs reapplying and a hidden Apple concert hall show consumer brands experimenting with intimate formats. And on the social front, Pew finds Brazilians more distrustful of their own democracy ahead of the 2026 elections, while Meta backs off under privacy pressure over its AI glasses.",
+    "sections": [
+      {
+        "heading": "Environment, Climate and Energy",
+        "items": [
+          {
+            "headline": "The World Economic Forum launches its first-ever portrait of chief sustainability officers.",
+            "body": "The \"Chief Sustainability Officers Outlook\" gathers the collective view of sustainability leaders on how the energy and climate transition is unfolding in practice inside companies, an unprecedented gauge of the field.",
+            "source": "World Economic Forum",
+            "url": "https://www.weforum.org/stories/business/chief-sustainability-officers-outlook-2026-priorities-trends/",
+            "image": "https://assets.weforum.org/article/image/uv9tR0LIoF6we9UzdxBbQapLMWT2X7zvllN4HVwp9Kg.png"
+          },
+          {
+            "headline": "Sustainable fashion still hasn't solved its innovation problem, WEF says.",
+            "body": "The piece maps out why textile waste keeps resisting the circular solutions the industry has proposed, and what's missing to scale real material-reuse alternatives.",
+            "source": "World Economic Forum",
+            "url": "https://www.weforum.org/stories/climate-action/sustainable-fashion-innovation-solutions-textile-waste/",
+            "image": "https://assets.weforum.org/article/image/tGhFA-sRQ5pFWBktaJWnxmu08KxudNZSdNA6A6DQqy4.jpg"
+          },
+          {
+            "headline": "AI's hunger for energy runs headlong into the race for clean power.",
+            "body": "At a side event to New York Climate Week, Axios gathered executives to discuss how AI data centers are straining the power grid at the very moment renewable investment is accelerating, laying bare the conflict between tech demand and climate targets.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/09/24/axios-house-ai-clean-energy"
+          },
+          {
+            "headline": "Startup Rainmaker raises $100 million to prove weather modification can fight drought.",
+            "body": "Using cloud-seeding drones tested in Alaska, the company says it generated 145 million gallons of fresh water in a recent operation, and now aims to expand the technology to drought-hit regions.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91610667/cloud-seeding-rainmaker-100-million-series-b",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit,w_1024/wp-cms-2/2026/09/p-1-91610667-can-cloud-seeding-fight-drought-startup-rainmaker-just-raised-100-million-to-find-out.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design, Product and Visual Culture",
+        "items": [
+          {
+            "headline": "Pat McGrath's new makeup charms promise you'll never need to reapply.",
+            "body": "The collaboration with Pandora creates jewelry that doubles as a discreet color applicator, blending beauty and accessory into an object meant to last all day without a touch-up.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/24/pat-mcgraths-new-pandora-charms-never-need-reapplying/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/pat-mcgraths-new-pandora-charms-never-need-reapplying/pat-mcgrath-00-1050x788.jpg"
+          },
+          {
+            "headline": "The Gennai Pen SL01 looks more like clockwork than stationery.",
+            "body": "Designer Hidetoshi Nakayama's pen exposes visible gearing on an everyday writing object, bringing steampunk culture into a piece of desk equipment used daily.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/23/the-gennai-pen-sl01-is-closer-to-clockwork-than-stationery/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/the-gennai-pen-sl01-is-closer-to-clockwork-than-stationery/Hidetoshi-Nakayamas-Gennai-Pen-SL01-Steampunk-EDC-Pen-hero-296x197.jpg"
+          },
+          {
+            "headline": "Apple opened a hidden concert hall that fits just 600 fans in London.",
+            "body": "Inside the historic Battersea Power Station, Apple Music Hall pairs spatial audio with professional recording studios to stream intimate performances worldwide while keeping the in-person experience exclusive.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/23/apples-hidden-concert-hall-fits-only-600-fans-in-london/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/apples-hidden-concert-hall-fits-only-600-fans-in-london/apple-music-hall-01.jpg"
+          },
+          {
+            "headline": "The Volvo EX30's dashboard is called out for disguising cost-cutting as minimalism.",
+            "body": "The piece argues that stripping out physical buttons in the electric car undermines usability in the name of a clean aesthetic, reigniting the debate over how far minimalism should go in automotive design.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145443/Cost-Cutting-Disguised-as-Minimalism-Volvos-EX30-Dashboard-Goes-Too-Far"
+          },
+          {
+            "headline": "An architectural-scale kintsugi project turns repair into an aesthetic language.",
+            "body": "The Japanese technique of mending ceramics with gold is scaled up to structural building elements, pointing to an architecture that celebrates damage and repair instead of hiding them.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145462/An-Architectural-Scale-Kintsugi-Project"
+          },
+          {
+            "headline": "Joe Hart photographs the surreal, visceral energy of lucha libre up close.",
+            "body": "The series gets physically close to the ring action to capture the bodily theater of Mexican wrestling, a documentary photography study of performance and identity.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/joe-hart-aspirantes-photography-project-230926"
+          }
+        ]
+      },
+      {
+        "heading": "AI: Business, Power and Regulation",
+        "items": [
+          {
+            "headline": "Sam Altman tells the UN Security Council that OpenAI will slow down.",
+            "body": "In the same session where the US rejected global AI rules, the OpenAI CEO struck a conciliatory tone before world leaders, acknowledging the risk of losing control over increasingly advanced systems.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/sam-altman-un-security-council-frontier-ai-standards"
+          },
+          {
+            "headline": "Dario Amodei asks for a ban on AI bioweapons, and Yoshua Bengio wants frontier AI licensed like nuclear power.",
+            "body": "On the same UN panel, the Anthropic CEO pushed for specific rules against using AI to create biological weapons, while the Canadian researcher proposed a licensing regime for the most powerful models comparable to the nuclear industry's.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/dario-amodei-asks-un-security-council-to-back-a-ban-on-ai-bioweapons"
+          },
+          {
+            "headline": "Nick Clegg calls the EU AI Act a \"dog's dinner\" built before ChatGPT existed.",
+            "body": "Meta's former global affairs chief argues the law was designed for a world generative AI has already made obsolete, fueling the debate over labs that get to assess their own safety.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/nick-clegg-ai-labs-marking-own-homework-eu-ai-act-humanx"
+          },
+          {
+            "headline": "Anthropic is paying the firm that will evaluate it, and says in the same announcement that this isn't how it should work.",
+            "body": "The public acknowledgment of the tension between funding and policing its own audit exposes a structural problem in AI governance the industry still hasn't solved.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/anthropic-is-paying-the-firm-that-will-evaluate-it-and-says-in-the-same-announcement-that-this-is-not-how-it-should-work"
+          },
+          {
+            "headline": "Trump allies open a new front against Anthropic's CEO over AI \"doomerism.\"",
+            "body": "The political escalation shows how Dario Amodei's existential-risk rhetoric has become a target in Washington, just after the White House had already rejected global governance of the technology at the UN.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/09/24/trump-anthropic-ai-doomerism-dario-amodei",
+            "image": "https://images.axios.com/nhUxDuLQxoQ8sHXnxZ-Aj1FFgIo=/0x0:1920x1080/1024x576/2026/09/23/1790194223976.jpeg"
+          },
+          {
+            "headline": "Is the AI existential threat real, and can regulation actually prevent it?",
+            "body": "Brookings weighs the scientific and political arguments behind the fear of losing control over advanced systems, and questions whether the regulatory proposals on the table today would be enough to contain that risk.",
+            "source": "Brookings Institution",
+            "url": "https://www.brookings.edu/articles/is-the-ai-existential-threat-real-and-can-regulatory-action-prevent-it/"
+          }
+        ]
+      },
+      {
+        "heading": "Society, Work and Digital Culture",
+        "items": [
+          {
+            "headline": "Brazilians head into the 2026 elections more distrustful of their own democracy.",
+            "body": "According to the Pew Research Center, only 37% of Brazilians say they're satisfied with democracy in the country, down from 66% in 2013, and most distrust elected officials and business leaders, though they trust academics, scientists and journalists more.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/09/22/how-brazilians-view-their-country-ahead-of-2026-elections/",
+            "image": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/09/SR_26.09.22_brazil-views_featured.png?w=1200&h=628&crop=1"
+          },
+          {
+            "headline": "Americans' views of data centers have turned more negative.",
+            "body": "New Pew polling shows US public opinion on AI infrastructure has soured, reflecting concerns about energy and water use and the impact on local electricity bills.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/09/22/americans-views-of-data-centers-have-turned-more-negative/"
+          },
+          {
+            "headline": "Meta will stop training its AI on visual data from its smart glasses, if you opt out.",
+            "body": "The company is creating an opt-out after reporting revealed that intimate images captured through camera-based interactions were sometimes seen by third-party moderators; audio interactions keep being used for training unless manually deleted.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2267227/meta-will-stop-training-its-ai-on-visual-data-from-its-smart-glasses-if-you-opt-out/",
+            "image": "https://www.engadget.com/img/gallery/meta-will-stop-training-its-ai-on-visual-data-from-its-smart-glasses-if-you-opt-out/l-intro-1790199534.jpg"
+          },
+          {
+            "headline": "As the coding boom cools, computer science colleges have to reinvent themselves.",
+            "body": "Generative AI has cut demand for junior programmers at the same pace universities keep churning out computer science graduates, forcing curricula and career expectations to adjust fast.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91612478/coding-boom-fades-ai-forcing-colleges-computer-science-grads-adjust",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/wp-cms-2/2026/09/AP26246123396210.jpg"
+          },
+          {
+            "headline": "Workers' share of global income keeps shrinking, and baseball illustrates why.",
+            "body": "Using players' multimillion-dollar contracts as a metaphor, WEF describes a broader trend of labor's declining share of total income across economies, a warning sign for the future of work.",
+            "source": "World Economic Forum",
+            "url": "https://www.weforum.org/stories/economic-growth/baseball-players-labor-share-of-income-work-inequality/",
+            "image": "https://assets.weforum.org/article/image/MeMMB35U8Krtcb3p3sRQPsdukt_lfbSWEe7sviqgV4g.JPG"
+          },
+          {
+            "headline": "New York sues Polymarket in an attempt to rein in prediction markets.",
+            "body": "The lawsuit against the event-betting platform lands right after Pew data showed the volume of these markets doubling in just a few months, showing regulators racing to catch up with a phenomenon that has already become mass entertainment.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2268006/new-york-continues-to-fight-prediction-markets-with-a-lawsuit-against-polymarket/"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-09-24",
     "date": "2026-09-24",
     "displayDate": "09/24/2026",
