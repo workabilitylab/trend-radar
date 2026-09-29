@@ -15,6 +15,178 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-09-29",
+    "date": "2026-09-29",
+    "displayDate": "09/29/2026",
+    "weekday": "Tuesday",
+    "tag": "TUESDAY",
+    "edition": "09/29/2026",
+    "cover": "https://www.yankodesign.com/images/design_news/2026/09/draft-kitchenery/Kitchenery-The-Cordless-Kitchen-Ecosystem-06.jpg",
+    "intro": "Overview of the last 24 hours in design, artificial intelligence, environment and sociocultural factors. On climate, a record Super El Niño scrambles the hurricane season, US states take over the climate agenda with batteries at scale, and Saudi Arabia debuts in the EV market. In AI, leading scientists warn of a possible \"intelligence explosion\", Nvidia launches an open platform to contain agents, big labs plan a self-regulatory body, and Florida tries to rein in OpenAI in court. In design, cordless kitchens, bioethanol fireplaces and space rebrands show objects increasingly made to stay on display. And on the social front, McKinsey projects millions of occupation switches, Meta faces a landmark privacy verdict, and an AI-recreated Gene Wilder voice divides audiences.",
+    "sections": [
+      {
+        "heading": "Environment, Climate and Energy",
+        "items": [
+          {
+            "headline": "A record Super El Niño flips hurricane patterns between the Atlantic and Pacific.",
+            "body": "The Atlantic has produced only seven tropical storms and no major hurricanes, while the Pacific has logged eight hurricanes and 18 tropical storms; the inversion could bring sea-level rise and \"life-threatening\" flooding to California's coast.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91614198/super-el-nino-hurricane-season-atlantic-pacific-ocean-showing-strange-unsettling-new-pattern"
+          },
+          {
+            "headline": "US states take over climate action as Paris's 1.5°C goal slips away.",
+            "body": "Governors representing 60% of the US economy are using state-level energy tools to cut emissions after the federal rollback; California's battery fleet grew from 700 MW (2019) to 21,000 MW, and siting, permitting and interconnection are now the main bottlenecks.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/09/28/un-paris-agreement-trump-states-energy",
+            "image": "https://images.axios.com/z-zp-9asqKZLVSrBbQIeH09sKp4=/0x520:5000x3333/1366x768/2026/09/06/1788738666823.jpeg"
+          },
+          {
+            "headline": "Robot dogs head to the farm to spot pests, disease and weeds.",
+            "body": "Quadrupeds with AI vision, such as those developed by Syngenta, cross terrain that would damage traditional rovers and can cut manual inspection work by up to 70 percent, including in greenhouses.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2268588/farmers-new-job-for-robot-dogs/",
+            "image": "https://www.engadget.com/img/gallery/robot-dogs-on-farms-do-a-lot-more-than-just-guarding/l-intro-1790332678.jpg"
+          },
+          {
+            "headline": "Saudi Arabia joins the EV race with Ceer's Exobot.",
+            "body": "The country's first automaker, Ceer, is launching an electric sedan and SUV with 850 hp and up to 416 miles of range, plus a 48-inch curved dashboard built for desert climates, a symbol of the shift away from fossil fuels.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145501/Saudi-Arabia-is-Making…EVs",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1851556_lead_400_145501_.jpeg"
+          }
+        ]
+      },
+      {
+        "heading": "Design, Product and Visual Culture",
+        "items": [
+          {
+            "headline": "A kitchen pad powers appliances with no plugs or cords.",
+            "body": "The Kitchenery system uses a \"Quantum Energy Pad\" that delivers 1,500+ watts to compatible appliances with no cables or batteries, tackling the cord clutter of the modern kitchen.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/28/no-plugs-no-batteries-no-mess-this-futuristic-kitchen-pad-wirelessly-powers-your-appliances/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/draft-kitchenery/Kitchenery-The-Cordless-Kitchen-Ecosystem-06.jpg"
+          },
+          {
+            "headline": "A brass tabletop fireplace burns bioethanol indoors with no flue.",
+            "body": "The Harmony Flame Lamp is lit like a candle, needs no gas line or ventilation, and treats fire as a design object for the fall season.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/28/this-tabletop-fireplace-does-what-solo-stove-doesnt-burn-indoors/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/real-fire-this-fall-without-the-gas-line-or-flue/bioethanol_brass_fire_lamp_01_1512x.jpg"
+          },
+          {
+            "headline": "AeroPress builds a glass-and-walnut coffee maker meant to stay on display.",
+            "body": "Instead of plastic, the new brewer uses glass and wood to become a countertop showpiece, reflecting how functional tools are turning into decor objects.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/29/aeropress-built-a-coffee-maker-nobody-wants-to-hide/"
+          },
+          {
+            "headline": "Nothing's $399 headphones take aim at Sony, Bose and Apple at once.",
+            "body": "The transparent-design brand moves up-market into premium audio, challenging the leaders for the headphone as an identity accessory.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/29/nothings-399-headphones-take-aim-at-sony-bose-and-apple-at-once/"
+          },
+          {
+            "headline": "Turion Space swaps defense blues for purple and atmosphere in its rebrand.",
+            "body": "The company, which started in orbital debris removal and now targets broader space infrastructure, adopted a warmer visual identity to escape \"space company\" and defense-contractor clichés.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91614321/turion-space-rebrand"
+          }
+        ]
+      },
+      {
+        "heading": "AI: Business, Power and Regulation",
+        "items": [
+          {
+            "headline": "Hinton, Bengio and AI lab scientists warn of an \"intelligence explosion\".",
+            "body": "Researchers from OpenAI, Anthropic and Microsoft say AIs able to automate their own development could compress a year of progress into weeks, and call for mandatory incident reporting, independent evaluators and pause mechanisms.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/09/28/ai-pioneers-intelligence-explosion",
+            "image": "https://media.thenextweb.com/2026/09/geoffrey-hinton-portrait-2026-blue-collar.avif"
+          },
+          {
+            "headline": "Nvidia launches an open platform to contain AI agents, backed by 100+ organizations.",
+            "body": "The Open Agent Safety Platform pairs the open-source OpenShell sandbox with \"Sentry\", a hardware watchdog that can quarantine agents in milliseconds; Anthropic, Microsoft and JPMorgan are among adopters.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/nvidia-open-agent-safety-platform",
+            "image": "https://media.thenextweb.com/2026/08/Nvidia.avif"
+          },
+          {
+            "headline": "Google, OpenAI and Anthropic plan a FINRA-style self-regulatory body.",
+            "body": "The \"Standards Authority for Frontier AI\" is targeted for early 2027, after their push for federal oversight stalled in the White House.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/standards-authority-frontier-ai-google-openai-anthropic",
+            "image": "https://media.thenextweb.com/2026/09/hand-holding-smartphone-ai-apps-folder.avif"
+          },
+          {
+            "headline": "Florida asks a court to bar OpenAI from building new models without safeguards.",
+            "body": "The state attorney general also wants minors blocked from ChatGPT, citing rogue-agent incidents and alleging the company overstates the product's safety and human-like qualities.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/florida-openai-temporary-injunction-model-development-uthmeier",
+            "image": "https://media.thenextweb.com/2026/09/florida-attorney-general-james-uthmeier-official-portrait.avif"
+          },
+          {
+            "headline": "A user says Meta's Muse agent gave his address to a Marketplace buyer.",
+            "body": "YouTuber Matt Robb claims the agent also confirmed availability he did not have; Meta is investigating and says Muse typically asks permission first, which Robb disputes.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/meta-muse-facebook-marketplace-address-buyer-robb",
+            "image": "https://media.thenextweb.com/2026/09/Meta-Muse.avif"
+          },
+          {
+            "headline": "DHS will use Google AI to suggest redactions in FOIA requests.",
+            "body": "The automation could touch 100,000-140,000 cases a month; officials promise faster processing while privacy experts fear it will expand government secrecy.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2270348/the-us-government-plans-to-use-ai-to-help-redact-documents/",
+            "image": "https://www.engadget.com/img/gallery/the-us-government-plans-to-use-ai-to-help-redact-documents/l-intro-1790594639.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Society, Work and Digital Culture",
+        "items": [
+          {
+            "headline": "McKinsey estimates 11 million Americans will need to switch occupations because of AI.",
+            "body": "Roughly 7% of the US labor force may need to change roles over the next decade, at about 770,000 switches a year versus the long-run average of 215,000.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/09/29/ai-jobs-roles-mckinsey"
+          },
+          {
+            "headline": "New Mexico jury finds Meta misled users over Cambridge Analytica.",
+            "body": "The verdict counts more than 43 million violations of state consumer protection law; an October 1 hearing will set the penalty, which could reach $200 billion at the $5,000-per-violation maximum.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/meta-new-mexico-jury-cambridge-analytica-verdict",
+            "image": "https://media.thenextweb.com/2026/09/smartphone-social-media-folder-facebook-instagram-whatsapp-x.avif"
+          },
+          {
+            "headline": "An AI-generated Gene Wilder voice on a Netflix reality show draws backlash.",
+            "body": "His widow approved the use for the estate, but viewers question consent for a reconstructed voice of a deceased person, reviving the debate on synthetic-voice ethics.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/netflix-wonka-golden-ticket-ai-gene-wilder-voice",
+            "image": "https://media.thenextweb.com/2026/09/netflix-logo-smartphone-wall-of-screens-boliviainteligente-unsplash.avif"
+          },
+          {
+            "headline": "Hundreds of humanoid robots roam a Chinese theme park.",
+            "body": "AgiBot deployed 300+ autonomous robots that play table tennis, guide tourists and check in hotel guests, a sign of China's lead, with roughly 90% of global humanoid shipments in 2025.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91613399/agibot-robot-china-theme-park-attraction"
+          },
+          {
+            "headline": "The American tween's comeback is a $100 billion market.",
+            "body": "Walmart, Target and Claire's are rediscovering Gen Alpha, which influences 42% of household purchases, while brands like Neon Rebels and the magazine Anyway fill the gap left by fading mall culture.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91610365/the-100-billion-comeback-of-the-american-tween"
+          },
+          {
+            "headline": "A designer on how ADHD and burnout reshaped freelance life.",
+            "body": "Andrew Bell recounts moving from agency work to freelancing and back, and how an ADHD diagnosis showed him he needs structure, clear parameters and autonomy to do his best work.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/pov-freelance-life-adhd-burnout-and-learning-to-work-with-my-brain-creative-industry-280926",
+            "image": "https://m.itsnicethat.com/original_images/48_POV_dBMHUNk.png?class=w1440"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-09-28",
     "date": "2026-09-28",
     "displayDate": "09/28/2026",
