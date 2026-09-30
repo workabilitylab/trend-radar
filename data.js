@@ -15,6 +15,182 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-09-30",
+    "date": "2026-09-30",
+    "displayDate": "09/30/2026",
+    "weekday": "Wednesday",
+    "tag": "WEDNESDAY",
+    "edition": "09/30/2026",
+    "cover": "https://www.yankodesign.com/images/design_news/2026/09/new-balance-quietly-fixed-what-makes-tech-sneakers-unwearable/abzorb-00.jpg",
+    "intro": "Overview of the last 24 hours in design, artificial intelligence, environment and sociocultural factors. On climate and energy, the renewables sector warns of a 2028 'cliff' and GM bets on manganese batteries. In design, 100 g VR glasses, subtler sneakers and a mirror made of penguins. In AI, OpenAI launches always-on agents and a $500 plan while Trump strikes a voluntary safety accord. On the social front, AI dynamic pricing and Apple's flatter management draw attention.",
+    "sections": [
+      {
+        "heading": "Environment, Climate and Energy",
+        "items": [
+          {
+            "headline": "The US renewables boom may hit a 'cliff' from 2028.",
+            "body": "Wind and solar make up nearly two-thirds of planned US grid capacity additions this year, but the industry warns of a sharp slowdown after 2028 due to Trump administration opposition; a bipartisan Senate permitting deal is seen as essential before year-end.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/09/30/renewables-boom-trump-cliff",
+            "image": "https://images.axios.com/KsiFITzqVASZVa9dERgm2Rs8KUo=/0x0:1920x1080/1366x768/2026/09/29/1790718003140.jpg"
+          },
+          {
+            "headline": "GM invests $1 billion in first mass production of manganese-rich battery cells.",
+            "body": "With LG Energy Solution, the automaker is converting its Spring Hill, Tennessee plant to LMR cells, which GM says offer 33% more energy density than the best LFP cells at the same cost, targeting pickups and SUVs with over 400 miles of range; completion is due by 2028.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/gm-lmr-billion-spring-hill"
+          },
+          {
+            "headline": "Old routers get a second life instead of becoming e-waste.",
+            "body": "The guide shows how to repurpose old devices as Wi-Fi extenders, network switches, print servers or VPN routers, extending the life of electronics that would normally be discarded.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2271811/dont-throw-away-old-router-do-this-instead/",
+            "image": "https://www.engadget.com/img/gallery/dont-throw-away-your-old-router-do-this-instead/l-intro-1790687414.jpg"
+          },
+          {
+            "headline": "A maker turns a salvaged Galaxy A90 into a handheld gaming PC.",
+            "body": "The DIY project reuses components from an old phone to build a handheld gaming PC, an example of creative reuse of end-of-life electronics.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/29/diyer-creates-handheld-gaming-pc-from-a-salvaged-galaxy-a90-phone/"
+          }
+        ]
+      },
+      {
+        "heading": "Design, Product and Visual Culture",
+        "items": [
+          {
+            "headline": "Meta readies 100 g VR glasses with the battery in a tethered puck.",
+            "body": "With magnesium housings and the processor, battery and storage offloaded to a puck, the device looks like regular eyewear but cuts the field of view from 110° to 70°; it launches in spring at $1,300 with optional prescription inserts.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145517/Metas-Radically-Thinner-More-Lightweight-VR-Glasses",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1852018_lead_400_145517_.jpg"
+          },
+          {
+            "headline": "New Balance tones down the tech sneaker for everyday wear.",
+            "body": "The ABZORB 2000 Luxe keeps the eye-catching cushioned sole but uses subdued colors and refined materials on the upper, so the shoe fits everyday outfits without dominating them.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/30/new-balance-quietly-fixed-what-makes-tech-sneakers-unwearable/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/new-balance-quietly-fixed-what-makes-tech-sneakers-unwearable/abzorb-00.jpg"
+          },
+          {
+            "headline": "A thin-acrylic folding chair gets 'inflated' curves through origami creasing.",
+            "body": "Designer Jihong Lee creases thin acrylic sheets to achieve soft, sculptural forms, with stainless steel supports and flat-pack assembly that eases storage and transport.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/29/thin-acrylic-folds-like-origami-to-give-this-chair-its-inflated-sculptural-form/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/thin-acrylic-folds-like-origami-to-give-this-chair-its-inflated-sculptural-form/folding_chair_furniture_01.jpg"
+          },
+          {
+            "headline": "A modern walkie-talkie blends LTE and analog with no monthly fees.",
+            "body": "The Poclink Motion Ultra switches between 4G and off-grid radio, with GPS, SOS and up to 20 miles of range in open terrain, with no monthly fees, aimed at sports and outdoor use.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/29/poclink-motion-ultra-is-a-modern-walkie-talkie-with-lte-gps-sos-and-zero-monthly-fees/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/draft-poclink/Poclink-Motion-The-Next-Gen-Hybrid-Sports-Communicator-hero.jpg"
+          },
+          {
+            "headline": "A travel hoodie cradles the arms for better sleep on flights.",
+            "body": "The 'Frequent Flyer' hoodie has a pocket that supports the arms and spreads weight across the shoulders, a clothing answer to the discomfort of sleeping upright on planes.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/29/the-perfect-frequent-flyer-hoodie-cradles-your-arms-like-a-straightjacket-for-comfortable-snoozing/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/the-perfect-frequent-flyer-hoodie-cradles-your-arms-like-a-straightjacket-for-comfortable-snoozing/STR-8-Jacket-2-0-Sleep-Like-Youre-Not-on-a-Plane-hero.jpg"
+          },
+          {
+            "headline": "A 'mirror' made of 450 motorized plush penguins lands in a museum hotel.",
+            "body": "Daniel Rozin uses the penguins as pixels that mirror viewers' movements; the piece was commissioned by the founders of 21c Museum Hotels, which pairs hospitality with free public art galleries.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145514/A-Mirror-Made-Out-of-Motorized-Penguins",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1851905_lead_400_145514_.jpg"
+          },
+          {
+            "headline": "The Honor Magic9 packs dual 200MP cameras into a compact phone.",
+            "body": "The 6.37-inch smartphone features a camera module inspired by ARRI cinema turrets and an 8,000mAh battery, a sign that photography remains a key design differentiator.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/29/honor-magic9-crams-dual-200mp-cameras-into-a-6-37-inch-phone/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/the-honor-magic9-crams-dual-200mp-cameras-into-a-6-37-inch-phone/honor_magic9_series_0.jpeg"
+          },
+          {
+            "headline": "It's Nice That unveils 72 emerging talents in 'Ones to Watch 2026'.",
+            "body": "The selection spans graphic designers, illustrators, animators, artists, filmmakers and photographers from 16 countries; the publication received double the submissions of 2025.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/features/ones-to-watch-talent-showcase-launch-2026-290926",
+            "image": "https://m.itsnicethat.com/original_images/00_Meta_oSnMrtN.png?class=w1440"
+          }
+        ]
+      },
+      {
+        "heading": "AI: Products, Power and Regulation",
+        "items": [
+          {
+            "headline": "OpenAI launches 'dots', always-on AI agents with their own cloud computers.",
+            "body": "Running on GPT-6 Astra and connected to over 4,000 apps, the agents work in the background for Pro and Business Premium subscribers; the company requires approval for sensitive tasks, and the launch comes amid recent agent security incidents.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/openai-dots-always-on-ai-agents-cloud-computers-devday",
+            "image": "https://media.thenextweb.com/2026/09/openai-dots-wordmark-four-fluffy-mascots-black.avif"
+          },
+          {
+            "headline": "OpenAI adds a $500 Pro plan and halves usage on the $200 tier.",
+            "body": "Pro 500 offers 'Ultrafast' speeds of up to 300 tokens per second; Pro 200 work and Codex allowances drop from 20x to 10x Plus starting October 30, with $2,500 in credits for current subscribers. ChatGPT reaches 1.2 billion weekly users.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/openai-devday-pro-200-usage-cut-pro-500-plan",
+            "image": "https://media.thenextweb.com/2026/09/chatgpt-pro-500-ultrafast-starfield-lettering.avif"
+          },
+          {
+            "headline": "Trump and AI leaders agree to voluntary safety standards.",
+            "body": "The 'accord' calls for internal risk reviews and external audits of AI systems, but critics say self-policing falls short and enforcement is unclear; Trump also said an AI 'czar' will be named within days.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/09/29/trump-ai-voluntary-safety-white-house-zuckerberg"
+          },
+          {
+            "headline": "The US launches America.gov, an official chatbot for government services.",
+            "body": "Powered by Gemini and Grok, the portal answers questions about federal services such as Medicare and passports from official sources and says it does not retain search history.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2272424/america-gov-is-us-government-ai-chatbot/",
+            "image": "https://www.engadget.com/img/gallery/theres-now-an-official-us-government-ai-chatbot/l-intro-1790707301.jpg"
+          },
+          {
+            "headline": "Meta turns its Muse agent into a keychain 'Tamagotchi'.",
+            "body": "The Muse Charm is a keychain-sized device with a customizable mascot, meant to make AI feel friendlier and give access to tasks like email and scheduling; privacy and data access concerns remain.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/29/meta-just-turned-its-ai-into-a-tamagotchi-and-its-pretty-cute/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/meta-just-turned-its-ai-into-a-tamagotchi-and-its-pretty-cute/meta-charm-03.jpg"
+          },
+          {
+            "headline": "Fast Company column says 'generative AI is over' as a novelty.",
+            "body": "Joe Procopio argues productivity is shifting from volume to quality and brevity, and that AI success requires human oversight, proprietary data and workflows led by experienced people, not the replacement of skilled workers.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91614312/generative-ai-is-over-in-case-that-wasnt-clear",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/wp-cms-2/2026/09/generative-ai-is-over-inc-2095920988.jpg"
+          },
+          {
+            "headline": "With AI producing, 'judgment' becomes the designer's main edge.",
+            "body": "Steven Faerm argues that as AI takes over production, the ability to frame problems, decide which matter and evaluate ideas is worth more; he recommends hiring for quality of thinking and protecting productive struggle in the creative process.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145488/AI-Has-Changed-What-Makes-a-Great-Designer",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1851461_lead_400_145488_.png"
+          }
+        ]
+      },
+      {
+        "heading": "Society, Work and Consumption",
+        "items": [
+          {
+            "headline": "McDonald's reportedly uses AI to 'dynamically' price burgers.",
+            "body": "The system adjusts prices by location and estimated willingness to pay; a Big Mac cost 21% more at two stores about two miles apart in Fresno, and franchisees report corporate pressure to follow the recommendations.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2272211/mcdonalds-is-reportedly-using-ai-to-dynamically-price-its-burgers/",
+            "image": "https://www.engadget.com/img/gallery/mcdonalds-is-reportedly-using-ai-to-surge-price-its-burgers/l-intro-1790701141.jpg"
+          },
+          {
+            "headline": "Apple's new CEO cuts management layers to ship products faster.",
+            "body": "According to Bloomberg, John Ternus dismissed engineering program managers and trimmed budgets, moving away from fixed launch schedules; a plan to replace 5,000 AppleCare workers with AI has been put on hold.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/apple-ternus-overhaul-managers-applecare-ai-bloomberg",
+            "image": "https://media.thenextweb.com/2026/09/john-ternus-smiling-apple-grand-central-event.avif"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-09-29",
     "date": "2026-09-29",
     "displayDate": "09/29/2026",
