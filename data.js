@@ -15,6 +15,184 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-10-01",
+    "date": "2026-10-01",
+    "displayDate": "10/01/2026",
+    "weekday": "Thursday",
+    "tag": "THURSDAY",
+    "edition": "10/01/2026",
+    "cover": "https://www.yankodesign.com/images/design_news/2026/09/your-old-barbie-dolls-actually-become-speakers-and-power-banks/gomi-00.jpg",
+    "intro": "Overview of the last 24 hours in design, artificial intelligence, environment and sociocultural factors. In AI, Google launches Gemini 4 Argon while the FTC probes OpenAI and Anthropic and the Senate talks about turning safeguards into law. In design, subtler desk objects and the return of Amman Design Week. On climate and materials, BMW's EV undercuts its petrol twin and Barbie dolls become electronics. On the social front, 44,000 people challenge Palantir in the NHS and Sweden launches a travel agency for introverts.",
+    "sections": [
+      {
+        "heading": "Environment, Climate and Energy",
+        "items": [
+          {
+            "headline": "BMW's electric i3 costs $4,400 less than the petrol M350 in the US",
+            "body": "The i3 50 xDrive starts at $61,500, delivers 463 hp and an estimated range of 446 to 468 miles, and reaches showrooms in early 2027, a sign that EV pricing is starting to undercut combustion equivalents in the premium segment.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/bmw-electric-3-series-i3-us-price-m350",
+            "image": "https://media.thenextweb.com/2026/09/bmw-3-series-sedans-grey-red-mountain-road-sunset.avif"
+          },
+          {
+            "headline": "Discarded Barbie dolls become speakers and power banks",
+            "body": "The Barbie x Gomi collection turns discarded dolls and plastics into Bluetooth speakers, chargers and tracker tags with marbled surfaces of reclaimed material and a modular, repairable design, pairing nostalgia with circular economy.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/30/your-old-barbie-dolls-actually-become-speakers-and-power-banks/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/your-old-barbie-dolls-actually-become-speakers-and-power-banks/gomi-00.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design, Product and Visual Culture",
+        "items": [
+          {
+            "headline": "Lenovo makes a transparent mouse worth leaving out on a tidy desk",
+            "body": "The Lenovo 900 has a translucent shell and mirrored silver interior that creates a floating effect, connects via 2.4 GHz and Bluetooth, reaches 4,000 DPI and lasts about 90 days per charge, at around $59.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/01/lenovo-finally-made-a-mouse-worth-leaving-out-on-a-tidy-desk/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/lenovo-finally-made-a-mouse-worth-leaving-out-on-a-tidy-desk/lenovo-transparent-wireless-mouse-02-1050x788.jpg"
+          },
+          {
+            "headline": "Keychron makes a walnut gaming keyboard you would leave out all day",
+            "body": "The wood-finished K8 HE swaps conventional gamer aesthetics for understated natural materials, reflecting a trend of peripherals that blend into the home environment.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/01/keychron-finally-made-a-walnut-gaming-keyboard-youd-leave-out-all-day/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/keychron-finally-made-a-walnut-gaming-keyboard-youd-leave-out-all-day/keychron-k8-he-all-wood-edition-06-296x197.jpg"
+          },
+          {
+            "headline": "Samsung's Tab S12 includes the pen Apple charges extra for",
+            "body": "Samsung includes the S Pen as standard with the new tablet, in contrast with Apple's separate-purchase model, a differentiator for creative professionals.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/01/samsungs-tab-s12-includes-the-pen-apple-charges-you-extra-for/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/samsungs-tab-s12-includes-the-pen-apple-charges-you-extra-for/samsung-galaxy-tab-s12-series-06-296x197.jpg"
+          },
+          {
+            "headline": "Strutt started its powered wheelchair project with the battery",
+            "body": "Chief designer Barney Mason says the nearly 6 kg, jerry-can-inspired battery went through multiple iterations on durability, waterproofing and impact resistance; the team chose LFP cells for safety and longevity, favoring everyday reliability over compactness.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145530/Strutts-Chief-Designer-Covers-the-Development-of-Their-Powered-Wheelchair-Battery",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1852209_lead_400_145530_.jpg"
+          },
+          {
+            "headline": "Amman Design Week returns after seven years with 220 designers and 204 events",
+            "body": "The October 2 to 17 edition, themed 'Accumulations', spans 59 venues, expands to Aqaba for the first time and includes four permanent public installations.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/09/30/amman-design-week-returns-after-7-years-220-designers-204-events-and-a-city-that-doesnt-forget/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/amman-design-week-returns-after-7-years-220-designers-204-events-and-a-city-that-doesnt-forget/amman_design_week_2026_intro_1-296x197.jpg"
+          },
+          {
+            "headline": "Emily Klaebe on type design as world building",
+            "body": "In an It's Nice That interview, the designer discusses typography with swirls, beads and Art Nouveau roots as a form of visual storytelling.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/emily-klaebe-graphic-design-discover-300926"
+          }
+        ]
+      },
+      {
+        "heading": "AI: Products, Power and Regulation",
+        "items": [
+          {
+            "headline": "Google unveils Gemini 4 Argon, and cyber defenders get it first",
+            "body": "It is the company's first flagship model since November, released first via the Fairwind program and then to API customers and subscribers; it scores 77.9% on DeepSWE v1.1 and costs $2 per million input tokens and $10 per million output tokens, though some internal staff question real-world performance.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/google-gemini-4-argon-cyber-defenders-fairwind",
+            "image": "https://media.thenextweb.com/2026/09/gemini-4-argon-logo-blue-gradient-large-4.avif"
+          },
+          {
+            "headline": "FTC probes OpenAI and Anthropic over AI safety",
+            "body": "Chair Andrew Ferguson is preparing civil investigative demands for documents and testimony on safety practices, following undisclosed incidents and OpenAI's decision to halt GPT-6.1 Astra over poor safety test results.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/09/30/ftc-openai-anthropic-ai-safety-investigation",
+            "image": "https://images.axios.com/2P5MhysFvqOJPJy9FDWYOKCi37w=/0x0:1920x1080/1024x576/2025/12/17/1766006317612.jpeg"
+          },
+          {
+            "headline": "Senate leader Thune wants to codify AI safeguards",
+            "body": "Thune called Trump's AI 'constitution' 'a step in the right direction' but wants a legislative framework; GOP senators remain split between self-governance and formal rules.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/01/senate-ai-artificial-intelligence-trump",
+            "image": "https://www.axios.com/_next/image?url=https%3A%2F%2Fimages.axios.com%2FxPI-MlxLvEKX3JfLEycXW0noOQ0%3D%2F0x0%3A5616x3159%2F320x180%2F2026%2F10%2F01%2F1790818811769.jpeg&w=1920&q=75"
+          },
+          {
+            "headline": "Tokyo court rules the human voice is protected in an AI clone case",
+            "body": "In voice actor Kenjiro Tsuda's case against TikTok over 188 videos using a clone of his voice, Judge Aya Takahashi found unauthorized use can infringe publicity rights, believed to be Japan's first such precedent.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/tokyo-court-ai-voice-clone-kenjiro-tsuda-tiktok",
+            "image": "https://media.thenextweb.com/2026/09/tiktok-logo-iphone-screen-silhouetted-hand-blue-red.avif"
+          },
+          {
+            "headline": "Google is paying 100 publishers for AI answers",
+            "body": "The Information reports one participant earns over $1 million a year while small sites received under $1,000 over months (under 0.1% of ad revenue); some larger publishers opted out hoping for better terms.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/google-ai-contribution-pilot-publishers-payments",
+            "image": "https://media.thenextweb.com/2026/09/google-headquarters-glass-facade-colourful-logo.avif"
+          },
+          {
+            "headline": "300 publishers take their fight against AI stealth bots to Congress",
+            "body": "Media companies are backing legislation (the Stealth Bot Prohibition Act) against unauthorized content scraping by AI systems.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/publishers-congress-stealth-bot-prohibition-act-ai-scraping",
+            "image": "https://media.thenextweb.com/2026/06/US-Capitol-Dome.avif"
+          },
+          {
+            "headline": "Musk, Luckey and Gingrich get 120 days to map America's future wars",
+            "body": "The Pentagon launched 'Project Meridian', a study of future warfare capabilities led by three figures from tech and politics.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/pentagon-project-meridian-musk-luckey-gingrich",
+            "image": "https://media.thenextweb.com/2026/09/pete-hegseth-pentagon-office-desk-pointing-flag.avif"
+          },
+          {
+            "headline": "Fast Company: time to retire the 'stochastic parrot' definition of AI",
+            "body": "Mark Sullivan argues retrieval, neurosymbolic systems, chain-of-thought and reinforcement-learning reasoning have made the label outdated, and warns it may give a false sense of security about risks.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91614991/its-time-to-retire-the-stochastic-parrot-definition-of-ai",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91614991-its-time-to-retire-the-stochastic-parrot-definition-of-ai.jpg"
+          },
+          {
+            "headline": "We may be the last generation of mathematical heroes",
+            "body": "Mathematician Eli Ben-Sasson argues AI is quickly solving long-standing problems and humans are shifting to verification and curation, changing the profession's status.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91612740/we-may-be-the-last-generation-of-mathematical-heroes-technology-ai-mathematics",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91612740-we-may-be-the-last-generation-of-mathematical-heroes-technology-ai-mathematics.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Society, Work and Consumption",
+        "items": [
+          {
+            "headline": "44,000 object to Palantir's NHS data platform",
+            "body": "Formal objections under UK GDPR Article 21, coordinated by 38 Degrees, coincide with the first break clause of the £330 million contract; supporters cite 117,000 additional operations, critics cite the firm's military and immigration work.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/palantir-nhs-data-platform-44000-objections-38-degrees",
+            "image": "https://media.thenextweb.com/2026/08/NHS-logo.avif"
+          },
+          {
+            "headline": "The engagement survey is dying; AI-powered continuous coaching is replacing it",
+            "body": "Annual surveys are too infrequent and lack follow-up, and systems that gather real-time signals and generate tailored manager action plans are gaining ground.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91607705/the-engagement-survey-is-dying-heres-whats-replacing-it-leadership-employee-engagement",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91607705-death-of-the-engagement-survey.jpg"
+          },
+          {
+            "headline": "Sweden gets a travel agency for introverts",
+            "body": "Visit Sweden's initiative responds to a survey in which 41% identify as introverts and 67% prefer optional social interaction when traveling, offering experiences that prioritize personal space.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91616065/sweden-now-has-a-travel-agency-specifically-for-introverts",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/09/p-1-91616065-sweden-travel-agency-for-introverts.jpg"
+          },
+          {
+            "headline": "DoorDash Air unveils a delivery drone that cannot yet fly out of sight",
+            "body": "The six-propeller, winch-equipped drone starts pilots in Northern California with Chipotle and Popeyes targeting sub-five-minute deliveries, but cannot fly beyond line of sight; Manna, with 300,000+ deliveries in Ireland, paused there and is building a plant in Oklahoma.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/doordash-air-drones-manna-ireland",
+            "image": "https://media.thenextweb.com/2026/09/doordash-air-delivery-drone.avif"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-09-30",
     "date": "2026-09-30",
     "displayDate": "09/30/2026",
