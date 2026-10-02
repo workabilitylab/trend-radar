@@ -15,6 +15,184 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-10-02",
+    "date": "2026-10-02",
+    "displayDate": "10/02/2026",
+    "weekday": "Friday",
+    "tag": "FRIDAY",
+    "edition": "10/02/2026",
+    "cover": "https://www.engadget.com/img/gallery/california-legalizes-balcony-plug-in-solar/l-intro-1790934868.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and sociocultural factors. On energy, California legalizes balcony solar while GM's US EV sales collapse. In AI, OpenAI fires three employees and Wikipedia measures AI's impact on its traffic. In design, self-focusing glasses and the return of the physical button. On the social front, New York makes cancelling subscriptions easier and Newsom vetoes a smart glasses bill.",
+    "sections": [
+      {
+        "heading": "Environment, Climate and Energy",
+        "items": [
+          {
+            "headline": "California legalizes plug-in balcony solar",
+            "body": "The Plug and Play Solar Act allows systems of up to 1,200W from January 1, 2027 and requires UL3700 certification; the state joins nine others that already allow the technology, opening home generation to apartment dwellers.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2275466/california-legalizes-balcony-plug-in-solar/",
+            "image": "https://www.engadget.com/img/gallery/california-legalizes-balcony-plug-in-solar/l-intro-1790934868.jpg"
+          },
+          {
+            "headline": "GM's EV sales collapse after the federal credit ends",
+            "body": "GM's Q3 sales fell 5.5% to 670,974 vehicles and the Equinox EV plunged 92.4% to 1,905 units after the $7,500 federal credit was scrapped; in Europe, where CO2 mandates remain, EVs hold 29% of new registrations.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/gm-q3-ev-collapse-europe-fuel",
+            "image": "https://media.thenextweb.com/2026/07/gm-q2-earnings-cadillac-gas-ev-pullback.jpg"
+          },
+          {
+            "headline": "Japan plans $140bn AI data centers tied to a gas plant",
+            "body": "JERA, Dell and UK developer RHAELM will start with a 400MW facility (over $15bn) near Tokyo, due around 2028 and wired directly to a JERA gas plant, which revives the debate over AI's energy footprint.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/japan-140bn-ai-data-centre-dell-jera",
+            "image": "https://media.thenextweb.com/2026/08/Japan-flag.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "AI, Platforms and Regulation",
+        "items": [
+          {
+            "headline": "OpenAI fires three employees over info shared with an external AI safety group",
+            "body": "According to the WSJ, the three allegedly shared internal information with an outside AI safety organization, another episode of friction between the company and safety critics.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2275278/openai-fires-three-employees-who-allegedly-shared-info-with-an-external-ai-safety-group/",
+            "image": "https://www.engadget.com/img/gallery/openai-fires-three-employees-who-allegedly-shared-info-with-an-external-ai-safety-group/intro-1790891007.jpg"
+          },
+          {
+            "headline": "Judge dismisses lawsuits claiming Google's AI Overviews siphon traffic",
+            "body": "The ruling says neither suit made a compelling case that Google leveraged its search monopoly, a setback for publishers trying to hold generative AI accountable for lost visits.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2275023/judge-dismisses-lawsuits-claiming-googles-ai-overviews-siphon-web-traffic/",
+            "image": "https://www.engadget.com/img/gallery/judge-dismisses-lawsuits-claiming-googles-ai-overviews-siphon-web-traffic/intro-1790882295.jpg"
+          },
+          {
+            "headline": "Wikipedia lost 8% of page views to AI",
+            "body": "Wikimedia CEO Bernadette Meehan says AI serves Wikipedia-derived answers without sending readers to the site; roughly 80% of the budget comes from visitor donations, and OpenAI and Anthropic are absent from disclosed enterprise customers.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/02/wikipedia-ceo-ai-traffic-loss",
+            "image": "https://images.axios.com/w3OMWXfR2Pff7DVVTz7OkWX7lro=/0x96:4000x2346/1366x768/2026/10/01/1790896686519.jpeg"
+          },
+          {
+            "headline": "ChatGPT can now help you virtually try on clothes",
+            "body": "Using OpenAI's latest image model, users generate pictures of themselves wearing items and can save favorites for later, moving the chatbot deeper into fashion retail.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2275295/chatgpt-can-now-help-you-virtually-try-on-clothes/",
+            "image": "https://www.engadget.com/img/gallery/chatgpt-can-now-help-you-virtually-try-on-clothes/intro-1790905784.jpg"
+          },
+          {
+            "headline": "Neurable launches new brain-scanning headphones",
+            "body": "The headphones track brain activity during work, rest and leisure, bringing consumer neurotech, and the question of neural data privacy, into everyday life.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2271652/neurable-one-eeg-headphones/",
+            "image": "https://www.engadget.com/img/gallery/neurable-launches-its-newest-brain-scanning-headphones/intro-1790674919.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design and Product",
+        "items": [
+          {
+            "headline": "VIVIFoCAL S1 glasses focus themselves in under 0.1s",
+            "body": "Using Alvarez lenses, a time-of-flight sensor and an actuator, the 40g frames refocus from 8 inches to infinity; from $289, they are the first practical use of a 1967 optical patent.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/01/the-vivifocal-s1-glasses-focus-themselves-so-your-eyes-dont-have-to/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/the-vivifocal-s1-glasses-focus-themselves-so-your-eyes-dont-have-to/VIVIFoCAL-S1-Deposit-Reservation-hero.jpg"
+          },
+          {
+            "headline": "Google's one-handed typing fix is a rolling belt of letters",
+            "body": "The Gboard team's concept puts keys on a conveyor belt as an open-source satire, a reminder that questioning familiar objects can yield absurd yet instructive solutions.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/02/googles-fix-for-one-handed-typing-is-a-rolling-belt-of-letters/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/googles-fix-for-one-handed-typing-is-a-rolling-belt-of-letters/gboard-conveyor-belt-concept-05.jpg"
+          },
+          {
+            "headline": "Amazon sells Kindle's physical buttons back as accessories",
+            "body": "The new add-ons (about $35) restore tactile page-turning dropped from recent models, a sign that physical ergonomics is regaining weight in device design.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2274088/amazon-latest-kindle-accessories-bring-physical-buttons-to-ereaders/",
+            "image": "https://www.engadget.com/img/gallery/amazon-latest-kindle-accessories-bring-physical-buttons-to-ereaders/intro-1790895180.jpg"
+          },
+          {
+            "headline": "HP's OmniBook 5 brings OLED and up to 42 hours of battery for $699",
+            "body": "The entry-level laptop offers an OLED screen and long battery life, pressuring the price tier of compact laptops.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2273550/hps-omnibook-5-features-an-oled-screen-and-costs-dollar699/",
+            "image": "https://www.engadget.com/img/gallery/hps-omnibook-5-features-an-oled-screen-and-costs-dollar699/intro-1790787908.jpg"
+          },
+          {
+            "headline": "Samsung launches its first clip-on earbuds",
+            "body": "The Galaxy Buds On debut in South Korea in an open-ear clip design, with wider availability planned.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2275187/samsung-launches-its-first-clip-on-earbuds-in-south-korea/",
+            "image": "https://www.engadget.com/img/gallery/samsung-launches-its-first-clip-on-earbuds-in-south-korea/intro-1790888120.jpg"
+          },
+          {
+            "headline": "Mox refreshes Formula E's brand for the Gen4 era",
+            "body": "The studio uses purple, orange and lime, an icon tilted 30 degrees and a typeface with velocity settings that italicize, for the 2026/27 season.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/mox-formula-e-graphic-design-project-011026"
+          },
+          {
+            "headline": "Samsung raises most Galaxy S26 prices by $100",
+            "body": "The hike covers most of the lineup, in line with the memory cost pressure the industry has flagged.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/samsung-s26-price-rise-memory",
+            "image": "https://media.thenextweb.com/2026/10/samsung-galaxy-s26-four-colours.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Society, Consumption and Privacy",
+        "items": [
+          {
+            "headline": "NYC's click-to-cancel rule takes effect",
+            "body": "Since October 1, cancelling must be as easy as signing up, with clear terms disclosure and penalties starting at $525.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2274831/nycs-click-to-cancel-rule-is-now-in-effect-to-save-consumers-from-subscription-hell/",
+            "image": "https://www.engadget.com/img/gallery/nycs-click-to-cancel-rule-is-now-in-effect-to-save-consumers-from-subscription-hell/l-intro-1790876262.jpg"
+          },
+          {
+            "headline": "Newsom vetoes smart glasses privacy bill",
+            "body": "SB-1130 would have criminalized secret recording in changing rooms and doctors' offices and required recording indicators, but the governor called the definition too broad, reaching even smartwatches.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2274526/newsom-vetoes-smart-glasses-privacy-bill/",
+            "image": "https://www.engadget.com/img/gallery/california-governor-newsom-vetoes-a-smart-glasses-privacy-bill/l-intro-1790867027.jpg"
+          },
+          {
+            "headline": "Florida county finds 11 unpermitted Flock cameras with unknown owners",
+            "body": "St. Lucie County found more surveillance cameras on its property than expected, raising questions over who oversees urban monitoring infrastructure.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2275315/florida-county-finds-11-unpermitted-flock-cameras-with-unidentified-owners/",
+            "image": "https://www.engadget.com/img/gallery/florida-county-finds-11-unpermitted-flock-cameras-with-unidentified-owners/intro-1790895238.jpg"
+          },
+          {
+            "headline": "PadSplit brings coliving to San Francisco, New York and Chicago",
+            "body": "The startup rents furnished rooms weekly with no credit checks across 40+ markets, 39,000 rooms and 90,000+ people housed (median income $32,500).",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/padsplit-expands-san-francisco-new-york-chicago",
+            "image": "https://media.thenextweb.com/2026/10/padsplit-logo.jpg"
+          },
+          {
+            "headline": "US mortgage rates approach a 3-year high as applications plunge",
+            "body": "Home lending slows as rates climb to the highest level in three years, squeezing access to homeownership.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/01/mortgage-rates-housing-sales",
+            "image": "https://images.axios.com/2Zvh6ZHE4hM_O27S0m0O6ZYrsQ4=/1024x576/smart/2024/08/28/192440-1724873080470.jpg"
+          },
+          {
+            "headline": "FDA approves artificial heart valve that grows with children",
+            "body": "The Autus pulmonary valve can be expanded with a balloon catheter and uses a polymer more resistant to deterioration, avoiding repeat surgeries for children with congenital heart defects.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2275489/fda-approves-autus-size-adjustable-artificial-heart-valve-for-kids/",
+            "image": "https://www.engadget.com/img/gallery/fda-approves-artificial-heart-valve-for-kids-that-grows-as-they-do/l-intro-1790939932.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-01",
     "date": "2026-10-01",
     "displayDate": "10/01/2026",
