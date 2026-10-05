@@ -15,6 +15,170 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-10-05",
+    "date": "2026-10-05",
+    "displayDate": "10/05/2026",
+    "weekday": "Monday",
+    "tag": "MONDAY",
+    "edition": "10/05/2026",
+    "cover": "https://www.yankodesign.com/images/design_news/2026/10/nike-actually-made-sneakers-that-look-like-grandmas-couch/nike-brocade-01-1050x788.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and sociocultural factors, on a lower-volume weekend. In energy, China targets solid-state batteries for 2030 and AI looks for power even in orbit. In AI, governance remains contested in the US and an OpenAI researcher calls for nuclear-grade safeguards. In design, nostalgia, material reuse and the buzz around the iPhone Duo.",
+    "sections": [
+      {
+        "heading": "Environment, Climate and Energy",
+        "items": [
+          {
+            "headline": "China targets solid-state batteries by 2030, but CATL rates them four out of nine",
+            "body": "China's industry ministry set 2030 as the target for the first large-scale deployment of all-solid-state batteries; CATL's chairman considers mass adoption before then unlikely. In France, ProLogium is building Europe's largest new battery plant in Dunkirk, reaching 0.8 GWh by 2028.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/china-solid-state-2030-dunkirk",
+            "image": "https://media.thenextweb.com/2026/10/solid-state-battery-diagram-on-screen.avif"
+          },
+          {
+            "headline": "The race to put AI data centers in space",
+            "body": "Google, SpaceX, Nvidia and startups are pitching orbital facilities to meet AI's power demand. Cost, cooling and space debris remain obstacles, though researchers say the economics may eventually make sense.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91617037/why-tech-companies-are-racing-to-put-ai-data-centers-in-space",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/wp-cms-2/2026/10/p-1-91617037-explainer-on-the-race-to-put-computing-data-centers-in-space.jpg"
+          },
+          {
+            "headline": "Fragments of a 1908 New York building become furniture instead of rubble",
+            "body": "Designer Rafael Prieto upcycled architectural elements discarded in the renovation of a century-old building into bespoke furniture, an example of reusing heritage materials.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/04/a-1908-new-york-buildings-discarded-fragments-got-turned-into-furniture-instead-of-being-demolished/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/652065/future_of_the_past_furniture_1-296x197.png"
+          },
+          {
+            "headline": "EDC-style gadgets for hurricane season",
+            "body": "A curated roundup of everyday-carry tools built for emergencies in severe weather, focused on working when infrastructure fails.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/04/5-best-edc-style-gadgets-designed-to-get-you-through-hurricane-season/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/draft-edc-style-gadgets-designed-to-get-you-through-hurricane-season/5_edc_hurricane_yanko_design_01-296x197.jpg"
+          },
+          {
+            "headline": "20-foot tiny home on wheels: better design over more square footage",
+            "body": "Highlands Tiny Homes shows how spatial efficiency and careful design make compact, mobile dwellings livable, in line with the debate on lower-footprint housing.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/04/this-20-foot-tiny-home-on-wheels-proves-better-design-beats-more-square-footage/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/sierra-tiny-home/sierra_tiny_home_yanko_design_01-296x197.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Artificial Intelligence and Governance",
+        "items": [
+          {
+            "headline": "Trump names four officials to lead his Super Intelligence Force",
+            "body": "The body has no statutory authority or budget and will be led by Jay Clayton, Andrew Ferguson, Emil Michael and Scott Kupor. A conflict of interest looms: FTC chair Ferguson is investigating OpenAI and Anthropic, which the force is meant to coordinate with.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/trump-super-intelligence-force-leaders",
+            "image": "https://media.thenextweb.com/2026/09/President-Donald-Trump-addressing-press.avif"
+          },
+          {
+            "headline": "OpenAI safety staffer quits: AI labs should run like nuclear plants",
+            "body": "David Robinson, who led transparency work on the safety team, resigned and published an essay in The Atlantic arguing OpenAI is moving too fast without adequate safety protocols.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/openai-david-robinson-quits-nuclear-safeguards",
+            "image": "https://media.thenextweb.com/2026/09/openai-logo-smartphone-laptop-zac-wolff-unsplash.avif"
+          },
+          {
+            "headline": "States' laws struggle to keep up with AI election deepfakes",
+            "body": "As of June 2026, 31 states had election deepfake laws, but they offer response mechanisms without guaranteeing voters can verify content authenticity.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91615997/states-laws-struggling-ai-election-deepfakes"
+          },
+          {
+            "headline": "Tesla robotaxis still can't reliably see pets at night; EU votes on camera-only system",
+            "body": "Musk acknowledged trouble with 'grey kittens on grey tarmac'. The EU technical committee votes October 6 on approving the camera-only system, and Austin's service now runs only until 11pm.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/tesla-robotaxi-night-pets-eu-vote",
+            "image": "https://media.thenextweb.com/2026/08/Tesla-Cybercab.avif"
+          }
+        ]
+      },
+      {
+        "heading": "Privacy, Culture and Society",
+        "items": [
+          {
+            "headline": "Flock cameras have an architecture problem, not just bad users",
+            "body": "Local camera systems create cross-jurisdictional surveillance networks; sharing settings can leave footage accessible to agencies without the purchasing department knowing.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91616870/flock-cameras-architecture-problem-not-just-bad-users",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/wp-cms-2/2026/10/p-1-91616870-the-trouble-with-flock-cameras-is-the-surveillance-systems-architecture-not-just-some-of-its-users.jpg"
+          },
+          {
+            "headline": "AI may cost us our ability to listen, oral historian warns",
+            "body": "Shirleene Robinson notes people speak about 338 fewer words a year than in 2005, with the steepest drop among the youngest, and fears chatbots will displace the listening that underpins empathy.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/ai-ability-to-listen-oral-historian-robinson",
+            "image": "https://media.thenextweb.com/2026/10/woman-cupping-ear-white-background.avif"
+          },
+          {
+            "headline": "A website like Google Maps with a time machine",
+            "body": "The PastMaps tool lets users explore historical layers of places and 'uncover entire lost worlds right beneath your feet'.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91598194/google-maps-history-pastmaps",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/wp-cms-2/2026/10/p-1-91598194-this-eye-opening-website-is-like-google-mapswith-a-time-machine.jpg"
+          },
+          {
+            "headline": "Walking pad with 12 incline levels reinforces the active desk",
+            "body": "The MERACH W60 Plus adds adjustable incline, RGB lighting and a Bluetooth speaker, an evolution of fitness gear built into the work desk.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/04/merachs-new-w60-plus-walking-pad-boasts-12-incline-levels-rgb-lights-and-a-built-in-bluetooth-speaker/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/the-desk-treadmill-gets-a-serious-upgrade-12-incline-levels-rgb-lights-and-a-built-in-bluetooth-speaker/Merach-UltraWalk-W60-Plus-296x197.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Product, Brand and Technology Design",
+        "items": [
+          {
+            "headline": "App makers are having fun with the iPhone Duo's fold",
+            "body": "Ahead of launch, developers are building apps like 'Duo Man', a Walkman-style music player, and 'Accorduon', which turns the hinge into accordion bellows, for a nearly $2,000 device.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/05/apple-iphone-duo-foldable-walkman-app",
+            "image": "https://www.axios.com/_next/image?url=https%3A%2F%2Fimages.axios.com%2FHs3HJt1SnTSI9aNpe8bfN7mXwZ4%3D%2F0x0%3A1700x956%2F1024x576%2F2026%2F10%2F02%2F1790961177640.png"
+          },
+          {
+            "headline": "Nike made sneakers that look like grandma's couch",
+            "body": "Maximalist brocade-inspired patterns recall vintage upholstery fabrics, another sign of nostalgia as a design language.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/05/nike-actually-made-sneakers-that-look-like-grandmas-couch/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/nike-actually-made-sneakers-that-look-like-grandmas-couch/nike-brocade-01-1050x788.jpg"
+          },
+          {
+            "headline": "Flat-pack furniture that survives your next move",
+            "body": "The piece looks at how contemporary design improves the structural durability of knockdown furniture across multiple moves.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/05/flat-pack-furniture-that-actually-survives-your-next-move/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/flat-pack-furniture-that-actually-survives-your-next-move/flat-pack-08-296x197.jpg"
+          },
+          {
+            "headline": "Pentagram gives Xsolla a retro-futuristic identity",
+            "body": "Luke Powell and Jody Hudson-Powell built a visual system for the gaming payments company around a mascot named Sol, inspired by classic gaming and sci-fi aesthetics.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/luke-powell-judy-hudson-powell-xsolla-pentagram-graphic-design-project-051026",
+            "image": "https://m.itsnicethat.com/original_images/pentagram-xsolla-graphic-design-itsnicethat-8.png?class=w1440"
+          },
+          {
+            "headline": "Google's Fitbit Edge leaks with a screen and Pixel 11 colors",
+            "body": "The unreleased tracker appears to be a successor to the discontinued Charge line.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2276917/google-fitbit-edge-leaks-out-with-a-screen-and-pixel-11-colors/",
+            "image": "https://www.engadget.com/img/gallery/googles-fitbit-edge-leaks-out-with-a-screen-and-pixel-11-colors/intro-1791188150.jpg"
+          },
+          {
+            "headline": "Upcoming touchscreen OLED MacBook Pro reportedly 'significantly lighter'",
+            "body": "Per reports, the next touchscreen model is arriving soon with reduced weight.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2276786/the-upcoming-touchscreen-oled-macbook-pro-is-reportedly-significantly-lighter/",
+            "image": "https://www.engadget.com/img/gallery/the-upcoming-touchscreen-oled-macbook-pro-is-reportedly-significantly-lighter/intro-1791141971.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-02",
     "date": "2026-10-02",
     "displayDate": "10/02/2026",
