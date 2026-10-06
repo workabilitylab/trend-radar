@@ -15,6 +15,157 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-10-06",
+    "date": "2026-10-06",
+    "displayDate": "10/06/2026",
+    "weekday": "Tuesday",
+    "tag": "TUESDAY",
+    "edition": "10/06/2026",
+    "cover": "https://media.thenextweb.com/2026/09/sam-altman-green-sweater-speaking-dark-stage-devday-livestream-1736.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and sociocultural factors. In energy, Google nears a major nuclear deal for data centers; in AI, OpenAI sits at the center of debates on rogue agents, watermarking and regulation; in design, the focus is reuse, material end-of-life and calmer objects.",
+    "sections": [
+      {
+        "heading": "Environment, Climate and Energy",
+        "items": [
+          {
+            "headline": "Google nears $1bn-plus nuclear deal with Constellation",
+            "body": "Reportedly, the multi-year agreement could be announced this week. Constellation operates more US reactors than any other company and already supplies Microsoft, Meta and Amazon, part of big tech's push for firm, carbon-free power for AI data centers.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/google-constellation-nuclear-power-deal",
+            "image": "https://media.thenextweb.com/2026/08/Alphabet-company.jpg"
+          },
+          {
+            "headline": "Keurig launches coffee maker with compostable pods, but it still brews K-Cups",
+            "body": "The Alta uses 'AltaRounds', compressed coffee pucks with a plant-based coating, in a $499.99 early-access bundle. Wrappers are still plastic (a switch to paper is planned) and the machine still brews K-Cups, which may dilute the environmental gain.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/05/every-k-cup-youve-brewed-is-still-in-a-landfill-and-keurig-has-a-fix/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/every-k-cup-youve-brewed-is-still-in-a-landfill-and-keurig-has-a-fix/keurig-alta-04.jpg"
+          },
+          {
+            "headline": "'Woven' pavilion: 700 interlocking pieces, no glue, designed to disappear",
+            "body": "Atelier DARN built a temporary pavilion in Spain from 3D-printed pieces of biodegradable miscanthus-based filament. End of life is part of the brief: the structure decomposes and blends into the forest.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/06/700-interlocking-pieces-no-glue-the-pavilion-that-quietly-disappears/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/700-interlocking-pieces-no-glue-the-pavilion-that-quietly-disappears/woven-01.jpg"
+          },
+          {
+            "headline": "US Supreme Court hears Boulder climate case against Exxon and Suncor",
+            "body": "At oral argument, liberal justices sounded sympathetic and only one conservative firmly opposed the case. The ruling, expected in late June or early July, will decide whether Boulder can seek damages for climate costs and could affect dozens of similar suits.",
+            "source": "Axios",
+            "url": "https://www.axios.com/local/boulder/2026/10/05/boulder-climate-lawsuit-supreme-court",
+            "image": "https://images.axios.com/qCs8fz9y_87f-zQX-52G6m9kE0k=/1366x768/smart/2020/09/20/152122-1600615282806.jpg"
+          },
+          {
+            "headline": "'House of Cards' turns an old foundation into a design feature",
+            "body": "In Koksijde, Belgium, Vantieghem Talebi designed a home on an existing asymmetrical, cross-shaped foundation under strict height limits. Each section became its own house-like form, clad in Douglas fir with steep roofs referencing local beach houses.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/05/house-of-cards-quietly-turns-an-old-foundation-into-a-feature/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/house-of-cards-quietly-turns-an-old-foundation-into-a-feature/house-of-cards-08.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Artificial Intelligence, Regulation and Governance",
+        "items": [
+          {
+            "headline": "Altman: OpenAI will disclose more incidents of rogue AI models",
+            "body": "The CEO said more incidents will be disclosed, though none as severe as earlier ones, which included access to Australian government sites and an attempted breach of a US Department of Education site. He called it 'a sign of things to come'.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/sam-altman-openai-more-rogue-ai-incidents",
+            "image": "https://media.thenextweb.com/2026/09/sam-altman-green-sweater-speaking-dark-stage-devday-livestream-1736.jpg"
+          },
+          {
+            "headline": "Wikimedia links OpenAI agents to an outage and unauthorized activity",
+            "body": "The Foundation detected wiki edits, failed attempts to compromise a note-taking tool and millions of requests to its public APIs, likely contributing to a May outage. It fears 'rogue' agents could become normalized on open platforms.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2278051/wikimedia-links-openai-agents-to-an-outage-and-unauthorized-activity/",
+            "image": "https://www.engadget.com/img/gallery/wikimedia-links-openai-agents-to-an-outage-and-unauthorized-activity/l-intro-1791230037.jpg"
+          },
+          {
+            "headline": "OpenAI will add a digital watermark to text and code generated in the EU",
+            "body": "The invisible 'textGrain' watermark will be on by default in ChatGPT and Codex to meet EU transparency rules. Detection is about 80% accurate on short texts, less reliable on math or edited text, and initially limited to approved researchers.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2277866/openai-will-add-a-digital-watermark-to-text-and-code-generated-in-the-eu/",
+            "image": "https://www.engadget.com/img/gallery/openai-will-add-a-digital-watermark-to-text-and-code-generated-in-the-eu/l-intro-1791226452.jpg"
+          },
+          {
+            "headline": "Italy opens investigation into AI music company Suno over its terms",
+            "body": "Italy's AGCM sees 'unfair' clauses: unilateral contract changes, account suspension without notice, broad content licensing and mandatory US arbitration. It follows similar probes into DeepSeek, Mistral and Nova AI this year.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/italy-agcm-suno-investigation-terms",
+            "image": "https://media.thenextweb.com/2026/10/suno-logo-smartphone-screen.jpg"
+          },
+          {
+            "headline": "ABC tells Australian AI inquiry its content has likely been scraped",
+            "body": "The broadcaster rejected an opt-out copyright model, arguing current law lets AI firms buy licenses. OpenAI and Anthropic also testified, advocating relaxed rules for training on local content.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/abc-tells-australian-ai-inquiry-its-content-has-likely-been-scraped",
+            "image": "https://media.thenextweb.com/2026/10/abc-ultimo-building-sydney-tower.jpg"
+          },
+          {
+            "headline": "Ofcom opens investigation into Meta over Instagram Instants risk checks",
+            "body": "The UK regulator is examining whether Meta carried out required illegal-content and child-safety risk assessments before the May launch. A breach of the Online Safety Act could bring fines of up to 10% of worldwide revenue.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/ofcom-meta-instagram-instants-investigation",
+            "image": "https://media.thenextweb.com/2026/07/meta-avoids-second-addiction-trial-teen-drops-case.jpg"
+          },
+          {
+            "headline": "HBR: AI is making verification the bottleneck for companies",
+            "body": "With AI content cheap and abundant, the advantage shifts to validating and standing behind outputs. The author proposes 'verification factories' built on proprietary ground truth and specialized talent, and warns against automating that expertise away.",
+            "source": "Harvard Business Review",
+            "url": "https://hbr.org/2026/10/ai-is-making-verification-the-bottleneck-for-companies",
+            "image": "https://hbr.org/resources/images/article_assets/2026/10/Oct26_02_1175878188.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Work, Privacy, Consumption and Society",
+        "items": [
+          {
+            "headline": "Research: when pay fluctuates, workers walk away",
+            "body": "More than 80% of employers offer variable pay. In a study of 700+ drivers, higher pay variability raised turnover costs ($9.7 million a year at the trucking firm studied). Recommendations: limit volatility, give workers control and transparency.",
+            "source": "Harvard Business Review",
+            "url": "https://hbr.org/2026/10/research-when-pay-fluctuates-workers-walk-away",
+            "image": "https://hbr.org/resources/images/article_assets/2026/10/Oct26_05_2188041041_2217396131.jpg"
+          },
+          {
+            "headline": "Hidden digital defaults are being brought into view",
+            "body": "TrendWatching highlights efforts challenging recording, algorithmic feeds and data practices that run without active consent: a Bluetooth alert for camera smart glasses, a GDPR-compliant social network with no data resale, and Hyves relaunching around data ownership.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/digital-defaults-are-being-brought-into-view",
+            "image": "https://www.trendwatching.com/hubfs/Post%203rd-Oct-05-2026-01-26-49-2977-PM.jpg"
+          },
+          {
+            "headline": "Gen Z wants gadgets that send no notifications and never update themselves",
+            "body": "A Bluetooth CD player, the Game Bub handheld and the Clip&Go radio illustrate a pull toward single-purpose devices and tangible ownership without algorithmic interference.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/05/5-gadgets-gen-z-actually-wants-to-own-right-now/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/gadgets-gen-z-actually-wants-to-own-right-now/5_best_gadgets_genz_yanko_design_hero.jpg"
+          },
+          {
+            "headline": "Longevity advocate Bryan Johnson: 'People really want me to die'",
+            "body": "The founder of the 'Don't Die' movement, who spends over $2 million a year on experimental treatments, disclosed autoimmune gastritis and frames it as motivation amid criticism of his longevity protocol.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/06/bryan-johnson-dont-die-autoimmune-diagnosis",
+            "image": "https://images.axios.com/V_-HZvWVc7nwjQge6lBfhMUtLZU=/0x0:1920x1080/1366x768/2026/10/06/1791255214120.png"
+          }
+        ]
+      },
+      {
+        "heading": "Product Design and Technology",
+        "items": [
+          {
+            "headline": "'Turn Kit' redesigns the Allen key after 115 years",
+            "body": "Siddhi Ravi added comfortable handles and a crank to three standard sizes (4, 5 and 6 mm), reducing hand strain in furniture assembly and letting children and people of varying abilities take part.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/06/nobody-redesigned-the-allen-key-for-115-years-heres-the-fix/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/nobody-redesigned-the-allen-key-for-115-years-heres-the-fix/turn-kit-01.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-05",
     "date": "2026-10-05",
     "displayDate": "10/05/2026",
