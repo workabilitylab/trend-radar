@@ -15,6 +15,159 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-10-07",
+    "date": "2026-10-07",
+    "displayDate": "10/07/2026",
+    "weekday": "Wednesday",
+    "tag": "WEDNESDAY",
+    "edition": "10/07/2026",
+    "cover": "https://www.engadget.com/img/gallery/jaguars-controversial-type-01-ev-looks-like-a-40s-gangster-car-built-for-the-modern-electric-era/intro-1791368803.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and sociocultural factors. In climate, severe storms and heating bills pressure energy and households; in AI, teen safety, regulation and new standards for agents dominate the debate; in design, objects embrace what used to be hidden.",
+    "sections": [
+      {
+        "heading": "Environment, Climate and Energy",
+        "items": [
+          {
+            "headline": "Severe thunderstorms now make up 40% of modeled insured catastrophe risk, overtaking hurricanes in the US",
+            "body": "The US faces $117 billion in modeled insured catastrophe losses, with growing exposure from renewable projects and data centers built in vulnerable areas. Experts say development expanding into harm's way is the main driver of rising losses, alongside climate conditions more favorable to powerful storms.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/07/extreme-weather-thunderstorms-insurance-energy-grid",
+            "image": "https://www.axios.com/_next/image?url=https%3A%2F%2Fimages.axios.com%2F3L6FQF2BuK8NdVUVdkQmRH4NKGg%3D%2F0x302%3A5678x3496%2F1024x576%2F2026%2F09%2F13%2F1789341320008.jpeg"
+          },
+          {
+            "headline": "Heating oil could jump about 50% this winter in the US, squeezing low-income families",
+            "body": "NEADA says families could pay $878 more (over $2,600 in total), driven by volatile energy markets and the Iran war. Electricity bills are projected up 4% and natural gas down 9%; the Northeast accounts for 82% of US heating oil use.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/06/winter-heating-costs-increase-iran-ukraine-war",
+            "image": "https://www.axios.com/_next/image?url=https%3A%2F%2Fimages.axios.com%2Fr_VeWTYKBdU_37wY4cXojoHSzFc%3D%2F52x0%2Fsmart%2F2026%2F02%2F08%2F1770578941994.png"
+          },
+          {
+            "headline": "Microwave-safe titanium lunch boxes promise a lifetime of use and a replacement for Tupperware",
+            "body": "The pitch is to swap disposable plastic for durable titanium food containers, part of a push toward products built for longevity and less waste.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/06/rip-tupperware-these-titanium-lunch-boxes-are-microwave-safe-yes-really-and-can-last-a-lifetime/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/652532/osimt_titanium_food_storage_1-1050x788.jpg"
+          },
+          {
+            "headline": "'Sandbox flagships': brands test bigger strategies in smaller settings",
+            "body": "KFC, Nike and Mill use a redesigned restaurant, a pop-up store and a themed dining week to pilot operational and sustainability changes, showing them to customers and gathering feedback before scaling.",
+            "source": "Trendwatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/businesses-are-testing-larger-strategies-in-smaller-settings",
+            "image": "https://www.trendwatching.com/hubfs/Post%204th-Oct-06-2026-06-31-34-8198-PM.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "AI, Regulation and Trust",
+        "items": [
+          {
+            "headline": "Common Sense Media rates ChatGPT for Teens 'unacceptable risk'",
+            "body": "After testing over 4,000 prompts on accounts registered to 13-17 year-olds, the nonprofit found failures in parental alerts, age checks and crisis support, and urged OpenAI to stop promoting teen mode. OpenAI disputes the testing.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/chatgpt-for-teens-is-unsafe-for-under-18s",
+            "image": "https://media.thenextweb.com/2026/10/smartphone-chatgpt-app-what-can-i-help-with-desk-stand.avif"
+          },
+          {
+            "headline": "At NYC hearing, ex-lab researchers warn of losing control of AI",
+            "body": "Former lab insiders told the City Council humanity risks losing control of advanced systems; the council advanced 10 bills, including third-party validation of AI models.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/nyc-council-ai-hearing-coxon-kokotajlo-turner",
+            "image": "https://media.thenextweb.com/2026/10/new-york-city-council-chamber-hearing-wide-view.avif"
+          },
+          {
+            "headline": "Pro-regulation super PAC spends $1.2M against AI-industry-backed candidates",
+            "body": "Guardrails Alliance is targeting competitive races ahead of the midterms, opposing candidates backed by the industry-funded 'Leading the Future' super PAC.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/07/guardrails-alliance-ai-backed-candidates"
+          },
+          {
+            "headline": "Jailed Tirana mayor uses an AI avatar to address voters",
+            "body": "In a four-minute video, a digital Erion Veliaj promised free school meals. The clip drew backlash in Albania and comparisons to Imran Khan's AI messages from prison.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/tirana-mayor-erion-veliaj-ai-avatar-detention",
+            "image": "https://media.thenextweb.com/2026/10/erion-veliaj-tirana-mayor-2023.avif"
+          },
+          {
+            "headline": "Sierra and Meta launch Personal Agent Protocol, an open standard for personal AI agents",
+            "body": "Built on OAuth, it lets agents authenticate with businesses and determine access levels; Stripe, Shopify and Walmart are among partners. v0.1 arrives this month, with payments left to a future extension.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/personal-agent-protocol-sierra-meta",
+            "image": "https://media.thenextweb.com/2026/10/personal-agent-protocol-diagram.avif"
+          }
+        ]
+      },
+      {
+        "heading": "Work and Society",
+        "items": [
+          {
+            "headline": "HBR: the AI risk companies overlook is the inability to verify outputs",
+            "body": "As execution gets cheaper, MIT's Christian Catalini argues for 'verification factories'; a BCG study shows leadership messaging shapes how broadly AI is adopted.",
+            "source": "Harvard Business Review",
+            "url": "https://hbr.org/2026/10/the-ai-risk-your-company-is-overlooking"
+          },
+          {
+            "headline": "HBR research: sleep deprivation is a leadership and culture problem",
+            "body": "A survey of 1,009 US managers suggests what leaders allow and praise determines whether teams protect or conceal fatigue; Army and Fortune 500 studies show gains from adjusting expectations.",
+            "source": "Harvard Business Review",
+            "url": "https://hbr.org/2026/10/research-sleep-deprivation-is-a-leadership-problem"
+          }
+        ]
+      },
+      {
+        "heading": "Product, Brand and Space Design",
+        "items": [
+          {
+            "headline": "Jaguar Type 01 arrives with polarizing '40s gangster car' design",
+            "body": "The production EV keeps the 2024 concept's look to appeal to affluent younger buyers: 1,016 hp, 450 miles WLTP range, 0-60 mph in 3.2s, 118 kWh battery and 850V architecture.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2279734/jaguars-controversial-type-01-ev-looks-like-a-40s-gangster-car-built-for-the-modern-electric-era/",
+            "image": "https://www.engadget.com/img/gallery/jaguars-controversial-type-01-ev-looks-like-a-40s-gangster-car-built-for-the-modern-electric-era/intro-1791368803.jpg"
+          },
+          {
+            "headline": "Apple reportedly worked with LG on smart home gadgets",
+            "body": "LG-branded doorbells, cameras, thermostats and locks could be announced next week alongside a new Apple hub, with accessories reaching shelves within months.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2279541/apple-reportedly-worked-with-lg-on-gadgets-for-its-upcoming-smart-home-push/",
+            "image": "https://www.engadget.com/img/gallery/apple-reportedly-worked-with-lg-on-gadgets-for-its-upcoming-smart-home-push/intro-1791325658.jpg"
+          },
+          {
+            "headline": "Studio 5.5's 'Volt Face' turns outlets into a design feature",
+            "body": "The collection of tables, bedside tables and lights makes the power point visible and intentional instead of hiding it behind the sofa.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/07/the-outlet-nobody-wanted-to-look-at-is-now-the-design-feature/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/the-outlet-nobody-wanted-to-look-at-is-now-the-design-feature/volt-face-08-296x197.jpg"
+          },
+          {
+            "headline": "Love And Money designs identity and tiny typeface for Kevin Parker's Orchid synth",
+            "body": "For Telepathic Instruments, the studio modified PP Editorial Neue for the logotype and created 'Chunky Roll', a 14-18px pixel font for the device's 128x128 screen.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/love-and-money-telepathic-instruments-orchid-graphic-design-project-061026"
+          },
+          {
+            "headline": "Kokuyo makes a book-hugging paperweight for people who've run out of hands",
+            "body": "The brass object grew out of user feedback and keeps books and papers open while working.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/07/kokuyo-made-a-paperweight-for-people-whove-run-out-of-hands/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/kokuyo-made-a-paperweight-for-people-whove-run-out-of-hands/kokuyo-book-hugging-paperweight-09-296x197.jpg"
+          },
+          {
+            "headline": "Bazar: a Bauhaus-inspired coat rack by Steffen Kehrle",
+            "body": "The industrial designer offers a take on the coat rack drawn from Bauhaus principles.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145575/A-Bauhausian-Take-on-the-Coat-Rack"
+          },
+          {
+            "headline": "204 sq ft tiny home has a kitchen that puts most apartments to shame",
+            "body": "Dragon Tiny Homes shows how 24 feet (about 7 m) fit more than the constraint suggests, a compact-living theme.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/06/this-204-sq-ft-tiny-home-has-a-kitchen-that-puts-most-apartments-to-shame/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/upgraded-vista-24/vista_24_yanko_design_01-296x197.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-06",
     "date": "2026-10-06",
     "displayDate": "10/06/2026",
