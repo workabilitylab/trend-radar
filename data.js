@@ -15,6 +15,173 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-10-08",
+    "date": "2026-10-08",
+    "displayDate": "10/08/2026",
+    "weekday": "Thursday",
+    "tag": "THURSDAY",
+    "edition": "10/08/2026",
+    "cover": "https://images.axios.com/ihn5oJN3hWdesNH4hCcDo67FJa8=/0x0:1920x1080/1366x768/2026/10/08/1791420163872.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and sociocultural factors. In climate and energy, the US Senate targets data center costs and infrastructure becomes AI's bottleneck; in AI, trust is the theme, from placebo safety tools at TikTok to synthetic content detectors; in design, objects that fix small everyday annoyances.",
+    "sections": [
+      {
+        "heading": "Environment, Climate and Energy",
+        "items": [
+          {
+            "headline": "Bipartisan Senate bill would make data centers pay more for the grid and accept new restrictions",
+            "body": "Large data centers would cover their share of the transmission network plus the added cost of serving them, and utilities would need financial guarantees before building infrastructure for them. The text, part of a broader energy permitting package, gives states wide latitude to set stricter rules.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/08/data-centers-power-regime",
+            "image": "https://images.axios.com/ihn5oJN3hWdesNH4hCcDo67FJa8=/0x0:1920x1080/1366x768/2026/10/08/1791420163872.jpg"
+          },
+          {
+            "headline": "Sesterce plans a €10bn+ AI campus at a former paper mill in Finland",
+            "body": "The 200 MW first phase starts construction this year, and a second phase would lift capacity to 600 MW in Jämsä. The company says it aims to add 1 MW of new renewable energy to the grid for every MW the campus uses over ten years.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/sesterce-10b-ai-data-centre-finland-jamsa"
+          },
+          {
+            "headline": "Attribution science gains weight in the Suncor v. Boulder case before the US Supreme Court",
+            "body": "The piece explains how attribution science links emissions and extreme weather to climate change, and why it underpins the damages claims that the oil industry is trying to block.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91619956/attribution-science-explained-climate-law-research-big-oil-denialism",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91619956-attribution-science.jpg"
+          },
+          {
+            "headline": "Communities in Mexico, Bolivia and Guatemala turn local climate data into practical decisions",
+            "body": "Underwater hydrophones help set fishing refuge zones in Punta Allen; a color-coded board tells Chiquitano farmers each morning whether burning is safe; and young K'iche' residents turn weather-station readings into frost and drought bulletins.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/communities-are-turning-local-climate-data-into-practical-decisions",
+            "image": "https://www.trendwatching.com/hubfs/Post%205th-Oct-07-2026-10-24-41-9795-AM.jpg"
+          },
+          {
+            "headline": "HBR: the politics of sustainability have changed, the business case hasn't",
+            "body": "Tensie Whelan acknowledges ESG has become a political liability and sustainability teams are shrinking, but, drawing on NYU Stern research, argues circularity, decarbonization and sustainable sourcing cut cost and risk when quantified.",
+            "source": "Harvard Business Review",
+            "url": "https://hbr.org/2026/10/the-politics-of-sustainability-have-changed-the-business-case-hasnt",
+            "image": "https://hbr.org/resources/images/article_assets/2026/10/Oct26_07_1344299981.jpg"
+          },
+          {
+            "headline": "Aging infrastructure becomes the new competitive advantage in the AI era",
+            "body": "With a C grade from ASCE and an estimated $3.7 trillion shortfall, power, water and broadband systems from the 1950s and 60s are strained by AI, chips and electrification. A Virginia study concludes data center growth cannot rely on limitless water.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91619546/the-next-competitive-advantage-is-infrastructure",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/1-34.png"
+          }
+        ]
+      },
+      {
+        "heading": "AI, Platforms and Trust",
+        "items": [
+          {
+            "headline": "Morgan Stanley survey: women are far less favorable to AI than men",
+            "body": "Net AI sentiment is +30% among men and -1% among women; 44% of women don't want a data center near home (vs. 36%). Women land a quarter or less of new high-paying AI jobs, per LinkedIn data.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/08/ai-women-jobs-data-centers",
+            "image": "https://images.axios.com/8JUVqBld6i2TgePgs50ta-VE62o=/0x0:1920x1080/1366x768/2026/10/07/1791394426349.jpeg"
+          },
+          {
+            "headline": "TikTok gave young users a placebo safety tool, New York lawsuit alleges",
+            "body": "Unsealed filings show that in 2023 tests some users got a version of 'Algo Refresh' that did not change their feeds. A product manager warned this 'completely conflicts' with the tool's purpose. TikTok disputes the lawsuit's account.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/tiktok-placebo-safety-tool",
+            "image": "https://media.thenextweb.com/2026/09/tiktok-logo-iphone-screen-silhouetted-hand-blue-red.avif"
+          },
+          {
+            "headline": "OpenAI posts 722 math manuscripts generated by an unreleased model",
+            "body": "The papers form 372 'families' of findings on longstanding problems. Reception is split: a Rutgers mathematician says a result tied to the Riemann hypothesis would merit a Fields Medal if human; others question originality.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/08/openai-math-proofs-ai-model",
+            "image": "https://images.axios.com/IG9qyKZ7J3oSyEZ8mMxjdgaeADc=/1024x576/smart/2024/05/19/154408-1716133448708.jpg"
+          },
+          {
+            "headline": "Google opens SynthID Detector to the public to flag AI-made or AI-edited content",
+            "body": "The free tool (synthid.com) requires a Google, OpenAI or Apple login and flags content from Google, OpenAI, NVIDIA and Kakao tools. Limits: inconsistent watermark standards, strippable marks, and no way to tell fully AI-made from AI-edited.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/",
+            "image": "https://www.engadget.com/img/gallery/googles-ai-detection-website-is-now-available/l-intro-1791328862.jpg"
+          },
+          {
+            "headline": "Microsoft bets on agentic Windows and launches the Surface Laptop Ultra",
+            "body": "Copilot will be able to act on local files with permission and run models locally. The 15-inch Surface Laptop Ultra with NVIDIA's RTX Spark starts at $2,599 and ships October 16; the Dev Box is $5,999.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2280298/everything-announced-at-microsofts-windows-and-surface-event/",
+            "image": "https://www.engadget.com/img/gallery/everything-announced-at-microsofts-windows-and-surface-event/l-intro-1791398448.jpg"
+          },
+          {
+            "headline": "Big Tech is 'cutewashing' its AI agents with friendly mascots",
+            "body": "SpaceXAI (GrokBot), Meta (Muse) and OpenAI (dots) launched agents designed as characters. Designers say it makes the tech approachable but warn of sameness and fatigue, as with 'corporate Memphis'; Notion and Hebbia pursue distinct looks.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91620091/big-tech-is-cutewashing-its-ai-agents",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91620091-ai-mascots.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Work and Society",
+        "items": [
+          {
+            "headline": "Gallup: Americans' trust in food safety falls to record lows",
+            "body": "Only 47% trust the federal government to ensure food safety (the first majority without confidence) and 65% trust grocery store food, down from 81% in 2019. The partisan split flipped after a Cyclospora outbreak tied to lettuce.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/08/food-safety-confidence-record-low-poll"
+          },
+          {
+            "headline": "Amazon reportedly cuts retail jobs during Prime Big Deal Days",
+            "body": "Amazon confirmed a small number of office job cuts, mostly in its Stores division, during its October sale.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/amazon-job-cuts-stores-prime-big-deal-days",
+            "image": "https://media.thenextweb.com/2026/10/amazon-prime-shipping-boxes-dark-surface.avif"
+          }
+        ]
+      },
+      {
+        "heading": "Product Design, Brand and Culture",
+        "items": [
+          {
+            "headline": "Ring launches a $249 smart lock with a crank that powers it when the battery is dead",
+            "body": "A turnable dial generates enough power to wake the keypad and open the door even without charge, addressing a classic complaint about connected locks.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/08/a-249-smart-lock-that-still-opens-when-youve-forgotten-to-charge-it/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/a-249-smart-lock-that-still-opens-when-youve-forgotten-to-charge-it/ring-smart-lock-02.jpg"
+          },
+          {
+            "headline": "PocketBook Verta: a $198 e-reader with a swappable back panel color",
+            "body": "Owners can change the back panel color while keeping the slim profile, a trick reminiscent of old Nokia phones that brings personalization to a reading device.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/08/pocketbook-gave-its-198-e-reader-the-one-trick-old-nokia-phones-had/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/pocketbook-gave-its-198-e-reader-the-one-trick-old-nokia-phones-had/pocketbook-verta-verta-color-05.jpg"
+          },
+          {
+            "headline": "RIMOWA's two new colors make luggage easier to spot at baggage claim",
+            "body": "The Umber and Ultramarine finishes make the luggage easier to identify on a crowded carousel, an everyday problem solved by color.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/08/rimowas-2-new-colors-quietly-solve-the-baggage-claim-problem/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/rimowas-2-new-colors-quietly-solve-the-baggage-claim-problem/rimowa-01.jpg"
+          },
+          {
+            "headline": "Ettore Sottsass's Valigia desk lamp is re-released, still with a cord",
+            "body": "The convention-bucking desk lamp has been re-released faithful to the original, cord included, as industrial design classics get a second life.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145585/Ettore-Sottsasss-Convention-Bucking-Valigia-Desk-Lamp"
+          },
+          {
+            "headline": "Tüpokompanii's new typeface celebrates imperfection and being bad at something",
+            "body": "Laura Pappa and the studio release a typeface that invites letting go of perfectionism, a counterpoint to dominant algorithmic polish.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/tüpokompanii-laura-pappa-vee-type-graphic-design-project-071026"
+          },
+          {
+            "headline": "Pentagram gives Xsolla, gaming's quiet giant, a retro-futuristic identity",
+            "body": "Luke Powell and Judy Hudson Powell developed the new brand for the gaming payments and services company.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/luke-powell-judy-hudson-powell-xsolla-pentagram-graphic-design-project-051026"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-07",
     "date": "2026-10-07",
     "displayDate": "10/07/2026",
