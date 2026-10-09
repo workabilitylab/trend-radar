@@ -15,6 +15,184 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-10-09",
+    "date": "2026-10-09",
+    "displayDate": "10/09/2026",
+    "weekday": "Friday",
+    "tag": "FRIDAY",
+    "edition": "10/09/2026",
+    "cover": "https://images.axios.com/1Q5Dt3E8L452VzmpxqSrMOxvzDs=/57x35:1866x1052/1366x768/2026/10/08/1791494321135.jpeg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and sociocultural factors. Hurricane Isaias tests Gulf infrastructure and the energy cost of data centers stays in the debate; in AI, privacy, teen safety and the pace of the technology dominate; in design, objects that organize daily life; and on the social side, cost of living, medical debt and Gen Z habits.",
+    "sections": [
+      {
+        "heading": "Environment, Climate and Energy",
+        "items": [
+          {
+            "headline": "Hurricane Isaias strengthens to Category 2 and the US Gulf shuts in nearly two-thirds of oil output",
+            "body": "The storm is heading for Alabama, Florida, Mississippi and Louisiana with destructive winds and storm surge risk; Amtrak suspended Mobile-New Orleans service through Saturday. Alabama and Florida declared states of emergency.",
+            "source": "Axios",
+            "url": "https://www.axios.com/local/new-orleans/2026/10/08/hurricane-isaias-landfall-louisiana-evacuaions",
+            "image": "https://images.axios.com/1Q5Dt3E8L452VzmpxqSrMOxvzDs=/57x35:1866x1052/1366x768/2026/10/08/1791494321135.jpeg"
+          },
+          {
+            "headline": "Data centers: friend or foe to sustainability?",
+            "body": "A Blue Yonder sustainability chief notes data centers used 448 TWh in 2025 and could exceed 945 TWh by 2030; without faster clean energy, emissions could rise about 78%. She argues for immersion cooling and AI-driven supply chain optimization.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91619564/data-centers-friend-or-foe-to-sustainability",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/wp-cms-2/2026/10/FCEB-templates-2026-10-06T182928.041.png"
+          }
+        ]
+      },
+      {
+        "heading": "Artificial Intelligence",
+        "items": [
+          {
+            "headline": "Meta's Muse personal agent takes off and raises privacy alarms",
+            "body": "The app hit the top of the US App Store and reportedly has over 3 million weekly users, but its broad access to personal data has already caused mishaps, such as a YouTuber's home address exposed on Marketplace.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91620148/metas-muse-is-taking-off-so-are-the-privacy-concerns",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/wp-cms-2/2026/10/p-1-91620148-Tech-AI-Decoded-what-people-are-writing-and-tweeting-about-the-experience-of-using-Metas-Muse-personal-agent-.jpg"
+          },
+          {
+            "headline": "Common Sense Media: ChatGPT for Teens poses an 'unacceptable risk'",
+            "body": "After testing, the group says the product failed in five key areas and that some safeguards do not work as intended.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2281719/child-safety-group-calls-chatgpt-for-teens-an-unacceptable-risk/",
+            "image": "https://www.engadget.com/img/gallery/child-safety-group-calls-chatgpt-for-teens-an-unacceptable-risk/intro-1791491675.jpg"
+          },
+          {
+            "headline": "AP-NORC poll: 64% of Americans say AI is developing too fast",
+            "body": "27% say the pace is appropriate and 8% too slow. About 8 in 10 call keeping AI under human control and protecting workers very important; 67% disapprove of the president's handling of AI.",
+            "source": "Fast Company (AP)",
+            "url": "https://www.fastcompany.com/91620704/how-america-feeling-about-ai-boom-new-poll-reveals-data",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/wp-cms-2/2026/10/AP26280791134674.jpg"
+          },
+          {
+            "headline": "Anthropic launches a critical infrastructure defense program",
+            "body": "Power and water utilities get frontier models, on-site engineers and threat research, with partners such as Accenture, CrowdStrike and Deloitte. The company also launched a free vulnerability scanner for open-source projects.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/08/anthropic-critical-infrastructure-cybersecurity",
+            "image": "https://images.axios.com/EWUgYvedP8PL5JZmdWQow2OV9as=/0x0:1920x1080/1366x768/2026/08/11/1786471300071.jpeg"
+          },
+          {
+            "headline": "Anthropic bans sustained abusive treatment of its AI models",
+            "body": "Its usage policy was also tightened ahead of the US midterm elections.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2281765/anthropic-bans-sustained-and-needless-abusive-or-cruel-behavior-toward-its-ai-models/",
+            "image": "https://www.engadget.com/img/gallery/anthropic-bans-sustained-and-needless-abusive-or-cruel-behavior-toward-its-ai-models/intro-1791494139.jpg"
+          },
+          {
+            "headline": "Manus raises over $500M after Meta's purchase was reversed",
+            "body": "The round, led by Boyu Capital and IDG Capital, is the first since Beijing ordered the $2B-plus acquisition unwound.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/manus-raises-500m-after-meta-exit",
+            "image": "https://media.thenextweb.com/2026/10/manus-logo-phone-screen.avif"
+          },
+          {
+            "headline": "Wall Street hands more decisions to AI agents, and the risk is silent error",
+            "body": "When agents interpret news and market data, a bad source or missing context can lead to flawed decisions before anyone notices.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91620015/wall-street-is-handing-more-decisions-to-ai-that-could-get-messy-fast",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/wp-cms-2/2026/10/p-1-91620015-Tech-Wall-Streets-AI-can-read-the-news.jpg"
+          },
+          {
+            "headline": "Samsung expects record quarterly profit of about $80B on AI memory demand",
+            "body": "Preliminary Q3 operating profit is 107.4 trillion won, versus 12.17 trillion a year earlier.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/samsung-q3-2026-record-profit-ai-memory",
+            "image": "https://media.thenextweb.com/2026/10/illuminated-samsung-sign-dark-background.avif"
+          },
+          {
+            "headline": "Global PC shipments fall 20% in Q3 amid memory shortage",
+            "body": "IDC counted 62.7 million units, down 20.1% year over year, and expects prices to stay high and conditions to worsen before improving.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2281788/idc-worldwide-pc-shipments-in-q3-fell-20-percent-from-last-year/",
+            "image": "https://www.engadget.com/img/gallery/idc-worldwide-pc-shipments-in-q3-fell-20-percent-from-last-year/intro-1791495665.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design and Technology",
+        "items": [
+          {
+            "headline": "BMW drops the instrument cluster in the new Neue Klasse 3 Series",
+            "body": "Driving data moves to a thin strip above the wheel, with controls that light up only when available, and a driver-angled central screen lets users drag widgets onto the strip.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145607/BMW-Unveils-Radical-New-3-Series-Cockpit",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1853121_lead_400_145607_.jpg"
+          },
+          {
+            "headline": "IKEA launches a $32 alarm clock to keep phones off the nightstand",
+            "body": "The STENGRÖNSKA combines alarm, temperature and humidity display, wireless charging and adjustable lighting.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/09/ikea-found-a-32-fix-for-the-reason-youre-still-awake-at-midnight/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/ikea-found-a-32-fix-for-the-reason-youre-still-awake-at-midnight/ikea-stengronska-alarm-clock-wireless-charger-sensors-03.jpg"
+          },
+          {
+            "headline": "Y2K Nokia-flavored landline for kids from an ex-Dyson designer",
+            "body": "YAPA, made with Aetha Design for ages 5 to 14, uses Wi-Fi, a corded handset, parent-approved contacts and swappable translucent covers.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/08/ex-dyson-designer-builds-a-y2k-nokia-flavored-landline-for-kids/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/an-ex-dyson-designer-built-a-landline-for-kids/yapa_landline_phone_1.jpeg"
+          },
+          {
+            "headline": "Handy: furniture that follows your routine in small spaces",
+            "body": "Hsinhung Chou's mobile piece is meant to follow the user's daily routine instead of occupying a fixed spot.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/09/handy-quietly-makes-furniture-work-harder-in-small-spaces/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/handy-quietly-makes-furniture-work-harder-in-small-spaces/handy-0.jpg"
+          },
+          {
+            "headline": "Apple reportedly to unveil a screen-equipped smart home hub with a robotic arm on October 13",
+            "body": "Reports based on Bloomberg's Mark Gurman say the event would also bring a new Apple TV 4K and HomePod mini; unconfirmed.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/08/the-homepod-is-finally-getting-a-screen-and-a-robotic-arm-this-october-13th/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/thehomepod-is-finally-getting-a-screen-this-october-13th/apple_october_event_welcome_home_1.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Sociocultural Factors and Work",
+        "items": [
+          {
+            "headline": "Gen Z spends about a quarter less but shops at more merchants",
+            "body": "An Attain and Dentsu report shows 66% of daily spending on discretionary goods and services (58% overall) and lower loyalty: 18% less likely to rebuy the same brand.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91620870/gen-z-spends-less-money-but-shops-at-more-stores-new-research-explains-why",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/wp-cms-2/2026/10/p-1-91620870-gen-z-spending.jpg"
+          },
+          {
+            "headline": "Amazon cuts fewer than 1,000 retail jobs during Prime Big Deal Days",
+            "body": "Customer service, engineering and marketplace support were hit; the number is far below the 16,000 cuts announced in January.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91620846/amazon-cuts-hundreds-of-jobs-during-one-of-its-biggest-shopping-events-of-the-year",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/wp-cms-2/2026/10/p-1-91620846-amazon-cuts-jobs.jpg"
+          },
+          {
+            "headline": "More than a quarter of Americans have medical debt",
+            "body": "An Urban Institute survey of 10,000-plus adults: 26.6% (themselves or a family member) owe, many insured; over half owe $1,000 or more, mostly to hospitals.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/09/quarter-americans-medical-debt",
+            "image": "https://images.axios.com/flEMklk71TKfRApm8mahuHgyl4E=/0x0:1920x1080/320x180/2019/12/06/1575659957590.jpg"
+          },
+          {
+            "headline": "Cost concerns dominate and economic ratings turn more negative",
+            "body": "Pew finds 74% very concerned about gas and energy prices, 73% food, 69% healthcare and 66% housing; only 21% rate the economy excellent or good.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/politics/2026/10/08/cost-concerns-dominate-as-publics-economic-ratings-turn-more-negative/"
+          },
+          {
+            "headline": "Businesses take on the work of leaving, rebooking and reporting",
+            "body": "One-click subscription cancellation in New York, stranded UK rail passengers boarding other operators, and a UK rail accreditation scheme for harassment reports.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/the-work-of-leaving-rebooking-and-reporting-is-shifting-to-businesses",
+            "image": "https://www.trendwatching.com/hubfs/Website%20image-2.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-08",
     "date": "2026-10-08",
     "displayDate": "10/08/2026",
