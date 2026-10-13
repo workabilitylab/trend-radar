@@ -15,6 +15,206 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-10-13",
+    "date": "2026-10-13",
+    "displayDate": "10/13/2026",
+    "weekday": "Tuesday",
+    "tag": "TUESDAY",
+    "edition": "10/13/2026",
+    "cover": "https://images.axios.com/e-o3WNAxrukryPKDFVpApHs4YXU=/0x0:1280x720/1366x768/2026/10/12/1791827458342.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and sociocultural factors. AI dominates: Meta says it has reached the frontier with Muse Wonder, the UK will again test models before release and the self-regulation debate rages on. On climate and energy, the IMF warns resilience is running out and data centers look to store heat underground; in design, modular objects and the debate over AI mascots; and on the social side, burnout hidden by AI productivity and quiet changes to job roles.",
+    "sections": [
+      {
+        "heading": "Environment, Climate and Energy",
+        "items": [
+          {
+            "headline": "Data center heat can be stored underground to warm buildings in winter",
+            "body": "In Verona, Wisconsin, Epic Systems uses about 6,100 boreholes 300 to 800 feet deep to store waste heat from a 3.5 MW data center in summer and recover it in winter, heating about 40 buildings. Data centers used 4.7% of US electricity in 2024 and could reach nearly 12% by 2030.",
+            "source": "Fast Company (The Conversation)",
+            "url": "https://www.fastcompany.com/91621557/data-centers-heat-how-to-save-it-for-winter",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91621557-Data-centers-make-heat-all-year-long-%E2%80%93-heres-how-the-ground-can-hold-onto-it-until-winter.jpg"
+          },
+          {
+            "headline": "IMF warns the global economy is nearing the 'limits of resilience' as oil stocks fall",
+            "body": "The Fund kept 2026 global growth at 3.1% and raised 2027 to 3.4%, with inflation at 4.7% in 2026. Oil stocks are falling by about 2.7 million barrels a day, and a sharp AI-driven downturn could leave 2028 GDP 1.1% below baseline.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/13/imf-forecast-ai-oil",
+            "image": "https://images.axios.com/RVUhzwmIOpcevJA2Wum-tT-DaJc=/0x0:4352x2448/1366x768/2026/10/12/1791843496726.jpeg"
+          },
+          {
+            "headline": "Smart #2: two-seat EV with 290 km of range for under $26,500",
+            "body": "Unveiled at the Paris Motor Show, the micro-EV has a 60 kW rear motor and a 999-unit limited edition. It likely won't reach the US.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2283979/smart-just-unveiled-a-new-ultra-compact-ev-at-the-paris-motor-show/",
+            "image": "https://www.engadget.com/img/gallery/smart-just-unveiled-a-new-ultra-compact-ev-at-the-paris-motor-show/l-intro-1791820685.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Artificial Intelligence, Regulation and Privacy",
+        "items": [
+          {
+            "headline": "Meta launches Muse Wonder and says it has reached the AI frontier",
+            "body": "Muse Wonder and Wonder Full, trained at the Prometheus data center, claim to match or beat recent OpenAI and Anthropic models on agent tasks, memory and coding. The Full version is limited to Muse Code subscribers, and the article cites no benchmarks.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/12/meta-new-ai-models-anthropic-openai",
+            "image": "https://images.axios.com/e-o3WNAxrukryPKDFVpApHs4YXU=/0x0:1280x720/1366x768/2026/10/12/1791827458342.jpg"
+          },
+          {
+            "headline": "UK will again test OpenAI and Anthropic models before release",
+            "body": "The AI Security Institute reverses a White House request that labs hold models back until US officials had checked them. The government also launched a task force to protect public systems from AI-driven attacks, citing pilots that found over 1,000 potential weak spots.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/uk-ai-security-institute-pre-release-access-openai-anthropic",
+            "image": "https://media.thenextweb.com/2026/10/kanishka-narayan-portrait.jpg"
+          },
+          {
+            "headline": "Microsoft president says AI is less regulated than a carton of milk",
+            "body": "Brad Smith told ITV that AI faces fewer safety rules than a dairy product even though it can hack companies and governments, and sees the US regulatory gap as a chance for the UK to lead. Critics say the industry pact lets companies define safety themselves.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2283487/microsoft-president-ai-less-regulated-than-a-carton-of-milk/",
+            "image": "https://www.engadget.com/img/gallery/microsofts-president-says-ai-is-less-regulated-than-a-carton-of-milk/l-intro-1791797091.jpg"
+          },
+          {
+            "headline": "Silicon Valley praises Trump's hands-off AI approach as critics call self-policing insufficient",
+            "body": "At San Francisco's Tech Week, attendees backed the administration's stance even though the September voluntary pact (OpenAI, Anthropic, Meta, Google, SpaceXAI and Nvidia) leaves enforcement unclear. Former OpenAI safety leader David Robinson says it is no substitute for hard law.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91622221/silicon-valley-responds-trumps-hands-off-approach-ai-regulation-tech-week",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/10/AP26272702876598.jpg"
+          },
+          {
+            "headline": "Microsoft unveils Maia 300 chip to run its AI services from 2027",
+            "body": "Built for inference, it will be the primary system behind Copilot and other products. The company claims 40% more tokens per megawatt than top GPU systems without naming the comparison.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/microsoft-maia-300-ai-chip-2027",
+            "image": "https://media.thenextweb.com/2026/10/microsoft-azure-maia-300-chip-blue-light.jpg"
+          },
+          {
+            "headline": "Epic Games delays its Disney game to build it with more AI",
+            "body": "According to Bloomberg, teams were told to generate code and art with AI, and some staff disliked it. A GDC survey shows 52% of developers see generative AI as bad for the industry, up from 30% in 2025.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2284680/epic-reportedly-delays-its-disney-video-game-so-it-can-be-made-using-more-ai/",
+            "image": "https://www.engadget.com/img/gallery/epic-reportedly-delays-its-disney-video-game-so-it-can-be-made-using-more-ai/l-intro-1791837940.jpg"
+          },
+          {
+            "headline": "Tesla robotaxis face US safety review over school-zone speeding",
+            "body": "NHTSA is reviewing a petition claiming about 1,000 vehicles exceeded limits with automated driving engaged. No crashes or injuries are reported, and the same issue is delaying EU approval of the driver-assistance software.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/tesla-robotaxi-school-zone-speed-eu",
+            "image": "https://media.thenextweb.com/2026/08/Tesla-Cybercab.jpg"
+          },
+          {
+            "headline": "Flock faces a surveillance backlash while its drone business booms",
+            "body": "Valued at $8.4 billion, the company sees cities banning its license plate readers while drones may bring nearly half of future revenue. It has about 175 drone-as-first-responder customers, and San Francisco's proposal would cut evidence retention from 12 months to 30 days.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91621503/flock-is-facing-a-surveillance-backlash-meanwhile-its-drone-business-is-booming",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91621503-Flock-drone-division-growth.jpg"
+          },
+          {
+            "headline": "Norway fines a Microsoft subsidiary $9.6 million over Grindr data use",
+            "body": "Xandr allegedly used sensitive data for advertising without explicit consent, in the highest fine the Norwegian authority has issued. It has three weeks to appeal.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2284434/norway-fined-a-microsoft-subsidiary-96-million-for-allegedly-misusing-grindr-user-data/",
+            "image": "https://www.engadget.com/img/gallery/norway-fined-a-microsoft-subsidiary-9-6-million-for-allegedly-misusing-grindr-user-data/l-intro-1791828674.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design, Products and Visual Culture",
+        "items": [
+          {
+            "headline": "Fiat Multiplay: a family car concept that turns into a pickup",
+            "body": "At 4.45 m, the study shown ahead of the Paris Motor Show has a sliding rear section (C-Pillar Metamorfosi) that swaps six seats for four plus an open bed, and a rotating spoiler that doubles as a two-bike rack. It is a design study with no powertrain or production announced.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/12/fiat-multiplay-concept-is-a-family-car-that-turns-into-a-pickup-when-more-space-is-needed/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/fiat-multiplay-concept-is-a-family-car-that-turns-into-a-pickup-when-more-space-is-needed/Fiat-Multipla-Concept-4.jpg"
+          },
+          {
+            "headline": "E-paper alarm clock reinforces the trend of keeping phones out of the bedroom",
+            "body": "Habity's clock, by Peter Arvad and Jesper Westendahl, has a 3.7-inch display that lights only on touch, physical controls, app-free sleep sounds and about two weeks of battery.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/12/habitys-e-paper-bedside-clock-makes-a-case-for-a-phone-free-nightstand/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/habitys-e-paper-bedside-clock-makes-a-case-for-a-phone-free-nightstand/habity-e-paper-bedside-clock-05.jpg"
+          },
+          {
+            "headline": "FUSEBOOX: a built-in acoustic home office that disappears after work",
+            "body": "Designed by Czech architect Vojtěch Kolínský and shown at DesignBlok 2026, it works as an open desk, a closed booth or a fully hidden unit. Preorders are planned for January 2027.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/12/fusebooxs-hidden-home-office-slides-away-after-work/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/auto-draft/fusebox-01.jpg"
+          },
+          {
+            "headline": "CMF, by Nothing, launches milk-carton speakers with swappable parts",
+            "body": "The Speaker S ($59) and M ($109) have IP68 protection, up to 18 hours of battery, and removable front panels and knobs that can be swapped or 3D printed.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/12/why-cmfs-new-milk-carton-speakers-are-so-irresistible-to-look-at/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/why-cmfs-new-milk-carton-speakers-are-so-irresistible-to-look-at/cmf_speaker_s_m_1.jpg"
+          },
+          {
+            "headline": "AI mascots: only humans can make them, says opinion piece",
+            "body": "Kevin Walker argues Muse, Dots and Claw'd exist because people give faces to complex technology, but a friendly character can make a system seem more human or knowing than it is. He calls for human-led storytelling and restraint.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/pov-ai-needs-mascots-and-only-humans-can-make-them-animation-121026",
+            "image": "https://m.itsnicethat.com/original_images/49_POV_Hero.png?class=w1440"
+          },
+          {
+            "headline": "David Rudnick spends four years hand-drawing a blackletter typeface for Arsenal",
+            "body": "Rocastle, in three weights, honours club legend David Rocastle and was built with Arsenal Creative Studio lead Johnnie Campbell from the club's archive, to feel distinctly English yet universal.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/features/david-rudnick-johnnie-campbell-arsenal-rocastle-typeface-graphic-design-spotlight-121026",
+            "image": "https://m.itsnicethat.com/original_images/Arsenal_Rocastle_16x9_001.png?class=w1440"
+          },
+          {
+            "headline": "Graphic design isn't dying, it's expanding",
+            "body": "In his book, Jarrett Fuller argues design extends into publishing, research, performance and artistic practice, urging designers to embrace uncertainty and define their own practice as AI takes over routine production.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91621640/graphic-design-isnt-dying-its-expanding",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91621640-jarrett-fuller-book-q-and-a.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Sociocultural Factors, Work and Health",
+        "items": [
+          {
+            "headline": "AI productivity may be hiding team burnout",
+            "body": "A 442-employee study shows that among heavier AI users the link between burnout and falling productivity is weaker, so exhaustion goes unnoticed. About 37% of AI-saved time goes to fixing AI output, per Workday.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91621755/with-ai-productivity-your-team-is-burning-out",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit,w_1024/wp-cms-2/2026/10/1.png"
+          },
+          {
+            "headline": "'Bait-and-switch' jobs rise: the role changes and nobody talks about it",
+            "body": "A ResumeBuilder survey of 1,000 US workers: nearly one in five experienced a significant role shift, 30% feel overlooked and 74% report inconsistent or delayed career-growth conversations.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91621593/the-rise-of-misleading-bait-and-switch-jobs-and-how-to-avoid-them",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit,w_1024/wp-cms-2/2026/10/p-91621593-bait-and-switch-jobs.jpg"
+          },
+          {
+            "headline": "Lyft settles for $272.5 million over driver misclassification",
+            "body": "It is the largest such payout in California (2016 to 2020) but changes little in current gig-work rules, since companies spent about $100 million on Proposition 22 in 2020.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91620939/lyfts-historic-wage-theft-settlement-fixes-the-past-but-ignores-the-future",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit,w_1024/wp-cms-2/2026/10/p-1-91620939-Lyfts-historic-wage-theft-settlement-fixes-the-past-but-ignores-the-future.jpg"
+          },
+          {
+            "headline": "Google invests in Flo and plans women's health wearables",
+            "body": "The cycle-tracking app will sync data with Google Health from early 2027, with joint perimenopause research and privacy commitments barring ads, sales and sharing without permission.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/google-flo-health-investment-womens-health-wearables",
+            "image": "https://media.thenextweb.com/2026/10/flo-health-google-health-partnership.jpg"
+          },
+          {
+            "headline": "Health and beauty brands use biotechnology to target specific compounds",
+            "body": "Cheaper fermentation and genetic engineering let brands name the target molecule: ZBiotics uses bacteria to break down acetaldehyde, Esse uses fermentation-derived propionic acid, and the Qi601 postbiotic binds microplastics, per a study.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/health-beauty-brands-use-biotechnology-to-target-specific-compounds",
+            "image": "https://www.trendwatching.com/hubfs/Post%203rd-Oct-12-2026-11-03-15-8063-AM.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-09",
     "date": "2026-10-09",
     "displayDate": "10/09/2026",
