@@ -15,6 +15,183 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-10-14",
+    "date": "2026-10-14",
+    "displayDate": "10/14/2026",
+    "weekday": "Wednesday",
+    "tag": "WEDNESDAY",
+    "edition": "10/14/2026",
+    "cover": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91622861-iran-war-ev-sales.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and sociocultural factors. Climate and energy lead: the Iran war is accelerating EVs worldwide while VW struggles in the US, and brands like Patagonia, Away, Freitag and Gomi move reuse and resale to the center of the business. In AI, OpenAI found a bug planted at its headquarters, Meta admits its huge bet and concern grows over exposure and unsanctioned use.",
+    "sections": [
+      {
+        "heading": "Environment, Climate and Energy",
+        "items": [
+          {
+            "headline": "Iran war is driving EV sales records worldwide while the US falls behind",
+            "body": "An Ember report covering 56 countries finds 49 set EV sales records in 2026 as oil prices surged after the US attack on Iran. Germany reached a 27.5% share in August and Norway 98%, while US sales fell 30% in nine months.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91622861/heres-how-much-trumps-iran-war-is-boosting-ev-sales-around-the-world",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91622861-iran-war-ev-sales.jpg"
+          },
+          {
+            "headline": "Volkswagen US EV sales collapse 90% in a quarter",
+            "body": "VW sold 1,421 EVs in the US from July to September after ending ID.4 production and halting ID. Buzz imports. In Europe, EVs took 29% of registrations in August, and the brand has about 100,000 orders for four budget models built in Spain.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/vw-us-ev-sales-drop-europe",
+            "image": "https://media.thenextweb.com/2026/09/volkswagen-chattanooga-plant-flags.avif"
+          },
+          {
+            "headline": "Citroën revives the 2CV as a stripped-down, one-ton, €15,000 EV",
+            "body": "The 2CV Concept weighs about one metric ton, allowing a smaller, cheaper battery. Production is targeted for 2028 at a €15,000 price.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145634/To-Build-a-Low-Cost-EV-Citröen-Dusts-Off-the-2CV"
+          },
+          {
+            "headline": "Climate CEOs call the low-carbon transition a strategic economic opportunity ahead of COP31",
+            "body": "The alliance, with over 125 companies and $4 trillion in revenue, says it cut Scope 1 and 2 emissions by about 34% from 2019 to 2024. The green market, above $5 trillion, is projected to reach $7.1 trillion by 2030, and the adaptation market $1.6 trillion.",
+            "source": "World Economic Forum",
+            "url": "https://www.weforum.org/stories/climate-action/carbon-transition-strategic-opportunity-ceo-climate-leaders-cop31/",
+            "image": "https://assets.weforum.org/article/image/i8x-OzDI_Yx7cFxIqGv1M-PgDBtM83x1VPmmGE8g2dY.jpg"
+          },
+          {
+            "headline": "Gomi turns discarded Barbies into speakers and chargers",
+            "body": "The UK studio, working with Mattel, uses melted dolls and other recycled plastics plus lithium recovered from e-bike batteries. Each speaker ($371) is made from the equivalent of about 44 plastic bags.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91622300/this-pretty-speaker-is-made-from-old-melted-barbies",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91622300-gomi-barbie-tech.jpg"
+          },
+          {
+            "headline": "Patagonia puts new and used clothing in one cart on its main site",
+            "body": "Folding Worn Wear into the main site took four years and puts resale at the center of the brand. The company sold nearly 160,000 used items this year, though supply is limited to what customers send back.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91622922/patagonia-worn-wear-resale-site-redesign",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/04-91622922-patagonia-worn-wear.jpg"
+          },
+          {
+            "headline": "Away sells returned luggage at a discount and moves 80% of stock in two weeks",
+            "body": "Away Reclaimed resells returned and unsold products at up to 30% off. US retailers expected 15.8% of 2025 sales to be returned, worth $849.9 billion.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91623042/away-resale-site-reclaimed",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91623042-away-reclaimed.jpg"
+          },
+          {
+            "headline": "Freitag launches luxury bags from truck tarps that keep their wear visible",
+            "body": "The Reference line uses upcycled European tarps and recycled polyester lining, in four models from $460 to $660. Each bag ships with a repair kit made from the same tarp.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/13/freitags-luxury-bags-reuse-truck-tarps-without-hiding-wear/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/freitags-luxury-bags-reuse-truck-tarps-without-hiding-wear/reference-01-296x197.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Artificial Intelligence, Privacy and Technology",
+        "items": [
+          {
+            "headline": "OpenAI finds hidden recording device at its headquarters and an engineer is charged",
+            "body": "The device was plugged into a USB port behind a TV in an executive conference room and was identified with help from the company's own models. OpenAI says there is no sign that model weights, code or customer data were accessed, and it fired the employee, who faces up to five years in prison.",
+            "source": "Engadget / The Next Web",
+            "url": "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
+            "image": "https://www.engadget.com/img/gallery/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/intro-1791926918.jpg"
+          },
+          {
+            "headline": "Zuckerberg admits Meta spent up to $200B on AI without knowing it would work",
+            "body": "In the second quarter revenue rose 28% but profit fell 14% and free cash flow dropped 91%. Capital spending guidance is $130B to $145B, up from $72B last year.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/zuckerberg-200bn-ai-bet-doubt",
+            "image": "https://media.thenextweb.com/2026/04/meta-coreweave-21-billion-ai-cloud-deal.avif"
+          },
+          {
+            "headline": "Google lets anyone publish AI-built apps to the Play Store with no fee",
+            "body": "Anyone over 18 with a Google account can publish privately listed apps built in AI Studio. AI-generated code passed Veracode's security tests 56% of the time last year.",
+            "source": "Engadget / The Next Web",
+            "url": "https://www.engadget.com/2282824/google-lets-anyone-upload-android-apps-to-play-store-via-ai-studio/",
+            "image": "https://www.engadget.com/img/gallery/google-will-let-you-distribute-vibe-coded-android-apps-with-just-a-google-account/intro-1791578617.jpg"
+          },
+          {
+            "headline": "AI infrastructure exposed to the internet grows 63% in nine months",
+            "body": "Censys data shows nearly 268,000 internet-facing systems running 44 AI products. n8n leads with about 114,000 deployments, roughly 77,000 of them on versions with a disclosed critical flaw.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/13/censys-ai-vibe-coding-exposures",
+            "image": "https://images.axios.com/bHEHHRO1v7rmM0QbwtjY15he9hw=/1024x576/smart/2024/01/24/190038-1706122838387.jpg"
+          },
+          {
+            "headline": "\"Shadow AI\" at work: 43% of breached organizations cite unsanctioned use",
+            "body": "IBM's 2026 report shows the share rose from 20% to 43% in a year. The author recommends amnesty periods, approved testing paths and sandboxes with synthetic data instead of punishment.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91619073/what-to-do-when-your-employees-are-hiding-their-ai-use-from-you",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91619073-hidden-employee-ai-use.jpg"
+          },
+          {
+            "headline": "Half of US adults never use chatbots, and privacy is a leading reason",
+            "body": "A Pew survey of 5,119 adults finds 51% never use them, from 34% of ages 18 to 29 to 77% of those 65 and older. Among non-users, 83% cite lack of interest, 79% privacy and 76% accuracy doubts.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/10/09/why-dont-some-people-use-chatbots/"
+          },
+          {
+            "headline": "AI converts information into more accessible formats",
+            "body": "Translation and conversion tools are bringing announcements, conversations and sheet music into more languages and formats, widening access.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/ai-converts-information-into-more-accessible-formats",
+            "image": "https://www.trendwatching.com/hubfs/Post%204th-Oct-12-2026-11-15-43-2093-AM.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design, Products and Visual Culture",
+        "items": [
+          {
+            "headline": "LAYER's Ripple table uses a corrugated plywood core to cut weight",
+            "body": "At about 8.2 feet and 19.8 pounds, it is a research project made with Corelam, and the makers claim 70% to 80% less material, a figure with no defined baseline. There is no price or sale.",
+            "source": "Yanko Design / Core77",
+            "url": "https://www.yankodesign.com/2026/10/14/layers-ripple-dining-table-uses-a-wavy-plywood-core-to-cut-weight/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/layers-ripple-dining-table-uses-a-wavy-plywood-core-to-cut-weight/ripple-table-01-296x197.jpg"
+          },
+          {
+            "headline": "Moss Hexa: hexagonal moss panels with lighting and magnetic mounting",
+            "body": "MOSSLAB's system uses soil-free natural moss in Basic, LED Light and Wood versions. Kickstarter pricing starts at $59, with delivery estimated for June 2027.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/13/this-glowing-modular-moss-panel-system-might-be-the-coolest-way-to-fix-a-boring-room/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/09/this-glowing-modular-moss-panel-system-might-be-the-coolest-way-to-fix-a-boring-room/Moss-Hexa-A-Modular-Moss-System-for-Any-Space-296x197.jpg"
+          },
+          {
+            "headline": "HP EliteBoard G2a hides a Windows PC inside a keyboard",
+            "body": "With Ryzen AI chips and a 50-TOPS NPU, it needs a USB-C monitor supplying 65W. US pricing starts at $3,028, monitor not included.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/14/hp-eliteboard-g2a-hides-a-windows-pc-in-an-ordinary-looking-keyboard/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/hp-eliteboard-g2a-hides-a-windows-pc-in-an-ordinary-looking-keyboard/hp-eliteboard-g2a-06-296x197.jpg"
+          },
+          {
+            "headline": "Apple launches $299 HomeView and bets on Siri AI in the home",
+            "body": "The hub is part of an expanded smart home range that includes refreshed Apple TV 4K and HomePod mini. TNW reports HomeView will not be sold in the EU.",
+            "source": "The Next Web / Engadget",
+            "url": "https://thenextweb.com/news/apple-homeview-not-sold-eu",
+            "image": "https://media.thenextweb.com/2026/10/apple-homeview-five-displays-lineup.avif"
+          }
+        ]
+      },
+      {
+        "heading": "Sociocultural Factors and Consumption",
+        "items": [
+          {
+            "headline": "Dating and friendship services add structure to meeting new people",
+            "body": "One-on-one matches, small groups and shared activities are replacing endless in-app browsing.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/dating-and-friendship-services-add-structure-to-meeting-new-people",
+            "image": "https://www.trendwatching.com/hubfs/Post%205th-Oct-12-2026-11-26-11-2526-AM.jpg"
+          },
+          {
+            "headline": "Nintendo says it has no plans to drop physical games, unlike Sony",
+            "body": "The company says it will keep physical media in the near term, though the commitment has limits.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91622966/why-nintendo-is-sticking-with-physical-video-games-for-now",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91622966-why-nintendo-is-sticking-with-physical-video-games-for-now.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-13",
     "date": "2026-10-13",
     "displayDate": "10/13/2026",
