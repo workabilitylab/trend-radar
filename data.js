@@ -15,6 +15,179 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-10-15",
+    "date": "2026-10-15",
+    "displayDate": "10/15/2026",
+    "weekday": "Thursday",
+    "tag": "THURSDAY",
+    "edition": "10/15/2026",
+    "cover": "https://www.engadget.com/img/gallery/iowa-nebraska-and-six-other-states-are-suing-openai-for-endangering-children/intro-1792012940.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and sociocultural factors. Electric mobility keeps recovering in the US and growing in Europe, while corporate climate communication shrinks under greenwashing risk. In AI, eight states sue OpenAI, Bill Gates expands his safety campaign and Deezer promises a filter for synthetic music. In society, Pew shows financial strain, online communities and growing distrust over inequality.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "US EV sales rebound to their highest level in a year, but stay 40% below 2025",
+            "body": "Q3 sales reached almost 263,000 units (+6.1% quarter on quarter), against more than 437,000 a year earlier. In Europe, 277,000 EVs were registered in July alone (+51%), driven by manufacturer compliance rules.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/us-ev-sales-q3-rebound-europe",
+            "image": "https://media.thenextweb.com/2026/07/europe-ev-sales-june-2026-quarter-record.jpg"
+          },
+          {
+            "headline": "US passes 80,000 public fast-charging ports, but the pace of expansion slows",
+            "body": "Only 4,106 ports were added in the quarter, down 12% year over year, and most deliver at least 250kW. The EU counted 212,000 public DC points in April and added nearly 18,000 in four months.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/us-fast-charging-80000-ports-q3",
+            "image": "https://media.thenextweb.com/2026/05/stellantis-leapmotor-chinese-evs-mexico-canada-brampton.jpg"
+          },
+          {
+            "headline": "Startup turns fallen city leaves into biodegradable plastic",
+            "body": "Perennial Polymers uses urban leaves rather than food crops; nearly a third of them end up in US landfills. In early soil tests the film breaks down in two to three months, with commercialization planned for 2027.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91622916/this-startup-is-turning-fallen-leaves-into-biodegradable-plastic",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/wp-cms-2/2026/10/p-1-91622916-perennial-polymers.jpg"
+          },
+          {
+            "headline": "Companies going quiet on climate goals (greenhushing) face risk, WEF warns",
+            "body": "The EU's EmpCo directive treats vague terms like \"green\" as misleading without substantiation. A South Pole survey shows 58% of companies are deliberately cutting climate communications, while only 36% of consumers saw sustainability messaging in 2025 (49% in 2023).",
+            "source": "World Economic Forum",
+            "url": "https://www.weforum.org/stories/climate-action/how-businesses-can-communicate-sustainability-claims-without-greenwashing/",
+            "image": "https://assets.weforum.org/article/image/sNkWu-Pdf3_yGFDRZA6s1jg25O3Bx6wik2NN0yrnSZc.jpg"
+          },
+          {
+            "headline": "Fairbuds 2 let you swap worn batteries in the earbuds and the case",
+            "body": "Fairphone's earbuds cost $119.99 and arrive November 2, with up to 45dB of noise cancellation, bio-cellulose drivers and IP54 protection. Up to 8 hours per charge and 40 hours with the case.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/15/fairbuds-2-earbuds-let-you-swap-worn-batteries-instead-of-buying-a-new-pair/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/fairbuds-2-earbuds-let-you-swap-worn-batteries-instead-of-buying-a-new-pair/fairbuds-2-11.jpg"
+          },
+          {
+            "headline": "NASA develops solid-state batteries to survive the Moon's extremes",
+            "body": "The SPEARS project replaces liquid electrolytes, which can freeze or fail, with solid ceramic or polymer materials. The Moon swings from 100°C by day to -200°C at the south pole, and the batteries need less thermal management than lithium-ion.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2287038/nasa-explains-how-its-making-batteries-for-the-moons-extreme-temperatures/",
+            "image": "https://www.engadget.com/img/gallery/nasa-explains-how-its-making-batteries-for-the-moons-extreme-temperatures/intro-1792008359.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Artificial intelligence, regulation and technology",
+        "items": [
+          {
+            "headline": "Eight US states sue OpenAI for endangering children",
+            "body": "The suits, filed in state courts, cite ChatGPT's design, rogue agent behavior, retention of data from minors and cases tied to incorrect medical advice. The states seek penalties, clearer risk disclosures and an end to practices they consider deceptive.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2287111/iowa-nebraska-and-six-other-states-are-suing-openai-for-endangering-children/",
+            "image": "https://www.engadget.com/img/gallery/iowa-nebraska-and-six-other-states-are-suing-openai-for-endangering-children/intro-1792012940.jpg"
+          },
+          {
+            "headline": "Bill Gates prepares to expand his AI safety campaign",
+            "body": "According to Axios, he is recruiting business leaders and consulted executives including Dario Amodei. His proposals include new regulatory institutions and taxes on AI use and robots, which could clash with the Trump administration's lighter-touch approach.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/15/bill-gates-ai-safety-push"
+          },
+          {
+            "headline": "OpenAI hands its data center and compute operation to a former xAI executive",
+            "body": "Uday Ruddarraju takes over, while Sachin Katti, who oversaw the $30B Georgia build, leaves the role within weeks. Almost the whole portfolio is in the US, after the UK Stargate pause.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/openai-ruddarraju-compute-infrastructure",
+            "image": "https://media.thenextweb.com/2026/09/openai-logo-smartphone-red-case-laptop-keyboard.jpg"
+          },
+          {
+            "headline": "Jensen Huang says he would cut off chips to customers building unsafe AI",
+            "body": "Speaking to Bloomberg, he called it \"a hypothetical, but yes\" and said he would first talk to the customer. He considers current fear overblown and argues for faster containment and monitoring, where Nvidia is building a team.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/huang-cut-off-unsafe-ai-customers",
+            "image": "https://media.thenextweb.com/2026/09/jensen-huang-speaking-lectern-taiwan.jpg"
+          },
+          {
+            "headline": "Deezer will let listeners completely filter out AI music",
+            "body": "The toggle arrives in the app by year end. Fully AI-generated tracks are now over 50% of daily uploads (18% a year ago), about 90,000 per day, and up to 85% of their streams were reportedly fraudulent.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2286898/deezer-will-let-listeners-completely-filter-out-ai-music/",
+            "image": "https://www.engadget.com/img/gallery/deezer-will-let-listeners-completely-filter-out-ai-music/intro-1792003465.jpg"
+          },
+          {
+            "headline": "Android will use Gemini to warn about scammy messages",
+            "body": "The protection is opt-in and analyzes messages in a secure environment. The package also hides passwords and banking details during screen sharing and verifies calls with Brazilian banks, reportedly blocking over 3 million fake calls.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2286355/android-will-use-gemini-to-warn-you-about-scammy-messages/",
+            "image": "https://www.engadget.com/img/gallery/android-will-use-gemini-to-warn-you-about-scammy-messages/intro-1791980014.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Sociocultural factors and the future of work",
+        "items": [
+          {
+            "headline": "44% of US adults struggled to pay for at least one basic necessity",
+            "body": "Medical care (28%), daily transportation (22%) and housing (21%) lead the list. Strain hits 71% of lower-income adults versus 13% of upper-income adults, and 53% have no three-month emergency fund.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/10/14/many-americans-are-struggling-to-afford-basic-necessities/"
+          },
+          {
+            "headline": "Nearly four in ten Americans are part of an online community",
+            "body": "Among young adults the share reaches 48%, and about seven in ten members say these spaces add something to their lives. Still, half of adults think online relationships are less meaningful than in-person ones.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/internet/2026/10/14/online-community-and-connection-in-america/"
+          },
+          {
+            "headline": "61% of Americans see too much economic inequality, and appetite to rebuild the system grows",
+            "body": "Among those who see too much inequality, the share wanting the economic system completely rebuilt rose from 14% (2019) to 24%. 72% say the federal government bears a lot of responsibility, but few are confident change is possible.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/social-trends/2026/10/14/americans-views-of-economic-inequality-its-causes-and-who-should-fix-it/"
+          },
+          {
+            "headline": "89% of US CEOs expect to grow headcount over three years, but 53% still plan targeted cuts",
+            "body": "A KPMG survey of 400 CEOs shows AI seen as a source of new opportunity. 85% expect cyber threats to hurt their companies, and 48% plan to raise cybersecurity spending.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/15/ai-jobs-ceo-survey-kpmg"
+          },
+          {
+            "headline": "Netflix lays off roughly 1,000 employees, its biggest round since 2022",
+            "body": "The cuts equal about 6% of roughly 16,000 staff, per the Wall Street Journal, and come despite estimated 2025 revenue of $45.2 billion.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2286699/netflix-to-lay-off-roughly-1000-employees-in-biggest-round-of-job-cuts-since-2022/",
+            "image": "https://www.engadget.com/img/gallery/netflix-to-lay-off-roughly-1000-employees-in-biggest-round-of-job-cuts-since-2022/intro-1791995698.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design, products and visual culture",
+        "items": [
+          {
+            "headline": "Instax SQUARE 2 adds color filters through a physical switch, no app",
+            "body": "The SQ1 successor adds a Landscape mode and a Warm/Cool Mood Filter switch, in three colors, for $119.95 (film not included). It ships October 28 with the new SOFT HAZE film.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/15/fujifilms-instax-square-2-adds-color-filters-without-an-app/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/fujifilms-instax-square-2-adds-color-filters-without-an-app/instax-011.jpg"
+          },
+          {
+            "headline": "Bigme B13 Pro is a 13.3-inch color e-paper second screen for your laptop",
+            "body": "It uses a single USB-C cable for video and power, weighs about 1.46 lb and costs $569 on preorder ($749 later). It targets reading and text-heavy work, not gaming or color-critical editing.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/15/bigmes-b13-pro-gives-your-laptop-a-color-e-paper-second-screen/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/bigmes-b13-pro-gives-your-laptop-a-color-e-paper-second-screen/bigme-b13-pro-color-e-ink-monitor-01.jpg"
+          },
+          {
+            "headline": "Hinterher makes bike cargo trailers that fold flat for storage",
+            "body": "The German company grew out of architect Peter Hornung's design to replace his delivery van. The trailer is an aluminum tray with two wheels, a kickstand and a drawbar that doubles as a handle, in several sizes.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145646/Hinterhers-Flexible-Bike-Cargo-Trailers"
+          },
+          {
+            "headline": "Nigerian digital bank Kuda's identity drops pastels for the pace of Lagos",
+            "body": "Studio Barkas built chunky geometric letterforms, a custom Naira sign and a bespoke typeface, with documentary photography and hand-drawn illustrations. The \"More Life\" concept aims for an established, culturally relevant bank for young Nigerians.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/barkas-kuda-graphic-design-project-131026",
+            "image": "https://m.itsnicethat.com/original_images/barkas-kuda-itsnicethat-2.jpeg?class=w1440"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-14",
     "date": "2026-10-14",
     "displayDate": "10/14/2026",
