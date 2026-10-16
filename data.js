@@ -15,6 +15,184 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-10-16",
+    "date": "2026-10-16",
+    "displayDate": "10/16/2026",
+    "weekday": "Friday",
+    "tag": "FRIDAY",
+    "edition": "10/16/2026",
+    "cover": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91624434-extreme-heat-and-wildfire-smoke.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and sociocultural factors. On climate, half the world's population has faced heat waves and wildfire smoke at once, and geothermal gains political backing amid AI's hunger for power. In AI, the FTC issues subpoenas to OpenAI and Anthropic and stress signals appear in the boom's financing. In society, AI reshapes trust among colleagues and ownership of data and games is up for debate. In design, Tesla unveils the new Roadster.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "Half of the world's population has been exposed to heat waves and wildfire smoke at the same time",
+            "body": "A Monash University study finds that simultaneous heat waves and wildfire pollution are increasingly common and hit lower-income countries hardest.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91624434/half-of-the-worlds-population-has-been-exposed-to-heat-waves-and-wildfire-smoke-at-the-same-time",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91624434-extreme-heat-and-wildfire-smoke.jpg"
+          },
+          {
+            "headline": "Startup wants to make clean energy the default for data centers",
+            "body": "Firma Power uses software to assemble portfolios of wind, solar and battery projects to power data centers, as an alternative to new gas plants.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91623731/this-startup-wants-to-make-clean-energy-the-default-for-data-centers",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91623731-firma-power-renewables.jpg"
+          },
+          {
+            "headline": "Geothermal finds rare bipartisan support in the US as AI drives power demand",
+            "body": "Financing rose from about $126 million in 2021 to $3.9 billion in 2026, and a Senate bill aims to speed up permits on federal land. Still, geothermal supplies under 1% of US electricity.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/16/geothermal-rare-political-sweet-spot-ai-boom",
+            "image": "https://images.axios.com/GXDxebOIeEV6NzmQ5SbJVBWp0iY=/0x0:1920x1080/1024x576/2026/10/15/1792087230738.jpeg"
+          },
+          {
+            "headline": "US wholesale inflation returns to 2022 levels amid soaring energy costs",
+            "body": "September producer prices rose 6.3% year over year, driven by fuel and transportation costs, raising pressure on the Federal Reserve.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91624593/producer-prices-inflation-economy",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/AP26273392157540.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Artificial intelligence, regulation and technology",
+        "items": [
+          {
+            "headline": "FTC subpoenas OpenAI and Anthropic following safety failures",
+            "body": "The agency is demanding documents on incidents, safeguards, marketing and privacy, and plans to question both companies' top executives. The probe, previously in preparation, now has civil subpoenas issued.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2288104/ftc-subpoenas-open-ai-and-anthropic-following-safety-failures/",
+            "image": "https://www.engadget.com/img/gallery/ftc-subpoenas-openai-and-anthropic-following-safety-failures/intro-1792092416.jpg"
+          },
+          {
+            "headline": "Meta opens a weaker AI model while keeping the frontier closed",
+            "body": "Muse Spark Open, aimed at coding and agents, ships with open weights but needs about 1TB of RAM to run locally. The company's most powerful model stays closed.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/meta-muse-spark-open-weights-eu",
+            "image": "https://media.thenextweb.com/2026/10/meta-logo-3d-glass-app-icon.avif"
+          },
+          {
+            "headline": "Stress signals in the debt-fueled AI boom, with CoreWeave at the center",
+            "body": "Axios flags strain in bonds and borrowing costs among AI infrastructure companies. Jensen Huang says CoreWeave needs no Nvidia backstop, while the cost of insuring against its default hits a record.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/16/wall-street-limit-ai-spending-debt",
+            "image": "https://images.axios.com/AVqDWIf4shXpl3weOXoyRDL-jL8=/0x0:1920x1080/1024x576/2025/10/02/1759430769206.jpeg"
+          },
+          {
+            "headline": "Google launches Universal Cart in the US, with checkout built into Search and Gemini",
+            "body": "The multi-retailer cart, paid through Google Pay, launches in the US only, and published expansion plans do not name the EU.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/google-universal-cart-us-only-eu",
+            "image": "https://media.thenextweb.com/2026/10/google-universal-cart-phone-screens.avif"
+          },
+          {
+            "headline": "Amazon relaunches Bee with two recording devices and a $12 monthly plan",
+            "body": "Bee Frontier (wristband) and Bee Eclipse (phone attachment) record conversations for AI notes; full software requires a subscription, and neither is sold in Europe.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/amazon-bee-frontier-eclipse-subscription",
+            "image": "https://media.thenextweb.com/2026/10/bee-frontier-bands-eclipse-cards.avif"
+          },
+          {
+            "headline": "Citizen Lab details new spyware triggered by online advertising",
+            "body": "The AdFection spyware family spreads through global ad networks to phones and computers, underscoring privacy risks in digital advertising.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2287417/citizenlab-details-new-spyware-triggered-by-online-advertising/",
+            "image": "https://www.engadget.com/img/gallery/citizenlab-details-new-spyware-triggered-by-online-advertising/intro-1792068524.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Sociocultural factors and the future of work",
+        "items": [
+          {
+            "headline": "Team dynamics weaken when employees turn to AI instead of colleagues",
+            "body": "Research in HBR finds that treating AI as a teammate weakens trust and coordination, a phenomenon the authors call \"relationslipping\". They suggest using AI to prepare for conversations, not replace them.",
+            "source": "Harvard Business Review",
+            "url": "https://hbr.org/2026/10/team-dynamics-weaken-when-employees-turn-to-ai-instead-of-colleagues",
+            "image": "https://hbr.org/resources/images/article_assets/2026/10/Oct26_15_MaartenHuizing.jpg"
+          },
+          {
+            "headline": "Panic over the AI job apocalypse is overstated, argues op-ed",
+            "body": "The piece argues leaders should plan for an uneven transition rather than a job collapse.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91621198/everyones-panicking-about-the-ai-job-apocalypse-heres-the-reality",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91621198-ai-reality.jpg"
+          },
+          {
+            "headline": "LinkedIn adds tools for people with side hustles",
+            "body": "The features serve users who hold multiple roles, as more people run side businesses alongside a main job.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2287154/linkedin-is-adding-new-tools-to-help-people-with-their-side-hustles/",
+            "image": "https://www.engadget.com/img/gallery/linkedin-is-adding-new-tools-to-help-people-with-their-side-hustles/intro-1792017742.jpg"
+          },
+          {
+            "headline": "Withings wants new users to pay $100 a year to sync with Apple Health",
+            "body": "New users will need a paid subscription to sync data with third-party apps, reigniting the debate over who owns the health data users generate.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2288346/withings-wants-new-users-to-pay-100-a-year-to-sync-with-apple-health/",
+            "image": "https://www.engadget.com/img/gallery/withings-wants-new-users-to-pay-100-a-year-to-sync-with-apple-health/intro-1792105014.jpg"
+          },
+          {
+            "headline": "The UK may expand the BBC license fee to streaming services",
+            "body": "A proposal would charge residents to watch streaming platforms, which could cost about $240 a year for YouTube alone.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2288294/the-uk-may-expand-the-bbc-license-fee-charging-residents-to-watch-streaming-services/",
+            "image": "https://www.engadget.com/img/gallery/the-uk-may-expand-the-bbc-license-fee-charging-residents-to-watch-streaming-services/intro-1792100024.jpg"
+          },
+          {
+            "headline": "NY congressman to introduce bill protecting video game ownership",
+            "body": "Rep. Ritchie Torres wants the FTC to set rules so buyers can keep playing the games they purchased, even if servers or stores shut down.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2288193/ny-congressman-to-introduce-bill-protecting-video-game-ownership/",
+            "image": "https://www.engadget.com/img/gallery/ny-congressman-to-introduce-bill-protecting-video-game-ownership/intro-1792095244.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design, products and visual culture",
+        "items": [
+          {
+            "headline": "Tesla unveils the redesigned Roadster, with a cold-gas thruster option and a $250,000 reservation",
+            "body": "The launch, after nearly a decade of delays, included a stunt show. The thruster package is optional, and reserving one costs $250,000.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2288437/teslas-redesigned-roadster-cold-gas-thruster-option-reservation/",
+            "image": "https://www.engadget.com/img/gallery/teslas-redesigned-roadster-cold-gas-thruster-option-reservation/intro-1792115458.jpg"
+          },
+          {
+            "headline": "E Ink's new Kaleido 4 promises color e-readers with better color and faster refresh",
+            "body": "The new display technology brings the ideal color e-reader closer, historically a weak point of e-paper.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2288006/e-ink-kaleido-4-could-inch-us-closer-to-the-perfect-color-e-reader/",
+            "image": "https://www.engadget.com/img/gallery/e-inks-new-kaleido-4-could-inch-us-closer-to-the-perfect-color-e-reader/intro-1792089646.jpg"
+          },
+          {
+            "headline": "Red Dot 2026 Best of the Best brings a rollable laptop, a painless tattoo applicator and a flying car",
+            "body": "The selection shows the award's range, including a microneedle tattoo applicator.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/15/rollable-laptops-painless-tattoos-and-a-flying-car-red-dots-2026-best-of-the-best-has-range/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/654200/red_dot_bob_2026_5.jpg"
+          },
+          {
+            "headline": "Pneuhaus' walk-in camera offers 221 views without digital screens",
+            "body": "Compound Camera No.3 shows the outside world through soft, pressable wall surfaces rather than screens.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/15/pneuhaus-walk-in-camera-offers-221-views-without-digital-screens/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/pneuhaus-walk-in-camera-offers-221-views-without-digital-screens/compound-camera-01.jpg"
+          },
+          {
+            "headline": "Andrej & Andrej refreshes the Pohoda Festival identity for its 30th anniversary, with 3D babies and a futuristic typeface",
+            "body": "The studio created the anniversary identity for the festival, combining 3D figures and a futuristic typeface.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/andrej-and-andrej-pohoda-festival-30th-anniversary-graphic-design-project-141026"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-15",
     "date": "2026-10-15",
     "displayDate": "10/15/2026",
