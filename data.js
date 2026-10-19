@@ -15,6 +15,205 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-10-19",
+    "date": "2026-10-19",
+    "displayDate": "10/19/2026",
+    "weekday": "Monday",
+    "tag": "MONDAY",
+    "edition": "10/19/2026",
+    "cover": "https://www.yankodesign.com/images/design_news/2026/10/skroget/skroget_yanko_design_01.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and sociocultural factors. On climate and energy, a Greenpeace protest pauses Woodside's Scarborough gas work and grid delays hit a UK AI data centre. In AI, Apple and Meta partner up, the World Bank backs small models and the debate over productivity and labeling grows. In society, data privacy on TVs and in courts, three-day weddings and pet biotech.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "Woodside pauses Scarborough gas work after Greenpeace boards platform",
+            "body": "Protesters slept on the platform off Western Australia and two were taken into custody. The project is 98% complete and still expects its first LNG cargo in the fourth quarter.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/woodside-scarborough-greenpeace-protest-pause"
+          },
+          {
+            "headline": "Microsoft reportedly quits Nscale's UK data centre weeks before its IPO",
+            "body": "According to the Telegraph, Microsoft pulled out of the Loughton project ahead of Nscale's IPO. The site faces grid delays, with power possibly not arriving until the 2030s, and Nscale says it remains committed.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/microsoft-pulls-out-nscale-loughton-data-centre-ipo",
+            "image": "https://media.thenextweb.com/2026/09/satya-nadella-onstage-microsoft-build-2026.jpg"
+          },
+          {
+            "headline": "Norwegian sauna turns reclaimed timber into a ship-inspired waterfront shelter",
+            "body": "Skroget in Båtsfjord is a 40-meter structure built by 15 NTNU students from reclaimed timber. It combines a community sauna with a public deck, with a frame that evokes a boat under construction.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/18/this-norwegian-sauna-turns-reclaimed-timber-into-a-ship-inspired-waterfront-shelter/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/skroget/skroget_yanko_design_01.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "AI, technology and business",
+        "items": [
+          {
+            "headline": "Apple and Meta team up to run Meta's Muse Spark Open model on Macs",
+            "body": "Meta's open-weight model runs on two Mac Studios with M5 Ultra chips, starting at about $10,799 each. It is the rivals' first public partnership since 2017.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/apple-meta-muse-spark-open-mac-studio",
+            "image": "https://media.thenextweb.com/2026/10/mac-studio-mac-mini-studio-display-wooden-desk.jpg"
+          },
+          {
+            "headline": "World Bank backs \"small AI\" on phones for poorer nations",
+            "body": "Compact models in local languages, such as soil analysis for Indian farmers, could speed growth. The IMF notes governments must first provide power, digital infrastructure and protection from bad actors.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/world-bank-small-ai-developing-countries",
+            "image": "https://media.thenextweb.com/2013/07/world-bank.jpg"
+          },
+          {
+            "headline": "Bill Gross is building an AI factory for startups",
+            "body": "Idealab.ai is free, has analyzed over 17 million sources and generated 1.2 million business ideas filterable by industry, location and capital needed. The goal is to support 12,000 founders.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/19/bill-gross-idealab-ai-startup-factory-ideas",
+            "image": "https://images.axios.com/ecFjg3V0ZUyzxM5rPd_ContcPp8=/0x0:1920x1080/1366x768/2026/06/30/1782843532754.jpeg"
+          },
+          {
+            "headline": "The AI productivity paradox: why AI is everywhere except in the productivity numbers",
+            "body": "Greg Satell argues gains are missing because organizations skip the human work of change. He suggests building a majority of supporters, mapping resistance and power, and starting with keystone changes.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91623123/ai-productivity-paradox",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91623123-ai-productivity-paradox.jpg"
+          },
+          {
+            "headline": "What happens when people have to jump in to clean up AI's mess?",
+            "body": "Employees who rarely make decisions themselves may lose the skills to intervene when AI fails, a \"latent risk\". The piece discusses implications for accountability, measurement and governance.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91625215/cleaning-up-ai-mess",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91625215-as-ai-takes-on-more-tasks-what-happens-when-people-have-to-jump-in-to-clean-up-after-it.jpg"
+          },
+          {
+            "headline": "AI's biggest breakthrough isn't chatbots, it's the eureka moment",
+            "body": "In a book excerpt, Richard Socher argues AI's most important impact will be automating scientific discovery through a \"Eureka machine\".",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91622554/ai-biggest-breakthrough-eureka-moment",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91622554-ais-biggest-breakthrough-wont-be-a-chatbot.jpg"
+          },
+          {
+            "headline": "Creatives grapple with AI-assisted vs. AI-made labels",
+            "body": "The line between AI-assisted and AI-made content is blurring, and creators, platforms and consumers disagree on how much AI is acceptable and when to disclose it.",
+            "source": "Axios",
+            "url": "https://www.axios.com/media-trends-membership/2026/10/17/generative-ai-labels-images-music-video",
+            "image": "https://images.axios.com/RA50g7s_-sJGB8pAv9O8YC04Uz4=/0x0:1920x1080/1366x768/2026/10/07/1791402440865.jpeg"
+          },
+          {
+            "headline": "AI slop websites rise fivefold with GEO optimization",
+            "body": "Axios reports a fivefold rise in low-quality AI-generated websites, linked to generative engine optimization (GEO).",
+            "source": "Axios",
+            "url": "https://www.axios.com/media-trends-membership/2026/10/17/ai-slop-geo-content-farm-recommendations",
+            "image": "https://images.axios.com/hX8YgFO89QoGKjxWCwR44_k1LL0=/0x0:1344x756/320x180/2026/10/15/1792072555929.png"
+          },
+          {
+            "headline": "Microsoft disrupts Chinese-language phishing kits behind 1bn scam messages",
+            "body": "With Health-ISAC, Microsoft seized domains of YAM Store, CoGUI and Iron Man, which targeted over 75,000 organizations since January. More than 20,000 accounts were disabled.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/microsoft-yam-store-cogui-iron-man-phishing-kits-1bn-messages",
+            "image": "https://media.thenextweb.com/2026/10/microsoft-logo-office-building-curved-facade.jpg"
+          },
+          {
+            "headline": "Apple CEO John Ternus calls the memory chip shortage a crisis",
+            "body": "John Ternus told TIME \"all options should be on the table\" for memory chips, and that the $1,999 iPhone Duo has deliveries slipping into 2027.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/john-ternus-time-interview-memory-crisis-iphone-duo",
+            "image": "https://media.thenextweb.com/2026/04/john-ternus-apple-ceo-profile-hardware-ai.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design and products",
+        "items": [
+          {
+            "headline": "TypAir's wearable keyboard prototype lets you type without speaking aloud",
+            "body": "MindRove's prototype attaches magnetically to clothing and maps finger gestures to characters. It works with Android and Windows and requires learning.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/19/typairs-wearable-keyboard-prototype-lets-you-type-without-speaking-aloud/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/typairs-wearable-keyboard-prototype-lets-you-type-without-speaking-aloud/typair-wearable-blutooth-keyboard-01.jpg"
+          },
+          {
+            "headline": "5 Japanese everyday designs that fix familiar frustrations",
+            "body": "A clipboard that rearranges loose pages without punching holes, a two-in-one portable scissors, a swiveling USB-C cable, a magnetic key holder and a pour-over dripper. The piece weighs each product's limits.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/18/5-japanese-everyday-designs-that-fix-familiar-frustrations/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/japanese-everyday-designs-that-fix-familiar-frustrations/5_best_japanese_everyday_yanko_design_hero.jpg"
+          },
+          {
+            "headline": "Here's how the Slate truck gets software updates without built-in infotainment",
+            "body": "With no radio or built-in cellular, updates route through the phone app, transfer over USB in about a minute and install in roughly 45 minutes.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2283988/slate-truck-no-infotainment-over-the-air-sofware-updates/",
+            "image": "https://www.engadget.com/img/gallery/heres-how-the-slate-truck-gets-software-updates-without-built-in-infotainment/l-intro-1791571931.jpg"
+          },
+          {
+            "headline": "What's with those bobblehead NFL helmets?",
+            "body": "The Guardian Cap, a padded cover mandatory in practice since 2022, gets a redesigned 2026 model, though research on reducing concussions is mixed.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91623293/whats-with-those-bobblehead-nfl-helmets",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91623293-bobblehead-nfl-helmets.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Sociocultural factors",
+        "items": [
+          {
+            "headline": "You're cordially invited to my three-day wedding",
+            "body": "Nearly 1 in 3 couples now plan at least three days, per The Knot. Searches for Italian \"beach club\" weddings rose 315%, and vendor spending rose 8.5%.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/18/wedding-trends-2027",
+            "image": "https://images.axios.com/YKnT6_O0EyZX0RpPPM4ytVW29Dg=/1366x768/smart/2022/10/18/202513-1666124713417.jpg"
+          },
+          {
+            "headline": "Your smart TV has one big problem: it's tracking what you watch",
+            "body": "Automatic content recognition (ACR) captures what is on screen and sends data to manufacturers, who may pass it to data brokers. Turning off ACR and microphones limits collection at the cost of some features.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2285490/one-problem-smart-tv-tracking-what-you-watch/",
+            "image": "https://www.engadget.com/img/gallery/your-smart-tv-has-one-big-problem-its-tracking-what-you-watch/l-intro-1791909131.jpg"
+          },
+          {
+            "headline": "Supreme Court appears open to wider video privacy law in Paramount case",
+            "body": "In Salazar v. Paramount, over viewing history shared with Facebook via the Pixel, the justices seemed receptive to the plaintiff. A ruling is expected by next summer.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/supreme-court-video-privacy-salazar-paramount",
+            "image": "https://media.thenextweb.com/2026/07/Paramount.jpg"
+          },
+          {
+            "headline": "Biotech now sells pet cloning and cryonics, MIT Technology Review finds",
+            "body": "Loyal is testing a dog longevity pill in about 1,300 dogs, and Viagen charges $50,000 to clone a cat or dog, per MIT Technology Review.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/pet-biotech-longevity-cloning-cryonics",
+            "image": "https://media.thenextweb.com/2026/10/tabby-cat-open-mouth-close-up.jpg"
+          },
+          {
+            "headline": "Gen Z doesn't have a feedback problem. We all do",
+            "body": "Kristen Hadeed argues feedback is a training gap, not a generational flaw, and proposes onboarding training and a 24-hour feedback guideline.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91615935/gen-z-doesnt-have-a-feedback-problem-we-all-do",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91615935-feedback-literacy.jpg"
+          },
+          {
+            "headline": "A 120-square-foot tiny home sleeps two without a loft",
+            "body": "The Traveler from Backcountry Tiny Homes uses a sleeper sofa on the main level. The bathroom has no sink and the turnkey price is $67,500 before taxes.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/18/a-120-square-foot-tiny-home-sleeps-two-without-a-loft/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/a-120-square-foot-tiny-home-sleeps-two-without-a-loft/traveler-01.jpg"
+          },
+          {
+            "headline": "TikTok reportedly bans ads for Musk documentary before its wider US release",
+            "body": "The account was suspended for a \"repeated pattern of political content\" just before the wider US release. After publication, TikTok said the restriction was an error and reinstated it.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2289782/tiktok-reportedly-bans-ads-for-musk-documentary-before-its-wider-us-release/",
+            "image": "https://www.engadget.com/img/gallery/tiktok-reportedly-bans-ads-for-musk-documentary-before-its-wider-us-release/l-intro-1792353757.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-16",
     "date": "2026-10-16",
     "displayDate": "10/16/2026",
