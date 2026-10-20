@@ -15,6 +15,205 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-10-20",
+    "date": "2026-10-20",
+    "displayDate": "10/20/2026",
+    "weekday": "Tuesday",
+    "tag": "TUESDAY",
+    "edition": "10/20/2026",
+    "cover": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/wp-cms-2/2026/10/02-91625932-undersea-power-plant.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and sociocultural factors. In energy and climate, an undersea geothermal generator and reusable weather drones stand out. In AI, agents that play, agents that break into websites, and rising pressure for governance and financial results. In society, youth protests in Europe, the debate over social media for minors and privacy inside the home.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "Startup tests a geothermal power plant on the Pacific seabed",
+            "body": "Endurance Energy drilled a 52-foot well into a hydrothermal vent field about 5,000 feet deep off Oregon. The three-ton generator briefly produced more power than it consumed for 8.7 seconds before a cable failed, and the company is aiming for a 2 MW commercial system, with a first project in Tonga.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91625932/this-startup-just-tested-turning-an-underwater-volcano-into-a-power-plant",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/wp-cms-2/2026/10/02-91625932-undersea-power-plant.jpg"
+          },
+          {
+            "headline": "Meteomatics' reusable drone aims to replace weather balloons",
+            "body": "Strato climbs to about 34,000 feet in 25 minutes to measure temperature, humidity, pressure and wind. The Swiss company says it beats disposable balloons on cost and accuracy, but the claims are unproven and the price was not disclosed.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91622564/meteomatics-strato-weather-drone",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_3840,q_auto/wp-cms-2/2026/10/p-1-91622564-drone-to-replace-weather-balloons.jpg"
+          },
+          {
+            "headline": "Sagmeister's shoes turn renewable energy and housing data into infographics",
+            "body": "On show in Paris through April 2027, the Bring It On sneaker sizes its colored panels by energy source, and the Like a Complete Unknown boot uses circles scaled to homelessness rates in six countries, with the U.S. highest at 76 per 100,000.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91623596/stefan-sagmeisters-new-shoe-designs-are-actually-walking-infographics",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_3840,q_auto/wp-cms-2/2026/10/07-91623596-infographic-shoes.jpg"
+          },
+          {
+            "headline": "The grocery store of the future may have more mini cans and personal packs",
+            "body": "A NielsenIQ report expects smaller packaging by 2035 as households shrink (2.5 people on average) and 21% of homes have a GLP-1 user. PepsiCo is testing mini cans, and Campbell's sells 2.5-ounce Goldfish packs for under $2.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91622919/grocery-store-of-the-future-smaller-packaging",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_3840,q_auto/wp-cms-2/2026/10/p-1-91622919-shrinkflation-here-to-stay.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "AI, technology and business",
+        "items": [
+          {
+            "headline": "MIT researchers leave 13 Claude agents on a virtual island and they start to play",
+            "body": "With no assigned task for 30 hours, the agents climbed hills, drew with blocks and invented games. The paper has not been peer reviewed, and a UC Berkeley researcher questions whether it is genuine play.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/mit-claude-agents-virtual-island-play",
+            "image": "https://media.thenextweb.com/2026/10/eko-agent-virtual-island-render-mit.avif"
+          },
+          {
+            "headline": "Google's Gemini 4 agents beat Minecraft with no human intervention",
+            "body": "Four agents split up roles and defeated the Ender Dragon in 27 hours, writing 2,783 programs and dying 605 times, at a cost of about $810. The authors call it the first fully autonomous completion of the game by AI agents.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2289944/google-gemini-4-agents-just-beat-minecraft-with-no-human-intervention/",
+            "image": "https://www.engadget.com/img/gallery/google-gemini-4-agents-just-beat-minecraft-with-no-human-intervention/intro-1792401444.jpg"
+          },
+          {
+            "headline": "Hacker used AI agents to break into 100+ sites at about $50 each",
+            "body": "According to a NorForge report, the attacker used the open-source Cairn platform. Reuters identified victims including Deere, SharkNinja and Cummins, and the estimated cost per breach is uncertain.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/ai-agents-hacker-cairn-100-sites-deere-norforge",
+            "image": "https://media.thenextweb.com/2026/09/server-room-corridor-orange-lights.avif"
+          },
+          {
+            "headline": "Microsoft adds tools to limit and monitor AI agents in Microsoft 365 E7",
+            "body": "Dynamic Permissions give agents only the access a task needs, continuous risk scoring tightens limits and Guardian Agents check actions before they happen. No availability date or extra cost was given.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/microsoft-365-e7-ai-agents-dynamic-permissions",
+            "image": "https://media.thenextweb.com/2026/08/Microsoft-logo.avif"
+          },
+          {
+            "headline": "Meta's Muse agent sells a keyboard and gives out the owner's home address",
+            "body": "Creator Matt Robb let the agent handle his Marketplace listing, and it shared his address and set up a pickup, so a buyer showed up at his home late at night. The case exposes privacy risks: Meta admits Muse can make mistakes or take unexpected actions.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91625964/user-told-metas-muse-sell-keyboard-what-happened-next-alarming",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_3840,q_auto/wp-cms-2/2026/10/AP26267017608902.jpg"
+          },
+          {
+            "headline": "AI investors get nervous about slowing growth",
+            "body": "Anthropic's quarterly revenue rose 45% to $16.8 billion, down from nearly 60%, and OpenAI cut its annualized recurring revenue estimate by $20 billion. Some investors reportedly now favor a $1.5 trillion IPO valuation for Anthropic, down from $2 trillion.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91626257/the-one-metric-thats-making-ai-investors-nervous",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_3840,q_auto/wp-cms-2/2026/10/p-1-91626257-the-one-key-metric-thats-making-ai-investors-nervous.jpg"
+          },
+          {
+            "headline": "Anthropic pledges 5% of its shares to a public benefit fund and the public is skeptical",
+            "body": "The Anthropic Public Benefit Fund will be an LLC for giving. Critics point to vague wording, possible tax motives and a weakened image as the AI good guy.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91626042/anthropic-stock-dedicated-to-public-good-ai-weary-skeptics-react",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_3840,q_auto/wp-cms-2/2026/10/p-91626042-anthropic-donating-5-percent-shares-to-public-good-press-release.jpg"
+          },
+          {
+            "headline": "Homeland Security bans DeepSeek in federal civilian agencies",
+            "body": "The order, published in the Federal Register days after the V4.1-Flash-1017 release, cites the risk of sensitive data transfer to the Chinese government and also bars the company from federal contracts.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
+            "image": "https://www.engadget.com/img/gallery/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/intro-1792429083.jpg"
+          },
+          {
+            "headline": "Meta tweaks its new terms of service after scraping backlash",
+            "body": "The company removed the reference to AI training and narrowed the language to its advertising and business products, but legal experts and media groups say the terms still significantly expand what Meta can scrape.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2291188/meta-tweaks-its-new-terms-of-service-after-backlash-against-scraping/",
+            "image": "https://www.engadget.com/img/gallery/meta-tweaks-its-new-terms-of-service-after-backlash-against-scraping/intro-1792449693.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design and products",
+        "items": [
+          {
+            "headline": "Porsche Mission S ditches the center screen for a driver-focused cockpit",
+            "body": "The concept, shown in New York, previews a mid-engine supercar above the 911. It swaps the fixed touchscreen for a retractable smartphone holder and a driver-focused cluster, with no performance figures or launch date.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/19/porsche-mission-s-ditches-the-center-screen-for-a-driver-focused-supercar-cockpit/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/porsche-mission-s-ditches-the-center-screen-for-a-driver-focused-supercar-cockpit/Porsche-Mission-S-Concept-Supercar_0000_341404_1920x1440-296x197.jpg"
+          },
+          {
+            "headline": "Kenko's 18-gram Pieni III camera shoots without a screen",
+            "body": "Worn as a necklace, it has two buttons and a 0.32 MP sensor that interpolates stills to 1440 × 960 and video to 720 × 480. It records to a separately sold microSD card and comes in four colors plus Sanrio editions.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/20/kenkos-18-gram-pieni-iii-camera-shoots-without-a-screen/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/kenkos-18-gram-pieni-iii-camera-shoots-without-a-screen/pieni-01-296x197.jpg"
+          },
+          {
+            "headline": "Self-made paper signs replace official wayfinding in Singapore's MRT",
+            "body": "Station managers create homemade notices to fill gaps in a wayfinding system that has not kept pace with the network's growth. The piece reads it as both a broken system and a sign of local knowledge and a human touch.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/the-view-from-singapore-rmt-paper-signs-graphic-design-191026",
+            "image": "https://m.itsnicethat.com/original_images/TVF_Meta_i47E4Xm.png?class=w1440"
+          },
+          {
+            "headline": "FilaLoom combines 3D printing with weaving in a single printer",
+            "body": "In a TU Delft master's project, Joram de Haas modified a 3D printer to lay yarn between printed parts, fusing additive manufacturing and textile craft. The work has since become a paper.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145676/Combining-3D-Printing-with-Weaving",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1854188_lead_400_145676_.jpeg"
+          },
+          {
+            "headline": "CMF Speaker S: a $59 speaker inspired by a milk carton",
+            "body": "Core77 says its sharp geometry recalls the carton. The volume knob also handles play/pause and track skipping, and the speaker supports stereo pairing and Auracast.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145672/CMFs-Milk-Carton-Inspired-Affordable-Portable-Speaker",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1854156_lead_400_145672_.jpeg"
+          }
+        ]
+      },
+      {
+        "heading": "Sociocultural factors",
+        "items": [
+          {
+            "headline": "Youth protests spread across France, Spain, Belgium and Portugal",
+            "body": "They began over underfunded public schools and teacher shortages and grew into anger over housing, food and fuel costs. 150 people were arrested in Brussels and looting was reported in Milan.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91626161/europe-protests-france-spain-belgium-portugal-gen-z-are-mad-as-hell-explained",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_3840,q_auto/wp-cms-2/2026/10/p-1-91626161-protests-spread-across-europe.jpg"
+          },
+          {
+            "headline": "Social media bans don't protect young people's mental health, early research shows",
+            "body": "More than 20 countries have proposed or enacted such bans. In Australia, where the under-16 ban has applied since December 2025, about 61% of 12 to 15 year-olds still reach platforms through workarounds. The author recommends safety by default standards.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91625209/social-media-bans-dont-protect-young-peoples-mental-health-early-research",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_3840,q_auto/wp-cms-2/2026/10/p-91625209-can-smart-phone-bans-help-kids-mental-health.jpg"
+          },
+          {
+            "headline": "Passport-free travel is coming to 13 major U.K. airports",
+            "body": "Amadeus' Seamless Gate facial recognition skips passport scans for eligible travelers, initially only U.K. citizens. EU and U.S. citizens are expected in a later phase, with full rollout early next year.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91626064/passport-free-travel-is-coming-to-13-major-uk-airports-heres-who-can-use-it",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_3840,q_auto/wp-cms-2/2026/10/p-1-91626064-passport-immigration-13-airports.jpg"
+          },
+          {
+            "headline": "Robot vacuums have a major privacy problem",
+            "body": "The devices can gather home maps, cleaning histories and, on some models, audio or video, routed through the maker's cloud. A DJI flaw let one owner control about 7,000 devices. The advice is to favor local processing and enable two-factor authentication.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2288133/robot-vacuum-major-privacy-problem-you-should-know/",
+            "image": "https://www.engadget.com/img/gallery/robot-vacuum-major-privacy-problem-you-should-know/intro-1792093298.jpg"
+          },
+          {
+            "headline": "1 in 5 Americans regularly get news on TikTok",
+            "body": "Pew finds 20% of adults, unchanged from 2025 and up from 3% in 2020. It is 39% among ages 18 to 29 versus 4% among those 65 and older, and 53% of TikTok users say they regularly get news there.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/10/19/1-in-5-americans-regularly-get-news-on-tiktok/"
+          },
+          {
+            "headline": "Bill would make the games you buy yours to own",
+            "body": "Rep. Ritchie Torres' Power To The Players Act would direct the FTC to write rules and require an offline mode before servers shut down. He calls the current model a rental disguised as a sale, citing NBA 2K25, whose servers close on December 31. The bill has not yet been formally introduced.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/power-to-the-players-act-ritchie-torres-video-game-ownership",
+            "image": "https://media.thenextweb.com/2026/10/ritchie-torres-speaking-lectern-washington-dc.avif"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-19",
     "date": "2026-10-19",
     "displayDate": "10/19/2026",
