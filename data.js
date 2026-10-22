@@ -15,6 +15,180 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-10-22",
+    "date": "2026-10-22",
+    "displayDate": "10/22/2026",
+    "weekday": "Thursday",
+    "tag": "THURSDAY",
+    "edition": "10/22/2026",
+    "cover": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/10/AP26293764072532.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and sociocultural factors. In climate, the UN report projects 2.6°C of warming and AI is already weighing on household power bills. In AI, Anthropic unveils the Claude Duet agent, Meta bets on Muse and a study exposes chatbots' cultural blind spots. In society, US housing hits its weakest reading on record and Airbnb limits chores imposed on guests.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "UN report projects 2.6°C of warming and points to the US as a drag on the outcome",
+            "body": "Even if countries meet their pledges, Earth is on track for about 2.6°C of warming by 2100, worse than last year's projection, partly because the US formally left the Paris Agreement. US emissions rose by 133 million tons of CO2e in 2025 on higher power demand and a coal rebound.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91627428/uns-latest-climate-change-report-spotlighting-u-s-not-good-reason",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/10/AP26293764072532.jpg"
+          },
+          {
+            "headline": "AI is already making life pricier for people who don't even subscribe to a chatbot",
+            "body": "Moody's economist Mark Zandi says households spend just over $375 more for the same goods and services than a year ago. The piece ties the rise to power bills pushed up by data centers, pricier copper in construction and a memory-chip shortage that raises laptop and phone prices.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91626925/ai-is-making-life-more-expensive-without-subscription-heres-how"
+          },
+          {
+            "headline": "A 1 kW home wind turbine covers less than a quarter of a household's consumption",
+            "body": "In a well-placed spot, a 1 kW turbine yields about 2,400 kWh a year, versus roughly 10,500 kWh for the average US home. It needs average winds above 14 mph and an open site; covering a whole home takes 5 to 15 kW and $20,000 to $50,000.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2289290/wind-turbine-for-home-1kw-power/"
+          },
+          {
+            "headline": "GM uses virtual engineering to cut car development from five years to two",
+            "body": "The automaker wants to shrink a four-to-five-year cycle to about two to keep pace with Chinese rivals. Engineers virtually evaluated more than 300,000 designs for its new manganese-rich lithium batteries before a physical prototype, going from concept to approval in a month.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/21/gm-artificial-intelligence-ai-development-speed-china"
+          }
+        ]
+      },
+      {
+        "heading": "AI, technology and business",
+        "items": [
+          {
+            "headline": "Anthropic announces Claude Duet, a proactive personal agent, and opens a US waitlist",
+            "body": "The agent runs in a research preview on Opus 5.5 inside its own virtual machine, with Android and iOS apps, and rivals Meta Muse and OpenAI Dots. Anthropic says it won't see passwords or sign-in tokens, and Pro subscribers ($20/month) get access at general availability.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2293646/claude-duet-is-anthropics-answer-to-meta-muse-and-openai-dots/",
+            "image": "https://www.engadget.com/img/gallery/claude-duet-is-anthropics-answer-to-meta-muse-and-openai-dots/l-intro-1792616502.jpg"
+          },
+          {
+            "headline": "Zuckerberg says Meta is 'entering a new phase' with its Muse agent",
+            "body": "The CEO expects Muse to earn more revenue per user than Meta's current apps, signaling that agents are becoming the company's core product.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2293705/mark-zuckerberg-says-meta-is-entering-a-new-phase-with-muse/",
+            "image": "https://www.engadget.com/img/gallery/mark-zuckerberg-says-meta-is-entering-a-new-phase-with-muse/intro-1792621715.jpg"
+          },
+          {
+            "headline": "Chatbots miss cultural context: about 31% of checked answers were fabricated",
+            "body": "Cohere Labs tested 28 models on cultural riddles written by 166 volunteers from 45 countries in 51 languages. The best, Gemini 3.1 Pro Preview, scored 79.4%; even allowed to say 'I don't know,' models did so in only 0.7% of cases.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91627566/ai-chatbots-struggle-to-understand-cultural-context-new-study"
+          },
+          {
+            "headline": "Executives are twice as likely as rank-and-file workers to trust AI over their own judgment",
+            "body": "A survey cited by Axios shows the AI-trust gap between leadership and the people doing the work, just as companies expand their use of agents.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/21/ai-trust-executives-survey"
+          },
+          {
+            "headline": "Tesla wants to sell Cybercabs by year-end, but most will stay in its own network",
+            "body": "The vehicle, with no steering wheel or pedals, relies on FSD; the unsupervised version should reach customer-owned units around Q2 2027. NHTSA is investigating whether Tesla properly self-certified compliance with federal standards.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2293810/tesla-plans-selling-cybercabs-by-end-of-2026/",
+            "image": "https://www.engadget.com/img/gallery/tesla-plans-to-start-selling-cybercabs-by-the-end-of-the-year/intro-1792659015.jpg"
+          },
+          {
+            "headline": "Getty Images files for Chapter 11 to go private",
+            "body": "The Getty family and Koch Equity Development will invest up to $533M and take full ownership; bondholders write off $270M and public shareholders get nothing. The filing follows the collapse of the $3.7B Shutterstock merger and a 2% drop in quarterly sales to $229.1M.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/getty-images-chapter-11-bankruptcy-private",
+            "image": "https://media.thenextweb.com/2026/10/getty-images-logo-smartphone-website-screen-1200.avif"
+          }
+        ]
+      },
+      {
+        "heading": "Privacy, data and regulation",
+        "items": [
+          {
+            "headline": "Meta ordered to pay $25 billion in New Mexico for misleading Facebook users",
+            "body": "The judge cut his $219 billion maximum to $25 billion after a September jury found more than 43 million violations of state consumer law. The case stems from the Cambridge Analytica scandal, and Meta plans to appeal.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/meta-new-mexico-25b-penalty-cambridge-analytica",
+            "image": "https://media.thenextweb.com/2026/10/facebook-meta-3d-app-icons-grey-background-1200.avif"
+          },
+          {
+            "headline": "German court calls Google's aerial imagery 'spying'",
+            "body": "The Frankfurt Regional Court ruled that Google Earth and Maps imagery breaks privacy law, requiring owners' consent and advance warning before an area is photographed. Google will appeal and the imagery stays online.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/google-aerial-imagery-spying-german-court",
+            "image": "https://media.thenextweb.com/2026/10/google-earth-icon-3d-blue.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design and products",
+        "items": [
+          {
+            "headline": "New Apple Music logo mimics ripples in water, made with mineral oil and sound",
+            "body": "The animation was shot with practical effects: the logo etched on the glass floor of a mineral-oil tank that rippled with tones played through it. The app icon changes from red to black and white, drawing criticism, and arrives with iOS 27.2.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2293262/theres-a-new-apple-music-logo-and-it-looks-like-ripples-in-water/",
+            "image": "https://www.engadget.com/img/gallery/theres-a-new-apple-music-logo-and-it-looks-like-ripples-in-water/l-intro-1792604071.jpg"
+          },
+          {
+            "headline": "Toyota shows video of wheelchair-alternative concepts in action",
+            "body": "Walk Me moves on legs to climb stairs and uneven ground, Boost Me is elevated for tennis and basketball, and Challenge Me tackles rough trails. There is now first-time video of all three carrying people, with a stated goal of a barrier-free world.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145699/Toyota-Releases-Video-of-Wheelchair-Alternative-Mobility-Concepts-in-Action",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1854511_lead_400_145699_.jpg"
+          },
+          {
+            "headline": "Proposed O27 tower in Houston uses triangular glass for a rippling facade",
+            "body": "STG Design's 32-story, roughly 520,000 sq ft office proposal targets 2028 completion, but there is no groundbreaking date or equity partner yet, so it remains a proposal.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/21/houstons-proposed-o27-skyscraper-turns-triangular-glass-into-a-rippling-facade/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/o27/o27_yanko_design_01.jpg"
+          },
+          {
+            "headline": "Coffee machine concept turns internal wiring into a visible design feature",
+            "body": "The C+C concept by Jaka Kordiš exposes the wiring normally hidden away and treats it as the appliance's ornament.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/22/cc-coffee-machine-concept-turns-hidden-wiring-into-art/"
+          },
+          {
+            "headline": "A stained-glass caution sign invites passersby to stop and look",
+            "body": "Hayden Clay Williams reimagines the folding wet-floor sign in stained glass, swapping a utilitarian warning for an object of contemplation.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/21/a-stained-glass-caution-sign-youll-actually-stop-to-admire/"
+          }
+        ]
+      },
+      {
+        "heading": "Sociocultural factors",
+        "items": [
+          {
+            "headline": "Airbnb bans hosts from requiring chores like doing dishes or stripping beds",
+            "body": "Cleanup requests must be 'reasonable': stripping beds and doing laundry are out, while gathering used towels is allowed. Hosts choose from seven standard rules, shown only in the listing, and the policy takes effect November 20.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2293690/airbnb-bans-hosts-from-making-you-do-the-dishes/",
+            "image": "https://www.engadget.com/img/gallery/airbnb-bans-hosts-from-making-you-do-the-dishes/l-intro-1792620107.jpg"
+          },
+          {
+            "headline": "Mobile or rooted? The edge of 'Anywheres' versus 'Somewheres' may be shifting",
+            "body": "Laëtitia Vitaud argues that middle-class mobile workers face higher living costs, thinner networks and AI job risks, while rooted communities gain strength through local support networks and resistance to projects like data centers.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91625987/is-it-better-be-urban-mobile-rooted-one-place-answer-may-shifting"
+          },
+          {
+            "headline": "US pending home sales fall to the lowest level in the series' history",
+            "body": "September pending sales fell 7.3% from August and 11.3% year over year, the lowest reading since 2001, with 30-year rates as high as 7.6%. Housing starts fell 5.2% on the month and builder sentiment is at a 14-year low.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91626906/the-housing-market-is-sending-a-troubling-signal-about-whats-coming-next"
+          },
+          {
+            "headline": "Gallup: only about four in ten US workers have a quality job",
+            "body": "The survey finds most workers hold low-quality jobs, which costs employers in turnover and health care.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/22/gallup-low-quality-jobs"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-21",
     "date": "2026-10-21",
     "displayDate": "10/21/2026",
