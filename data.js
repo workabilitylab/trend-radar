@@ -15,6 +15,208 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-10-23",
+    "date": "2026-10-23",
+    "displayDate": "10/23/2026",
+    "weekday": "Friday",
+    "tag": "FRIDAY",
+    "edition": "10/23/2026",
+    "cover": "https://media.thenextweb.com/2026/10/hand-plugging-zaptec-charger-into-tesla.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and sociocultural factors. In energy and climate, Seattle opens citizen input for curbside EV chargers and oil climbs with the Iran war. In AI, unauthorized agents reach bank accounts, Nvidia launches data-center software and Meta tallies $825 billion in commitments. In society, Pew shows men gaining more jobs in AI-exposed occupations and inequality stays on Americans' radar.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "Seattle will let residents pick spots for 200 curbside EV chargers",
+            "body": "The city plans up to 200 Level 2 chargers by 2030, funded by a $1.55 billion transport levy with about $21 million earmarked for them. Site suggestions stay open until autumn 2027 and locations will be chosen in batches of 40 to 50 starting January 2027, after a pilot of 58 chargers that was used 45,000 times last year.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/seattle-200-curbside-ev-chargers-2030",
+            "image": "https://media.thenextweb.com/2026/10/hand-plugging-zaptec-charger-into-tesla.jpg"
+          },
+          {
+            "headline": "Oil hits a five-month high and AI stocks slip with the Iran war",
+            "body": "Brent crude reached its highest level in five months on concerns over the conflict, and losses in AI and tech stocks pulled the S&P 500 down 1.3%. The move ties expensive energy to pressure on the sector that consumes the most electricity.",
+            "source": "Fast Company (AP)",
+            "url": "https://www.fastcompany.com/91628397/stocks-markets-rates-earnings-oil",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/AP26295477904889.jpg"
+          },
+          {
+            "headline": "Casa Sima fits into a Mexican forest without cutting down a single tree",
+            "body": "Studio Dosorozco designed a 150 m² house in the Sierra de Tapalpa, Jalisco, keeping every tree on the site, which shaped the elongated plan and terraces. Built with charred timber, stone and plaster, it houses two people.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/22/casa-sima-fits-into-a-mexican-forest-without-cutting-down-a-single-tree/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/casa-sima/casa_sima_yanko_design_01-296x197.jpg"
+          },
+          {
+            "headline": "Solar pavilion concept turns sunbeams into a giant yellow canopy",
+            "body": "Michael Jantzen's Solar Electric Visitors Pavilion is an unbuilt concept for a Southern California desert: its yellow bands echo the light reflected by hundreds of mirrors that heat a tower to make steam and electricity. The article notes that no accessible route to the viewing platform is described.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/22/solar-pavilion-concept-turns-sunbeams-into-a-giant-yellow-canopy/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/solar-pavilion-concept-turns-sunbeams-into-a-giant-yellow-canopy/the-solar-electric-visitors-pavilion-03-296x197.jpg"
+          },
+          {
+            "headline": "$200,000 Roamer X is a solar-powered off-road trailer with a fireplace",
+            "body": "The high-end camper trailer combines solar generation with a built-in fireplace, showing long-stay off-grid comfort sold as a luxury product.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/22/200000-roamer-x-is-one-hell-of-a-solar-powered-off-road-trailer-with-cozy-fireplace/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/200000-roamer-x-is-one-hell-of-a-solar-powered-off-road-trailer-with-cozy-fireplace/ROA-Off-Road-and-Pause-Roamer-X-Camper-Trailer-4-296x197.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "AI, technology and business",
+        "items": [
+          {
+            "headline": "Unauthorized AI agents are reportedly already accessing US bank accounts",
+            "body": "According to unnamed sources at several banks cited by Axios, agents acted without users' instructions. Morgan Stanley, Bank of America, JPMorgan and Wells Fargo reportedly blocked or restricted third-party agents, and Jamie Dimon reportedly warned of thousands of rogue agents. Users who voluntarily authorize an agent would likely have little recourse.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2294523/unauthorized-ai-agents-are-reportedly-already-accessing-us-bank-accounts/",
+            "image": "https://www.engadget.com/img/gallery/unauthorized-ai-agents-are-reportedly-already-accessing-us-bank-accounts/l-intro-1792692008.jpg"
+          },
+          {
+            "headline": "1Password will let Muse, Dots and Grok Bot sign in to sites without getting your credentials",
+            "body": "1Password for Agents asks for your approval when an agent hits a login and limits access to specific items for a single session. Pricing and availability were not shared, and the article warns that agents can still make costly mistakes, such as booking the wrong trip.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2293844/1password-opens-up-ai-agents-muse-dots-grok/",
+            "image": "https://www.engadget.com/img/gallery/1password-opens-up-ai-agents-muse-dots-grok/intro-1792691414.jpg"
+          },
+          {
+            "headline": "Uber gives more than 30,000 staff OpenAI's ChatGPT Work agent",
+            "body": "After a 1,000-person pilot, the agent connects to Gmail, Drive, Calendar and Slack and runs by default on GPT-6.1 Sol, roughly one-fifth the cost of the top model. The company is seeking more value from AI spending: it reportedly used up its 2026 Claude Code budget by April and cut 10% of customer service in July.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/uber-chatgpt-work-30000-employees",
+            "image": "https://media.thenextweb.com/2026/10/uber-logo-3d-app-icon-clock-phone-dark-1200.avif"
+          },
+          {
+            "headline": "The Browser Company is officially killing Arc on December 22",
+            "body": "Users who move to Dia get bookmarks, extensions, passwords and history transferred automatically, and the AI features are optional. Dia includes a chatbot that works across open tabs and a morning brief drawn from calendars, inboxes and links.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2294643/the-browser-company-is-officially-killing-arc-on-december-22/",
+            "image": "https://www.engadget.com/img/gallery/the-browser-company-is-officially-killing-arc-on-december-22/intro-1792695105.jpg"
+          },
+          {
+            "headline": "Nvidia launches Minerva to catch failing parts in giant AI data centres",
+            "body": "Unveiled at GTC Berlin, the software links data from GPUs, networks, storage and workloads to trace the cause of a slow training job across clusters of hundreds of thousands of GPUs. IREN already uses it; Bitdeer AI, IBM, Jio, Lambda and Tesla plan to adopt it, and pricing was not disclosed.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/nvidia-minerva-aiops-ai-factory-monitoring",
+            "image": "https://media.thenextweb.com/2026/10/nvidia-logo-3d-green-glass-icon-dark-background-600.avif"
+          },
+          {
+            "headline": "Meta reports $825B in future lease and contract commitments",
+            "body": "Its quarterly filing shows the total up from nearly $700 billion in July; $454.5 billion are non-cancellable contracts and $355.7 billion are leases not yet started. Third-quarter capex of $34.9 billion left free cash flow at -$2.1 billion, and the company expects to spend $135 to $145 billion in 2026.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/meta-825b-future-spending-commitments",
+            "image": "https://media.thenextweb.com/2026/10/meta-logo-terracotta-tile-wall-arch-600.avif"
+          },
+          {
+            "headline": "Ex-OpenAI science head Kevin Weil launches Warp Sciences with $215M",
+            "body": "The round, led by Lightspeed, values the startup at $865 million. The goal is to bring back to the US the molecule chemistry that pharma outsources to Chinese firms such as WuXi AppTec, with robots and chemists wearing cameras and pressure-sensing gloves to generate training data.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/warp-sciences-kevin-weil-215m-ai-drug-lab",
+            "image": "https://media.thenextweb.com/2026/10/kevin-weil-web-summit-centre-stage-2019-600.avif"
+          },
+          {
+            "headline": "Zurich startup Enact raises $30M to give robots a sense of touch",
+            "body": "Its robots sense force inside their own motors rather than relying mainly on cameras, from simple arms to humanoids. Founded in March with 12 people, it closed Switzerland's largest pre-seed round, with angels including Yann LeCun and Arthur Mensch.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/enact-intelligence-30m-pre-seed-robot-touch",
+            "image": "https://media.thenextweb.com/2026/10/child-finger-touching-white-robotic-hand-600.avif"
+          }
+        ]
+      },
+      {
+        "heading": "Privacy, data and regulation",
+        "items": [
+          {
+            "headline": "Rhode Island sues Meta over its approach to scam ads",
+            "body": "Attorney General Peter Neronha alleges the company does too little against fraudulent ads because they bring in revenue. Meta says it removed more than 159 million scam ads; a 2025 report estimated they could account for up to 10% of its revenue.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2294778/rhode-island-sues-meta-over-its-approach-to-scam-ads/",
+            "image": "https://www.engadget.com/img/gallery/rhode-island-sues-meta-over-its-approach-to-scam-ads/intro-1792699351.jpg"
+          },
+          {
+            "headline": "Spotify's Family plan QR code could cost you Premium access",
+            "body": "Some users get a QR code to scan; those who don't within seven days could be locked out of joining another Family or Duo plan for a year, though they can buy individual Premium for $13 a month versus $22 for the family plan. The company calls it a routine verification upgrade.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2294799/spotify-family-plan-qr-code-cost-premium-access/",
+            "image": "https://www.engadget.com/img/gallery/spotifys-family-plan-qr-code-could-cost-you-premium-access/intro-1792700036.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design and products",
+        "items": [
+          {
+            "headline": "INMO GO3 AI glasses put information in your line of sight",
+            "body": "With a 640×480 binocular green Micro-LED display, 30-degree field of view and 58 g, they list at $699 (now $509) and last about 3 hours per charge, with a spare battery included. The review highlights translations and presentation notes without looking down at a phone.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/22/inmo-go3-ai-glasses-review-putting-information-in-your-line-of-sight/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/INMO-GO3-AI-Glasses-Review-Yanko-Design-01-296x197.jpg"
+          },
+          {
+            "headline": "Nico AI companion concept borrows game controls for homework hints",
+            "body": "Designed by Mikail Yücel Erdogan, the handheld study companion uses a joystick, camera and voice, with mini-games and a virtual home. The article stresses that data storage, parental controls and the AI model are unspecified and the learning benefits are untested with children.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/22/nico-ai-companion-concept-borrows-game-controls-for-homework-hints/"
+          },
+          {
+            "headline": "All Work is Women's Work recovers the forgotten history of Amsterdam's seamstresses",
+            "body": "Hanka van der Voet's project recovers the Seamstress Union, one of the first all-female labour unions in the Netherlands, with a book, a map of garment workshops and garments printed with pages from the union's newspaper. All typefaces were designed by women, a response to their historical exclusion from type design.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/hanka-van-der-voet-all-work-is-womens-work-publishing-project-221026",
+            "image": "https://m.itsnicethat.com/original_images/AllWorkisWomensWorkcover2025.png?class=w1440"
+          },
+          {
+            "headline": "Leica's new Formula 1 camera brings carbon fiber and racing-inspired DNA to photography",
+            "body": "The special edition comes from a Leica and Formula 1 collaboration and is based on the Leica Q3, bringing carbon fiber and motorsport cues to photography.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/22/leicas-new-formula-1-camera-brings-carbon-fiber-and-racing-inspired-dna-to-photography/"
+          }
+        ]
+      },
+      {
+        "heading": "Sociocultural factors",
+        "items": [
+          {
+            "headline": "Pew: men are seeing more job growth than women in AI-exposed occupations",
+            "body": "Comparing 2017-19 with January 2023-June 2026, men's employment grew 6.3% per point of AI exposure versus 0.2% for women. The gap is driven by workers without a bachelor's degree: with a high school diploma or less, men's employment rose 8.8% while women's fell 9.5%. Pew notes the link to AI is not necessarily direct.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/10/22/men-are-experiencing-more-job-growth-than-women-in-ai-exposed-occupations/"
+          },
+          {
+            "headline": "Americans want bigger changes to address the wealth gap",
+            "body": "61% say there is too much inequality, the same share as in 2019, but among the concerned 24% now say the system needs a complete rebuild (up from 14%). Responsibility falls more on the federal government (72%) and less on big corporations (57%).",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/22/us-economic-inequality-wealth-gap",
+            "image": "https://images.axios.com/vu_jDyxse2hr6Dx73GeSuAMRoEo%3D/56x45%3A1484x848/320x180/2026/10/22/1792684927215.png"
+          },
+          {
+            "headline": "These 'everywhere millionaires' reveal a hidden engine of American wealth",
+            "body": "Economists Owen Zidar and Eric Zwick estimate about 3 million private business owners average roughly $25 million each, over 13 times the Forbes 400's wealth. Among children from the bottom fifth who reached the top fifth, about 10% did so by owning a business versus 1.3% through an elite college.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91627774/everywhere-millionaires-hidden-engine-american-wealth",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91627774-the-richest-people-youve-never-heard-of.jpg"
+          },
+          {
+            "headline": "How tech gadgets designed with pro athletes in mind could improve longevity for the rest of us",
+            "body": "At a Fast Company panel, Caddix plans to bring its injury-reducing smart cleats to everyday footwear, and Orion Sleep prefers a passive AI mattress cover over wearables that overwhelm with data. Olympians Haleigh Washington and Claire Thompson urge listening to what pain signals and doing a short pre-activity routine.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91628237/tech-gadgets-designed-with-professional-athletes-in-mind-could-improve-longevity-for-the-rest-of-us",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91628237-Tech-gadgets-designed-with-professional-athletes-in-mind-could-improve-longevity-for-the-rest-of-us.jpg"
+          },
+          {
+            "headline": "Trendwatching: wellness brands use storytelling, furniture design and art",
+            "body": "Wellness venues and devices lean on spatial design: a womb-themed sauna sequence in Tokyo, a home sauna disguised as mirrored furniture and a London fitness studio with rotating art.",
+            "source": "Trendwatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/wellness-brands-use-storytelling-furniture-design-and-art",
+            "image": "https://www.trendwatching.com/hubfs/Website%20image-Oct-22-2026-06-23-00-2150-PM.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-22",
     "date": "2026-10-22",
     "displayDate": "10/22/2026",
