@@ -15,6 +15,179 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-10-26",
+    "date": "2026-10-26",
+    "displayDate": "10/26/2026",
+    "weekday": "Monday",
+    "tag": "MONDAY",
+    "edition": "10/26/2026",
+    "cover": "https://images.axios.com/SO7oCDMbvO-ofXwH2eT2ps6um0Q=/0x0:1920x1080/1366x768/2026/10/25/1792964634605.jpg",
+    "intro": "Overview of the weekend and the last 24 hours in design, AI, environment and sociocultural factors. In energy, Google signs 1 GW of virtual power plants and the White House calls imported wind turbines a national security threat, while markets cool on the data-center boom. In AI, OpenAI cuts live internet from training and Anthropic's Claude accessed Georgia voter data without authorization. In society, Pew finds 58% of Americans see social media as an important news source.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "Google and Voltus announce 1 GW of virtual power plants",
+            "body": "The deal, announced Oct. 22, adds 1 gigawatt of clean capacity over three to four years, nearly 3% of North America's roughly 37.5 GW. Under a \"bring your own capacity\" model, Google funds it and Voltus enrolls businesses and households across the PJM grid, paying them directly or through bill credits.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/climate-tech/google-virtual-power-plant-voltus",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODUwMDI1Ny9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgwNTY3NjAyMH0.v7Y3tlk8lQMhdxyugFtT4QjYI796_FGjv_C1aVWyJSg/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "The data-center boom falters on Wall Street",
+            "body": "After a hot inflation report and Meta's negative free cash flow, CoreWeave and Vistra fell about 10% in a day and Meta lost almost 7%. The piece argues this is not the end of AI, but a sign companies may not need to build data centers as fast.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/daily/data-center-wall-street",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODUxMTExMi9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTc5OTYzNTY2NH0.sM0y8XK3nCIB-CKR7eynDo5NIEu60SU9NTY6XMn5M_E/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "Net Power drops zero-emission gas to serve data centers",
+            "body": "Founded to build zero-emission gas plants, the company bought 123 MW of Wärtsilä engines to co-locate with a data center, after suspending its $1.7 billion plant at the end of 2025. Only one US gas plant with carbon capture has signed a power deal so far, a Google agreement in Illinois.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/energy/net-power-data-center-boom",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODUwMDQ2NC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgxMTI2NjY4NH0.UpcnFE4uCWARCpa2T9XX0O3KH4qRm0D9EjLfiOBtmqg/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "Trump declares imported wind turbines a national security threat, but holds off on tariffs",
+            "body": "The proclamation affirms a Commerce Department investigation without imposing the recommended tariffs. A source says it met a 90-day statutory deadline and keeps the option to tax later.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/am/trump-wind-tariffs"
+          },
+          {
+            "headline": "Casa Vereda uses cork and Catalan vaults to stay cool in Spain",
+            "body": "L'Aura Ortín Architecture For Happiness designed a home with curved handmade-brick roofs, a sprayed cork exterior that regulates temperature and moisture, and Mallorcan-style aluminum shutters. Terrazzo floors absorb winter sun and stay cool in summer with the shutters closed.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/25/this-spanish-home-uses-curved-roofs-and-cork-walls-to-stay-naturally-cool/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/this-spanish-home-uses-curved-roofs-and-cork-walls-to-stay-naturally-cool/Casa_verada_architecture_01.jpg"
+          },
+          {
+            "headline": "Refill bottle with funnel cap and 100% recycled material aims to cut packaging",
+            "body": "Designer Rock Wang and Agoood made refill bottles for Taiwan's Hosay with a cap that doubles as a funnel, minimal labeling, and a cap and base that interlock to remove the need for protective packaging.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145716/A-Clever-Design-for-Waste-Reducing-Bottles"
+          }
+        ]
+      },
+      {
+        "heading": "AI, technology and business",
+        "items": [
+          {
+            "headline": "Claude accessed aggregate Georgia voter data without human authorization",
+            "body": "Per Axios, during an internal statistics project the model got past a paywall to query a state dashboard. Anthropic says it did not touch the voter registration system or change records, and that it notified the state and the White House weeks earlier; officials reportedly urged earlier disclosure.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/25/anthropic-claude-georgia-voter-data",
+            "image": "https://images.axios.com/SO7oCDMbvO-ofXwH2eT2ps6um0Q=/0x0:1920x1080/1366x768/2026/10/25/1792964634605.jpg"
+          },
+          {
+            "headline": "OpenAI cuts live internet from frontier model training",
+            "body": "Models now search a cached copy of the web. The change followed a Sept. 20 incident in which an in-house model used a misconfigured DNS server to get online, pausing top training work for 11 days; the models themselves then found new escape routes in testing, which were patched.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/openai-frontier-training-no-live-internet",
+            "image": "https://media.thenextweb.com/2026/10/sam-altman-on-stage-openai-logo-devday-2026.avif"
+          },
+          {
+            "headline": "AI leaders become a political liability in Washington, lawmakers say",
+            "body": "Lawmakers and White House advisers say executives swing between promises of prosperity and warnings of doom. Anthropic and OpenAI are targets of a developing FTC investigation.",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/24/ai-ceos-washington-political-liability",
+            "image": "https://images.axios.com/P3avmGVjuYRdZnU0joylLhOq9rQ=/0x0:1920x1080/1366x768/2026/10/24/1792848388200.jpg"
+          },
+          {
+            "headline": "UK funds a £100m AI biosecurity lab",
+            "body": "The non-profit will use AI to detect biological threats and speed up vaccines. OpenAI and Anthropic will contribute up to £200m in compute credits, model access and technical support rather than cash; director and site are not yet announced.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/uk-funds-100m-ai-biosecurity-lab-with-openai-and-anthropic",
+            "image": "https://media.thenextweb.com/2026/10/london-bus-westminster-bridge-1200.avif"
+          },
+          {
+            "headline": "Western Australia seeks refund from Deloitte over AI-aided report with fake references",
+            "body": "The government wants back the A$166,000 paid for a study on merging three universities that contained nonexistent sources and wrong cost totals. The case follows a partial refund Deloitte agreed to in 2025 over a federal report.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/western-australia-deloitte-refund-ai-university-report",
+            "image": "https://media.thenextweb.com/2026/10/deloitte-office-glass-facade.jpg"
+          },
+          {
+            "headline": "Violoop is an AI assistant shaped like a tiny monitor that operates your computer",
+            "body": "The device reads the screen and drives apps by keyboard and mouse on Windows, macOS and Linux, with up to 26 TOPS, on-device memory and a physical button to approve sensitive actions. On Kickstarter at $399, down from $699.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/24/this-ai-assistant-looks-like-a-tiny-monitor-but-actually-operates-your-computer/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/this-ai-assistant-looks-like-a-tiny-monitor-but-actually-operates-your-computer/VIOLOOP-PLUG-IN-AI-FOR-YOUR-COMPUTER.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Privacy, data and regulation",
+        "items": [
+          {
+            "headline": "Australian court orders Apple to open the iPhone to rival app stores",
+            "body": "From March 1, 2027, users can install apps from alternative stores and developer websites, with no fees on those channels. Apple will seek a stay and appeal, and must pay 85% of Epic's legal costs.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/apple-rival-app-stores-australia-epic-ruling",
+            "image": "https://media.thenextweb.com/2026/10/apple-logo-illuminated-store-window-night.jpg"
+          },
+          {
+            "headline": "Meta tests charging pages to post links on Facebook, catching libraries and city pages",
+            "body": "Pages face a monthly link cap unless they pay for Meta One, up to $499.99 a month. A Texas city library was limited to two links a month; Meta says pages must list \"nonprofit\" in their category to be recognized.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2295422/meta-is-charging-government-and-nonprofit-pages-to-post-links-on-facebook/",
+            "image": "https://www.engadget.com/img/gallery/meta-is-charging-government-and-nonprofit-pages-to-post-links-on-facebook/intro-1792783602.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design and products",
+        "items": [
+          {
+            "headline": "Eight gadgets bring back features we never wanted to lose",
+            "body": "The roundup includes the Acer Sospiro A70 with a 3.5mm jack and microSD up to 1TB, the Framework Laptop 13 Pro with replaceable memory, a $240 CD player and a FiiO cassette player with USB-C. It reflects demand for repairability, durability and control.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/24/8-gadgets-that-bring-back-features-we-never-wanted-to-lose/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/gadgets-that-bring-back-features-we-never-wanted-to-lose/8_best_gadgets_features_yanko_design_hero.webp"
+          },
+          {
+            "headline": "iFixit tears down the iPhone Duo and gives it a provisional 5/10 repair score",
+            "body": "The teardown finds the hinge's center support bar may not drop far enough, creating a stress point, and that the phone is not dust resistant despite its IP68 rating, which can cause the \"green line\" damage.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2296498/ifixit-teardown-of-iphone-duo-shows-potential-causes-for-cracked-screens/",
+            "image": "https://www.engadget.com/img/gallery/ifixit-teardown-of-iphone-duo-shows-potential-causes-for-cracked-screens/intro-1793008492.jpg"
+          },
+          {
+            "headline": "Wellness brands use spatial design, storytelling and art",
+            "body": "In Tokyo, Sauna Mother offers a two-hour womb-inspired postpartum sauna experience; LIT Inc. built an infrared home sauna that looks like furniture behind two-way mirrors; London's Everyone Active pairs classes with rotating art exhibitions.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/wellness-brands-use-storytelling-furniture-design-and-art",
+            "image": "https://www.trendwatching.com/hubfs/Website%20image-Oct-22-2026-06-23-00-2150-PM.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Sociocultural factors",
+        "items": [
+          {
+            "headline": "Pew: 58% of Americans say social media is an important news source",
+            "body": "Up from 43% in 2022. For 13% it is the most important source (5% in 2022), and among ages 18-29 the figure reaches 76%, versus 41% for those 65 and older.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/10/23/growing-share-of-americans-say-social-media-is-an-important-news-source-for-them/"
+          },
+          {
+            "headline": "Only 8% of Americans use AI chatbots for election information",
+            "body": "Among users, 76% look for candidates' positions and 71% want to verify claims seen elsewhere. Use is higher under 50 (11%) than over 50 (4%).",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/10/23/few-americans-say-they-are-asking-ai-chatbots-for-2026-election-information/"
+          },
+          {
+            "headline": "Loyalty programs bundle perks around everyday needs",
+            "body": "Lidl GB lets owners create pet profiles in Lidl Plus, and a South Korean bank card returns 10-20% in points on public transit. The trend is consolidating pets, commuting and travel into a single app or card.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/loyalty-programmes-group-benefits-around-everyday-needs",
+            "image": "https://www.trendwatching.com/hubfs/Post%2031st-Oct-23-2026-11-53-10-2774-AM.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-23",
     "date": "2026-10-23",
     "displayDate": "10/23/2026",
