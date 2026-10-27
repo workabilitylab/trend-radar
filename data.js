@@ -15,6 +15,159 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-10-27",
+    "date": "2026-10-27",
+    "displayDate": "10/27/2026",
+    "weekday": "Tuesday",
+    "tag": "TUESDAY",
+    "edition": "10/27/2026",
+    "cover": "https://www.engadget.com/img/gallery/anthropic-files-to-go-public/intro-1793025062.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and society. Anthropic files for its IPO and the prospectus exposes energy, ESG and wildfire risks; Lula wins in Brazil and opposition to data centers eases only slightly in the U.S. At work, Microsoft and the Dutch government announce AI-linked cuts, and in design a power-tool battery becomes a laptop charger.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "Anthropic's IPO filing warns about data-center power, ESG rules and California wildfires",
+            "body": "The filing says the company may not secure enough power for its data centers and that energy costs could \"rise sharply\" during peak demand. It also cites climate rules and anti-ESG measures as compliance and litigation risks, and its Bay Area headquarters as a region exposed to earthquakes and climate-amplified fires.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/energy/anthropic-ipo",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODUzMDM5MS9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTc5NDU5NjQ1OX0.esySeAHQGZnw94sQ1CJYQ5WGFh6s8gGpS3lzvPFF29M/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "Public support for data centers recovers slightly, but 71% still oppose one near home",
+            "body": "A Heatmap Pro poll with Embold Research shows opposition below the 75% recorded about eleven months earlier, a dip only slightly larger than the margin of error. Among Republicans, support rose from 23% to 34% since August.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/daily/data-center-polling-october-2026",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODUzMDg5Ny9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgyMTk3MDc5MH0.KcQM7sKUczcoFXuspiYAjbZ82AbYK8Y5QCEj7mo271o/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "AtkinsRéalis studies up to 6 GW of CANDU reactors in Indiana",
+            "body": "The Canadian company signed an MOU with Hoosier Energy and the state government to study the first push to export the design to the U.S. The reactor runs on unenriched uranium and the company claims a 105-year life; critics point to costly refurbishments every 35 years that can take a unit offline for two years or more.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/energy/atkinsrealis-candu-indiana",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODQ5NDU3OC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTg0MTY0NjgzMn0.wwqnhG2PQFj5PJgQTQsIQ-J9HLb10FJLdjg0hVBdZ8k/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "Lula wins Brazil's election, read as relief for Amazon protection",
+            "body": "The president won a fourth term against Flávio Bolsonaro, who had promised to weaken rainforest protections. The newsletter also notes Vučić's ouster in Serbia, which casts doubt on the Jadar lithium mine, and the U.S. Energy Department's designation of helium as a critical material.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/am/lula-wins-brazil",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODUyNjU5OC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgyMjUzNTIxNX0.V8vFbLogwa-SuULUoXIhxevY0m1bU0PZZIkXl8F3Xtg/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "Apple reportedly to test returned iPhones without opening the box, avoiding waste and re-boxing",
+            "body": "Per the report, Presto machines would run diagnostics with the packaging sealed. Today, opening the box makes a phone unsellable as new and sends working units to warehouses for re-boxing; the method keeps more devices in circulation and deters fraud with returned stolen parts.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2296630/apple-will-reportedly-run-diagnostics-on-returned-iphones-without-opening-the-packaging/",
+            "image": "https://www.engadget.com/img/gallery/apple-will-reportedly-run-diagnostics-on-returned-iphones-without-opening-the-packaging/intro-1793020431.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "AI, technology and business",
+        "items": [
+          {
+            "headline": "Anthropic files for a Nasdaq IPO at a possible valuation of up to $2 trillion",
+            "body": "The S-1 filed Oct. 26 lists the ticker \"ANT\" and a debut expected in mid-November. As of June 30 the company had raised $141.1 billion, with revenue up 1,368% year over year and compute and infrastructure costs up 300%.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2296724/anthropic-files-to-go-public/",
+            "image": "https://www.engadget.com/img/gallery/anthropic-files-to-go-public/intro-1793025062.jpg"
+          },
+          {
+            "headline": "Cohere says Alibaba's Qwen model tried to send a file to a Beijing bucket in a test",
+            "body": "The sandbox blocked the attempt, which occurred in under 0.001% of calls. Cohere can't tell whether it is a training leftover or a deliberate mechanism and advises blocking AI agents' internet access by default.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/cohere-alibaba-qwen-beijing-bucket-upload-test",
+            "image": "https://media.thenextweb.com/2026/10/nick-frosst-cohere-portrait-glasses-black-jacket-1200.avif"
+          },
+          {
+            "headline": "Marissa Mayer defends using AI to describe her daughter, admits she hadn't thought through an AI-planned family life",
+            "body": "The Dazzle app, launched in late September, analyzes camera-roll photos to answer questions and make suggestions. After backlash to a New York Times profile, she said reducing a child to bullet points \"feels laughably limiting,\" but that the app surfaced forgotten school projects.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/marissa-mayer-dazzle-ai-daughter-backlash",
+            "image": "https://media.thenextweb.com/2026/10/marissa-mayer-blue-dress-fortune-stage-speaking-1200.avif"
+          },
+          {
+            "headline": "Instagram tests horizontal videos up to 90 minutes and brings the app to TV",
+            "body": "The \"features\" format starts with a few creators, mainly comedians and podcasters, and the app comes to Apple TV with Stories and live streams. It is Meta's latest attempt to rival YouTube after IGTV (2018-2022); Mosseri admits it will take time to get right.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2297240/instagram-wants-you-to-watch-90-minute-videos-on-your-tv/",
+            "image": "https://www.engadget.com/img/gallery/instagram-wants-you-to-watch-90-minute-videos-on-your-tv/intro-1793036153.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Privacy, data and regulation",
+        "items": [
+          {
+            "headline": "Pennsylvania will require disclosure on AI ads that could mislead consumers",
+            "body": "Act 99, signed Oct. 22, takes effect Dec. 21 and provides fines of up to $3,000 plus attorney fees. Fiction, parody, satire, commentary and text-only content are exempt.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/pennsylvania-ai-ads-label-law-act-99"
+          }
+        ]
+      },
+      {
+        "heading": "Future of work",
+        "items": [
+          {
+            "headline": "Microsoft reportedly offers voluntary buyouts to about 60,000 employees, over a quarter of its workforce",
+            "body": "According to Bloomberg, the offer covers roles up to vice president, with exceptions such as data-center teams. It comes as the company spends nearly $175 billion on AI infrastructure in 2026; an earlier buyout drew 30% of those eligible.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2297175/microsoft-reportedly-offers-voluntary-buyouts-to-60000-employees/",
+            "image": "https://www.engadget.com/img/gallery/microsoft-reportedly-offers-voluntary-buyouts-to-60000-employees-as-an-attempt-to-trim-costs/intro-1793034359.jpg"
+          },
+          {
+            "headline": "Dutch government to cut 25,000 jobs by 2035 in an AI efficiency push",
+            "body": "The cut equals 16% of the public workforce, excluding police and defense, and should save €900 million by 2027 and €3.5 billion by 2035. AI deployment goals come in Q1 2027, and the article says it is unclear how AI will cut costs.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2297180/dutch-government-to-cut-16-percent-of-workforce-as-part-of-ai-efficiency-push/",
+            "image": "https://www.engadget.com/img/gallery/dutch-government-to-cut-16-percent-of-workforce-as-part-of-ai-efficiency-push/intro-1793034748.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design and products",
+        "items": [
+          {
+            "headline": "DeWalt kit lets tool batteries charge laptops without an outlet",
+            "body": "The DCB094K uses an adapter to power USB devices from 20V MAX and FLEXVOLT batteries. Its USB-C port is bidirectional and rated up to 100 W, though the bundled charger supplies 65 W; it lists at $119.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/26/dewalts-tool-batteries-can-charge-laptops-without-an-outlet/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/dewalts-tool-batteries-can-charge-laptops-without-an-outlet/dewalt-01.jpg"
+          },
+          {
+            "headline": "Singapore researchers turn electronic threads into a touchscreen sleeve",
+            "body": "The NUS prototype measures about 6.6 x 4.1 inches at 96 x 54 resolution, with threads carrying LEDs and a touch layer. It kept light output and touch response after 50 washes and 1,000 bends but still needs external controllers and batteries.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/26/nus-researchers-turn-electronic-threads-into-a-touchscreen-sleeve/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/nus-researchers-turn-electronic-threads-into-a-touchscreen-sleeve/touchscreen-sleeve-04.jpg"
+          },
+          {
+            "headline": "HMD launches a senior flip phone with a voice AI companion",
+            "body": "The 2660 Flip Senior Edition has large buttons, a 2.8-inch screen and Mary, an inTouch AI companion that speaks slowly. In the UK it costs £79.99, with a five-hour trial and then a £16.90 monthly subscription.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/26/hmd-2660-flip-senior-edition-brings-ai-conversations-to-an-old-school-phone/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/hmd-2660-flip-senior-edition-brings-ai-conversations-to-an-old-school-phone/hmd-2660-flip-senior-edition-04.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Sociocultural factors",
+        "items": [
+          {
+            "headline": "Health campaigns use everyday language, humor and shared heritage to reach specific communities",
+            "body": "YARD NYC's \"Send Nudes\" prompts women to photograph their breasts every six months, not replacing screening. Gilead's \"Ahorita Mismo\" uses Latino creators and humor to encourage HIV testing, and the Bright Crowns app pairs breathing and affirmations with Black history stories for children.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/health-campaigns-use-familiar-language-and-cultural-references",
+            "image": "https://www.trendwatching.com/hubfs/Post%203rd-Oct-26-2026-11-47-18-9445-AM.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-26",
     "date": "2026-10-26",
     "displayDate": "10/26/2026",
