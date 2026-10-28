@@ -15,6 +15,161 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-10-28",
+    "date": "2026-10-28",
+    "displayDate": "10/28/2026",
+    "weekday": "Wednesday",
+    "tag": "WEDNESDAY",
+    "edition": "10/28/2026",
+    "cover": "https://www.engadget.com/img/gallery/anthropics-political-problem-will-get-worse-before-it-gets-better/l-intro-1793110492.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and society. Data-center politics weigh on Anthropic ahead of its IPO, Ford brings bidirectional charging to a sub-$30,000 truck and Discord prepares to open public chats to Google. In design, a tablet switches between LCD and paper, and in social themes public services move into mosques and libraries.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "Ford's Fathom gets a built-in inverter, bringing bidirectional charging to a sub-$30,000 truck",
+            "body": "The 2027 mid-size electric truck puts the inverter in its \"e-box\" module, with no separate wall unit, and can supply a home with more than 10 kW. Ford says the home hardware will cost at least 60% less than first-generation gear; the F-150 Lightning, which also had the feature, started above $50,000.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/electric-vehicles/ford-fathom-bidirectional-charging",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODUzMDUwNC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTc5MzM0NTgyOX0.bpKWWlJDfm4nJBOBayJDrspUGSk0yLwzrlIrBKf_3oE/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "Emvolon raises $22 million to turn landfill gas into methanol",
+            "body": "The MIT spinout will build its first commercial-scale system at a landfill near Houston with Montauk Renewables. Its modules convert captured methane into liquid methanol on site; Freepoint has priority rights to buy at least $450 million of the biomethanol, and the first projects target up to 50,000 metric tons a year.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/climate-tech/emvolon-series-a",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODUzMDU4Ny9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgxMTgzOTE2MH0.buKlU0lPJwaqNr7EcU5wTFMAQ-1j9HX6Fxt4QdkiB94/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "Amid Strait of Hormuz tensions, portable power stations become a household preparedness item",
+            "body": "The piece cites attacks on tankers, gas at $4.36 a gallon and a forecast 21% rise in heating oil bills this winter. It compares three roughly 2 kWh units: the Anker S2000 ($699.99), the Jackery Explorer 2000 v2 and the EcoFlow DELTA 3 Max (both $899).",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/27/do-yourself-a-favor-and-buy-a-power-station-now-before-the-energy-crisis-gets-worse/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/do-yourself-a-favor-and-buy-a-power-station-now-before-the-energy-crisis-gets-worse/power_station_yanko_design_editorial_1.jpeg"
+          },
+          {
+            "headline": "Vacant mall from \"Back to the Future\" could become a California data center",
+            "body": "The Puente Hills Mall, bought two years ago for a reported $115 million, would get two warehouses, a bus station and a 10 MW data center, still unapproved by the city. Residents object over air quality, noise and utility bills, even after the city changed its zoning rules.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91629888/great-scott-the-back-to-the-future-mall-could-become-a-data-center",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91629888-the-twin-pines-mall-from-back-to-the-future-is-about-to-become-a-data-center.jpg"
+          },
+          {
+            "headline": "Research links microscopic air pollutants to changes in the brain",
+            "body": "An April study tied pollution to lower brain volume, accelerated biological aging and higher dementia risk, and a Rush team found plastic particles in the brain tissue of 11 adults who died aged 80 to 91. About 1 in 9 Americans over 65 live with dementia, and cases are expected to more than double by 2050.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91629946/scientists-say-something-in-the-air-could-be-quietly-damaging-your-brain",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91629946-scientists-air-brain-damage.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "AI, technology and business",
+        "items": [
+          {
+            "headline": "Anthropic's political problem will get worse before it gets better, with data centers at the heart of the midterms",
+            "body": "The IPO prospectus flags an uncertain regulatory and political environment as a risk. Candidates from both parties had spent more than $35 million on anti-data-center ads by August, and a NYT poll gave Sherrod Brown an 11-point edge over Jon Husted on the issue in Ohio.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2298214/anthropics-political-problem-will-get-worse-before-it-gets-better/",
+            "image": "https://www.engadget.com/img/gallery/anthropics-political-problem-will-get-worse-before-it-gets-better/l-intro-1793110492.jpg"
+          },
+          {
+            "headline": "OpenAI reportedly plans to buy Google's TPU chips alongside Nvidia's, The Information says",
+            "body": "TNW has not independently verified the report and OpenAI declined to comment. The purchase would give Google a major TPU customer, with chips sold directly since April, in a year when Amazon, Microsoft and Alphabet are set to spend up to $600 billion on AI infrastructure.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/openai-google-tpu-chips",
+            "image": "https://media.thenextweb.com/2026/10/openai-logo-silhouette-hand-smartphone.jpg"
+          },
+          {
+            "headline": "Mistral's CEO warns Europe will get \"leftovers\" if it quits frontier AI",
+            "body": "Arthur Mensch notes the continent already pays more than €260 billion a year to American cloud and software providers. Ursula von der Leyen and Legora's CEO favor focusing on applications; DeepL's CEO argues for homegrown models.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/frontier-ai-europe-mistral-mensch-deepl",
+            "image": "https://media.thenextweb.com/2026/10/arthur-mensch-mistral-ceo-hand-on-neck-raise-summit-paris.jpg"
+          },
+          {
+            "headline": "Apple updates the 14-inch MacBook Pro with an M6 chip, from $1,999",
+            "body": "It has a 12-core CPU and GPU, with graphics 30% faster and 25% more AI performance than the M5 model, up to 24 hours of battery, Wi-Fi 7 and Bluetooth 6. Pre-orders open October 28 and sales start November 6.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2298120/apple-has-updated-the-14-inch-macbook-pro-with-an-m6-chip/",
+            "image": "https://www.engadget.com/img/gallery/apple-has-updated-the-14-inch-macbook-pro-with-an-m6-chip/l-intro-1793109557.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Privacy, data and regulation",
+        "items": [
+          {
+            "headline": "Public Discord server messages may soon show up in Google searches",
+            "body": "From November 16, discoverable servers (1,000+ members, no invite needed) get web pages with summaries, and by mid-December messages may appear word for word in results, without usernames or avatars. Admins and users can opt out; the feature is off by default in the EU, UK, Canada, Brazil, Australia and South Korea and for teens.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2299126/discord-server-messages-google-searchable-opt-out/",
+            "image": "https://www.engadget.com/img/gallery/discord-public-server-messages-may-be-soon-searchable-on-google-but-you-can-opt-out/l-intro-1793141144.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design and products",
+        "items": [
+          {
+            "headline": "Lenovo tablet switches its LCD between full color and black-and-white paper",
+            "body": "The Xiaoxin 10.1 Color Ink has three modes (Original Color, Color Paper and Ink Paper), a 2136 x 1280 panel at 120 Hz, a 7,060 mAh battery and an anti-glare surface. China sales start October 30, with no price or US availability yet.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/27/lenovos-color-ink-tablet-switches-its-lcd-from-full-color-to-black-and-white/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/lenovos-color-ink-tablet-switches-its-lcd-from-full-color-to-black-and-white/lenovo-xiaoxin-color-ink-tablet-02.jpg"
+          },
+          {
+            "headline": "McDonald's China and Lenovo launch a fry-shaped mouse made from recycled toys",
+            "body": "The Fry Mark has more than 60% of its casing made from repurposed Happy Meal toys. It sold for 99 yuan (about $14) plus 18 membership points, with 4,000 units over two sale days and a limit of two per customer; China only for now.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/27/mcdonalds-china-turns-old-happy-meal-toys-into-a-french-fry-shaped-wireless-mouse/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/mcdonalds-china-turns-old-happy-meal-toys-into-a-french-fry-shaped-wireless-mouse/McDonalds-French-Fries-8.jpg"
+          },
+          {
+            "headline": "Corporate branding logic is stripping the soul from football club crests",
+            "body": "Art director and Newcastle fan Will Knight argues that simplifying for digital use erases the irregularities that gave crests their personality. He cites Newcastle, Everton, Atlético Madrid and Ajax and suggests clubs embrace their history and quirks.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/pov-football-is-branding-the-life-out-of-itself-graphic-design-271026",
+            "image": "https://m.itsnicethat.com/original_images/51_POV2.png?class=w1440"
+          }
+        ]
+      },
+      {
+        "heading": "Sociocultural factors",
+        "items": [
+          {
+            "headline": "Public services reach people through familiar places and networks",
+            "body": "Kyoto University researchers and Indonesian partners are testing mosque loudspeakers linked to seismic sensors as an earthquake early-warning channel. Rome has opened four of ten planned rest points for delivery workers in libraries, and Ghana's Legal Aid Commission offered free consultations at a lorry terminal.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/public-services-reach-people-through-familiar-places-and-networks",
+            "image": "https://www.trendwatching.com/hubfs/Post%205th-Oct-27-2026-12-59-16-6811-PM.jpg"
+          },
+          {
+            "headline": "Self-service expands into custom design, product trials and stock management",
+            "body": "Sneakprint uses phone foot scans and sells sandal designs as files customers print themselves. Rokid opened a staff-free AI-glasses store in Hong Kong, and a Sanha hotel kiosk reorders stock and adjusts prices with AI.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/self-service-expands-into-design-product-trials-and-stock-management",
+            "image": "https://www.trendwatching.com/hubfs/Post%204th-Oct-27-2026-12-39-20-8496-PM.jpg"
+          },
+          {
+            "headline": "One in ten eligible voters in the US midterms is a naturalized citizen",
+            "body": "About 25 million of 250 million eligible voters, per Pew, concentrated in California (22.0%) and New Jersey (19.8%). About a third are Hispanic and a third Asian, with a median age of 54 versus 47 for US-born voters.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/10/27/what-we-know-about-eligible-voters-who-are-naturalized-us-citizens/",
+            "image": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/10/SR_26.10.27_naturalized_voters_crop.png?w=1200&h=628&crop=1"
+          },
+          {
+            "headline": "Americans' views of ICE grow more negative: 56% unfavorable",
+            "body": "A survey of 5,062 adults (Sept. 28 to Oct. 4) shows it as the least popular of 12 federal agencies. Republican favorability fell from 72% to 67%, and Democratic unfavorability rose from 78% to 84%.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/10/26/americans-views-of-ice-grow-more-negative/"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-27",
     "date": "2026-10-27",
     "displayDate": "10/27/2026",
