@@ -15,6 +15,175 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-10-29",
+    "date": "2026-10-29",
+    "displayDate": "10/29/2026",
+    "weekday": "Thursday",
+    "tag": "THURSDAY",
+    "edition": "10/29/2026",
+    "cover": "https://m.itsnicethat.com/original_images/music_thumbnail_final.jpg?class=w1440",
+    "intro": "Overview of the last 24 hours in design, AI, environment and society. Anthropic weighs opening up to 20% of its IPO to retail, GitHub launches Copilot Fusion with agents now behind over 40% of pull requests, and Apple makes its logo glow again. In the environment, lithium comes out of oilfield wastewater, and in social themes employment in AI-exposed occupations grows faster for men.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "Texas startup extracts lithium from oil-well wastewater for EV batteries",
+            "body": "Element3 taps the 26 million barrels of wastewater the Permian Basin produces daily, using Oak Ridge National Laboratory technology. Its Midland plant, opened in February, can make up to 3,000 tons of lithium a year, versus about 5,000 from the only US mine, in Nevada.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91628438/this-texas-startup-is-turning-oil-well-waste-into-ev-batteries",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91628438-this-texas-startup-is-turning-oil-well-waste-into-ev-batteries.jpg"
+          },
+          {
+            "headline": "The West invented the electrolyzer, but China built the industry",
+            "body": "China holds nearly 70% of global manufacturing capacity and makes stacks about 60% cheaper, though stacks are only 6% to 9% of clean hydrogen costs. Output of roughly 35 GW a year far exceeds domestic demand under 2 GW, and Beijing targets 2 million tons of renewable hydrogen by 2030.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/energy/china-electrolyzer-industry",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODUzNjMyNC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgwOTU4MTA5OH0.OEmwVYaGgd8zM-m20HOWMowh493wycv9mrscT3z6onQ/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "How much data centers weigh on power bills depends on the local grid",
+            "body": "A Berkeley Lab and Brattle study found lower bills in North Dakota from 2019 to 2024, and a Wharton and Harvard paper attributes about 4% of residential bill increases to new data centers. In a worst case, ESIG estimates 1.32 cents per kWh, roughly $10 more a month.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91629873/how-much-will-data-centers-increase-your-electric-bill",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91629873-data-centers-on-the-ballot.jpg"
+          },
+          {
+            "headline": "Top reason to back a data center: school funding and keeping online services running",
+            "body": "A Heatmap Pro poll of 2,537 voters has 35% citing tax revenue for schools and emergency services and 35% citing services like streaming and banking. Among opponents, 40% point to electricity bills and 31% to water bills; only 5% want government to encourage such projects.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/daily/data-center-support-oppose-polling",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODUzOTAyOC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTg0MTc2NDU4OX0.rURFAQ8q3PTBUXQxM01lp2oc43RHqHO1np6zg4Hdd2s/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          }
+        ]
+      },
+      {
+        "heading": "AI, technology and business",
+        "items": [
+          {
+            "headline": "Anthropic weighs setting aside up to 20% of its IPO for retail investors",
+            "body": "Per Bloomberg, JPMorgan would lead the retail offering; TNW has not verified it. Senator Elizabeth Warren wants answers by November 3, and the S-1 shows $16.3 billion of first-half revenue and a gross margin near 85%.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/anthropic-ipo-retail-warren-s-1-details",
+            "image": "https://media.thenextweb.com/2026/10/dario-amodei-world-economic-forum-davos-2025.jpg"
+          },
+          {
+            "headline": "GitHub launches Copilot Fusion as agents start over 40% of pull requests",
+            "body": "The system picks the model, or mix of models, for each step of a task; GitHub says Fusion Max lands within two points of Claude Opus 5.5 Max at half the cost. Per Octoverse, the share of PRs starting with an agent draft rose from 17% in March to over 40% in September.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/github-universe-copilot-fusion-octoverse-agents",
+            "image": "https://media.thenextweb.com/2026/10/github-universe-2026-mona-octocat-graphic.jpg"
+          },
+          {
+            "headline": "OpenAI now lets users text their Dot agent",
+            "body": "In a preview for US Pro users, people can send texts, photos and voice memos over iMessage or RCS, and Dots can proactively send task updates. OpenAI says it ran security testing with partner Linq.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2300235/openai-now-lets-you-text-your-dot-agent/",
+            "image": "https://www.engadget.com/img/gallery/openai-now-lets-you-text-your-dot-agent/intro-1793214741.jpg"
+          },
+          {
+            "headline": "Whoop and Oura move from fitness tracking into healthcare",
+            "body": "Whoop launched an August pilot for Medicare beneficiaries aged 65+ with conditions such as hypertension and prediabetes. It is valued at $10.1 billion and Oura at $11 billion, after the FDA loosened wellness-device guidance; researchers say the algorithms are hard to validate.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91629965/whoop-oura-wellness-healthcare-medical-devices-future",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91629965-dr-whoop-will-see-you-now.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Privacy, data and regulation",
+        "items": [
+          {
+            "headline": "Meta weighs delaying new terms that let it scrape business websites after publisher backlash",
+            "body": "A spokesperson says there will be no policy changes without full consultation, and the November 20 date may slip. Critics note the terms still lack robots.txt protections or an opt-out.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2300293/meta-weighs-delaying-alarming-new-business-terms-as-backlash-grows/",
+            "image": "https://www.engadget.com/img/gallery/meta-weighs-delaying-alarming-new-business-terms-as-backlash-grows/intro-1793216507.jpg"
+          },
+          {
+            "headline": "Hackers leak data on more than 41,000 US Homeland Security personnel",
+            "body": "The group Department of Peace reportedly got in through the Okta single sign-on service; the data includes emails, phone numbers and details of covert programs. Distributed Denial of Secrets published it in a searchable database, and DHS says it is addressing a potential breach.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2300661/hackers-leaked-details-more-than-41000-homeland-security-personnel/",
+            "image": "https://www.engadget.com/img/gallery/hackers-leaked-details-of-more-than-41000-homeland-security-personnel/intro-1793262738.jpg"
+          },
+          {
+            "headline": "Americans lost nearly $18 billion to cyberscams and few get money back",
+            "body": "A report from Joint Economic Committee Democrats says the FBI returned $336 million in 2025 and the FTC $1.83 billion in fiscal 2025. Unlike the EU, UK, Australia and Singapore, the US does not make tech, telecom or financial firms liable for failing to protect consumers from scams.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91630601/americans-being-cyberscammed-out-billions-few-getting-money-back",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/10/AP26293477064936.jpg"
+          },
+          {
+            "headline": "Australia moves to ban AI chatbots from \"emotional intimacy\" with children",
+            "body": "The House passed the digital duty of care bill on October 28, with amendments the government accepted. It heads to the Senate, where the Coalition and One Nation oppose it; Labor hopes to pass it by the end of 2026.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/australia-duty-of-care-bill-ai-chatbots-emotional-intimacy-children",
+            "image": "https://media.thenextweb.com/2026/10/anthony-albanese-speech-us-embassy-canberra.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design and products",
+        "items": [
+          {
+            "headline": "Apple revives the glowing logo and turns it into a status symbol",
+            "body": "The MacBook Pro with the PROLED display brings back the lit logo, dropped in 2015 and 2016, but only on the model starting at $2,899; the $1,999 model keeps the mirrored logo. Because OLED pixels emit their own light, Apple needed a separate light source, and has not explained how it works.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/28/apple-revived-the-glowing-logo-and-turned-it-into-the-ultimate-status-symbol/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/apple-revived-the-glowing-logo-and-turned-it-into-the-ultimate-status-symbol/macbook_pro_glowing_logo_1.jpeg"
+          },
+          {
+            "headline": "Apple Music used sound to move oil and build its new visual identity",
+            "body": "TBWA\\Media Arts Lab and Optical Arts spent months building machinery and software that convert notes into sine waves and produce rippling, refractive visuals. Fred Again made the sonic logo, and the identity is mostly black and white.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/features/apple-music-rebrand-graphic-design-spotlight-281026",
+            "image": "https://m.itsnicethat.com/original_images/music_thumbnail_final.jpg?class=w1440"
+          },
+          {
+            "headline": "Otter, a portable newborn warmer for hospitals with unreliable power, wins the Seoul Design Award",
+            "body": "Made by Design that Matters with Vietnamese manufacturer MTTS, it has a heat-conducting polycarbonate bassinet that is easier to disinfect and a battery that kicks in automatically when power fails. Used in Vietnam, Zambia and the Philippines, with over 800 newborns treated as of January.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/28/otter-keeps-newborns-warm-without-a-reliable-power-supply/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/otter-keeps-newborns-warm-without-a-reliable-power-supply/otter-0.jpg"
+          },
+          {
+            "headline": "Beauer X8 caravan telescopes sideways to triple its footprint",
+            "body": "Electric motors expand the caravan, which comes with one or two bedrooms, and the larger version sleeps eight. It weighs 2,600 kg, needs a V8 pickup or diesel SUV to tow, and costs €109,990.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145747/This-Sideways-Telescoping-Camper-Triples-Its-Footprint",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1855161_lead_400_145747_.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Societal factors",
+        "items": [
+          {
+            "headline": "Airbnb.org aims to offer 1 million free nights a year to people in crisis",
+            "body": "The company plans $500 million over five years, funded by 10 cents of every booking plus donations. The nonprofit has hosted 250,000 people, including 78,000 nights during the Los Angeles wildfires; a city price-gouging lawsuit against Airbnb can proceed.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91630190/airbnb-nonprofit-brian-chesky-emergency-housing",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91630190-airbnb-nonprofit-brian-chesky-emergency-housing.jpg"
+          },
+          {
+            "headline": "Most Americans' religious lives changed little between 2020 and 2025",
+            "body": "Pew followed 5,835 adults: 87% kept the same affiliation status, and 84% to 86% gave the same answers on service attendance, daily prayer and importance of religion. Younger adults changed affiliation more than older ones.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/10/28/most-americans-religious-lives-havent-changed-much-in-recent-years/"
+          },
+          {
+            "headline": "Men see more job growth than women in AI-exposed occupations",
+            "body": "For each point of AI exposure, men's employment grew 6.3% and women's 0.2%. The gap is concentrated among workers without a bachelor's degree: with high school or less, men's employment rose 8.8% while women's fell 9.5%.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/10/22/men-are-experiencing-more-job-growth-than-women-in-ai-exposed-occupations/",
+            "image": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/10/ST_26.10.22_AspenGender_featured@2x_c7d5fb.png?w=1200&h=628&crop=1"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-28",
     "date": "2026-10-28",
     "displayDate": "10/28/2026",
