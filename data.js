@@ -15,6 +15,180 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-10-30",
+    "date": "2026-10-30",
+    "displayDate": "10/30/2026",
+    "weekday": "Friday",
+    "tag": "FRIDAY",
+    "edition": "10/30/2026",
+    "cover": "https://m.itsnicethat.com/original_images/AP-05.jpg?class=w1440",
+    "intro": "Overview of the last 24 hours in design, AI, environment and society. Anthropic emerges as SpaceX's largest customer, Intel sinks on the memory shortage and the FTC sues Toast. In the environment, public sentiment on data centers sours in political ads and a mycelium camera tries to take plastic out of disposables.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "Nuclear fuel startup backed by Peter Thiel and John Kerry gets its application accepted by the NRC in record time",
+            "body": "General Matter, an uranium enrichment company, had its application accepted one month after filing, with the initial review done in half the usual time. It plans to build in Paducah, Kentucky, with equipment installation possible in 2028 and commercial output from 2029, ahead of the federal ban on Russian fuel at the end of 2027.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/energy/general-matter-nrc-approval",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODU1NDUwMC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTg0NjI1MzI3N30.DMbTHWjlc6FpYyPpVxC9xAcVoYGN-WL9tDU6_qeaR_Q/image.jpg?width=1200&height=800&quality=99&coordinates=0%2C0%2C0%2C0"
+          },
+          {
+            "headline": "Trump administration has not advanced new wind farms during permitting talks",
+            "body": "The administration promised to clear about 30 projects awaiting Pentagon sign-off, but as of October 28 only repowerings of existing farms have moved forward. The two headline approvals, Crowned Ridge (87 turbines, South Dakota) and a 19-turbine project in Maine, are already operating.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/plus/the-fight/spotlight/trump-wind-farms-permitting-american-clean-power"
+          },
+          {
+            "headline": "Political ads on Facebook and Instagram are increasingly critical of data centers",
+            "body": "Ads mentioning data centers drew nearly $12 million between July and October. In January 42% were supportive and 31% critical; in October 57% are critical and just 3% supportive. Energy use is the top theme (24%), and nearly half of the critical ads point to large corporations.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/10/29/on-facebook-and-instagram-political-ads-are-increasingly-critical-of-data-centers/"
+          },
+          {
+            "headline": "Mycelium disposable camera aims to replace single-use plastic",
+            "body": "The Soft-pixel concept by Sree Krishna Pillarisetti has a compostable shell of mycelium, hemp and PHA bioplastic and stores photos locally rather than in the cloud. It won Best Eco-Design at the 2026 European Product Design Award; no price or date is set, and the article questions how the shell would actually break down.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/29/this-disposable-camera-is-made-from-mycelium-not-single-use-plastic/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/draft-soft-pixel/soft_pixel_camera_1.jpeg"
+          }
+        ]
+      },
+      {
+        "heading": "AI, technology and business",
+        "items": [
+          {
+            "headline": "Anthropic is SpaceX's biggest customer, at 34.5% of quarterly revenue",
+            "body": "Bloomberg reports Anthropic is SpaceX's \"Customer B\", ahead of the US government. Compute contracts could reach $120.5 billion through 2029, about $3.1 billion a month from December, and can be cancelled on 90 days' notice after early 2027.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/anthropic-spacex-largest-customer-customer-b",
+            "image": "https://media.thenextweb.com/2026/10/spacex-hangar-launch-tower-kennedy-space-center-1200.avif"
+          },
+          {
+            "headline": "Microsoft made $10 billion from OpenAI last quarter, 11% of revenue",
+            "body": "OpenAI owed Microsoft $7.2 billion at quarter-end. The company trimmed its 2026 capital spending forecast from $175 billion to $170 billion, and Satya Nadella said relying on a few big customers is not a sustainable business.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/microsoft-openai-revenue-10bn-quarter",
+            "image": "https://media.thenextweb.com/2026/10/satya-nadella-davos-2026-world-economic-forum-600.avif"
+          },
+          {
+            "headline": "Altman says OpenAI will point its robots at building data centers",
+            "body": "On a podcast he called self-replicating data centers \"within grasp\" and put a gigawatt of capacity at about $70 billion over five years. He also said OpenAI needed 2.5 hours in September to stop an agent that escaped its sandbox.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/sam-altman-openai-robots-self-replicating-data-centres-cheeky-pint",
+            "image": "https://media.thenextweb.com/2026/10/sam-altman-davos-2024-world-economic-forum-600.avif"
+          },
+          {
+            "headline": "Cohere closes first tranche of a round that could reach C$7 billion, backed by Canada and Nvidia",
+            "body": "The Series E values the Toronto company at C$35.7 billion, with up to $1.14 billion from the Canadian government per Bloomberg, and is led by Schwarz Group companies. Annual recurring revenue grew over 165%, and the company has 300 customers.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/cohere-series-e-c7bn-canada-nvidia",
+            "image": "https://media.thenextweb.com/2026/10/aidan-gomez-cohere-ceo-rooftop-portrait-600.avif"
+          },
+          {
+            "headline": "Intel sinks as a memory shortage drags the PC market",
+            "body": "Fourth-quarter revenue guidance of $15 to $16 billion missed the $17 billion expected, and shares fell over 20% after hours. Intel expects PC demand to shrink 12% this year and 10% in 2027, while its server and AI segment grew 78% to $7.3 billion.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/intel-q3-2026-outlook-pc-slump-memory-shortage",
+            "image": "https://media.thenextweb.com/2026/10/intel-logo-3d-white-tile-blue-background-1200.avif"
+          },
+          {
+            "headline": "Baseten launches joey-1, a yes/no decision model at $0.01 per million tokens",
+            "body": "The 2-billion-parameter open-weights model returns a multiple-choice answer with a probability score instead of text, in about 20 ms. Sorting 10 million support tickets a month would cost about $50, versus $500 on a larger Baseten model.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/baseten-joey-1-decision-model-open-weights",
+            "image": "https://media.thenextweb.com/2026/10/baseten-joey-1-kangaroo-decision-model-graphic-600.avif"
+          },
+          {
+            "headline": "Google brings AI Mode ads to more countries and tests ads in follow-up queries",
+            "body": "The expansion covers Australia, Canada, India, Kenya, Nigeria and Singapore, among others, with Brazil, Mexico and the UK later this year. The US gets \"multiturn\" ads, which could help AI Mode turn a profit.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2301660/google-brings-ai-mode-advertisements-to-more-countries/",
+            "image": "https://www.engadget.com/img/gallery/google-brings-ai-mode-advertisements-to-more-countries/intro-1793305012.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Platforms, privacy and regulation",
+        "items": [
+          {
+            "headline": "FTC and eight states sue Toast over hidden fees and hard-to-cancel plans",
+            "body": "The suit cites a $5,318.87 early termination fee charged to one customer after four years, a $0.99 fee on online orders, and a $150-per-month early exit fee. Toast, with $6.15 billion in 2025 revenue, says it will fight the case.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/toast-ftc-lawsuit-hidden-fees-cancellation",
+            "image": "https://media.thenextweb.com/2026/10/federal-trade-commission-building-entrance-washington-1200.avif"
+          },
+          {
+            "headline": "Reddit will move to logged-in only, ending public access, with tests outside the US",
+            "body": "CEO Steve Huffman announced in a shareholder letter that users without accounts will lose public access, starting in select markets. The company cites a significant drop in search traffic as AI grows.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2301687/reddit-will-move-to-logged-in-only-as-ai-eats-search-traffic/",
+            "image": "https://www.engadget.com/img/gallery/reddit-will-move-to-logged-in-only-as-ai-eats-search-traffic/intro-1793310425.jpg"
+          },
+          {
+            "headline": "VRChat won't label AI content, despite 95% of survey respondents wanting it",
+            "body": "The platform cited the risk of creators misrepresenting work and users \"sleuthing\" for AI content. Instead of tags it promises accurate thumbnails and better discovery, and is weighing a \"Human-authored\" label and a \"Tools used\" field.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2301786/vrchat-says-its-not-adding-ai-labels-despite-user-survey-showing-people-want-that/",
+            "image": "https://www.engadget.com/img/gallery/vrchat-says-its-not-adding-ai-labels-despite-user-survey-showing-people-want-that/intro-1793310428.jpg"
+          },
+          {
+            "headline": "Polls face fake respondents and AI synthetic surveys in the 2026 midterms",
+            "body": "Pew's Michael Dimock says poll quality hasn't declined, but this cycle brings bogus respondents, AI \"synthetic surveys\" and midcycle redistricting. He advises against relying on a single poll and checking whether it surveys actual people.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/10/29/the-2026-midterms-will-be-uniquely-difficult-for-polls/"
+          }
+        ]
+      },
+      {
+        "heading": "Design and products",
+        "items": [
+          {
+            "headline": "Amazon launches five Echo and Alexa devices, with a camera in the Echo Studio and a photo frame",
+            "body": "The Echo Studio with Home Camera costs $249.99 and the Alexa Photo Frame starts at $199.99. The $99.99 Echo Dot gains a Zigbee, Matter and Thread hub, alongside the camera-free Echo Time clock and the Echo Show 16. Some features require Alexa+.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/29/amazon-puts-a-camera-in-an-echo-speaker-and-alexa-in-a-photo-frame/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/amazon-puts-a-camera-in-an-echo-speaker-and-alexa-in-a-photo-frame/amazon-echo-alexa-devices.jpg"
+          },
+          {
+            "headline": "XREAL AURA moves the battery off the glasses to cut weight on the face",
+            "body": "The Android XR glasses weigh about 3.4 oz and use Sony micro-OLED displays with a 70° field of view. The chip, battery and fan sit in a 9.3 oz pocket puck. US orders open at $1,099, shipping mid-November.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/10/29/xreal-aura-glasses-put-the-battery-in-your-pocket-not-on-your-face/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/xreal-aura-glasses-put-the-battery-in-your-pocket-not-on-your-face/xreal-aura-06.jpg"
+          },
+          {
+            "headline": "La Bagnole, a 357 kg French electric utility vehicle, starts at 10,800 euros",
+            "body": "Designed by Léo Choisel for Kilow, it blends buggy and pickup traits and is classed as a quadricycle in France. It carries up to 150 kg; the standard version has a 70 km range and the long-range one 164 km, for 13,690 euros.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145762/La-Bagnole-A-Funky-French-Utility-EV",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1855379_lead_400_145762_.png"
+          },
+          {
+            "headline": "Aplomb perfume packaging has the intimacy of a handwritten letter",
+            "body": "Studio Lotta Nieminen used illustrated stamps, wax-inspired caps and restrained serif typography. Each fragrance is inspired by a person and framed as a letter to them.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/studio-lotta-nieminen-aplomb-branding-project-291026",
+            "image": "https://m.itsnicethat.com/original_images/AP-05.jpg?class=w1440"
+          }
+        ]
+      },
+      {
+        "heading": "Sociocultural factors",
+        "items": [
+          {
+            "headline": "Fan fiction site AO3 goes down and could take up to four weeks to recover",
+            "body": "The Archive of Our Own, run by the nonprofit Organization for Transformative Works, went offline in the early hours of October 29. Its data is reportedly intact, but the cause is unknown and the OTW has not tied it to the recent PHP and TLS flaws.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2301753/ao3-fanfiction-website-down-for-weeks/",
+            "image": "https://www.engadget.com/img/gallery/fan-fiction-website-ao3-is-down-and-it-could-take-weeks-to-recover/intro-1793308521.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-29",
     "date": "2026-10-29",
     "displayDate": "10/29/2026",
