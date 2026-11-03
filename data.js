@@ -15,6 +15,204 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-11-03",
+    "date": "2026-11-03",
+    "displayDate": "11/03/2026",
+    "weekday": "Tuesday",
+    "tag": "TUESDAY",
+    "edition": "11/03/2026",
+    "cover": "https://m.itsnicethat.com/original_images/KEY_ART_16X9_uprNOg1.png?class=w1440",
+    "intro": "Overview of the last 24 hours in design, AI, environment and society. Nvidia caps its cloud partners' China business, Palantir's US commercial revenue overtakes government, and Oracle raises $20 billion for data centers. On climate, Rhodium modeling says the permitting bill would cut emissions; at work, Google opens UK offices to union recruiters and Squarespace lays off 19%.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "Rhodium modeling finds the BAAJA permitting bill would cut emissions and power bills",
+            "body": "The analysis points to up to 4% lower economy-wide emissions by 2040, $78 a year in energy-bill savings and over 200 GW of new clean capacity in the best case; in the worst case emissions stay flat. Rhodium also estimates high-voltage transmission build rates would nearly triple, and a Resources for the Future study projects a 6% cut in power-sector emissions.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/energy/rhodium-group-modeling-permitting-bill",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODU3NDMyMy9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgxODc3MzkzOX0.5nh5EgrsL6y01VHz3JicDR4_1qU82SmDtDap6-0Qzos/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "Workshops teach people to build their own wind turbine, generator included",
+            "body": "Self-taught Scottish engineer Hugh Piggott has built wind turbines since the 1970s and later began teaching the method. Austrian Jonathan Schreiber, who took the course in 2012, runs the PureSelfMade project, which has hosted workshops since 2013 where participants build the entire turbine.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145808/PureSelfMades-Build-Your-Own-Wind-Turbine-Workshops",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1855846_lead_400_145808_.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "AI, technology and business",
+        "items": [
+          {
+            "headline": "Nvidia tells cloud partners to cap Chinese business at 49%, FT reports",
+            "body": "The rule, communicated verbally and applying only to new contracts, requires at least 51% of services to go to non-Chinese customers. It follows charges against Super Micro employees for allegedly smuggling about $2.5 billion of Nvidia AI servers into China.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/nvidia-cloud-partners-cap-china-business",
+            "image": "https://media.thenextweb.com/2026/10/nvidia-logo-sign-building-exterior-trees.jpg"
+          },
+          {
+            "headline": "Palantir's US commercial sales top government revenue for the first time",
+            "body": "Q3 revenue rose 96% to $2.31 billion, and US commercial ($984 million, up 148%) passed US government ($953 million). The full-year forecast rose to $8.53 billion, but shares closed down 3.1% on valuation concerns.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/palantir-q3-2026-earnings-us-commercial-revenue-tops-government",
+            "image": "https://media.thenextweb.com/2026/11/alex-karp-speaking-world-economic-forum-davos-2022.jpg"
+          },
+          {
+            "headline": "Oracle raises $20 billion in debt and equity to expand AI data centers",
+            "body": "The company began marketing $10 billion in investment-grade bonds across six tranches maturing 2029 to 2046, alongside a separate $10 billion share offering. Proceeds are for general corporate purposes, following a $20 billion share sale between June and August.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/oracle-10b-bond-sale-share-offering",
+            "image": "https://media.thenextweb.com/2026/10/oracle-logo-3d-red-icon-dark-background.jpg"
+          },
+          {
+            "headline": "German firm kabkin says over 100 B2B projects began as text prompts",
+            "body": "Its Prompt-to-Product tool, launched in early 2026, returns a free feasibility check from engineers within 24 hours, drawing on over 15,000 hinge and motion designs and 170 years of manufacturing experience.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/kabkin-prompt-to-product-100-b2b-projects",
+            "image": "https://media.thenextweb.com/2026/11/chris-windhoevel-white-tshirt-jacquard-loom.jpg"
+          },
+          {
+            "headline": "Bright Data tells publishers to put content behind a login to keep AI agents out",
+            "body": "Jennifer Burns says anything visible without signing in counts as public. The company serves 14 of the top 20 LLMs, has 50,000 customers (up from 20,000), handles 100 million agent interactions a day and sees robotics firms seeking public web data to train robots.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/jennifer-burns-bright-data-public-web-data-login-tnw-podcast",
+            "image": "https://media.thenextweb.com/2026/11/cristian-dina-jennifer-burns-humanx-amsterdam-interview1.jpg"
+          },
+          {
+            "headline": "Why even your best employees override AI systems that work",
+            "body": "HBR argues companies adopt AI faster than they update oversight: decision rights never shift with responsibility, so people who still bear blame may rationally override AI even when it outperforms them. The fix is to align roles, incentives and authority.",
+            "source": "Harvard Business Review",
+            "url": "https://hbr.org/2026/11/why-even-your-best-employees-override-ai-systems-that-work",
+            "image": "https://hbr.org/resources/images/article_assets/2026/09/R2606A_FEA_NARAYANDAS_HERO.jpg"
+          },
+          {
+            "headline": "For meaningful AI performance gains, start by mapping your workflows",
+            "body": "HBR argues for studying how others have redesigned work around the technology rather than automating isolated tasks: map workflows end to end, find the bottlenecks, rework surrounding processes and reassess regularly.",
+            "source": "Harvard Business Review",
+            "url": "https://hbr.org/2026/11/for-real-performance-gains-with-ai-start-by-mapping-your-workflows",
+            "image": "https://hbr.org/resources/images/article_assets/2026/09/F2606A_IW_HERO.png"
+          },
+          {
+            "headline": "How long could HDDs and SSDs remain expensive?",
+            "body": "The chip shortage keeps storage prices high, with first subtle relief expected in 2027 and a sharper drop projected for 2029 or 2030. Even 20 TB enthusiast drives are affected, and the piece suggests waiting until late 2027 at the earliest to buy.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2302215/how-long-hdd-ssd-stay-expensive/",
+            "image": "https://www.engadget.com/img/gallery/how-long-could-hdds-and-ssds-remain-expensive/l-intro-1793370181.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Platforms, privacy and regulation",
+        "items": [
+          {
+            "headline": "Apple will mandate age declarations for dating apps and AI companions",
+            "body": "Developers must declare whether their apps enable dating between real people, share real-world locations or offer romantic or sexual interactions with AI companions. Dating and relationship apps get a minimum 18+ rating, and answers are due by January 12, 2027.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2305017/apple-start-mandating-age-requirements-dating-apps/",
+            "image": "https://www.engadget.com/img/gallery/apple-will-start-mandating-age-requirements-for-dating-apps/l-intro-1793701818.jpg"
+          },
+          {
+            "headline": "Apple spyware alerts reach German MPs and journalists in 99 countries",
+            "body": "Germany's cybersecurity agency (BSI) told lawmakers who received the alerts, which began on October 29, to assume their iPhones may be compromised, update and use Lockdown Mode. The round reached journalists in Turkey and Lebanon.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/germany-lawmakers-iphones-apple-spyware-alerts",
+            "image": "https://media.thenextweb.com/2026/11/apple-threat-notification-iphone-lock-screen-settings.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Work and sociocultural factors",
+        "items": [
+          {
+            "headline": "Google opens its UK offices to union recruiters after a change in the law",
+            "body": "Under a new law granting unions workplace access, with fines up to £500,000, the deal covers more than 7,000 staff including the King's Cross headquarters. Prospect reached a similar arrangement with Meta in September for about 5,000 employees.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/google-prospect-union-access-uk-offices",
+            "image": "https://media.thenextweb.com/2026/11/google-logo-neon-sign-office-wall-sydney.jpg"
+          },
+          {
+            "headline": "Squarespace lays off 19% of staff, about 300 people",
+            "body": "According to a CEO memo, the cuts hit mostly product and engineering, two years after Permira took the company private in a deal valued at about $7.2 billion. The company says it wants to streamline operations.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/squarespace-layoffs-19-percent-300-jobs",
+            "image": "https://media.thenextweb.com/2026/11/anthony-casalena-squarespace-founder-portrait.jpg"
+          },
+          {
+            "headline": "Americans' trust in information from news organizations has risen in the past year",
+            "body": "In a September survey, 62% trust national outlets (up from 56% in 2025) and 75% local ones (up from 70%); Republicans 50% and Democrats 73% on national news. Trust in social media was nearly flat at 38%.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/11/02/americans-trust-in-information-from-news-organizations-has-risen-in-the-past-year/",
+            "image": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/11/SR_26.11.02_media-trust_featured.png?w=1200&h=628&crop=1"
+          },
+          {
+            "headline": "Majorities in both parties say media criticism keeps politicians in check",
+            "body": "In the August 24-30 survey of 5,166 adults, 80% say media criticism keeps leaders in check (75% in September 2025), versus 16% who say it hinders them. That is 89% of Democrats and 73% of Republicans.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/11/02/majorities-in-both-parties-say-media-criticism-keeps-politicians-in-check/",
+            "image": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/11/SR_26.11.02_media-watchdog_featured.jpg?w=1200&h=628&crop=1"
+          }
+        ]
+      },
+      {
+        "heading": "Design and products",
+        "items": [
+          {
+            "headline": "Nothing's Charlie Smith doubles down on \"joy and wonder\"",
+            "body": "Charlie Smith, former Loewe CMO now Nothing's chief brand officer, argues tech has lost its personality and brands should entertain, trust creative collaborators and build with their communities, citing Loewe's tomato meme campaign and Nothing's playful teasers.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/features/in-house-nothing-charlie-smith-creative-industry-021126",
+            "image": "https://m.itsnicethat.com/original_images/KEY_ART_16X9_uprNOg1.png?class=w1440"
+          },
+          {
+            "headline": "Infinix debuts first global flagship store in Bali, blending tech, coffee and creativity",
+            "body": "The space at Beachwalk Shopping Center combines hands-on tech displays, its own n_x coffee, a signature scent station and room for art and live events. Five more stores are planned across Indonesia this year, each adapted to local culture.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/02/infinix-debuts-first-global-flagship-store-in-bali-blending-tech-coffee-and-creativity/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/infinix-debuts-first-global-flagship-store-in-bali-blending-tech-coffee-and-creativity/infinix-global-flgaship-concept-store-bali-01.jpg"
+          },
+          {
+            "headline": "AYANEO's Ice Pink handheld makes its hardware part of the decoration",
+            "body": "The limited-edition KONKR Pocket ADVANCE has a 3.5-inch 960×640 LCD, a MediaTek Helio G90T and a 4,000 mAh battery, weighing about 7.9 oz. Sales are expected to open in mid-November, with no confirmed price.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/02/ayaneos-ice-pink-handheld-makes-its-hardware-part-of-the-decoration/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/ayaneos-ice-pink-handheld-makes-its-hardware-part-of-the-decoration/ayaneo-konkr-pocket-advance-ice-pink-limited-edition-02.jpg"
+          },
+          {
+            "headline": "FOLDBOOK is a wearable sketchbook without permanent binding",
+            "body": "Designed by Erlands, it uses a reusable stainless-steel holder so pages can be removed and rearranged. It is up for preorder in A6 to A3, holds about 10 to 15 sheets, and the A6 package with chain and three refill sets is €155.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/02/foldbook-is-a-wearable-sketchbook-without-permanent-binding/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/foldbook-is-a-wearable-sketchbook-without-permanent-binding/foldbook-0.jpg"
+          },
+          {
+            "headline": "Children's toys don't need to be an eyesore: Odd Works' tasteful identity for Toyto",
+            "body": "Lisbon and London studio Odd Works created a minimalist, grown-up identity for the Berlin wooden-block toy brand, drawing on Bauhaus and mid-century European design and favoring tactility and imagination over screen-based play.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/odd-works-toyto-graphic-design-project-021126",
+            "image": "https://m.itsnicethat.com/original_images/odd-works-toyto-graphic-design-itsnicethat-13.jpg?class=w1440"
+          },
+          {
+            "headline": "INTL poster competition spotlights three trends: textured surfaces, 90s collaged type and deliberately naive work",
+            "body": "Co-founder James Gilchrist discusses how poster design has changed over the past decade. The 190-poster exhibition is part of the International Assembly festival in Glasgow, November 12-22.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/features/intl-poster-competition-graphic-design-spotlight-021126",
+            "image": "https://m.itsnicethat.com/original_images/Hero_copy.png?class=w1440"
+          },
+          {
+            "headline": "Automatic drop-down seals for doors",
+            "body": "The aluminum strip set into the door's bottom edge has a brass plunger on the hinge side that pushes a spring-loaded seal down to the threshold when the door closes and raises it on opening.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145799/Automatic-Drop-Down-Seals-for-Doors",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1855748_lead_400_145799_.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-30",
     "date": "2026-10-30",
     "displayDate": "10/30/2026",
