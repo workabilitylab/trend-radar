@@ -15,6 +15,210 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-11-04",
+    "date": "2026-11-04",
+    "displayDate": "11/04/2026",
+    "weekday": "Wednesday",
+    "tag": "WEDNESDAY",
+    "edition": "11/04/2026",
+    "cover": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODU3OTI4Mi9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgxNTk2MzUyMH0.DCoZZS-wxL55Z78fLynCFGr26W9p9cicdexTwxy3BEI/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100",
+    "intro": "Overview of the last 24 hours in design, AI, environment and society. The US midterms dominate energy and climate: Democrats retake the House, data centers become a campaign issue and Georgia's energy regulator changes hands. In AI, Fal is valued at $16 billion and Meta pays more to borrow; in security, European supermarket fridges are under attack.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "Democrats retake the US House and target the energy agenda",
+            "body": "Democrats won the House in the midterms, creating the first divided government since Trump's return; the Senate remains undecided. Their agenda includes restoring the wind and solar tax credits cut in 2025, expanding the roughly $4 billion LIHEAP program, and overseeing the cancellation of the $6.3 billion Industrial Demonstrations Program and the offshore wind lease buyouts.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/politics/democrats-retake-the-house",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODU3OTI4Mi9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgxNTk2MzUyMH0.DCoZZS-wxL55Z78fLynCFGr26W9p9cicdexTwxy3BEI/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "If this was a data center election, data centers lost",
+            "body": "Democratic attack ads on data centers helped carry governor's races in Georgia (Keisha Lance Bottoms), Ohio (Amy Acton) and Texas (Gina Hinojosa over Greg Abbott). In Georgia, Effingham County tabled OpenAI's data center plan on election night; congressional results were more mixed.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/politics/data-center-election-results",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODU4ODc2Ny9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTg0OTcwMzU4M30.a5V0uhwSXmaWMzpGu6rvSJ5VyqH-R2t1F0ld9tTfvxQ/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "Texas wanted to power America's AI boom; its new governor could change everything",
+            "body": "Gina Hinojosa beat Greg Abbott promising a pause on new data centers until residents get stronger protections. Texas holds about 26% of planned US capacity, Jefferies estimates the moratorium could put 13.3 GW of projects at risk, the tax break will cost $3.2 billion over two years, and 79% back limits in a University of Houston poll.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91634444/texas-wanted-to-power-americas-ai-boom-its-new-governor-could-change-everything",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91634444-what-do-election-results-mean-for-tx-plans-to-become-data-center-capital-of-us.jpg"
+          },
+          {
+            "headline": "Democrats win control of Georgia's energy regulator",
+            "body": "Peter Hubbard and Sheila Edwards won both contested Public Service Commission seats, giving Democrats a 3-2 majority after nearly 20 years of unanimous Republican control. Hubbard pledges lower power bills and more clean energy; Edwards criticizes data centers for not paying taxes and for using local water and electricity.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/energy/georgia-psc-election-2026",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODU4OTA3MS9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTg0NDk1NjM3MH0.XOFOwj5vjtYtlAjAE1grBRAkmjw0ksEvQKuVMWY4hKo/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "A chief antagonist of offshore wind loses his seat",
+            "body": "Democrat Zack Mullock, mayor of Cape May, unseated Rep. Jeff Van Drew in New Jersey's 2nd District. Van Drew called for a moratorium and worked with the Trump administration to block projects under construction; Mullock backs renewables but says wind should go only where it won't harm the environment or commercial fishing.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/politics/jeff-van-drew-new-jersey-2026-results",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODU4ODkxOC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTg0MTA0NTMwMn0.pAUZAOOBOsfWyGkqU5I3upPM5jXy7tLbtDNdK_MCqlo/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "UK's ARIA will test light-based AI servers in a data centre",
+            "body": "ARIA will test Oxford spin-out Lumai's Iris servers in a commercial data centre, using a £50M lab run by CommonAI. Lumai claims the chips could cut power use by up to 90% and be at least 16 times more energy efficient per request, figures not yet independently verified.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/aria-scaling-inference-lab-lumai-optical-servers",
+            "image": "https://media.thenextweb.com/2026/10/ai-microchip-green-pastel-reflective-surface.jpg"
+          },
+          {
+            "headline": "Reused bamboo scaffolding becomes a retreat in Macau, but not forever",
+            "body": "Impromptu Projects built the roughly 43-foot Bamboo Pagoda from reused bamboo scaffolding, with floor panels made from recycled tea waste and wood chips. The installation ran only until October 11, which limits everyday use.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/03/old-bamboo-scaffolding-becomes-a-retreat-but-not-forever/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/old-bamboo-scaffolding-becomes-a-retreat-but-not-forever/bamboo-pagoda-04.jpg"
+          },
+          {
+            "headline": "Designed magazine teaches readers to eat the whole fish and favor local catch",
+            "body": "Design studio Beam, in Providence and Cambridge, created Eating The Whole Fish, a 200-page hybrid of cookbook, cultural archive and research paper. It grew from a question by nonprofit Eating with the Ecosystem on how more people could eat from New England's local waters.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/beam-eating-the-whole-fish-graphic-design-project-031126",
+            "image": "https://m.itsnicethat.com/original_images/BEAM_EatingtheWholeFish_Cover.png?class=w1440"
+          }
+        ]
+      },
+      {
+        "heading": "AI, technology and business",
+        "items": [
+          {
+            "headline": "AI inference startup Fal doubles its value to $16B in a $1.3B round",
+            "body": "The AI inference startup, which hosts image, video and audio models, raised $1.3B led by Bessemer at a $16B valuation, double its $8B in April. Annualized revenue hit $800M, and funds go to compute capacity and its 185-person team.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/fal-1-3b-bessemer-16b-valuation-ai-inference",
+            "image": "https://media.thenextweb.com/2026/10/ai-orange-neon-sign-dark-circuit-wall.jpg"
+          },
+          {
+            "headline": "Meta pays up to borrow $15B as investors grow wary of AI debt",
+            "body": "Meta's first debt sale in six months is at least $15B and expected to reach $20B with a first euro note. The 30-year bonds are discussed about 2.5 points over Treasuries, nearly 0.9 points more than an April deal, a sign of investor wariness over AI debt.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/meta-15b-bond-sale-higher-yields-euro-debut",
+            "image": "https://media.thenextweb.com/2026/10/meta-3d-logo-blue-gradient-background.jpg"
+          },
+          {
+            "headline": "Salesforce to buy Cresta and bring its AI voice agents into Service Cloud",
+            "body": "Per The Information the deal is worth about $2.7bn, though Salesforce did not disclose a price. Cresta's voice agents, used by Marriott, Comcast and Alaska Airlines, will be integrated into Service Cloud, with closing expected in Q1 of fiscal 2028.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/salesforce-cresta-2-7bn-voice-ai-agents",
+            "image": "https://media.thenextweb.com/2026/11/salesforce-and-cresta-logos-blue-gradient.jpg"
+          },
+          {
+            "headline": "Netflix thinks AI might save you from scrolling aimlessly",
+            "body": "AI Discover, marked by a red gem icon, is rolling out to supported TVs in English in the US, with wider access in coming weeks. It offers themed picks with a clip from each title and won't appear on kids profiles.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2305778/netflix-thinks-ai-might-save-you-from-scrolling-aimlessly-for-something-to-watch/",
+            "image": "https://www.engadget.com/img/gallery/netflix-thinks-ai-might-save-you-from-scrolling-aimlessly-for-something-to-watch/intro-1793735788.jpg"
+          },
+          {
+            "headline": "Valve changes Steam release rules amid a flood of AI games",
+            "body": "Reviews of new titles that took 3 to 5 days now take up to 12 business days. A Reddit user found 49.9% of games released on Steam in October disclosed AI-generated content, and developers must now run their game for at least five minutes before submitting.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2306215/valve-changed-its-steam-release-rules-amid-a-flood-of-ai-games/",
+            "image": "https://www.engadget.com/img/gallery/valve-just-changed-its-steam-release-rules-amid-a-flood-of-ai-games/intro-1793780767.jpg"
+          },
+          {
+            "headline": "Reddit tests in-app search ads as traffic from Google declines",
+            "body": "The ads target users with high purchase intent and start with a limited group of advertisers. The test follows a sharp traffic drop tied to Google's AI mode and comes alongside a plan to restrict most content to logged-in users.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2305984/reddit-is-testing-search-ads-as-traffic-from-google-declines/",
+            "image": "https://www.engadget.com/img/gallery/reddit-is-testing-search-ads-as-traffic-from-google-declines/intro-1793741097.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Security, privacy and regulation",
+        "items": [
+          {
+            "headline": "Google will switch off Gemini for school students unless schools opt in",
+            "body": "Gemini, Gemini Notebook, Gemini in Classroom and Search stay off for K-12 student accounts until administrators enable each one. Guided Learning, which asks questions instead of giving answers, reaches Classroom worldwide and will be tested in Search at some US schools, despite Common Sense Media's July warning.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/google-guided-learning-classroom-search-k12-ai-off-by-default",
+            "image": "https://media.thenextweb.com/2026/11/google-sign-sunnyvale-office-white-roses.jpg"
+          },
+          {
+            "headline": "UK AI minister says a serious cyber breach is \"extremely likely\"",
+            "body": "Kanishka Narayan said neither the public nor private sector is ready, pointing to an extra £120 million for the AI Security Institute, and noted hackers are using AI tools to speed up attacks.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/uk-ai-minister-narayan-cyber-attack-extremely-likely",
+            "image": "https://media.thenextweb.com/2026/11/kanishka-narayan-uk-ai-minister-portrait-garden-1200.avif"
+          },
+          {
+            "headline": "EU Commission will review supermarket defences after fridge cyberattacks",
+            "body": "Cooling systems at dozens of stores in at least six EU countries reportedly reached 50°C on Monday. A similar wave hit hundreds of stores in France last month, targeting Danfoss-made control systems.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/eu-commission-probe-supermarket-fridge-hacks",
+            "image": "https://media.thenextweb.com/2026/11/christophe-hansen-eu-commission-college-meeting.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Work and sociocultural factors",
+        "items": [
+          {
+            "headline": "Lawsuit accuses Meta of using AI to pick layoffs; poll shows widespread worry",
+            "body": "In a July suit, 26 anonymous plaintiffs say automated tools helped pick this year's layoffs, hitting workers who needed disability accommodations or took parental leave; Meta denies it and says humans made every selection. In a Fast Company poll of about 480, over two-thirds worry their employer might use AI for layoffs.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91626904/how-likely-are-you-to-be-fired-by-ai",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-91626904-how-likely-are-you-to-be-fired-by-AI.jpg"
+          },
+          {
+            "headline": "Meet the new gadgets designed to kill our dependence on gadgets",
+            "body": "Meadow is a 3-inch phone ($448 plus a mandatory T-Mobile plan) with a few curated apps; Ikko's MindOne Pro costs $500 and drew 3,411 Kickstarter backers; the RePod C1 (from $60) turns an old Apple Watch into an iPod-style device. The author says they can't fully break dependence but show devices can be less compulsive.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91634103/meet-the-new-gadgets-designed-to-kill-our-dependence-on-gadgets",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91634103-anti-gadget-gadgets.jpg"
+          },
+          {
+            "headline": "Pew estimates 3.1 to 5.2 million Middle Eastern or North African people in the US",
+            "body": "That is 0.9% to 1.5% of Americans depending on whether only ancestry or also birthplace, language and race are counted. Because the Census classifies these origins as White, 2020 captured only 3.5 million write-in responses; the largest groups in 2024 were Lebanese (825,000), Iranian (583,000) and Egyptian (441,000).",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/decoded/2026/11/02/how-many-people-in-the-us-are-middle-eastern-or-north-african/"
+          }
+        ]
+      },
+      {
+        "heading": "Design, architecture and materials",
+        "items": [
+          {
+            "headline": "SOM's Sany IROOTECH headquarters hangs its floors from a giant steel exoskeleton",
+            "body": "In Guangzhou, two towers are linked by an elevated podium with 65 m trusses sheltering a public plaza. A diamond-patterned steel exoskeleton supports floors suspended in five-story modules, using patented joints that dissipate earthquake energy.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/03/soms-sany-irootech-headquarters-hangs-its-floors-from-a-giant-steel-exoskeleton/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/sany-irootech-headquarters/sany_irootech_yanko_design_01.jpg"
+          },
+          {
+            "headline": "Tiny wooden living units stack into a three-story tower",
+            "body": "OFIS Arhitekti's Living Unit system uses prefabricated timber cabins of 4.5 x 2.5 x 2.7 m for two people, connectable horizontally or vertically. Resting on steel anchors or removable concrete cubes, they served as a temporary library at Ljubljana Castle.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/03/tiny-wooden-living-units-stack-into-a-three-story-tower/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/the-living-units/living_unit_yanko_design_01.jpg"
+          },
+          {
+            "headline": "A bamboo armchair glows after dark without electricity",
+            "body": "Peiyang (Camille) Li's She Blooms in the Dark pairs a woven bamboo armchair with hand-crocheted flowers made from phosphorescent yarn. The piece is framed as a visual boundary for personal space; dimensions, price and glow duration are not given.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/03/a-bamboo-armchair-glows-after-dark-without-electricity/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/a-bamboo-armchair-glows-after-dark-without-electricity/she-blooms-0.jpg"
+          },
+          {
+            "headline": "The (partially) hide-away urban desk",
+            "body": "UrbanNature's Urban Desk, from the German firm founded by industrial designer Jörg Brachmann, has a lower worksurface that tucks away by hand while the upper section stays fixed. Made of ash, it sells in Europe for €995 and includes two A4 drawers.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145817/The-Partially-Hide-Away-Urban-Desk",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1855910_lead_400_145817_.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-11-03",
     "date": "2026-11-03",
     "displayDate": "11/03/2026",
