@@ -15,6 +15,207 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-11-05",
+    "date": "2026-11-05",
+    "displayDate": "11/05/2026",
+    "weekday": "Thursday",
+    "tag": "THURSDAY",
+    "edition": "11/05/2026",
+    "cover": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODU5NzA1OS9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgyMzMyOTkyM30.ELs5SAfYG_sl6YBHmkdqUp-mnFcc3d4wulo5HVe17xk/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100",
+    "intro": "Overview of the last 24 hours in design, AI, environment and society. The US post-election picture keeps driving energy and climate: the Democratic wave, doubts over the permitting bill, market reactions and gas prices. In design, Canva restructures 22% of its staff; in AI and security, agents reach payments and finance and the UK warns of AI-powered ransomware.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "Climate investors see a possible comeback, minus the \"climate tech\" label",
+            "body": "Two years after Trump's win, investors interviewed by Heatmap avoid the term but see a substantive rebound. They expect the new Democratic Congress to focus on affordability and energy access, with more solar, wind and batteries; the more skeptical distrust the rhetoric.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/climate-tech/climate-tech-back",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODU5NzExOC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgwMzMzNjk3Mn0.HhDhg1THI8vF0kw0MwgeH6BeFbm0QMmzCCOJ8uv4IOU/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "Blue wave complicates the bipartisan permitting bill",
+            "body": "After the midterms, the odds of the BAAJA passing the lame-duck Senate look worse. Sponsors still plan a vote on Monday, November 9, while Rep. Jared Huffman wants to wait for the next Congress; the House path is uncertain.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/politics/midterms-permitting-reform",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODU5NzAzNC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTg1NjM0Mzk4NH0.LLmSV1vvvuc9YdMN_x3y1RXX5RCI-9X5zCTKIYOkE20/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "\"Trump's energy revolution is over\": the Democratic landslide and data centers",
+            "body": "Robinson Meyer's analysis points to a historic Democratic majority, with at least 54 Senate seats and possibly more than 260 in the House. A Heatmap Pro/Embold poll finds 75% of Americans oppose a data center near their town.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/daily/2026-midterms-democrats-climate-energy",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODU5NzA1OS9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgyMzMyOTkyM30.ELs5SAfYG_sl6YBHmkdqUp-mnFcc3d4wulo5HVe17xk/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "Markets react to the midterms: clean energy up, power producers and data centers down",
+            "body": "The S&P Global Clean Energy Transition index rose more than 3%, with Ørsted up about 5%, First Solar 5% and Lucid almost 12%. On the other side, Vistra fell almost 14%, GE Vernova more than 9%, Talen 8.5% and CoreWeave 10%.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/economy/clean-energy-stocks-midterms",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODU5Njk3NC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTg1NDc3Nzk5OH0.iCYbOB5RL43THETLAIkZxLHz9zAxN-8ra2vIDNMzAvk/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "Gas prices helped Democrats win, with a climate catch",
+            "body": "In NBC exit polls, 87% said they were concerned about gas and diesel prices. The piece warns that the affordability focus could put the party in a bind over decarbonization and fossil fuel policy.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/politics/gas-prices-midterms-2026",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODU5NDE1MC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgxODk0NDAyOX0.Dr0CLgDIin-rfNHLNWgWu63ulprPqwVBVRckS8qD8rk/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "Drax plans a £20 billion AI data centre at Britain's largest power station",
+            "body": "According to The Next Web, the project, tied to Brookfield and Radiant, would sit in North Yorkshire at the country's largest power station site. The page consulted carries only the headline.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/drax-brookfield-radiant-ai-data-centre-north-yorkshire-20bn",
+            "image": "https://media.thenextweb.com/2026/11/data-centre-server-racks-corridor-blue-purple-lights-render-600.avif"
+          }
+        ]
+      },
+      {
+        "heading": "Design, product and brand",
+        "items": [
+          {
+            "headline": "Canva restructures 22% of staff, showing AI pressure on design",
+            "body": "Canva will cut, relocate or restructure 22% of its staff (about 1,271 jobs, per The Next Web) in its \"hardest moment\". Fast Company ties the move to the new AI design landscape.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91635513/canvas-big-layoffs-say-a-lot-about-the-ai-design-landscape",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/wp-cms-2/2026/11/p-1-91635513-canva-layoffs.jpg"
+          },
+          {
+            "headline": "Lululemon's Belt Bag gets bigger, sturdier and harder to dupe",
+            "body": "The brand made a subtle redesign to hold on to younger shoppers and curb knockoffs, on a product whose success makes the stakes high.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91634114/lululemons-belt-bag-is-getting-bigger-sturdier-and-harder-to-dupe",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/wp-cms-2/2026/11/01-91634114-lululemon-new-bag-design.jpg"
+          },
+          {
+            "headline": "Five designs for slower living, from a huggable panda to a bird-shaped chime",
+            "body": "Yanko Design's roundup links emotional-comfort objects to a cultural shift away from digital acceleration.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/04/from-a-huggable-panda-to-a-bird-shaped-chime-5-designs-for-slower-living/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/designing-products-for-emotional-comfort-and-slow-living/Desingns_For_Slow_Living_20-296x197.jpg"
+          },
+          {
+            "headline": "Minimalist house in Japan turns the walk to the shower into a landscape moment",
+            "body": "The design routes the walk through a glass corridor between two buildings, making the passage central to the architecture.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/04/this-minimalist-house-in-japan-turns-the-walk-to-the-shower-into-a-landscape-moment/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/minimalist-house/minimalist_house_yanko_design_01-296x197.jpg"
+          },
+          {
+            "headline": "Leaked iPhone Duo 2 images hint at three cameras and a thinner body",
+            "body": "Purported prototype images of the successor to Apple's first foldable, on shelves about two weeks, suggest a triple camera and a thinner design. This is a leak, unconfirmed by the company.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/04/iphone-duo-2-images-leak-online-hinting-at-a-3-camera-setup-and-even-thinner-body/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/iphone-duo-2-images-leak-online-hinting-at-a-3-camera-setup-and-even-thinner-body/iphone_duo_2_rumors_1-296x197.jpeg"
+          },
+          {
+            "headline": "DA1 camera prints photos to give away, no screen or app",
+            "body": "The device bets on analog-style photography: shoot and hand over the print on the spot, with no screens involved.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/04/da1-camera-prints-photos-to-give-away-without-a-screen-or-app/"
+          },
+          {
+            "headline": "Magnetic-footed spider-bot climbs and welds where workers can't go",
+            "body": "The Diden Spider uses magnetic feet to climb metal structures and weld in places hard for humans to reach.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145826/A-Magnetic-Footed-Spider-Bot-That-Can-Climb-and-Weld"
+          },
+          {
+            "headline": "Robotic humanoid torsos for companionship, by subscription",
+            "body": "Core77 highlights the subscription model for companion humanoid robots, with a critical tone in the title (\"Hell in a Handbasket\").",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145830/Hell-in-a-Handbasket-Robotic-Humanoid-Torsos-for-Companionship"
+          },
+          {
+            "headline": "TrendWatching: making everyday products easier for more people to use",
+            "body": "In its \"Designed Around Barriers\" trend, the firm highlights design that removes usage barriers in everyday items, widening who can use them.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/making-everyday-products-easier-for-more-people-to-use"
+          }
+        ]
+      },
+      {
+        "heading": "AI, technology and business",
+        "items": [
+          {
+            "headline": "Snap passes 30 million paid subscribers",
+            "body": "The company has more than 30 million subscribers across Snapchat+ and other plans; power users are paying for AI-powered effects.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2307356/snap-has-more-than-30-million-paid-subscribers-across-snapchat-and-other-plans/",
+            "image": "https://www.engadget.com/img/gallery/snap-has-more-than-30-million-paid-subscribers-across-snapchat-and-other-plans/intro-1793832812.jpg"
+          },
+          {
+            "headline": "Pangram expands AI detection to video and images",
+            "body": "Known for detecting AI-generated text, the company now covers other kinds of synthetic content.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2307116/pangram-expands-its-ai-detection-tools-to-video-and-images/",
+            "image": "https://www.engadget.com/img/gallery/pangram-expands-its-ai-detection-tools-to-video-and-images/intro-1793824046.jpg"
+          },
+          {
+            "headline": "Pliant raises $80M to open B2B payments to AI agents",
+            "body": "Claude, ChatGPT and in-house agents can run business payments on the Berlin fintech's platform, which passed $100M in recurring revenue and will expand in North America.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/pliant-80m-series-c-ai-agents-b2b-payments-seaya-speedinvest",
+            "image": "https://media.thenextweb.com/2026/11/pliant-cofounders-malte-rau-fabian-terner-1200.avif"
+          },
+          {
+            "headline": "UiPath will charge per document for its new finance AI agents",
+            "body": "Procurement and invoice agents arrive in early 2027, priced per document; they were shown at the FUSION event in Dubai.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/uipath-per-document-pricing-source-to-pay-agents",
+            "image": "https://media.thenextweb.com/2026/11/uipath-fusion-dubai-source-to-pay-session-stage-1200.avif"
+          }
+        ]
+      },
+      {
+        "heading": "Work, privacy, security and society",
+        "items": [
+          {
+            "headline": "AI wearables want to remember everything; what happens when we can't forget?",
+            "body": "Devices that capture every conversation raise warnings from privacy advocates about ubiquitous recording.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91634248/ai-wearables-want-to-remember-everything-what-happens-when-we-cant-forget"
+          },
+          {
+            "headline": "What happens to your online accounts when you die",
+            "body": "The piece examines the challenges older adults face in planning for their online accounts and explains how to prepare a digital estate.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91634253/online-accounts-digital-estate-death-how-to-prepare",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/wp-cms-2/2026/11/p-91634253-how-to-ready-your-online-life-for-death.jpg"
+          },
+          {
+            "headline": "Democratic attorney general wins may be the biggest tech story of the midterms",
+            "body": "Wins in Texas, Arizona, Michigan, Nevada and Wisconsin could shape legal battles with big tech.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91634246/what-state-ag-election-results-mean-for-big-tech-accountability",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/wp-cms-2/2026/11/p-1-91634246-what-state-ag-election-results-mean-for-big-tech-accountability.jpg"
+          },
+          {
+            "headline": "SUSE to cut about 10% of jobs as CEO cites AI",
+            "body": "According to The Register, via The Next Web, the CEO attributes the reduction to AI automation.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/suse-job-cuts-10-percent-ai-automation"
+          },
+          {
+            "headline": "Binance says a fake job interview led to its $6.3 billion hack",
+            "body": "The company says attackers used fake job interviews to carry out the attack, which cost about $6.34 billion in digital assets, and has published more details.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2306223/binance-attackers-fake-job-interviews-6-3-billion-crypto-heist/",
+            "image": "https://www.engadget.com/img/gallery/binance-reveals-how-attackers-used-fake-job-interviews-to-launch-6-3-billion-crypto-heist/intro-1793781948.jpg"
+          },
+          {
+            "headline": "UK cyber agency warns of AI-powered ransomware on critical infrastructure by 2028",
+            "body": "The NCSC annual review counts 80 nationally significant incidents in a year; chief Richard Horne says decades of \"tech on the cheap\" left flaws that AI can now find and exploit.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/ncsc-annual-review-2026-ai-malware-critical-infrastructure",
+            "image": "https://media.thenextweb.com/2026/11/electricity-substation-insulators-dusk-1200.avif"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-11-04",
     "date": "2026-11-04",
     "displayDate": "11/04/2026",
