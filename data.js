@@ -15,6 +15,203 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-11-06",
+    "date": "2026-11-06",
+    "displayDate": "11/06/2026",
+    "weekday": "Friday",
+    "tag": "FRIDAY",
+    "edition": "11/06/2026",
+    "cover": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODYwNzkwMS9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgyNDk0OTg3Nn0.a0sCp24HmyO2Y264WC39h6rZESEMrG5Qt-ln6KF4w9s/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100",
+    "intro": "Overview of the last 24 hours in design, AI, environment and society. The US post-election picture keeps shaping the energy agenda: utilities at the center of the debate, states as partners in climate policy, and OpenAI's pledge on the impact of its data centers. In AI, Claude gets a personal finance tool and Big Tech sues California; in design, watches without hands, camera leaks and nostalgia for wired headphones.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "Utilities look like the big losers of the midterms",
+            "body": "Heatmap's Robinson Meyer points to calls for competitive bidding on transmission lines, pledges by incoming governors to appoint pro-ratepayer regulators and Michigan's Proposition 2, which bars regulated utilities from campaign contributions; it passed with more than 80% but faces a legal challenge.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/daily/the-anti-utility-election",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODYwNzkwMS9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgyNDk0OTg3Nn0.a0sCp24HmyO2Y264WC39h6rZESEMrG5Qt-ln6KF4w9s/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "States should be at the core of Democrats' energy policy",
+            "body": "In an opinion piece, Shara Mohtadi and Sam Ricketts argue for treating states as institutional partners, saying the IRA and the EPA's greenhouse gas fund under-used those channels. They propose formula funding, capitalization of state financing institutions, grants for utility commissions and clearer federal legislation.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/ideas/states-democrats-energy-policy",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODYwODAzOC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgzOTMyODI0Nn0.sx8MqpoFu9mkjEe9oo1c20GXSflf-_oAUcyKsBPMmKI/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "Democrats regain a say in Arizona's power bills",
+            "body": "Clara Pratte and Jonathon Hill won two seats on the state's Corporation Commission, which remains under Republican control. The result leaves Democrats one seat short of a majority when the other three seats are up in 2028.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/politics/arizona-acc-midterms",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODU4OTE4Ny9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgwODE5ODAwMX0.GRIQsacmdtO9uo-pNH3-txlz9Yxev92j_2F1SAheS6Q/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "What a bluer Texas means for energy and data centers",
+            "body": "Gina Hinojosa's win ends decades of unified Republican control of the state; she takes office on January 19. She campaigned for a moratorium on new data center permits until the legislature passes guardrails, making data center demand and storage projects uncertain.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/politics/hinojsas-win-data-centers",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODYwNjQ4Mi9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTg0Njk3ODY1MH0.2v8wa1jrVJkflp98nSoQ3FU7J7_MjQtVfad7RnGudmA/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "Renewables Super PAC takes a victory lap and eyes 2028 primaries",
+            "body": "The Invest in Tomorrow Coalition says it is on track to win 12 or 13 of the 18 races it backed, most flipping from red to blue. These are the PAC's own claims, and it plans to get involved in the 2028 presidential primaries.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/politics/invest-in-tomorrow-coalition-2028",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODYwNDA0NS9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTg0NTYzODU2NH0.WaOxAZQOU5sAx2HR-ZY0MoZu8REcv15bAqZj6qWosxk/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "Allianz sees global net zero only in 2064 despite renewables breakthrough",
+            "body": "The Green Transition Tracker 2026 ranks 65 economies and projects net zero 14 years after the 2050 benchmark. In 2025 renewables supplied 33.5% of global electricity versus coal's 33.2%, and fossil CO2 could fall about 0.5% in 2026.",
+            "source": "EuropaWire (Allianz Research)",
+            "url": "https://news.europawire.eu/allianz-research-sees-global-net-zero-delayed-to-2064-despite-renewable-energy-breakthrough/eu-press-release/2026/11/06/12/30/04/186443",
+            "image": "https://news.europawire.eu/wp-content/uploads/2026/11/allianz-research-sees-global-net-zero-delayed-to-2064-despite-renewable-energy-breakthrough.jpg"
+          },
+          {
+            "headline": "OpenAI pledges to protect local resources and report data center impact",
+            "body": "After voters pushed back on data centers in the midterms, the company published a community compact and a compute campus blueprint: pay the full cost of power and grid upgrades, prioritize closed-loop or low-water cooling, publish water and electricity use per site and sign no NDAs with public officials. OpenAI says the work predates the election results.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2307590/openai-says-it-will-protect-local-resources-and-report-on-the-impact-of-its-data-centers/",
+            "image": "https://www.engadget.com/img/gallery/openai-says-it-will-protect-local-resources-and-report-on-the-impact-of-its-data-centers/l-intro-1793882053.jpg"
+          },
+          {
+            "headline": "BCG: lower household bills are good business for energy retailers",
+            "body": "The article argues AI is changing energy retail and that cutting household costs can go hand in hand with decarbonization.",
+            "source": "BCG",
+            "url": "https://www.bcg.com/publications/2026/energy-retailers-cut-household-bills"
+          }
+        ]
+      },
+      {
+        "heading": "Design, product and brand",
+        "items": [
+          {
+            "headline": "LAWA's Gradient Watch uses rotating discs instead of hands",
+            "body": "LAWA Design's watch drops hands and tells time with rotating discs.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/05/lawas-gradient-watch-uses-rotating-discs-instead-of-hands/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/lawas-gradient-watch-uses-rotating-discs-instead-of-hands/gradient-watch-lawa-design-05-296x197.jpg"
+          },
+          {
+            "headline": "Casio keyboard lets you jam without knowing the notes",
+            "body": "Casio's new keyboard aims to open music to people who do not read notation, lowering the barrier to entry.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/05/casios-keyboard-lets-you-jam-without-knowing-the-notes/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/casios-keyboard-lets-you-jam-without-knowing-the-notes/casio-01-296x197.jpg"
+          },
+          {
+            "headline": "Insta360 Ace Pro 3 leak teases vlogs without a screen flip",
+            "body": "Leaked images show an eight-sided lens housing with Leica branding and a red outline. It is a leak, unconfirmed by the company.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/05/insta360-ace-pro-3-leak-teases-vlogs-without-a-screen-flip/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/insta360-ace-pro-3-leak-teases-vlogs-without-a-screen-flip/ace-pro-3-01-296x197.jpg"
+          },
+          {
+            "headline": "Sony's MDR-3R wired headphones lean into retro aesthetics",
+            "body": "Sony refreshed a headphone design from 1979, betting on nostalgia and the analog feel of wired models.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2304149/sony-mdr-3r-wired-headphones-are-steeped-in-retro-aesthetics/",
+            "image": "https://www.engadget.com/img/gallery/sony-mdr-3r-wired-headphones-are-steeped-in-retro-aesthetics/intro-1793639704.jpg"
+          },
+          {
+            "headline": "The 5 best cabin designs of November",
+            "body": "Yanko Design's roundup features cabins with a king bed and no loft, a wide porch and a narrow walkway.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/05/the-5-best-cabin-designs-of-november-2026/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/cabin-designs-of-november-2026/5_best_cabins_yanko_design_hero-1050x788.jpg"
+          },
+          {
+            "headline": "Kate Schroder's illuminated LED ‘Chandeliearrings’",
+            "body": "The Missouri-based ceramic artist and jewelry maker created chandelier-shaped earrings with LEDs.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145834/Kate-Schroders-Illuminated-LED-Chandeliearrings"
+          },
+          {
+            "headline": "TrendWatching: local authorities design tools around specific services",
+            "body": "In ‘Civic Pinpoints’, the consultancy cites a Los Angeles tool for tracking council legislation, a four-language lost-property chatbot for Yokohama's subway and a Hackney Council map of nightlife venues and safety facilities.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/local-authorities-design-tools-around-specific-services",
+            "image": "https://www.trendwatching.com/hubfs/Civic%20Pinpoints.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "AI, technology and business",
+        "items": [
+          {
+            "headline": "Claude gains a personal finance tool with read-only account links",
+            "body": "The Personal Finance beta, for US Pro, Max and Ultra subscribers, connects bank accounts via Plaid in read-only mode; per The Neuron's summary, conversations in that hub are excluded from model training.",
+            "source": "Engadget / The Neuron",
+            "url": "https://www.engadget.com/2307936/now-claude-can-help-with-your-finances-too/",
+            "image": "https://www.engadget.com/img/gallery/now-claude-can-help-with-your-finances-too/intro-1793895674.jpg"
+          },
+          {
+            "headline": "METR: Anthropic's capability progress running at about twice its earlier pace",
+            "body": "The November 5 assessment, per The Neuron's summary, says progress is running at about twice the earlier pace, with much of the evidence redacted.",
+            "source": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-6-2026",
+            "image": "https://cdn.theneuron.ai/everything-that-happened-in-ai-today-november-6-2026.png"
+          },
+          {
+            "headline": "Google, Meta and TikTok sue California over child-protection social media law",
+            "body": "The three companies are challenging AB 1709, which requires removal of ‘psychologically exploitative features’ from social media.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2308280/google-meta-and-tiktok-are-all-suing-california-to-block-social-media-law-intended-to-help-kids/",
+            "image": "https://www.engadget.com/img/gallery/google-meta-and-tiktok-are-all-suing-california-to-block-social-media-law-intended-to-help-kids/intro-1793904752.jpg"
+          },
+          {
+            "headline": "Airbnb is threatening to launch an AI travel agent next year",
+            "body": "The company is developing an agent it says will eventually plan whole trips.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2308832/airbnb-ai-travel-agent-2027-launch/",
+            "image": "https://www.engadget.com/img/gallery/airbnb-is-threatening-to-launch-an-ai-travel-agent-next-year/intro-1793951259.jpg"
+          },
+          {
+            "headline": "Google is ditching Firebase Studio in favor of newer AI tools",
+            "body": "Developers are being moved to Antigravity and Google AI Studio.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2308541/google-is-ditching-firebase-studio-soon-and-it-wants-you-to-use-its-newer-ai-tools-instead/",
+            "image": "https://www.engadget.com/img/gallery/google-is-ditching-firebase-studio-soon-and-it-wants-you-to-use-its-newer-ai-tools-instead/intro-1793825592.jpg"
+          },
+          {
+            "headline": "Warby Parker seemingly spilled Google's Android XR glasses launch",
+            "body": "The ‘Intelligent Eyewear’ line is reportedly about a week away, based on what the retailer let slip. This is unconfirmed.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2308376/warby-parker-seemingly-spilled-the-beans-on-googles-android-xr-smart-glasses-launch/",
+            "image": "https://www.engadget.com/img/gallery/warby-parker-seemingly-spilled-the-beans-on-googles-android-xr-smart-glasses-launch/intro-1793907386.jpg"
+          },
+          {
+            "headline": "BCG: the insurance CEO's blueprint for scaling AI",
+            "body": "Retail insurers can move from scattered pilots to enterprise value through shared capabilities, focused investment and coordinated execution.",
+            "source": "BCG",
+            "url": "https://www.bcg.com/publications/2026/insurance-ceos-scale-ai-enterprise"
+          }
+        ]
+      },
+      {
+        "heading": "Society, consumption and culture",
+        "items": [
+          {
+            "headline": "WhatsApp expands Events to take on Partiful",
+            "body": "Invites can now go to guests without WhatsApp accounts.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2307395/whatsapp-is-taking-on-partiful-with-expanded-events-feature/",
+            "image": "https://www.engadget.com/img/gallery/whatsapp-is-taking-on-partiful-with-expanded-events-feature/intro-1793835609.jpg"
+          },
+          {
+            "headline": "Switch 2 sales fell almost 40% after Nintendo raised prices",
+            "body": "Nintendo reported higher profit but much lower console sales after raising prices.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2307555/switch-2-sales-fell-by-almost-40-percent-nintendo-increased-prices/",
+            "image": "https://www.engadget.com/img/gallery/switch-2-sales-fell-by-almost-40-percent-after-nintendo-increased-prices/intro-1793875392.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-11-05",
     "date": "2026-11-05",
     "displayDate": "11/05/2026",
