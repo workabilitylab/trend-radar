@@ -15,6 +15,140 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-11-09",
+    "date": "2026-11-09",
+    "displayDate": "11/09/2026",
+    "weekday": "Monday",
+    "tag": "MONDAY",
+    "edition": "11/09/2026",
+    "cover": "https://www.yankodesign.com/images/design_news/2026/11/this-oregon-library-brings-the-feeling-of-walking-through-a-forest-indoors/EastCounty_Library_Architecture_01.jpg",
+    "intro": "Overview of the weekend and Monday morning in design, AI, environment and society. In energy, the US Senate heads to a vote on the permitting deal and COP31 in Antalya aims at electrification; in AI, the Justice Department creates a \"Super Intelligence\" task force and Nvidia investigates reports about its CEO; in design, timber, e-ink and everyday objects; in cultural debate, the cost of art education and inequality in illustration.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "Senate releases last-minute changes to the energy permitting deal",
+            "body": "In the manager's amendment to the Bipartisan Affordability and American Jobs Act, released Saturday (Nov 7), developers need a one-year state process before applying for the FERC federal backstop siting permit, and the \"disparate treatment\" baseline extends from 5 to 10 years. The ratepayer provision is limited to resources below 5 MW; the cloture vote, which needs 60 votes, was set for Monday.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/energy/managers-amendment-policy-permitting-bill"
+          },
+          {
+            "headline": "COP31 in Antalya bets on electrification, without the US",
+            "body": "The conference gathers 194 governments and Turkey is proposing a \"35x35\" pledge to electrify 35% of world final energy use by 2035, up from about 23% today. Countries have agreed to mobilize $1.3 trillion a year by 2035 for developing nations; the US is not attending.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/climate/what-to-know-about-cop31"
+          }
+        ]
+      },
+      {
+        "heading": "Design, product and architecture",
+        "items": [
+          {
+            "headline": "Oregon library recreates the feeling of walking through a forest",
+            "body": "The East County Library in Gresham, designed by Holst Architecture and Adjaye Associates, spans 95,000 sq ft, with about 1,200 engineered wood beams and columns and nearly 300 cross-laminated timber panels. More than 550 residents voted on the interior color scheme.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/08/this-oregon-library-brings-the-feeling-of-walking-through-a-forest-indoors/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/this-oregon-library-brings-the-feeling-of-walking-through-a-forest-indoors/EastCounty_Library_Architecture_01.jpg"
+          },
+          {
+            "headline": "Color E Ink frame charges from indoor light",
+            "body": "Inkanva's Kickstarter frame, at $159 versus $239 (34% off), has raised over $358,000. The 7.09-inch and 13.3-inch editions use perovskite panels to charge from indoor light; the 28.5-inch edition has no charging panel.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/07/this-light-charging-e-ink-frame-gives-your-photos-a-home-beyond-your-phone/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/this-light-charging-e-ink-frame-gives-your-photos-a-home-beyond-your-phone/inkanva-light-charging-e-ink-photo-frame-01.jpg"
+          },
+          {
+            "headline": "Cacto: a cactus-inspired capsule coffee machine that reads as sculpture",
+            "body": "A concept by designer Anjali Kalamkar whose form changes between front and sides. The article gives no price, specs or availability.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/08/this-cactus-inspired-coffee-machine-looks-more-like-a-sculpture-than-a-kitchen-appliance/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/this-cactus-inspired-coffee-machine-looks-more-like-a-sculpture-than-a-kitchen-appliance/Cacto_coffee_machine_01.jpg"
+          },
+          {
+            "headline": "A $25 bottle packs snacks in a separate chamber",
+            "body": "The FLPSDE XR ($24.98) holds 32 oz in total, split into 25 oz for drinks and 7 oz for storage, and is top-rack dishwasher safe.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/09/a-25-water-bottle-that-packs-snacks-without-an-extra-bag/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/a-25-water-bottle-that-packs-snacks-without-an-extra-bag/flpsde-0.jpg"
+          },
+          {
+            "headline": "A $20 paper calendar shows three months without a stand",
+            "body": "TriAngular uses a narrow paper triangle that stands on its own and shows three months at once.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/08/a-20-paper-calendar-holds-three-months-without-a-separate-stand/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/a-20-paper-calendar-holds-three-months-without-a-separate-stand/triangular-calendar-01-296x197.jpg"
+          },
+          {
+            "headline": "LEGO marks Fujifilm QuickSnap's 40th anniversary with a 1:1 replica",
+            "body": "The set comes with a recreated box; the article also mentions a $22.90 black-and-white QuickSnap.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/08/this-lego-fujifilm-quicksnap-is-a-11-tribute-to-the-camera-on-its-40th-anniversary-box-included/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/658185/lego_fujifilm_quicksnap_1-296x197.jpeg"
+          },
+          {
+            "headline": "Optoma's $599 4K projector casts a 150-inch image",
+            "body": "The model bets on a price comparable to an Android phone to bring big screens into the living room.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/08/optomas-599-4k-projector-casts-a-150-inch-screen-for-the-price-of-an-android-phone/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/optomas-599-4k-projector-casts-a-150-inch-screen-for-the-price-of-an-android-phone/optoma_pk31_1-296x197.jpeg"
+          },
+          {
+            "headline": "Louis Erard x Vianney Halter: two hidden mechanical movements in one slim watch",
+            "body": "The \"Futur Antérieur\" has two riveted portholes on the dial that hide the movements.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/08/two-hidden-mechanical-movements-power-one-slim-louis-erard-watch/"
+          },
+          {
+            "headline": "Yanko's 5 best outdoor gear picks of November",
+            "body": "Includes the Olight Baton 4 Premium light (1,300 lm), the DWARFLAB Draco telescope ($1,599 preorder), the Zempire Stealth-Jet Wide stove ($210) and the Nike ACG x Helinox Chair Zero LT (534 g).",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/07/the-5-best-outdoor-gear-of-november-2026/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/outdoor-gear-of-november-2026/5_best_outdoor_gear_november_yanko_design_hero.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "AI, technology and business",
+        "items": [
+          {
+            "headline": "US Justice Department creates a \"Super Intelligence\" task force",
+            "body": "The unit will lead AI-related prosecutions and absorbs the task force that challenges state AI laws. It is led by Associate AG Stanley Woodward and Associate Deputy AG Stephen Weiss; staffing and cost were not disclosed.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/doj-super-intelligence-task-force-ai",
+            "image": "https://media.thenextweb.com/2026/11/andy-feliciotti-isg8AL7-6uk-unsplash.jpg"
+          },
+          {
+            "headline": "Nvidia opens independent probe after reports on Jensen Huang",
+            "body": "An independent board committee with outside counsel will examine NYT and FT reports linking the CEO to a woman suspected of Chinese spying. The company says it has no reason to believe national security or company secrets were compromised.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2310336/nvidia-is-investigating-reports-that-ceo-jensen-huang-was-the-target-of-chinese-spy-efforts/",
+            "image": "https://www.engadget.com/img/gallery/nvidia-is-investigating-reports-that-ceo-jensen-huang-was-the-target-of-chinese-spy-efforts/l-intro-1794172304.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Sociocultural factors",
+        "items": [
+          {
+            "headline": "Elizabeth Goodspeed on the impossible economics of US art education",
+            "body": "The average 2026-27 private art school cost is about $77,700 a year; several have closed or announced closures and new federal loan rules could hit arts programs.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/elizabeth-goodspeed-art-school-economics-education-creative-industry-091126",
+            "image": "https://m.itsnicethat.com/original_images/Who_gets_to_go_to_art_school_.png?class=w1440"
+          },
+          {
+            "headline": "Mona Chalabi illustrates income inequality in \"Ten Lives\"",
+            "body": "The book follows ten people across US income deciles, drawn from five years of interviews, and uses illustration to make economics accessible.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/features/mona-chalabi-ten-lives-illustration-spotlight-091126",
+            "image": "https://m.itsnicethat.com/original_images/Skyline.png?class=w1440"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-11-06",
     "date": "2026-11-06",
     "displayDate": "11/06/2026",
