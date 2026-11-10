@@ -15,6 +15,171 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-11-10",
+    "date": "2026-11-10",
+    "displayDate": "11/10/2026",
+    "weekday": "Tuesday",
+    "tag": "TUESDAY",
+    "edition": "11/10/2026",
+    "cover": "https://www.climatechangenews.com/wp-content/files/2026/11/COP31-venue-front.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and society. At COP31 in Antalya the agenda was settled on day one and Carbon Brief's analysis projects a slight dip in fossil emissions in 2026; in design, modular homes, everyday objects and a tight creative job market; in AI, executive moves and pricing; in sociocultural debate, plate-reading surveillance, online age checks and ageing.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "Fossil CO2 emissions set to dip 0.4% in 2026 as the Iran conflict hits oil use",
+            "body": "An analysis by Zeke Hausfather and Pierre Friedlingstein projects fossil CO2 falling about 0.4% in 2026, to 38.2 GtCO2 (range -1.5% to +0.6%). Oil emissions drop 1.9%, tied to the Iran conflict and the closure of the Strait of Hormuz. Including land use, total CO2 reaches a record 43.3 GtCO2.",
+            "source": "Carbon Brief",
+            "url": "https://www.carbonbrief.org/analysis-fossil-fuel-co2-emissions-set-to-dip-in-2026-as-iran-conflict-hits-oil-use",
+            "image": "https://www.carbonbrief.org/wp-content/uploads/2026/11/3F2Y58E.jpg"
+          },
+          {
+            "headline": "COP31 Day 1: agenda settled without a row, 2026 running 1.47°C above pre-industrial",
+            "body": "An agenda row was averted at the opening in Antalya. Co-presidents Murat Kurum (Türkiye) and Chris Bowen (Australia) say the cover decision will hold no surprises. The WMO puts January to September 2026 at 1.47°C above pre-industrial, just under 2024's record of 1.55°C.",
+            "source": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/09/cop31-bulletin-day-1-australia-says-cover-decision-wont-spring-surprises/",
+            "image": "https://www.climatechangenews.com/wp-content/files/2026/11/COP31-venue-front.jpg"
+          },
+          {
+            "headline": "Q&A: what is the Belém-Antalya mechanism for a \"just transition\"",
+            "body": "Agreed at COP30 in Belém, the mechanism is expected to launch at COP31. Its functions and financing were still disputed at the Bonn talks in June 2026, and details remain vague, according to Molly Lempriere's explainer.",
+            "source": "Carbon Brief",
+            "url": "https://www.carbonbrief.org/qa-what-is-the-belem-antalya-mechanism-for-a-just-transition",
+            "image": "https://www.carbonbrief.org/wp-content/uploads/2026/11/UNFCCC-COP30-MM-7899_0.jpg"
+          },
+          {
+            "headline": "World Economic Forum and KPMG: a CFO playbook to turn climate risk into value",
+            "body": "The November 10 white paper proposes a \"Resilience Capital Ladder\" with four actions: set accountability and risk appetite, translate climate risk into financial evidence, build business cases, and mobilize funding through existing budgets and capital plans.",
+            "source": "World Economic Forum",
+            "url": "https://www.weforum.org/publications/cfo-climate-resilience-playbook-value-creation",
+            "image": "https://assets.weforum.org/cms/images/reports/8188/447c945b6d98_00468322-thumbnail-cover-landscape-16x9.jpg"
+          },
+          {
+            "headline": "WEF: demand for energy-transition skills is growing, but training is falling short",
+            "body": "The fourth report in the \"New Economy Skills\" series, published November 10, finds that demand for energy and resource transition skills is growing and broadening, but efforts to build them are insufficient.",
+            "source": "World Economic Forum",
+            "url": "https://www.weforum.org/publications/energy-transition-skills-new-economy-report",
+            "image": "https://assets.weforum.org/cms/images/reports/8184/26add46c990d_cover-horizontal-new-economy-transition-skills.png"
+          }
+        ]
+      },
+      {
+        "heading": "Design, product and architecture",
+        "items": [
+          {
+            "headline": "Antonia tiny house puts the bedroom downstairs, no loft climb",
+            "body": "Swedish company Vagabond Haven makes the modular home of about 635 sq ft over two levels, with the main bedroom downstairs. It lists at €67,500 before VAT unfurnished and €77,500 for a furnished example; heating, appliances, terrace, delivery and utility connections are excluded.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/09/antonia-tiny-house-offers-a-bedroom-without-the-climb/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/antonia-tiny-house-offers-a-bedroom-without-the-climb/antonia-0.jpg"
+          },
+          {
+            "headline": "Michael Jantzen concept assembles homes from four-foot slices that can be taken apart",
+            "body": "The Segmented Building System is a concept, not a product. It uses four-foot-wide sections of structural insulated foam panels that can be dismantled and reassembled on a prefabricated concrete perimeter foundation.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/09/this-modular-building-concept-assembles-homes-from-four-foot-wide-slices/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/this-modular-building-concept-assembles-homes-from-four-foot-wide-slices/the-segmented-building-system-concept-11.jpg"
+          },
+          {
+            "headline": "Cornish crew wears fake dragonflies as a chemical-free mosquito deterrent",
+            "body": "Contractor Cormac had crews bitten by insects while working by a river. Worker Harry Blake tested plastic dragonflies on helmets over four days, and they worked when mounted on springy rather than rigid wires.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145854/A-Chemical-Free-Anti-Mosquito-Solution-Wearing-Fake-Dragonflies",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1856373_lead_400_145854_.jpeg"
+          },
+          {
+            "headline": "Firemill, by Propellor, is a food-safe, residue-free kitchen fire extinguisher",
+            "body": "The Swedish firm uses CO2 canisters, the kind used in Sodastream machines, instead of monoammonium phosphate, so it leaves no residue. It runs about $120 without the canister.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145849/A-Food-Safe-Residue-Free-Fire-Extinguisher-for-the-Kitchen",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1856333_lead_400_145849_.png"
+          },
+          {
+            "headline": "Nymzo launches Stanton Series 02, bringing chess design to a new wave of players",
+            "body": "Founded by designers Elliott Walker and Tim Hucklesby, the brand launched its first set in January 2025 and sold over 2.6k in the first run. Series 02 is lighter and cheaper, in four new colourways.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/nymzo-product-design-project-101126",
+            "image": "https://m.itsnicethat.com/original_images/Nymzo-Chess-Itsnicethat-3.jpg?class=w1440"
+          },
+          {
+            "headline": "The $179 Magic Screen turns a MacBook into a touchscreen with stylus",
+            "body": "Intricuit's touch-glass overlay attaches via the MacBook lid magnets. It costs $179 on Kickstarter, against a planned $239 retail price. The USI 2.0 stylus reads 4,096 pressure levels; it is compatible with M1+ MacBook Pro and M2+ Air.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/09/the-179-magic-screen-gives-any-macbook-a-touchscreen-with-stylus-support/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/the-179-magic-screen-gives-any-macbook-a-touchscreen-with-stylus-support/intricuit_magic_screen_1.jpeg"
+          }
+        ]
+      },
+      {
+        "heading": "AI, technology and business",
+        "items": [
+          {
+            "headline": "Dave Wehner leaves Meta to become CFO of AI inference startup Fireworks",
+            "body": "Wehner spent 14 years at Meta (CFO from 2014). Fireworks raised $1.5bn in July at a $17.5bn valuation; reports put its next round at $30bn or more.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/dave-wehner-meta-fireworks-cfo",
+            "image": "https://media.thenextweb.com/2026/11/dave-wehner-headshot-navy-blazer-arms-crossed.jpg"
+          },
+          {
+            "headline": "Apple starts selling $50 extended-usage packs for AI features in Creator Studio",
+            "body": "Logic Pro is the first app to support the packs, sold in 8 countries (US, UK, Canada, Brazil, France, Germany, India, Mexico). Credits roll over monthly and expire 12 months after purchase.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2311500/apple-starts-offering-50-dollar-extended-usage-packs-for-ai-features-in-creator-studio/",
+            "image": "https://www.engadget.com/img/gallery/apple-starts-offering-50-extended-usage-packs-for-ai-features-in-creator-studio/l-intro-1794257746.jpg"
+          },
+          {
+            "headline": "NHTSA investigates whether Waymo robotaxis still run school bus stop signs",
+            "body": "NHTSA opened recall query RQ26006 to test whether the software recall completed in November 2025 worked, since most incidents came after the fix. A separate probe covers a January incident in which a robotaxi hit a child in Santa Monica.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2310872/nhtsa-investigates-if-waymo-robotaxis-are-still-running-school-bus-stop-signs/",
+            "image": "https://www.engadget.com/img/gallery/nhtsa-investigates-if-waymo-robotaxis-are-still-running-school-bus-stop-signs/l-intro-1794240937.jpg"
+          },
+          {
+            "headline": "TrendWatching: satellite connections extend mobile and onboard coverage",
+            "body": "Vivo (Telefónica Brasil) added Starlink satellite messaging in Brazil; SJ is adding satellite-backed Wi-Fi to 20 SJ 3000 trains, fleet-wide from early 2027; Emirates is rolling out free Starlink Wi-Fi across its 777 and A380 fleet by mid-2027.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/satellite-connections-extend-mobile-and-onboard-coverage",
+            "image": "https://www.trendwatching.com/hubfs/No%20Dead%20Zones.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Sociocultural factors",
+        "items": [
+          {
+            "headline": "Pew: more than 109,000 Flock license-plate cameras in the US",
+            "body": "OpenStreetMap lists 109,577 Flock cameras, and 1,517 agencies publish transparency portals. The median agency has 12 cameras and a 30-day retention period, which Flock cut to seven days in August 2026.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/11/09/what-we-know-and-dont-know-about-flocks-license-plate-cameras/",
+            "image": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/11/SR_26.11.09_flock_topic.png?w=1200&h=628&crop=1"
+          },
+          {
+            "headline": "Starting a creative career has never been harder: junior roles down 81% at one recruiter",
+            "body": "A feature gathering 28 industry voices, made with Creative Lives in Progress. Recruiter Represent worked on 118 junior roles in 2016 and 22 so far in 2026.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/features/career-predictions-for-junior-creatives-creative-industry-091126",
+            "image": "https://m.itsnicethat.com/original_images/pov-final-2.jpg?class=w1440"
+          },
+          {
+            "headline": "Meta expands AI age detection for Instagram teen accounts worldwide",
+            "body": "The system estimates users aged 13 to 17 and moves them into teen accounts even if they entered an adult birthdate. Already used in the US, EU and Brazil, it is slated for Threads later this year.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2310848/meta-is-expanding-ai-age-detection-for-instagram-teen-accounts/",
+            "image": "https://www.engadget.com/img/gallery/meta-is-expanding-ai-age-detection-for-instagram-teen-accounts/l-intro-1794239869.jpg"
+          },
+          {
+            "headline": "Five Apple Watch health alerts for seniors, especially those living alone",
+            "body": "The guide highlights Emergency SOS, Fall Detection, heart alerts, medication reminders and sound/accessibility alerts, citing CDC data that over one in four people aged 65+ fall each year.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2307756/apple-watch-health-alerts-setup-seniors/",
+            "image": "https://www.engadget.com/img/gallery/every-senior-with-an-apple-watch-should-set-up-these-5-health-alerts/l-intro-1793800673.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-11-09",
     "date": "2026-11-09",
     "displayDate": "11/09/2026",
