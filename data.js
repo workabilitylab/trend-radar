@@ -15,6 +15,213 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-11-11",
+    "date": "2026-11-11",
+    "displayDate": "11/11/2026",
+    "weekday": "Wednesday",
+    "tag": "WEDNESDAY",
+    "edition": "11/11/2026",
+    "cover": "https://www.carbonbrief.org/wp-content/uploads/2026/11/UNFCCC-COP31-0081.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and society. At COP31 in Antalya, climate-finance pledges plunge, the conference heads for a record attendance and support grows for Brazil's roadmap away from fossil fuels; in design, AI-assisted tools, compact homes and hospital mobility; in AI, state testing in New York and the Paris Call; in sociocultural debate, bots on the web, home surveillance and work.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "Climate-finance pledges fall more than 70% as COP31 meets",
+            "body": "An analysis by Josh Gabbatiss shows public climate-finance pledges for developing countries fell more than 70% in 2026. Only five countries have announced new multi-year pledges, including the UK (£6bn in aid for 2026-27 to 2028-29); the US will provide none.",
+            "source": "Carbon Brief",
+            "url": "https://www.carbonbrief.org/analysis-climate-finance-pledges-fall-70-as-countries-meet-at-cop31",
+            "image": "https://www.carbonbrief.org/wp-content/uploads/2026/11/ENB_SB64_16Jun26_KiaraWorth-33.jpg"
+          },
+          {
+            "headline": "COP31 set to be the largest ever: 92,934 registered and no US delegation",
+            "body": "The provisional total tops COP28's 80,000-plus. Host Türkiye has the largest delegation (2,950), followed by Brazil (1,994), Nigeria (1,506), China (1,021) and Indonesia (978).",
+            "source": "Carbon Brief",
+            "url": "https://www.carbonbrief.org/analysis-which-countries-have-sent-the-most-delegates-to-cop31",
+            "image": "https://www.carbonbrief.org/wp-content/uploads/2026/11/UNFCCC-COP31-0081.jpg"
+          },
+          {
+            "headline": "Big fossil-fuel countries back Brazil-led roadmap away from fossil fuels",
+            "body": "India, Nigeria and Germany are among the backers of the roadmap (TAFF), which invites national clean-energy plans by 2028 and puts the main push to cut coal, oil and gas after 2031. Guterres urged countries to show their fossil cuts by the 2028 Global Stocktake.",
+            "source": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/",
+            "image": "https://www.climatechangenews.com/wp-content/files/2026/11/55645014823_542be0032c_k.jpg"
+          },
+          {
+            "headline": "Japan urged to drop fossil-fuel support to maximise clean-tech exports",
+            "body": "An Ember analysis says Japan's clean-tech exports could more than double by 2035 as Asia electrifies, while exports of combustion engines and fossil equipment could fall to about $70bn from $161bn in 2024. Since 2022 Japan has spent about $86bn on fuel and energy-bill subsidies.",
+            "source": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/10/japan-urged-to-ditch-fossil-fuel-support-to-maximise-clean-tech-exports/",
+            "image": "https://www.climatechangenews.com/wp-content/files/2026/11/GettyImages-1161873551-scaled.jpg"
+          },
+          {
+            "headline": "Climate loan repayments nearly triple, pointing to a finance deficit",
+            "body": "CARE analysed about 17,500 records: repayments on public climate loans rose from $6.9bn in 2020 to $20.1bn in 2024. At 2024 lending levels, repayments would overtake new lending in 2036.",
+            "source": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/10/developing-countries-face-climate-finance-deficit-as-loan-repayments-soar/",
+            "image": "https://www.climatechangenews.com/wp-content/files/2024/04/Spring-meetings-debt-protest-small.jpg"
+          },
+          {
+            "headline": "US permitting reform advances in the Senate; Heinrich says the payoff is for the next president",
+            "body": "The bipartisan BAAJA bill cleared a cloture vote 73-25. Senator Martin Heinrich says the data-center cost provision alone shifts about $35bn from consumers to developers, and he sees a viable path in the House.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/daily/exclusive-martin-heinrich-on-whats-next-for-permitting-reform",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODY1MjA5Ny9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgwNTA3MDc1M30.s6JWiVnPRErByc5zzIrUkL-HBNC0sq7dgy2QFXP0RzI/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "Energy prices keep heating up US inflation",
+            "body": "Consumer prices rose 0.4% in October (0.3% expected), with energy up 0.7% and electricity up 0.9%. Electricity averaged 19.9 cents per kWh versus 18.5 a year earlier; gasoline is up 37% year on year.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/economy/october-inflation",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODY1MDM3OS9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgxNzM1NTU4OX0.3iRKmhUO8Bi7o7YbysNy6buTTgJGP00urknRA2hiYc4/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          },
+          {
+            "headline": "Mercedes' US fast-charging network reaches 100 sites in three years",
+            "body": "That means nearly 1,000 ports and more than 550,000 charging sessions. The milestone comes a week after Mercedes sold its 47 European hubs to France's Electra.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/mercedes-benz-us-charging-network-100-sites",
+            "image": "https://media.thenextweb.com/2026/11/mercedes-benz-charging-hub-canopy-night.avif"
+          }
+        ]
+      },
+      {
+        "heading": "Design, product and architecture",
+        "items": [
+          {
+            "headline": "Arrowspace S1 screwdriver kit scans the screw and lights up the right bit",
+            "body": "The precision electric screwdriver has a camera and AI screw recognition; its case lights up the recommended bit among 52 S2 steel bits. It costs $129 on Kickstarter (list price $215) and has passed $250,000 raised.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/10/arrowspace-s1-screwdriver-kit-scans-screws-and-lights-up-the-recommended-bit/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/10/arrowspace-s1-screwdriver-kit-scans-screws-and-lights-up-the-recommended-bit/Worlds-First-AI-Electric-Screwdriver-With-Eyes-And-Brain.jpg"
+          },
+          {
+            "headline": "Australian Cali 9.6 tiny house swaps the loft for a ground-floor bedroom",
+            "body": "Built by Highlands Tiny Homes, it measures 9.6 m by 2.5 m on a triple-axle trailer, and the bathroom doubles as the passage between rooms. It starts at US$100,000 including GST.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/10/this-tiny-house-trades-a-sleeping-loft-for-a-ground-floor-bedroom/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/cali-9-6/cali_9.6_yanko_design_01.jpg"
+          },
+          {
+            "headline": "Self-driving hospital chair aims to replace the gurney for routine visits",
+            "body": "The Autonomous Clinical Mobility concept by Seoul studio BDCI navigates on its own and reclines flat for exams. It won a 2026 Red Dot Design Concept award.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/10/this-self-driving-hospital-chair-wants-to-retire-hollywoods-dramatic-gurney-sprint/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/this-self-driving-hospital-chair-wants-to-retire-hollywoods-dramatic-gurney-sprint/autonomous_clinical_mobility_1.jpg"
+          },
+          {
+            "headline": "Polestar Formula 2030 concept bets on physical dashboard buttons",
+            "body": "The four-door sports car pairs a 20-inch HyperDIM display and a 12.2-inch center screen with eight physical controls. Polestar says design elements reach the Polestar 2 in 2027 and the Polestar 7 in 2028.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/10/the-coolest-thing-about-polestars-futuristic-concept-might-be-its-physical-button-dashboard/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/auto-draft/polestar_formula_2030_1.jpg"
+          },
+          {
+            "headline": "Loupe Light: a table lamp that becomes a lit magnifier for dim restaurants",
+            "body": "Andrew Ferrier of MK-11 Studio stacked magnetic light rings; lift one off and it becomes a lit magnifier for reading the menu. The lamp is cordless and charges inductively.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145866/An-Industrial-Designers-Brilliant-Invention-for-Dim-Restaurants",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1856533_lead_400_145866_.jpg"
+          },
+          {
+            "headline": "Eric Timothy Carlson revisits the visuals of Bon Iver's 22, A Million ten years on",
+            "body": "For the album's anniversary the designer made 100 drawings, printed as three 33 x 33 inch collages, plus an inverted cover and visualiser versions in Spanish, French and Japanese.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/eric-timothy-carlson-bon-iver-22-a-million-graphic-design-101126",
+            "image": "https://m.itsnicethat.com/original_images/eric-timothy-graphic-design-itsnicethat-6.jpg?class=w1440"
+          },
+          {
+            "headline": "TrendWatching: technical specs become status in fashion",
+            "body": "Santander and Working Title launched Fragmentos, an F1-inspired collection whose jacket includes fragments of former race cars (concept by Droga5 São Paulo). Nike ACG and Helinox made a camping line, and Balenciaga's 2026 skiwear carries battery-free RECCO reflectors.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/fashion-collections-highlight-materials-and-technical-features",
+            "image": "https://www.trendwatching.com/hubfs/Spec%20As%20Status.jpg"
+          },
+          {
+            "headline": "TrendWatching: appliances built around a single task in the routine",
+            "body": "Henkel's Somat Smartwash sits inside the dishwasher and doses detergent by wash stage, with an app. Xiaomi launched the Mijia Shoe Washer, a washing machine for footwear only.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/appliance-brands-focus-on-specific-tasks-within-routines",
+            "image": "https://www.trendwatching.com/hubfs/Chore%20Fission.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "AI, technology and business",
+        "items": [
+          {
+            "headline": "New York will independently test AI models",
+            "body": "Governor Kathy Hochul launched what is described as the first state-run AI testing program in the US, with more than 80 Binghamton University scientists and computing from Empire AI ($500m). Under the RAISE Act, large developers must register by January 1, 2027 and report critical incidents within 72 hours.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2312487/new-york-will-independently-test-ai-models/",
+            "image": "https://www.engadget.com/img/gallery/new-york-will-independently-test-ai-models/l-intro-1794338220.jpg"
+          },
+          {
+            "headline": "AI firms sign Macron's Paris Call, but a safety group says it lacks teeth",
+            "body": "Ten companies, including OpenAI, Anthropic, Microsoft and Mistral, signed the Paris Call for AI Safety and Security, agreed on November 9. A safety group says the declaration has no enforcement.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/paris-call-ai-safety-openai-anthropic-cesia",
+            "image": "https://media.thenextweb.com/2026/11/conference-room-meeting-video-call-screen-leaders.avif"
+          },
+          {
+            "headline": "Reddit turns user threads into AI reviews for 10,000 products",
+            "body": "Reddit Reviews generates pages with summaries, sentiment breakdowns and buy links. It is rolling out to all US users on iOS and Android.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/reddit-turns-user-threads-into-ai-reviews-for-10000-products",
+            "image": "https://media.thenextweb.com/2026/10/reddit-app-icon-notification-badge-phone-screen.avif"
+          },
+          {
+            "headline": "OpenAI buys Odessia, an AI travel agent, and shuts the service down",
+            "body": "The startup was founded by Sonder co-founder Francis Davidson, who announced the deal on X on November 10 and is joining OpenAI.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/openai-acquires-odessia-ai-travel-agent",
+            "image": "https://media.thenextweb.com/2026/10/openai-logo-silhouette-hand-smartphone.avif"
+          },
+          {
+            "headline": "The design workflow is broken: Vitalii Khomenko's fix for the AI era",
+            "body": "In an opinion piece, the designer argues for a new workflow suited to AI, drawing on more than 250 client engagements across agency and in-house roles.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/design-workflow-broken-vitalii-khomenko",
+            "image": "https://media.thenextweb.com/2026/08/design-workflow-broken-vitalii-khomenko.avif"
+          }
+        ]
+      },
+      {
+        "heading": "Sociocultural factors",
+        "items": [
+          {
+            "headline": "What is the 'Dead Internet Theory'? Bots are now 53% of traffic",
+            "body": "The explainer cites a 2026 report finding bots account for 53% of web traffic (51% a year earlier). It also cites Pew: 49% of Americans have used chatbots and 40% expect AI to have a negative social impact over the next 20 years.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2307790/what-is-dead-internet-theory/",
+            "image": "https://www.engadget.com/img/gallery/what-is-the-dead-internet-theory-and-should-humanity-be-worried/l-intro-1793411003.jpg"
+          },
+          {
+            "headline": "Ring wants a drone inside your home just as towns are kicking out Flock",
+            "body": "Amazon's Ring Robotics line includes the Ring Drone Cam ($249.99, 165 g, 2K camera), shipping January 27, 2027 and still pending FCC authorization, and the Ring Rover Cam ($999.99). Scheduled patrols require a subscription.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/10/ring-wants-to-put-a-drone-in-your-house-right-as-towns-are-kicking-out-flock/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/658716/ring_robotics_1.png"
+          },
+          {
+            "headline": "IBM ends visa and green card sponsorship for most consulting roles",
+            "body": "IBM Consulting has more than 150,000 people, over half of the company's workforce. The move follows US tightening of skilled-worker immigration.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/ibm-visa-green-card-sponsorship-consulting",
+            "image": "https://media.thenextweb.com/2026/11/ibm-office-dubai-internet-city.avif"
+          },
+          {
+            "headline": "Apple is shutting down its online Support Community on November 20",
+            "body": "The forum, running since 1998, stops accepting posts and will stay read-only for a short time. Apple says the decision followed an evaluation of strategy and customer needs.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2313147/apple-shuts-down-support-community-forum/",
+            "image": "https://www.engadget.com/img/gallery/apple-is-shutting-down-its-online-support-community-on-november-20/l-intro-1794394269.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-11-10",
     "date": "2026-11-10",
     "displayDate": "11/10/2026",
