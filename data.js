@@ -15,6 +15,185 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-11-12",
+    "date": "2026-11-12",
+    "displayDate": "11/12/2026",
+    "weekday": "Thursday",
+    "tag": "THURSDAY",
+    "edition": "11/12/2026",
+    "cover": "https://www.yankodesign.com/images/design_news/2026/11/a-steel-curb-prototype-lets-plants-spread-without-waiting-for-cracks/planter-01.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and society. At COP31, some 40 leaders arrive in Antalya and Türkiye is challenged on its own \"zero waste\" pitch; data centers and the circular economy enter the environmental radar; in design, fabric as a finish, expanding trailers and curbs that let plants through; in AI, a Grok Build leak, an airline blocking agents and Claude switched on by default in UK Copilot; in sociocultural debate, Europe targets dark patterns and New York protects low-income internet.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "COP31 day 3: leaders arrive in Antalya and Guterres proposes a \"climate justice compact\"",
+            "body": "About 40 heads of state, including Lula, Erdoğan and Albanese, address the Leaders Summit. Guterres noted that emerging economies outside China receive less than one-fifth of global clean-energy investment; Türkiye's \"35 by 35\" electrification pledge already has about a dozen backers, such as Germany, Norway, Finland and Pakistan.",
+            "source": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/11/cop31-bulletin-day-3-with-the-people-stuck-outside-world-leaders-jet-in/",
+            "image": "https://www.climatechangenews.com/wp-content/files/2026/11/COP31-Leaders-Summit-roads.jpeg"
+          },
+          {
+            "headline": "Türkiye promotes \"zero waste\" at COP31, but the numbers at home tell another story",
+            "body": "Waste per person has been flat since 2010, but total annual waste rose about 15%. Climate Home analysis estimates the Sincan landfill emits about 1,200 kg of methane an hour, equal to some 73,000 petrol cars; the EU ban on waste exports to non-OECD countries starts on 21 November.",
+            "source": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/11/turkiye-pushes-zero-waste-at-cop31-but-is-it-delivering-at-home/",
+            "image": "https://www.climatechangenews.com/wp-content/files/2026/11/55644793163_bf0d9d87da_c-1.jpg"
+          },
+          {
+            "headline": "Pew: 60% of Americans don't want a data center near home",
+            "body": "The US had more than 3,000 operational data centers in February 2026 and at least 1,500 in development. The sector's electricity use went from 108 TWh (2020) to 183 TWh (2024) and could reach 426 TWh by 2030.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/11/11/key-facts-about-us-data-centers/",
+            "image": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/11/SR_26.11.11_data-center_feature.jpg?w=1200&h=628&crop=1"
+          },
+          {
+            "headline": "BCG: refurbishing and remanufacturing can cut manufacturing costs by up to 70%",
+            "body": "The circularity study estimates that products in use across the EU hold more than €65bn in critical minerals, about €9bn of which reaches end of use each year. Only about 43% of European e-waste is formally collected, against a 65% target.",
+            "source": "BCG",
+            "url": "https://www.bcg.com/publications/2026/circularity-value-existing-materials",
+            "image": "https://web-assets.bcg.com/dims4/default/3d86305/2147483647/strip/true/crop/2880x1512+0+54/resize/1200x630!/format/webp/quality/80/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2F1a%2F62%2Fedbbc02e4fc88240f0b80d6f9e8c%2Fhow-companies-can-find-new-value-in-existing-materials.gif"
+          },
+          {
+            "headline": "Perforated steel curb lets plants cross the sidewalk",
+            "body": "Designer Sara Fernandes's conceptual prototype replaces the concrete curb with Corten steel pierced by holes of varying diameter and irregular spacing, so vegetation can spread without waiting for cracks. There is no drainage or ecology data yet.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/11/a-steel-curb-prototype-lets-plants-spread-without-waiting-for-cracks/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/a-steel-curb-prototype-lets-plants-spread-without-waiting-for-cracks/planter-01.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design, product and architecture",
+        "items": [
+          {
+            "headline": "Knit's soundbar comes dressed in a knitted \"sweater\"",
+            "body": "The Knit Form is a $999 5.1.2 Dolby Atmos soundbar in a 46-inch rounded tube with a knit cover in five colors. Founder Joel Sietsema came from Sound United; a flush wall bracket costs $79.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/11/knits-999-dolby-atmos-soundbar-comes-wrapped-in-a-woven-sweater/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/658700/knit_soundbar_1.jpg"
+          },
+          {
+            "headline": "Beauer X6 trailer opens sideways and sleeps six",
+            "body": "The French trailer is about 7.2 m (23.6 ft) long and extends electrically to about 3.6 m (11.8 ft) wide. It starts at €74,990, with US shipping on request.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/11/beauer-x6-camper-sleeps-six-without-sacrificing-a-porch/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/beauer-x6-camper-sleeps-six-without-sacrificing-a-porch/Beauer-x6-01.jpg"
+          },
+          {
+            "headline": "\"log\" concept becomes a folding AI wildlife field guide",
+            "body": "Designer Maanit Singh combines a camera, AI species identification and a personal sightings log, with a 2.8-inch screen, an ESP32-S3 chip and a 4,000mAh battery. Accuracy and whether it needs internet have not been shown.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/11/this-folding-ai-handheld-concept-opens-into-a-wildlife-field-guide/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/this-folding-ai-handheld-concept-opens-into-a-wildlife-field-guide/log-ai-powered-handheld-concept-02.jpg"
+          },
+          {
+            "headline": "Rio studio Biabum puts illustration at the heart of retro identities",
+            "body": "Founded by Beatriz Tati Nobrega, the studio builds illustrated brand systems, such as the Giro chocolate packaging and the Salva Bar identity, which mixes hand lettering with drawn silhouettes.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/biabum-graphic-design-illustration-discover-111126",
+            "image": "https://m.itsnicethat.com/original_images/Biabum_Salva_Bar_1.jpg?class=w1440"
+          },
+          {
+            "headline": "Prada's permanent exhibition in Milan expected to earn €100m a year",
+            "body": "\"Pradasphere\", in the Galleria Vittorio Emanuele, takes 20 visitors an hour by appointment and is booked into next year. Pieces include a space-suit prototype made with Axiom Space for the Artemis IV mission, targeted for 2028.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91640219/pradas-new-exhibition-milan-projected-make-over-100-million-annual-revenue",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/11/AP26314292293435.jpg"
+          },
+          {
+            "headline": "Emily Stein photographs Italian waterparks with a dated aesthetic",
+            "body": "The London photographer's \"Aquasplash!\" series was shot on trips across Italy in 2026, with little editing beyond light saturation, and explores the color and chaos of these leisure spaces.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/emily-stein-aquasplash-photography-project-111126",
+            "image": "https://m.itsnicethat.com/original_images/Emily-Stein-Aquasplash-photography-Itsnicethat-7.jpg?class=w1440"
+          }
+        ]
+      },
+      {
+        "heading": "AI, technology and business",
+        "items": [
+          {
+            "headline": "Grok Build vibe-coding agent exposed data from thousands of users, including SpaceXSI",
+            "body": "According to security firm Claroc, app links sat in the subdomain and were captured by passive DNS databases. SpaceXSI only took down 24 exposed apps after Claroc tagged Musk on X.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2313187/grok-build-leaked-sensitive-spacexsi-data/",
+            "image": "https://www.engadget.com/img/gallery/a-grok-vibe-coding-agent-leaked-sensitive-spacexsi-data/l-intro-1794400413.jpg"
+          },
+          {
+            "headline": "United will block AI agents from booking flights",
+            "body": "The restriction covers its website, travel agencies and aggregators, citing security risks and DOT and FAA rules. For comparison, Uber said that in Halloween week AI agents placed 500 Uber Eats orders and four rides out of 320 million trips and deliveries.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2314121/united-is-restricting-ai-agents-from-booking-flights/",
+            "image": "https://www.engadget.com/img/gallery/united-is-restricting-ai-agents-from-booking-flights/l-intro-1794427706.jpg"
+          },
+          {
+            "headline": "Microsoft turns Claude on by default in UK Copilot from 9 December",
+            "body": "Admins can switch it off. Data is processed in the US by Anthropic, and the UK sits outside Microsoft's EU Data Boundary; per IPPR, less than £1 in every £6 spent with the 150 largest tech suppliers stays in the country.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/microsoft-claude-default-uk-copilot-9-december",
+            "image": "https://media.thenextweb.com/2026/11/microsoft-copilot-the-ai-built-for-work-home-code-autopilot.jpg"
+          },
+          {
+            "headline": "London's Fractile raises $720m for AI chips and reaches a $7bn valuation",
+            "body": "The Series C comes six months after a round of about $220m at a $1bn valuation. Its first memory-focused inference chip is due next year, and Anthropic is reportedly interested in being a customer.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/fractile-7bn-valuation-720m-ai-inference-chips",
+            "image": "https://media.thenextweb.com/2026/11/fractile-walter-goodwin-panel-mic.jpg"
+          },
+          {
+            "headline": "Helsing launches Clarity, a European rival to Palantir's Maven",
+            "body": "The platform runs hundreds of military AI agents on the customer's own infrastructure, with human sign-off before any weapon hand-off. Helsing did not say whether any armed force already uses it.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/helsing-clarity-palantir-maven-rival-karp-democrat",
+            "image": "https://media.thenextweb.com/2026/11/gundbert-scherf-helsing-co-ceo-clarity-launch-berlin.jpg"
+          },
+          {
+            "headline": "IBM plans to link two quantum chips into a 1,040-qubit system in 2027",
+            "body": "The next processor, Nighthawk r3, is designed to run 10,000 operations on 520 qubits; customers report speedups of up to 19x with the current generation.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/ibm-quantum-nighthawk-r3-1040-qubit-system-2027",
+            "image": "https://media.thenextweb.com/2026/11/ibm-quantum-nighthawk-r2-processor-chip.avif"
+          },
+          {
+            "headline": "Google Tabletop: groups build AI planning tools together",
+            "body": "The Google Labs experiment turns a prompt into trip itineraries, dinner polls and expense splitters that can be edited in real time; it is open to US adults via a waitlist.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/google-labs-tabletop-ai-group-planning-spaces",
+            "image": "https://media.thenextweb.com/2026/11/google-logo-neon-sign-office-wall-sydney.avif"
+          }
+        ]
+      },
+      {
+        "heading": "Sociocultural factors",
+        "items": [
+          {
+            "headline": "Europe proposes banning dark patterns and loot boxes for minors",
+            "body": "The European Commission presented the Digital Fairness Act, targeting addictive design, deceptive patterns, subscription traps and loot boxes for minors. Fines could reach 6% of annual global revenue.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2313329/europe-wants-to-ban-dark-patterns-in-apps-and-loot-boxes-for-minors/",
+            "image": "https://www.engadget.com/img/gallery/europe-wants-to-ban-addictive-design-loot-boxes-and-dark-patterns-in-apps/l-intro-1794406701.jpg"
+          },
+          {
+            "headline": "New York forces T-Mobile to end data caps on low-income home internet",
+            "body": "The attorney general found the carrier throttled speeds to 650 kbps after 50GB, about four days of typical use. Under state law, eligible households can get 25 Mbps for $15 or 200 Mbps for $20 a month.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2314341/new-york-is-forcing-t-mobile-to-stop-putting-data-caps-on-low-income-home-internet-plans/",
+            "image": "https://www.engadget.com/img/gallery/new-york-is-forcing-t-mobile-to-stop-putting-data-caps-on-low-income-home-internet-plans/l-intro-1794437085.jpg"
+          },
+          {
+            "headline": "On Singles Day, survey says 81% would use dating apps more if profiles were verified",
+            "body": "A Harris Poll survey for World, in a piece contributed by the company itself, finds that confirming every profile is a real person would increase use of these apps.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/singles-day-world-proof-of-human-dating",
+            "image": "https://media.thenextweb.com/2026/11/singles-day-11-11-text-graphic.avif"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-11-11",
     "date": "2026-11-11",
     "displayDate": "11/11/2026",
