@@ -15,6 +15,209 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-11-13",
+    "date": "2026-11-13",
+    "displayDate": "11/13/2026",
+    "weekday": "Friday",
+    "tag": "FRIDAY",
+    "edition": "11/13/2026",
+    "cover": "https://www.yankodesign.com/images/design_news/2026/11/samsungs-gemini-smart-glasses-come-in-nine-frame-styles-from-395/samsung-intelligent-eyewear-designs-07.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and society. At COP31, emerging economies question the overarching deal, the Pacific fund gets no new money and pressure grows for an ocean roadmap; in design, Gemini glasses, a toaster with optical sensors and a progress-bar clock; in AI, Jensen Huang leaves Nvidia, Gemini 4 Hydrogen arrives and Claude's agent service goes self-hosted; in sociocultural debate, Pew measures the pull of wellness influencers and the dating habits of singles.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "COP31, day 4: emerging economies question the need for a \"cover decision\"",
+            "body": "Russia, Saudi Arabia and others are challenging the legitimacy of the Australian-Turkish push for an overarching COP31 agreement. The day-four bulletin tracks the talks in Antalya.",
+            "source": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/",
+            "image": "https://www.climatechangenews.com/wp-content/files/2026/11/UNFCCC-COP31-6064-480x271.jpg"
+          },
+          {
+            "headline": "The Pacific leaves empty-handed from the pledging event for its new resilience fund",
+            "body": "The pledging session for the Pacific Resilience Facility produced no new money: the Netherlands, the UK, Canada and Ireland only repeated earlier commitments, leaving the fund about $300m short of its $500m 2026 target. The Minderoo Foundation announced $5m; 14 projects have been approved so far.",
+            "source": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/12/pacific-leaves-empty-handed-from-cop31-pledging-event-for-new-fund/"
+          },
+          {
+            "headline": "Push grows for an ocean roadmap that feeds into the next global stocktake",
+            "body": "A coalition of small island states, African countries, the EU and other G20 members wants COP31 to deliver an ocean roadmap tied to the 2028 global review. For now, oceans appear in UN talks only as a voluntary dialogue with no negotiated outcomes.",
+            "source": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/12/push-ocean-roadmap-informs-next-global-stocktake-grows-cop31-antalya/"
+          },
+          {
+            "headline": "Trade ministers call for stronger trade cooperation to meet climate goals",
+            "body": "In an op-ed signed by eight members of the Coalition of Trade Ministers on Climate, they argue the WTO and other forums should make trade-related climate measures more transparent, coherent and interoperable. They also call for coordinated trade, climate, industrial and finance policy.",
+            "source": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/13/we-must-strengthen-trade-cooperation-to-deliver-on-global-climate-goals/"
+          },
+          {
+            "headline": "Ed Miliband answers Carbon Brief readers' questions at COP31",
+            "body": "The UK minister said Britain is still seen as a climate leader and remains committed to its 2030 NDC, backed multilateral development bank reform and the \"35 by 35\" electrification pledge, and defended the COP process. The UK endorsed the electrification pledge three hours after the interview.",
+            "source": "Carbon Brief",
+            "url": "https://www.carbonbrief.org/cop31-how-ed-miliband-answered-carbon-brief-readers-questions",
+            "image": "https://www.carbonbrief.org/wp-content/uploads/2026/11/784A1268.00_03_49_09.Still007-1024x576.jpg"
+          },
+          {
+            "headline": "Exxon is suing the EU over carbon capture rules",
+            "body": "The oil major filed a confidential challenge to the EU's carbon capture rules under a 1994 investment treaty the bloc left last year but is still bound by. The same briefing covers Guterres's climate message ahead of COP31.",
+            "source": "Heatmap",
+            "url": "https://heatmap.news/am/guterres-cop31",
+            "image": "https://heatmap.news/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82ODY2MjM0NC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgxNjQzODUzNH0.FFz49BoHll1OIpmMWKupO1KjAs4aYJNkNqiQkPtGQXc/image.jpg?width=1200&height=600&coordinates=0%2C100%2C0%2C100"
+          }
+        ]
+      },
+      {
+        "heading": "Design, product and brand",
+        "items": [
+          {
+            "headline": "Samsung's Gemini smart glasses come in nine frame styles from $395",
+            "body": "The glasses use frames from Warby Parker and Gentle Monster (the latter from $449), with a 12MP camera and open-ear audio but no display. Preorders are open, with a US release set for December 10.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/13/samsungs-gemini-smart-glasses-come-in-nine-frame-styles-from-395/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/samsungs-gemini-smart-glasses-come-in-nine-frame-styles-from-395/samsung-intelligent-eyewear-designs-07.jpg"
+          },
+          {
+            "headline": "Breville's toaster watches your bread brown with optical sensors",
+            "body": "The $299.95 Eye Q 850 reads color change ten times a second and stops when the bread reaches one of seven chosen shades. It also offers sourdough and timer modes.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/13/brevilles-300-toaster-actually-watches-your-bread-brown/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/brevilles-300-toaster-actually-watches-your-bread-brown/breville-toaster-01.jpg"
+          },
+          {
+            "headline": "Daylight Machines' linear clock turns 24 hours into a glowing progress bar",
+            "body": "The 3D-printed PLA desk clock uses 48 half-hour blocks to show the day filling up, with schedule, sunrise/sunset and countdown modes. It costs EUR 159 before VAT and the current batch is sold out.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/13/daylight-machines-linear-clock-turns-24-hours-into-a-glowing-progress-bar/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/daylight-machines-linear-clock-turns-24-hours-into-a-glowing-progress-bar/daylight-machines-linear-calendar-05.jpg"
+          },
+          {
+            "headline": "The Co Print Quadro 3D printer puts four independent toolheads on one rail",
+            "body": "Each Quadro toolhead has its own filament, nozzle and temperature, with a claimed swap time of about one second. It offers a 300mm cube build volume and early Kickstarter pricing of $649.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/12/four-toolheads-one-rail-nothing-swaps-meet-the-649-co-print-quadro-3d-printer/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/four-toolheads-one-rail-nothing-swaps-meet-the-649-co-print-quadro-3d-printer/quadro-hero.jpg"
+          },
+          {
+            "headline": "Apple HomeView review: a smart display and Siri-powered home hub",
+            "body": "Engadget's review calls Apple's first smart display versatile for a range of household tasks, combining a smart screen with a Siri-driven connected-home hub.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2313999/apple-homeview-review/",
+            "image": "https://www.engadget.com/img/gallery/apple-homeview-review-a-versatile-smart-display-and-siri-powered-home-hub/l-intro-1794423451.jpg"
+          },
+          {
+            "headline": "How Jensen Huang's personal brand boomeranged",
+            "body": "Rob Walker's column examines how the carefully built leather-jacket persona became a liability after the Nvidia CEO's resignation, amid a scandal and an AI-faked viral photo.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91641153/how-jensen-huangs-personal-brand-boomeranged",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91641153-walker-huang.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "AI, technology and business",
+        "items": [
+          {
+            "headline": "Jensen Huang is out as NVIDIA CEO",
+            "body": "The co-founder, who had led the company since 1993, stepped down after involvement in an international scandal; Colette Kress takes over on an interim basis.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2314584/jensen-huang-is-out-as-nvidia-ceo/",
+            "image": "https://www.engadget.com/img/gallery/jensen-huang-is-out-as-nvidia-ceo/l-intro-1794493123.jpg"
+          },
+          {
+            "headline": "Google's Gemini 4 Hydrogen brings a fast, cheaper model to everyone",
+            "body": "Aimed at coding and agents, the model is available in the Gemini app and Search, and costs developers $1.50 per million input tokens.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/google-gemini-4-hydrogen-fast-cheap-model-everyone",
+            "image": "https://media.thenextweb.com/2026/11/google-gemini-4-hydrogen-bubble-graphic.avif"
+          },
+          {
+            "headline": "Anthropic lets companies run Claude's agent service on their own servers",
+            "body": "Claude Managed Agents can now run in a customer's own cloud or data centre, with agent histories and credentials kept in-house; model calls still go to an outside provider such as Anthropic or AWS.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/anthropic-self-hosted-claude-managed-agents",
+            "image": "https://media.thenextweb.com/2026/10/anthropic-wordmark-3d-render-purple-glass.avif"
+          },
+          {
+            "headline": "J.Crew launches an AI stylist built on Anthropic's Claude",
+            "body": "Style Advisor, on the brand's US website, builds complete outfits from the occasion a shopper describes; recommendations based on purchase history will come later.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/jcrew-style-advisor-claude-ai-stylist",
+            "image": "https://media.thenextweb.com/2026/11/claude-website-thinking-partner-screen.avif"
+          },
+          {
+            "headline": "Meta's Muse can now make calls on your behalf",
+            "body": "For paying subscribers, Muse can schedule appointments, make reservations and wait on hold for the user.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2315525/metas-muse-can-now-make-calls-on-your-behalf-if-you-have-a-paid-subscription/",
+            "image": "https://www.engadget.com/img/gallery/metas-muse-can-now-make-calls-on-your-behalf-if-you-have-a-paid-subscription/l-intro-1794526142.jpg"
+          },
+          {
+            "headline": "EU leaders meet in Dublin for the bloc's first AI summit",
+            "body": "The meeting discusses how the bloc can catch up with the US and China on AI, following a week of diplomacy in Ireland.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/eu-ai-summit-dublin-first-leaders-meeting",
+            "image": "https://media.thenextweb.com/2026/11/epc-summit-leaders-family-photo-dublin.avif"
+          },
+          {
+            "headline": "US AI task force targets hacks carried out by AI agents",
+            "body": "Task force members discussed how to get critical sectors to report AI-driven cyberattacks, which have become frequent this year.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/trump-ai-task-force-ai-cyberattacks-reporting",
+            "image": "https://media.thenextweb.com/2026/10/donald-trump-speaks-to-press-white-house-south-lawn.avif"
+          }
+        ]
+      },
+      {
+        "heading": "Sociocultural factors",
+        "items": [
+          {
+            "headline": "Pew: 38% of health and wellness influencer posts promote a product or service",
+            "body": "Among adults who get health information from these influencers, 63% have tried a fitness, diet or beauty routine and 55% have bought a product because of them. The analysis covered 535,000 posts and a survey of 5,023 US adults.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/11/12/download-my-free-guide-what-products-and-services-do-health-and-wellness-influencers-promote/",
+            "image": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/11/SR_26.11.12_wellness-products_featured.jpg?w=1200&h=628&crop=1"
+          },
+          {
+            "headline": "Pew: 42% of Black adults in the US are single",
+            "body": "The share is 29% among other US adults. About half of single Black adults are looking, and women are more likely than men to want only a committed relationship (45% vs. 24%).",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/race-and-ethnicity/2026/11/12/the-dating-attitudes-of-single-black-adults/",
+            "image": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/11/RE_2026.11.12_Single-Black-Adults_featured.png?w=1200&h=628&crop=1"
+          },
+          {
+            "headline": "Google wants you to know it cares about smart glasses privacy",
+            "body": "The company is publicizing its privacy policies for AI glasses; Engadget finds some of the rules good, even if the messaging seeks attention.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2314414/google-really-wants-you-to-know-it-cares-about-smart-glasses-privacy/",
+            "image": "https://www.engadget.com/img/gallery/google-really-wants-you-to-know-it-cares-about-smart-glasses-privacy/l-intro-1794448673.jpg"
+          },
+          {
+            "headline": "BCG: personalizing change management at scale with AI",
+            "body": "The firm proposes using AI to gather employee insights and tailor change programs to each group.",
+            "source": "BCG",
+            "url": "https://www.bcg.com/publications/2026/ai-personalizes-change-management-scale"
+          },
+          {
+            "headline": "Whoop Humans is a social network for fitness enthusiasts",
+            "body": "The maker of screenless fitness trackers launches Whoop Humans, its own social network built around the training community.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2315689/whoop-humans-is-a-social-network-designed-for-fitness-enthusiasts/",
+            "image": "https://www.engadget.com/img/gallery/whoop-humans-is-a-social-network-designed-for-fitness-enthusiasts/l-intro-1794566195.jpg"
+          },
+          {
+            "headline": "Fashion retailers connect size guidance and faster delivery",
+            "body": "Examples include CaaS (virtual try-on in Argentina and Mexico), Dovetail Workwear (body scanning) and InstaMall (same-day delivery in Miami across 80+ brands).",
+            "source": "Trendwatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/fashion-retailers-connect-size-guidance-and-faster-delivery",
+            "image": "https://www.trendwatching.com/hubfs/Fit%20On%20Demand.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-11-12",
     "date": "2026-11-12",
     "displayDate": "11/12/2026",
