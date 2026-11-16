@@ -15,6 +15,204 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-11-16",
+    "date": "2026-11-16",
+    "displayDate": "11/16/2026",
+    "weekday": "Monday",
+    "tag": "MONDAY",
+    "edition": "11/16/2026",
+    "cover": "https://www.yankodesign.com/images/design_news/2026/11/plisse-block-is-a-pleated-glass-sofa-that-refuses-to-blend-in/plisse-block-0.jpg",
+    "intro": "Overview of news published since the last edition (Friday afternoon) through Monday, covering the weekend. At COP31, sharp divisions lower expectations, host Türkiye faces a water crisis and scientists defend the UN overshoot report; in design, a pleated glass sofa and a humidifier that waters a garden; in AI, Apple studies health tools, the challenge of keeping AI-built software running and a Microsoft outage that revives Europe's digital sovereignty push; in society, city-run groceries in New York and new ways of taxing the rich.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "COP31, day 7: sharp divisions lower expectations for the outcome",
+            "body": "The Arab Group and the Like-Minded Developing Countries want no new sectoral targets in the cover decision, including Türkiye's electrification pledge, and Saudi Arabia opposes referencing Brazil's fossil-fuel roadmap. Canada pledged up to C$560m to the Tropical Forest Forever Facility, taking it to about $8.2bn of its $10bn goal.",
+            "source": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/16/cop31-bulletin-day-7-sharp-divisions-lower-expectations-for-cop-outcome/",
+            "image": "https://www.climatechangenews.com/wp-content/files/2026/11/GettyImages-2272819594-copy-scaled.jpeg"
+          },
+          {
+            "headline": "Behind the COP31 fanfare, Türkiye is worried about water",
+            "body": "A comment by Efe Baysal (350.org Türkiye) notes that half of Türkiye's population is at risk of water shortages by 2030, three-quarters of its lakes have dried up in 50 years and sinkholes now exceed 1,000, mostly in the Konya Basin. Extreme weather events rose from about 300 in 2011 to almost 1,500 in 2023.",
+            "source": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/15/behind-the-cop31-fanfare-turkiye-is-worried-about-water/",
+            "image": "https://www.climatechangenews.com/wp-content/files/2026/11/2025-11-25T112708Z_308250344_RC241IANOXM6_RTRMADP_3_POPE-TRIP-TURKEY-PREVIEW-scaled.jpg"
+          },
+          {
+            "headline": "Scientists defend UN overshoot report after Saudi-led push to sideline it",
+            "body": "Authors of UNEP's \"Limiting Overshoot\" report push back on questions about its legitimacy at COP31. They say it followed IPCC-style practice, with 44 authors and 44 reviewers, except that governments did not review it.",
+            "source": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/14/scientists-defend-un-overshoot-report-after-saudi-led-push-to-sideline-it-at-cop31/",
+            "image": "https://www.climatechangenews.com/wp-content/files/2026/11/GettyImages-2304278861-480x308.jpg"
+          },
+          {
+            "headline": "COP31, day 6: marchers call for justice as talks make limited progress",
+            "body": "Thousands marched in Antalya, and UN climate chief Simon Stiell called progress constructive. Africa wants adaptation finance tripled to at least $120bn a year by 2035, and Chris Bowen said at least 15 countries back the voluntary electrification pledge.",
+            "source": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/14/cop31-bulletin-day-6-limited-progress-as-ministers-arrive-in-antalya/",
+            "image": "https://www.climatechangenews.com/wp-content/files/2026/11/GettyImages-2305088920-480x320.jpg"
+          },
+          {
+            "headline": "A 13-year-old draws attention with an affordable DIY solar panel",
+            "body": "A teenager's low-cost DIY solar panel design is drawing national attention in the US for tackling a well-known solar panel limitation.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2313927/13-year-old-solving-solar-panel-limitation/",
+            "image": "https://www.engadget.com/img/gallery/how-one-13-year-old-is-helping-solve-a-huge-solar-panel-limitation/l-intro-1794243328.jpg"
+          },
+          {
+            "headline": "EV makers aren't counting on a return of US tax credits",
+            "body": "Rivian, Lucid and Scout Motors leaders say they don't expect Democrats to restore federal EV support. The $7,500 credit ended for EVs bought after 30 September 2025.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/rivian-lucid-scout-ev-tax-credits-democrats",
+            "image": "https://media.thenextweb.com/2026/09/electric-car-charging-port-cable.avif"
+          },
+          {
+            "headline": "Power becomes the bottleneck: Applied Digital wants guarantees from Oracle and Meta",
+            "body": "Per Bloomberg, the data centre developer is asking tenants including Oracle, Meta, Nvidia and AMD for billions in guarantees before signing leases, to secure power for its sites.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/applied-digital-power-guarantees-oracle-meta-grid-costs",
+            "image": "https://media.thenextweb.com/2026/07/Meta-el-paso-data-center.avif"
+          }
+        ]
+      },
+      {
+        "heading": "Design, product and brand",
+        "items": [
+          {
+            "headline": "Plissè Block, a pleated glass sofa that refuses to blend in",
+            "body": "Luca Ricci designed a custom three-module sofa for fashion label Fivefourfive's Milan store, with a smooth inner glass layer and a fluted outer layer.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/14/plisse-block-is-a-pleated-glass-sofa-that-refuses-to-blend-in/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/plisse-block-is-a-pleated-glass-sofa-that-refuses-to-blend-in/plisse-block-0.jpg"
+          },
+          {
+            "headline": "mote humidifier concept waters a tiny garden with leftover tank water",
+            "body": "The concept drips leftover water into a removable seed cartridge to grow lettuce or marigolds. The article notes that tank sanitation and watering limits aren't documented.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/14/mote-humidifier-concept-waters-a-tiny-garden-with-leftover-tank-water/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/mote-humidifier-concept-waters-a-tiny-garden-with-leftover-tank-water/mote-gardening-iot-humidifier-concept-03.jpg"
+          },
+          {
+            "headline": "A 5-axis metal fabrication centre on your desk: the Rownd 5X",
+            "body": "Rownd Precision's Rownd 5X is a fully enclosed desktop 5-axis CNC for aluminium, brass and plastics, from $5,999 on Kickstarter, shipping planned for Q2 2027.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/14/a-5-axis-metal-fabrication-center-on-your-desk-meet-the-rownd-5x-cnc-machine/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/a-5-axis-metal-fabrication-center-on-your-desk-meet-the-rownd-5x-cnc-machine/Rownd-5X-True-5-Axis-Finally-For-Everybody.jpg"
+          },
+          {
+            "headline": "Snoopy-inspired Crocs look like tiny puffer jackets for your feet",
+            "body": "Crocs and Peanuts' Joe Cool Classic Lined Clog swaps the foam upper for quilted, insulated nylon, keeps the Croslite core and adds a faux-fur lining.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/15/these-snoopy-inspired-crocs-look-like-tiny-puffer-jackets-for-your-feet/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/these-snoopy-inspired-crocs-look-like-tiny-puffer-jackets-for-your-feet/crocs_peanuts_footwear_01.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "AI and technology",
+        "items": [
+          {
+            "headline": "Apple's new research app aims to make AI health tools more user-friendly",
+            "body": "Apple has unveiled a research study to learn how people use AI health tools.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2317303/apple-new-research-app-designed-to-make-ai-health-tools-user-friendly/",
+            "image": "https://www.engadget.com/img/gallery/apples-new-research-app-is-designed-to-make-ai-health-tools-more-user-friendly/l-intro-1794809079.jpg"
+          },
+          {
+            "headline": "AI makes software easier to build; keeping it running is another story",
+            "body": "Code generation has sped up but monitoring and incident response haven't kept pace. It cites Google's 2025 DORA report (faster delivery, less stability) and a PagerDuty survey where 44% of organisations needed humans in AI fixes.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91642024/ai-is-making-software-easier-to-build-keeping-it-running-is-another-story",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-91642024-keeping-code-running-is-another-problem-in-the-AI-vibe-code-economy.jpg"
+          },
+          {
+            "headline": "The most important shopper of the future isn't human",
+            "body": "AI shopping assistants increasingly shape which brands shoppers consider; the piece advises brands to pair emotional appeal with clear signals AI can interpret.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91635595/the-most-important-shopper-of-the-future-isnt-human-ai-agents-shopping",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91635595-agent-shoppers.jpg"
+          },
+          {
+            "headline": "Jensen Huang is discussing a return to Nvidia, FT reports",
+            "body": "Days after stepping down as CEO, Huang has reportedly discussed a possible comeback, according to the Financial Times.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/jensen-huang-is-discussing-a-return-to-nvidia-ft-reports",
+            "image": "https://media.thenextweb.com/2026/10/jensen-huang-on-stage-leather-jacket-startup-logos.avif"
+          },
+          {
+            "headline": "Microsoft outage revives Europe's tech sovereignty push",
+            "body": "After an Outlook and Teams outage of nearly 24 hours hit millions of users in 74 countries, calls grew for Europe to control its own digital infrastructure, Politico reports.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/microsoft-outage-revives-europes-tech-sovereignty-push-politico-says",
+            "image": "https://media.thenextweb.com/2026/10/microsoft-logo-office-building.avif"
+          },
+          {
+            "headline": "Uber drivers' licence data stolen in Fireworks AI hack",
+            "body": "Uber is warning drivers that personal and licence data were taken via its AI vendor, which reported stolen internal credentials on 9 October.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/uber-drivers-licence-data-stolen-in-fireworks-ai-hack",
+            "image": "https://media.thenextweb.com/2026/11/uber-app-logo-smartphone-hand.avif"
+          },
+          {
+            "headline": "Italy fines Meta €805m over Facebook's access to Android photos",
+            "body": "The Garante says the Android Facebook app accessed users' photos, videos and metadata without specific consent or proper notice.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/italy-fines-meta-805m-facebook-android-photos",
+            "image": "https://media.thenextweb.com/2026/07/meta-stock-best-week-ai-cloud-compute.avif"
+          },
+          {
+            "headline": "Wi-Fi 8 is an attempt to fix wireless internet's biggest problem",
+            "body": "The new standard targets the gap between headline speeds and everyday performance.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2313896/wifi-8-attempt-fix-biggest-problem-wireless-internet/",
+            "image": "https://www.engadget.com/img/gallery/wi-fi-8-is-an-attempt-to-fix-the-biggest-problem-with-wireless-internet/l-intro-1794420711.jpg"
+          },
+          {
+            "headline": "The FAA's IT troubles go far beyond AI",
+            "body": "The nationwide ground stop was blamed on legacy equipment, not a new AI tool; the piece points to ageing wiring and stalled NextGen modernisation.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91642664/the-faas-it-troubles-are-far-bigger-then-ai",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91642664-faa.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Society, consumption and cities",
+        "items": [
+          {
+            "headline": "Why New York City's grocery store plan is not just about food",
+            "body": "A food policy scholar argues the five planned city-run stores are a public option that makes government's role visible. The city has committed $70m, and independent grocers have sued.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91642226/new-york-city-run-groceries-debate",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91642226-new-york-city-run-grocery-stores.jpg"
+          },
+          {
+            "headline": "Where Americans get news relates to how they engage in public life",
+            "body": "Outlets that heavily cover politics draw audiences with a disproportionately high share of the most engaged Americans.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/11/13/where-americans-get-news-relates-to-how-they-engage-in-public-life/"
+          },
+          {
+            "headline": "Care within reach: imaging and screening move closer to communities",
+            "body": "A new TrendWatching trend shows health services tackling practical barriers to care by bringing diagnostics closer to people.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/imaging-and-screening-move-closer-to-communities"
+          },
+          {
+            "headline": "Taxing billionaires failed in California, but other states are moving to tax the rich",
+            "body": "Proposition 40 failed, while several states passed higher income taxes on high earners and property taxes on non-primary homes.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91641216/taxing-billionaires-failed-california-other-states-taking-steps-collect-rich",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91641216-california-wealth-tax.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-11-13",
     "date": "2026-11-13",
     "displayDate": "11/13/2026",
@@ -5266,7 +5464,7 @@ window.EDITIONS = [
         "items": [
           {
             "headline": "Google unveils Gemini 4 Argon, and cyber defenders get it first",
-            "body": "It is the company's first flagship model since November, released first via the Fairwind program and then to API customers and subscribers; it scores 77.9% on DeepSWE v1.1 and costs $2 per million input tokens and $10 per million output tokens, though some internal staff question real-world performance.",
+            "body": "It is the company's first flagship model since November, released first via the Fairwind program and then to API customers and subscribers; it scores 77.9% on DeepSWE v1.1 and costs $2 per million input tokens and $10 per million output tokens, though some internal staff question everyday performance.",
             "source": "The Next Web",
             "url": "https://thenextweb.com/news/google-gemini-4-argon-cyber-defenders-fairwind",
             "image": "https://media.thenextweb.com/2026/09/gemini-4-argon-logo-blue-gradient-large-4.avif"
