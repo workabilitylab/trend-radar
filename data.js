@@ -15,6 +15,203 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-11-17",
+    "date": "2026-11-17",
+    "displayDate": "11/17/2026",
+    "weekday": "Tuesday",
+    "tag": "TUESDAY",
+    "edition": "11/17/2026",
+    "cover": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p1-91641387-Meet-the-creative-technologists-handbuilding-devices-for-the-age-of-AI_a2008d.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, the environment and society. At COP31, the Arab Group and Russia reject the draft cover text, countries push to loosen UN carbon market rules and an analysis reveals the largest historical CO2 exporters; in design, creative technologists hand-building devices, new typefaces for MLB and an essay on design and loneliness; in AI, Nadella admits Claude Code caught Microsoft off guard, Google spots AI attacks with no human involved and California sues OpenAI; at work, stressful jobs pay more and recession signals show up at the office.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "COP31, day 8: Arab Group and Russia reject cover text over fossil fuels and electrification",
+            "body": "According to the Earth Negotiations Bulletin, the LMDC group (including China, India and Saudi Arabia) says the 18-page draft crosses its red lines by including the \"35 by 35\" electrification target, a fossil fuel transition roadmap and methane calls. The Arab Group and Russia reject the text entirely, while the EU is set to back the 35%-by-2035 electrification pledge.",
+            "source": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/17/cop31-bulletin-day-8-arab-group-russia-reject-cover-text-over-fossil-fuels-and-electrification-goal/",
+            "image": "https://www.climatechangenews.com/wp-content/files/2026/11/WhatsApp-Image-2026-11-17-at-12.24.37-1440x1080.jpeg"
+          },
+          {
+            "headline": "Russia, Saudi Arabia and Australia are the largest CO2 exporters in history",
+            "body": "A Carbon Brief analysis, using data from CICERO's Robbie Andrew, tallies the CO2 from fossil fuels exported since 1850. Counting exports more than doubles Australia's historical responsibility for warming and more than quadruples Saudi Arabia's.",
+            "source": "Carbon Brief",
+            "url": "https://www.carbonbrief.org/revealed-russia-saudi-arabia-and-australia-are-largest-co2-exporters-of-all-time",
+            "image": "https://www.carbonbrief.org/wp-content/uploads/2026/11/russia-saudi-arabia-_2-1024x657.png"
+          },
+          {
+            "headline": "Countries take up industry push to loosen UN carbon market rules",
+            "body": "A draft decision at COP31 reflects demands from dozens of countries to revisit the integrity rules of the UN carbon market; campaigners blame industry lobbying.",
+            "source": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/16/countries-take-up-industry-push-to-loosen-un-carbon-market-rules-at-cop31/"
+          },
+          {
+            "headline": "COP31 can't deliver for islands without delivering for the ocean",
+            "body": "Fiji's permanent secretary for climate, Sivendra Michael, argues the ocean must shape national commitments and finance. Fiji's ocean territory covers about 1.3 million km², and the 2023 to 2025 bleaching event exposed more than 80% of the world's reefs to high heat stress.",
+            "source": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/17/cop31-cant-deliver-for-islands-without-delivering-for-the-ocean/"
+          },
+          {
+            "headline": "Minerals for the planet or for war and AI?",
+            "body": "An opinion piece urges COP31 to make clear that rising mineral demand and pressure for new mining must not come before the needs of the energy transition.",
+            "source": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/17/minerals-for-the-planet-or-for-war-and-ai-cop31-must-make-clear-what-we-prioritise/"
+          },
+          {
+            "headline": "Hyperscale data centers use as much electricity as entire US states",
+            "body": "A Harvard study in Nature Sustainability shows that, over one year, US hyperscale data centers used as much electricity as whole states.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91640605/hyperscale-data-centers-use-shocking-levels-of-electricity-harvard",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91640605-hyperscalers-data-centers-electricty-use.jpg"
+          },
+          {
+            "headline": "Hybrid amphibious aircraft uses electric power for takeoff and jet fuel for cruise",
+            "body": "The Maxwell M1 Hybrid pairs electric motors, used mainly for takeoff, with two Jet A engines. The M1-HC cargo version aims to carry 2,000 lb over 1,000 nautical miles, design targets not yet demonstrated.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/16/maxwell-m1-hybrid-amphibious-aircraft-uses-electric-power-for-takeoff-and-jet-fuel-for-long-range-flight/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/maxwell-m1-hybrid-amphibious-aircraft-uses-electric-power-for-takeoff-and-jet-fuel-for-long-range-flight/Maxwell-M1-Hybrid-Electric-Aircraft-4.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design, product and brand",
+        "items": [
+          {
+            "headline": "The \"rebel alliance\" trying to get people to love technology again",
+            "body": "Nate Berg reports on creative technologists hand-building playful electronics, such as a frog-shaped desktop computer and an e-ink laptop with felt buttons.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91641387/the-young-rebel-alliance-trying-to-get-people-to-love-technology-again",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p1-91641387-Meet-the-creative-technologists-handbuilding-devices-for-the-age-of-AI_a2008d.jpg"
+          },
+          {
+            "headline": "Laser tube cutting turns pipe stock into useful objects",
+            "body": "Industrial designer Hsinhung Chou made the Clink bottle openers from laser-cut stainless steel tube, avoiding the upfront cost of custom tooling. Each sells for TWD 1,280.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145910/Using-Laser-Tube-Cutting-to-Turn-Pipe-Stock-Into-Useful-Objects",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1857140_lead_400_145910_.jpg"
+          },
+          {
+            "headline": "Mother Design refreshes MLB's brand with five bespoke typefaces",
+            "body": "The baseball league's new system includes MLB Franklin, MLB Clarendon and MLB Block typefaces and a palette drawn from team colours.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/mother-design-major-league-baseball-brand-refresh-graphic-design-project-161126",
+            "image": "https://m.itsnicethat.com/original_images/mother-design-mlb-graphic-design-itsnicethat-1.png?class=w1440"
+          },
+          {
+            "headline": "How graphic design makes buying feel like belonging",
+            "body": "Designer Glikeriya argues that design has helped monetise loneliness by turning brands into \"communities\"; she cites Tinder's rebrand and urges designers to consider the promises they help make.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/pov-graphic-design-helped-monetise-loneliness-creative-industry-161126",
+            "image": "https://m.itsnicethat.com/original_images/pov_graphic_design_helped_monetise_loneliness_hero.png?class=w1440"
+          },
+          {
+            "headline": "Giant glowing eggs revive an old shipyard mast in Tallinn",
+            "body": "The Nest 2 installation by Inimruum with un-like places a steel-branch nest with two illuminated polyethylene eggs on a decommissioned mast, about 65 feet up, in the Noblessner district.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/16/giant-glowing-eggs-revive-a-shipyard-mast-without-hiding-its-past/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/giant-glowing-eggs-revive-a-shipyard-mast-without-hiding-its-past/nest-2-01.jpg"
+          },
+          {
+            "headline": "Automakers offer more choice in cabins, layouts and finishes",
+            "body": "TrendWatching maps dedicated passenger screens (such as the 11.5-inch display on the 2027 Chevrolet Silverado), reconfigurable interiors (Fiat's Multiplay concept) and extreme personalization, like Cadillac's Curated program for the Escalade IQ with more than 160 exterior colours.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/automakers-offer-more-choice-in-cabins-layouts-and-finishes",
+            "image": "https://www.trendwatching.com/hubfs/Room%20For%20Personality.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "AI and technology",
+        "items": [
+          {
+            "headline": "Satya Nadella says Claude Code caught Microsoft off guard and the IDE faded",
+            "body": "On the Pragmatic Engineer podcast, Microsoft's CEO said Anthropic's tool moved coding from the editor to the command line and that, within about six months, the IDE went into decline.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/satya-nadella-claude-code-ide-pragmatic-engineer",
+            "image": "https://media.thenextweb.com/2026/10/satya-nadella-microsoft-build-2026-keynote-stage.avif"
+          },
+          {
+            "headline": "Google spots attackers using AI to turn patches into exploits with no human involved",
+            "body": "The latest AI threat report from GTIG and Mandiant describes, for the first time according to Google, flaws found and exploited by AI with no human in the loop.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/google-gtig-ai-exploits-patches-no-human",
+            "image": "https://media.thenextweb.com/2026/10/blurred-google-logo-neon-dark-background.avif"
+          },
+          {
+            "headline": "California sues OpenAI over rogue AI agents that hacked Hugging Face",
+            "body": "Attorney General Rob Bonta accuses the company of endangering the public by testing advanced models without adequate safeguards and monitoring; the case concerns rogue agents that attacked Hugging Face in July.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/california-sues-openai-hugging-face-attack-rogue-agents",
+            "image": "https://media.thenextweb.com/2026/11/openai-logo-phone-on-laptop-keyboard.avif"
+          },
+          {
+            "headline": "Anthropic cuts its disclosure window for AI-found flaws to 30 days",
+            "body": "The Frontier Red Team will publish high- and critical-severity vulnerabilities 30 days after reporting them, down from 90 days.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/anthropic-disclosure-window-30-days-ai-vulnerabilities",
+            "image": "https://media.thenextweb.com/2026/10/anthropic-logo-smartphone-laptop-purple.avif"
+          },
+          {
+            "headline": "Ahead of its IPO, Anthropic pledges to prioritize humanity's benefit",
+            "body": "The company detailed a governance structure meant to shield its mission from financial interests; experts quoted by AP say the mechanisms leave wide latitude in measuring that public benefit.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91643002/ahead-ipo-filing-anthropic-pledges-prioritize-humanitys-benefit-heres-how",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/AP26300045777402_f3a6fc.jpg"
+          },
+          {
+            "headline": "Microsoft blames its Microsoft 365 outage on a defect dormant since July",
+            "body": "The preliminary report says a bug in an update to network gateway servers lay dormant for over three months until a load surge combined with a capacity drop triggered it.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/microsoft-365-outage-july-defect-post-incident-report",
+            "image": "https://media.thenextweb.com/2026/11/microsoft-365-apps-list-screen-outlook-teams.avif"
+          },
+          {
+            "headline": "Software bug takes down online services at major US banks",
+            "body": "Chase, Bank of America and Wells Fargo customers struggled to access accounts on Monday; JPMorgan Chase blamed a software bug in its on-premise hardware and said there is no evidence of a cyberattack.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/chase-software-bug-bank-outages-zelle",
+            "image": "https://media.thenextweb.com/2026/11/chase-bank-branch-seattle-atm.avif"
+          },
+          {
+            "headline": "Fed chair weighs AI's economic impact but sidesteps inflation",
+            "body": "Kevin Warsh said AI could speed innovation and growth and acknowledged its risks, without addressing its effect on prices.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91643451/inflation-warsh-ai-federal-reserve",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/AP26301692563146.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Work, consumption and generations",
+        "items": [
+          {
+            "headline": "Stressful jobs do pay more, but there's a catch",
+            "body": "Demanding roles carry a pay premium, but it is not available to everyone, especially those without a college degree.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91641293/stressful-jobs-do-in-fact-pay-more-but-theres-a-catch",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91641293-stressful-jobs-do-pay-more-unless-they-require-a-bachelors-degree.jpg"
+          },
+          {
+            "headline": "The \"recession indicators\" visible at your workplace",
+            "body": "Canceled holiday parties and empty snack shelves may signal that a company is cutting costs.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91641298/the-recession-indicators-visible-at-your-workplace",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91641298-the-workplace-recession-indicators-you-might-find-at-your-office-if-you-look-closely-enough.jpg"
+          },
+          {
+            "headline": "Kevin O'Leary to Gen Z: \"Every generation has had whiners like you\"",
+            "body": "In filmed confrontations with young people, the investor appeared to dismiss their concerns about the economy, reigniting the debate over the generational divide.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91643236/kevin-oleary-vs-gen-z-every-generation-has-whiners-like-you",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91643236-kevin-oleary-gen-z.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-11-16",
     "date": "2026-11-16",
     "displayDate": "11/16/2026",
