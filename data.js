@@ -15,6 +15,208 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-11-18",
+    "date": "2026-11-18",
+    "displayDate": "11/18/2026",
+    "weekday": "Wednesday",
+    "tag": "WEDNESDAY",
+    "edition": "11/18/2026",
+    "cover": "https://www.yankodesign.com/images/design_news/2026/11/a-solar-canopy-turns-this-electric-houseboat-into-a-floating-resort/oasis_houseboat_1.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, the environment and society. At COP31, the presidency calls crunch ministerial talks as the Adaptation Fund gets far less than expected; in design, Nike unveils Tuned Air, a solar houseboat concept and outdoor gyms made of recycled plastic; in AI, Nvidia beats forecasts without Jensen Huang, Oregon sues OpenAI and Waymo pulls robotaxis off freeways; in society, free childcare that pays for itself in New York, friendships born online and cities guided by movement data.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "COP31, day 9: presidency calls crunch ministerial talks for Wednesday evening",
+            "body": "The presidency asked governments to send senior officials to a 5pm \"Divan\" meeting to unblock the cover text, which the Arab Group and Russia still reject. Adaptation Fund pledges totalled only $50 million against an annual target of $300 million, and Panama's environment minister Juan Carlos Navarro said COPs \"are doomed to failure\" because they rely on consensus.",
+            "source": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/18/cop31-bulletin-day-9-crunch-ministerial-talks-planned-for-wednesday-evening/",
+            "image": "https://www.climatechangenews.com/wp-content/files/2026/11/Panama-environment-minister.jpg"
+          },
+          {
+            "headline": "Rich countries must lead the Green Climate Fund replenishment, says Mafalda Duarte",
+            "body": "The GCF executive director expects wealthy nations to drive the 2028-2031 round. The Solomon Islands gave $400,000, the first small island state contribution to that round; the fund has backed 379 projects ($22.3 billion) and has about $3.7 billion left to allocate through 2027.",
+            "source": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/17/rich-countries-must-step-up-to-replenish-green-climate-fund-duarte-says/",
+            "image": "https://www.climatechangenews.com/wp-content/files/2024/09/Mafalda-Kenya-e1725614722676.jpg"
+          },
+          {
+            "headline": "Solar canopy turns an electric houseboat into a floating resort",
+            "body": "OASIS, a 66-foot (20 m) concept by Albatross Marine Design led by Albert Nazarov, uses a solar panel canopy to power electric propulsion. It was recognized in the Watercraft category of the 2026 European Product Design Award.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/17/a-solar-canopy-turns-this-electric-houseboat-into-a-floating-resort/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/a-solar-canopy-turns-this-electric-houseboat-into-a-floating-resort/oasis_houseboat_1.jpg"
+          },
+          {
+            "headline": "Recycled plastic, 3D-printed into public outdoor gym equipment",
+            "body": "The New Raw's Gym Elements project makes outdoor gym equipment for public spaces from 3D-printed recycled plastic, combining circular economy and street furniture.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145922/Recycled-Plastic-3D-Printed-Into-Public-Outdoor-Gym-Equipment"
+          }
+        ]
+      },
+      {
+        "heading": "Design, product and brand",
+        "items": [
+          {
+            "headline": "A 1970s architectural sketch and Otl Aicher inspire a new art centre brand mark",
+            "body": "North Design built the Sainsbury Centre's identity from a 1970s architectural drawing and references to German designer Otl Aicher.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/north-design-sainsbury-museum-and-art-centre-graphic-design-171126"
+          },
+          {
+            "headline": "Nike unveils Tuned Air cushioning, which could reach a running shoe in 2027",
+            "body": "The technology uses digital printing and selective lamination to control the internal structure of the Air unit. According to the report, it could debut in a running shoe in late 2027.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/17/nike-unveils-tuned-air-cushioning-could-debut-it-in-a-running-shoe-as-early-as-2027/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/nike-unveils-tuned-air-cushioning-could-debut-it-in-a-running-shoe-as-early-as-2027/Nike-Tuned-Air-cushioning-technology-1.jpg"
+          },
+          {
+            "headline": "Huawei Watch Air leak shows a 6.9mm titanium smartwatch",
+            "body": "A poster leaked on Weibo points to a titanium unibody and a high-silicon battery good for about five days; the China launch is reportedly set for November 20 alongside the OSTA phones.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/17/huaweis-watch-air-leak-shows-a-6-9mm-titanium-smartwatch-that-makes-the-apple-watch-look-chunky/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/660045/huawei_watch_air_1.jpeg"
+          },
+          {
+            "headline": "REC DIAL concept gives voice notes a turn-and-press interface",
+            "body": "Designed by Vishesh Singh and Kunal Sharma, the recorder uses a rotary disc to navigate and a push-button display to select, with a 1,200mAh battery, microSD and a headphone jack.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/17/rec-dial-voice-recorder-concept-gives-voice-notes-a-turn-and-press-interface/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/rec-dial-voice-recorder-concept-gives-voice-notes-a-turn-and-press-interface/rec-dial-concept-06.jpg"
+          },
+          {
+            "headline": "A domestic robot that moves suspended from cables",
+            "body": "Neufangled Robotics' Stringman moves around the home suspended from cables, on the same principle as the Skycam cameras used in stadiums.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145919/A-Domestic-Robot-with-Novel-Mobility-Its-Suspended-from-Cables"
+          }
+        ]
+      },
+      {
+        "heading": "AI and technology",
+        "items": [
+          {
+            "headline": "Who is building Prometheus, Jeff Bezos's $41 billion AI startup",
+            "body": "Fast Company identified 130 people publicly linked to the company, which reportedly has about 250 employees. Backed by Bezos and Bajaj, Prometheus raised $6 billion and then $12 billion.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91642361/jeff-bezoss-41-billion-ai-startup-prometheus-is-shrouded-in-secrecy-we-found-out-whos-building-it",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91642361-jeff-bezoss-41-billion-ai-startup-prometheus-is-shrouded-in-secrecy-we-found-out-whos-building-it.jpg"
+          },
+          {
+            "headline": "The smartest AI might be the one that leaves us alone",
+            "body": "Enrique Dans argues corporate AI agents should sometimes hold back, citing a Microsoft study of 535 programmers that tested withholding low-acceptance code suggestions.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91640411/the-smartest-ai-might-be-the-one-that-leaves-us-alone",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-91640411-the-best-AI-might-be-the-one-that-leaves-us-alone.jpg"
+          },
+          {
+            "headline": "Nvidia beats forecasts in its first earnings call without Jensen Huang",
+            "body": "Interim CEO Colette Kress reported $115.8 billion in quarterly revenue and guided to $130 billion next quarter; the board said it does not intend to reinstate Huang, who had offered to return.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91644237/nvidia-q3-earnings-first-without-jensen-huang",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-nvidia.jpg"
+          },
+          {
+            "headline": "Oregon is the latest state to sue OpenAI over child safety",
+            "body": "The state's attorney general sued the ChatGPT maker over alleged child-safety failures, joining other states that have already gone to court.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2320041/oregon-is-the-latest-state-to-sue-openai-over-child-safety/",
+            "image": "https://www.engadget.com/img/gallery/oregon-is-the-latest-state-to-sue-openai-over-child-safety/l-intro-1794959005.jpg"
+          },
+          {
+            "headline": "Waymo pauses all freeway rides after California DMV cites an \"imminent hazard\"",
+            "body": "The agency imposed restrictions after a driverless robotaxi tried to pass a Highway Patrol vehicle that was slowing traffic.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2319947/waymo-is-pausing-all-freeway-rides-after-california-dmv-says-the-robotaxis-are-imminent-hazard-to-public-safety/",
+            "image": "https://www.engadget.com/img/gallery/waymo-is-pausing-all-freeway-rides-after-california-dmv-says-the-robotaxis-are-imminent-hazard-to-public-safety/l-intro-1794952210.jpg"
+          },
+          {
+            "headline": "Gemini users can now see and edit what the AI remembers about them",
+            "body": "Google now shows a summary of the assistant's memory that can be edited to shape its answers, a step toward transparency over personal data.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2315475/google-gemini-memory-summary-see-what-remembers-about-you/",
+            "image": "https://www.engadget.com/img/gallery/you-can-now-see-and-edit-what-google-gemini-remembers-about-you/l-intro-1794427961.jpg"
+          },
+          {
+            "headline": "Suno adds AI video to its music app, with filters for artists' faces",
+            "body": "The Visuals feature generates images and clips of up to 15 seconds matched to songs, including lip-synced lyric videos, and blocks likenesses of artists, public figures and copyrighted work.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/suno-visuals-ai-video-lyric-videos-album-art",
+            "image": "https://media.thenextweb.com/2026/11/blue-ai-letters-blurred-textured-background.avif"
+          },
+          {
+            "headline": "Serial outages expose outdated tech across corporate America",
+            "body": "Failures at JPMorgan Chase, the FAA and Microsoft are attributed to upgrades of aging systems; the nationwide ground stop caused more than 18,000 cancellations, and the FAA suspended installation of the router involved and disabled 68 others.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91644249/all-these-outages-show-how-corporate-america-needs-to-modernize-out-of-date-tech",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91644249-all-these-outages-show-how-corporate-america-needs-to-modernize-out-of-date-tech.jpg"
+          },
+          {
+            "headline": "Uber Eats starts drone deliveries with Zipline in Houston",
+            "body": "It is the first launch under the partnership signed in August; Dallas is next, and the companies aim for 1 million drone deliveries a day by 2029.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/zipline-uber-eats-drone-delivery-houston-launch",
+            "image": "https://media.thenextweb.com/2026/11/zipline-drone-uber-eats-delivery-backyard.avif"
+          }
+        ]
+      },
+      {
+        "heading": "Society, work and cities",
+        "items": [
+          {
+            "headline": "Free childcare in New York would pay for itself, report says",
+            "body": "A 5BORO Institute study with BCG estimates that 35 weekly hours of free childcare would generate up to $6.5 billion a year in economic value; families spend an average of $21,000 per child per year, and about 60% of children get no free or subsidized care.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91644150/a-new-report-says-free-childcare-in-nyc-will-pay-for-itself",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91644150-a-new-report-says-free-childcare-in-nyc-will-pay-for-itself.jpg"
+          },
+          {
+            "headline": "Younger and LGBTQ adults stand out for finding friendship online",
+            "body": "About a quarter of Americans have friends they met online, and most have met them in person; the pattern is strongest among younger and LGBTQ adults.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/11/17/younger-and-lgbtq-adults-in-the-us-stand-out-for-finding-friendship-online/"
+          },
+          {
+            "headline": "At least 10 US states require in-person businesses to accept cash",
+            "body": "Beyond the states, at least 10 municipalities require physical businesses to accept cash, with some exceptions, as digital payments spread.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2026/11/17/at-least-10-states-require-in-person-businesses-to-accept-cash/"
+          },
+          {
+            "headline": "How to clock out psychologically and leave the stress at work",
+            "body": "Experts recommend an end-of-day wind-down routine; a Frontiers in Psychology study found sensory transition rituals cut work-life conflict by nearly half.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91644148/how-to-clock-out-psychologically-and-leave-the-bad-vibes-at-work",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91644148-how-to-clock-out-psychologically-and-leave-the-bad-vibes-at-work.jpg"
+          },
+          {
+            "headline": "Promise Robotics raises C$40M for robot factories that build homes",
+            "body": "The Series B, led by White Star Capital, expands factories that produce structural home components; the company has more than 2,500 homes under contract and plans its first US plant in Phoenix.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/promise-robotics-40m-cad-series-b-robot-homebuilding",
+            "image": "https://media.thenextweb.com/2026/11/promise-robotics-robot-wall-panel-factory.avif"
+          },
+          {
+            "headline": "Cities use movement data to guide streets and stations",
+            "body": "Barcelona picked Kapsch and Acisa for traffic-light pilots planned for 2027, with EUR 100,000 each; Tokyo Metro is testing AI floor projections at Kita-Senju station to steer passengers toward less crowded carriages.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/cities-use-movement-data-to-guide-streets-and-stations",
+            "image": "https://www.trendwatching.com/hubfs/Flow%20Control.jpg"
+          },
+          {
+            "headline": "NowThis buys Impact, one of Gen Z's favorite Instagram news accounts",
+            "body": "The reported seven-figure, all-cash deal shows the value of reaching a young, progressive, hyper-online audience; co-founder Tim Chau steps down from staff but stays involved.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91644480/nowthis-just-bought-one-of-gen-zs-favorite-instagram-news-accounts-heres-why",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91644480-by-acquiring-impact-media-nowthis-shows-that-capturing-the-attention-of-a-young-progressive-hyper-online-audience-is-worth-a-seven-figure-deal.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-11-17",
     "date": "2026-11-17",
     "displayDate": "11/17/2026",
