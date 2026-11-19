@@ -15,6 +15,199 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-11-19",
+    "date": "2026-11-19",
+    "displayDate": "11/19/2026",
+    "weekday": "Thursday",
+    "tag": "THURSDAY",
+    "edition": "11/19/2026",
+    "cover": "https://www.yankodesign.com/images/design_news/2026/11/carbon-negative-isnt-the-same-as-net-zero-5-designs-that-explain-the-difference/Carbon-Negative-Solutions_Sustainable-Design_Energy-Saving_24.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, the environment and society. At COP31, ocean advocates warn against marine geoengineering; in design, a keyboard built to be repaired, projects that separate carbon-negative from net-zero and a pavilion that harvests rain; in AI, Anthropic prices its IPO, Microsoft competes on price with rivals and AI finds flaws in chips and Java; in society, workers juggling multiple jobs, the future of religions and diagnostics moving closer to communities.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "COP31: ocean advocates warn the deal should not be read as a boost for geoengineering",
+            "body": "The initial cover-text draft includes a goal to scale up carbon dioxide removal, and advocates want it kept separate from the oceans; the EU opposes the wording. Palau's ambassador Ilana Seid called marine CDR science \"unproven\" and urged caution.",
+            "source": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/18/ocean-advocates-warn-cop31-agreement-geoengineering-cdr-removal-marine/",
+            "image": "https://www.climatechangenews.com/wp-content/files/2026/11/4604951365_8c27b7f6fc_k.jpg"
+          },
+          {
+            "headline": "Carbon-negative isn't the same as net-zero: five designs explain the difference",
+            "body": "The roundup separates cutting emissions from removing carbon. Examples include ORGA's 12-home rental prototype in Marknesse, with a structure that is 76% renewable resources, and the plant-based Anew bottle, said to remove about 0.0765 lb of CO2 per bottle.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/18/carbon-negative-isnt-the-same-as-net-zero-5-designs-that-explain-the-difference/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/carbon-negative-isnt-the-same-as-net-zero-5-designs-that-explain-the-difference/Carbon-Negative-Solutions_Sustainable-Design_Energy-Saving_24.jpg"
+          },
+          {
+            "headline": "Wuhan park pavilion uses facade planters to harvest rainwater",
+            "body": "Grotto Observation Park, by RAD+ar, houses a management office, public toilets, a rest area, a small shop and a garden gallery. Facade planters channel rainwater into a harvesting system for park irrigation; the article notes no performance data backs the claimed passive cooling.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/18/a-park-pavilion-that-refuses-to-keep-the-garden-outside/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/a-park-pavilion-that-refuses-to-keep-the-garden-outside/grotto-park-01.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design, product and brand",
+        "items": [
+          {
+            "headline": "Framework's $99 couch keyboard is built to come apart",
+            "body": "The Wireless Touchpad Keyboard uses Framework Laptop 12 keys, a replaceable 1,200mAh battery and covers made of post-consumer recycled plastic. Preorders are open, with first shipments planned for Q1 2027.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/18/frameworks-99-couch-keyboard-is-built-to-come-apart/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/frameworks-99-couch-keyboard-is-built-to-come-apart/framework-wireless-touchpad-keyboard-07.jpg"
+          },
+          {
+            "headline": "An ergonomic desk for your armchair or sofa unfolds for easy access",
+            "body": "The Saloon Desk, by German designer Paul Weatherstone, has a worksurface that tilts 0 to 15 degrees and went through 27 prototypes over 3.5 years. It launched on Kickstarter from €499, with a planned retail price of €1,199.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145934/An-Ergonomic-Desk-for-Your-Armchair-or-Sofa-that-Unfolds-for-IngressEgress",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1857427_lead_400_145934_.jpg"
+          },
+          {
+            "headline": "This camper bike pod unfolds like an accordion into a cabin",
+            "body": "Huuselox, by Yu-Chang Wu, is a three-wheeled pedal camper with a pleated rear panel that opens into a sheltered galley. It began as a 2022 bachelor's thesis at Hochschule Hannover and was recognized by the 2026 European Product Design Award.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/18/this-camper-bike-pod-unfolds-like-an-accordion-into-a-spacious-cabin/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/draft-huuselox/huuselox_biker_pod_1.jpg"
+          },
+          {
+            "headline": "2027 Suzuki Spacia Base debuts with two seats and a floor reconfigurable seven ways",
+            "body": "The 134-inch kei van uses a 660cc turbo mild-hybrid engine and a multi-board platform for work, leisure or rest. A Japan launch is expected this winter, with no official price yet.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/18/2027-suzuki-spacia-base-debuts-with-two-seats-and-floorplan-reconfigurable-in-seven-different-ways/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/2027-suzuki-spacia-base-debuts-with-two-seats-and-floorplan-reconfigurable-in-seven-different-ways/2027-Suzuki-Spacia-Base-_0000_Layer-14.jpg"
+          },
+          {
+            "headline": "Callum Abbott: \"A good designer can make a free font look expensive\"",
+            "body": "For The Other Almanac redesign, with editor Ana Ratner, Abbott worked with no new images, across more than 200 pages and 40 typefaces, many of them free. The piece also covers his work on Mutt Art Review.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/callum-abbott-other-almanac-mutt-art-review-graphic-design-publication-project-181126",
+            "image": "https://m.itsnicethat.com/original_images/Mutt-Issue5-COVER.jpg?class=w1440"
+          },
+          {
+            "headline": "The TV tray: furniture that signaled social change",
+            "body": "Folding TV trays appeared in 1952, modeled on a waiter's serving stand, two years before Swanson launched the TV Dinner. In 2026, Walmart and Target still sell them in stores.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145930/Furniture-That-Signified-Social-Change-The-Curiously-Enduring-TV-Tray",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1857376_lead_400_145930_.jpg"
+          },
+          {
+            "headline": "Are ergonomic office chairs just a scam?",
+            "body": "The piece revisits a University of Aberdeen MRI study of 22 people: slouching compressed spinal discs the most, while reclining at 135 degrees was best. The study, however, dates to 2006.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145931/Are-Ergonomic-Office-Chairs-Just-a-Scam",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1857420_lead_400_145931_.jpg"
+          },
+          {
+            "headline": "iPhone becomes a car key for Cadillac, Chevrolet and GMC models",
+            "body": "GM has started rolling out Apple Wallet digital keys on select models: the car unlocks as the driver approaches with an iPhone or Apple Watch and locks as they walk away. Apple announced the feature in 2020 and debuted it on the 2021 BMW 5 Series.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91635167/apple-iphone-wallet-car-key-cadillac-chevrolet-gmc",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/apple-wallet-car-keys-inc.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "AI and technology",
+        "items": [
+          {
+            "headline": "Anthropic prices its IPO at $83 a share, valuing it at about $1.5 trillion",
+            "body": "Per Bloomberg and the Financial Times, the price topped the $70-$78 range, raising at least $68 billion plus a $26 billion private placement. Shares start trading on Nasdaq on Thursday under ANT; the company has not announced the price itself.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/anthropic-ipo-prices-83-share-1-5-trillion-record-raise",
+            "image": "https://media.thenextweb.com/2026/09/dario-amodei-anthropic-davos-world-economic-forum.jpg"
+          },
+          {
+            "headline": "Microsoft says Copilot beats Claude and ChatGPT on price",
+            "body": "At Ignite, Judson Althoff said businesses choose Copilot on cost, citing a Microsoft-commissioned GigaOm study that puts rivals at $205 per user a month. Anthropic says its non-coding Claude Enterprise users average under $75 a month.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/microsoft-copilot-cheaper-than-claude-chatgpt-ignite",
+            "image": "https://media.thenextweb.com/2026/10/microsoft-logo-office-building.jpg"
+          },
+          {
+            "headline": "OpenAI says its AI found up to 14% gains in AMD's flagship GPU design",
+            "body": "The models improved power, performance and area, and some changes are already in a chip sent to manufacturing. OpenAI is also training a GPT-Synopsys model with Synopsys for chip design.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/openai-models-amd-gpu-chip-design-14-percent",
+            "image": "https://media.thenextweb.com/2026/10/openai-logo-smartphone-red-screen.jpg"
+          },
+          {
+            "headline": "Google opens its Genie 4 world model to AI Ultra subscribers",
+            "body": "Project Genie adds native audio, mid-session world changes, a creation agent and a community gallery; AI Pro users join a waitlist. Google admits details can drift in long sessions.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/google-genie-4-project-genie-ai-ultra-world-model",
+            "image": "https://media.thenextweb.com/2026/11/google-logo-neon-sign-office-wall-sydney.jpg"
+          },
+          {
+            "headline": "AI found a hole in Java, and it starts with \"AAAAAAAA...\"",
+            "body": "Researchers at startup Calif, using OpenAI's GPT-6 Cyber model, found a base64 decoder bug triggered by 64 \"A\" characters and an equals sign, exploitable in Keycloak. Oracle has patched it, CISA urged updates, and Calif estimates it could linger for 5 to 10 years.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2320797/ai-found-a-hole-in-java-and-it-starts-with-aaaaaaaa/",
+            "image": "https://www.engadget.com/img/gallery/ai-found-a-hole-in-java-and-it-starts-with-aaaaaaaa/l-intro-1795024736.jpg"
+          },
+          {
+            "headline": "Waymo pauses San Francisco service after robotaxis get stuck on flooded streets",
+            "body": "During a storm, several vehicles stalled on flooded streets and blocked intersections. The pause came a day after the California DMV restricted the company on freeways, a sign of autonomous cars' limits in extreme weather.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2321312/waymo-pauses-service-in-san-francisco-after-robotaxis-get-stuck-on-flooded-streets/",
+            "image": "https://www.engadget.com/img/gallery/waymo-pauses-service-in-san-francisco-after-robotaxis-get-stuck-on-flooded-streets/l-intro-1795043825.jpg"
+          },
+          {
+            "headline": "Vero Security raises $11M to police AI agents at work",
+            "body": "The New York and Tel Aviv company discovers and enforces security policies on the AI tools and agents employees use. Per IANS and Artico Search, 65% of firms with $10B+ revenue have someone leading AI security, but only 18% made it a dedicated role.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/vero-security-11m-seed-ai-security-engineering",
+            "image": "https://media.thenextweb.com/2026/11/vero-security-raises-11m-graphic.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Society, work and health",
+        "items": [
+          {
+            "headline": "Workers treat jobs like portfolios as AI hiring erodes trust",
+            "body": "An Enhancv survey of 1,000 professionals holding more than one full-time job found 79.5% see a second paycheck as protection against layoffs. In another survey, 50.5% of job seekers got rejections with no human feedback in the past year.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/workers-jobs-portfolios-ai-hiring-erodes-trust",
+            "image": "https://media.thenextweb.com/2026/11/enhancv-cover-letter-resume-graphic.jpg"
+          },
+          {
+            "headline": "5 habits for keeping up with an ever-increasing workload",
+            "body": "Sabina Nawaz argues traditional time management is losing effectiveness as work gets faster and less predictable. She suggests leaving room for unexpected demands, accepting shifting priorities, communicating often and sharing ownership of solutions.",
+            "source": "Harvard Business Review",
+            "url": "https://hbr.org/2026/11/5-habits-for-keeping-up-with-an-ever-increasing-workload",
+            "image": "https://hbr.org/resources/images/article_assets/2026/11/Nov26_18_1308206058.jpg"
+          },
+          {
+            "headline": "Islam projected to become the world's largest religion by 2035, Pew says",
+            "body": "The study, covering 201 countries and territories, projects more than 3.6 billion Muslims and just under 3 billion Christians by 2070. The religiously unaffiliated share would fall from 24% to 17% of the world population, driven by fertility differences.",
+            "source": "Pew Research Center",
+            "url": "https://www.pewresearch.org/religion/2026/11/18/the-future-of-world-religions-population-growth-projections-2020-2070/",
+            "image": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/11/pr_2026.11.18_religious-projections_feature.png?w=1200&h=628&crop=1"
+          },
+          {
+            "headline": "Imaging and screening move closer to communities",
+            "body": "AMPATH is bringing portable ultrasound to primary care sites in western Kenya, and the Chinese University of Hong Kong will offer free AI-assisted retinal screening to 2,700 older adults from January 2027. In Ghana, CareFlight launched a mobile stroke unit with a CT scanner.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/imaging-and-screening-move-closer-to-communities-1",
+            "image": "https://www.trendwatching.com/hubfs/Diagnostics%20Closer-1.jpg"
+          },
+          {
+            "headline": "SiriusXM and Pandora will provide podcast transcripts for deaf and hard-of-hearing listeners",
+            "body": "A settlement ending a 2021 lawsuit requires transcripts with speaker identification, sound effects and human review, plus staff training on Deaf culture. The style guide will be developed with input from the plaintiffs.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2320646/siriusxm-and-pandora-will-provide-podcast-transcripts-for-the-deaf-and-hard-of-hearing-community/",
+            "image": "https://www.engadget.com/img/gallery/siriusxm-and-pandora-will-provide-podcast-transcripts-to-the-deaf-and-hard-of-hearing-community/l-intro-1795020058.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-11-18",
     "date": "2026-11-18",
     "displayDate": "11/18/2026",
