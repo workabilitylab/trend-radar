@@ -15,6 +15,206 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-11-23",
+    "date": "2026-11-23",
+    "displayDate": "11/23/2026",
+    "weekday": "Monday",
+    "tag": "MONDAY",
+    "edition": "11/23/2026",
+    "cover": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit,w_1024/wp-cms-2/2026/11/p-1-91645729-mexico-city-mall-slide.jpg",
+    "intro": "Overview of the news published since the last edition (Thursday the 19th) through this Monday, covering the weekend. In environment and materials, chandeliers made from discarded lampshades, lunar-dust bricks and the race for data-center power; in design, Canva adds a switch to turn off AI, Anthropic bets on its brand after the IPO and LinkedIn reinvents the business card; in AI, a researcher claims he proved the Riemann hypothesis with Claude, the debate over pausing frontier AI grows and Etsy backs down on its training terms; in society, Amazon's fight with New York, the women's pain gap in medicine and new ways to grieve.",
+    "sections": [
+      {
+        "heading": "Environment, energy and materials",
+        "items": [
+          {
+            "headline": "Forgotten lampshades become chandeliers in a Romanian designer's collection",
+            "body": "The Lampa Volta collection by Mihai Popescu Studio draws on an archive of more than 300 vintage lampshades gathered over five years. The pieces combine reclaimed components with Murano glass blown by artisan Jeni Costachescu, crystal tubes and brass, in wall, pendant and chandelier versions.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/22/forgotten-lampshades-become-playful-chandeliers-in-this-romanian-designers-lighting-collection/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/forgotten-lampshades-become-playful-chandeliers-in-this-romanian-designers-lighting-collection/Lampa_volta_lighting_02.jpg"
+          },
+          {
+            "headline": "Researchers print interlocking lunar-dust bricks for building on the Moon",
+            "body": "A University of Arkansas team used laser powder bed fusion to print interlocking bricks from lunar regolith simulant, with no binder. Next steps include improving layer bonding and testing the blocks in vacuum, low gravity and thermal cycling.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91641088/researchers-are-making-lego-like-lunar-dust-bricks-for-building-on-the-moon",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit/wp-cms-2/2026/11/p-1-91641088-3d-printed-moon-bricks.jpg"
+          },
+          {
+            "headline": "The AI compute shortage will create winners and losers, BCG forecasts",
+            "body": "The firm projects 180 GW of new data-center supply by 2031, but demand should exceed it by more than 20 GW, a capex gap of roughly $1 trillion, with supply chains as the bottleneck. The five largest hyperscalers are on track for more than $800 billion in data-center capex in 2026.",
+            "source": "BCG",
+            "url": "https://www.bcg.com/publications/2026/ai-data-center-supply-demand-outlook",
+            "image": "https://web-assets.bcg.com/dims4/default/bb05f74/2147483647/strip/true/crop/2880x1512+0+54/resize/1200x630!/format/webp/quality/80/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2Fcc%2F8d%2Fb7cb20d748268a005e2883a93257%2Fhow-the-ai-compute-shortage-will-create-winners-and-losers.gif"
+          },
+          {
+            "headline": "Which solar panel type is best for your home?",
+            "body": "The guide compares monocrystalline, polycrystalline and thin-film panels. According to SEIA, the average US residential installation cost $3.36 per watt in Q2 2026, and the federal tax credit no longer applies to systems completed after December 31, 2025.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2319531/solar-panel-types-best-home-use/",
+            "image": "https://www.engadget.com/img/gallery/which-solar-panel-type-is-best-for-your-home/l-intro-1794509643.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design, product and brand",
+        "items": [
+          {
+            "headline": "Canva adds an AI \"kill switch\"",
+            "body": "Free and Pro users can hide generative features such as Magic Expand and Canva Craft in their permission settings, while keeping assistive tools like Background Remover. A second setting reduces AI-generated templates and graphics in search; Canva cites Pew data showing about 6 in 10 Americans want more control over AI.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91645826/canva-added-an-ai-kill-switch-to-its-tools",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit,w_1024/wp-cms-2/2026/11/p-1-91645826-canva-ai-kill-switch.jpg"
+          },
+          {
+            "headline": "How Anthropic believes branding will shape its post-IPO future",
+            "body": "Rob Walker reads the company's prospectus, where the word \"brand\" appears 63 times. The stock debuted at $83 and closed its first day at $97.17; ad spending rose from $33 million in 2024 to $147 million last year.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91645937/how-anthropic-believes-branding-will-shape-its-post-ipo-future",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit,w_1024/wp-cms-2/2026/11/p-1-91645937-rob-walker-anthropic.jpg"
+          },
+          {
+            "headline": "LinkedIn brings back the business card",
+            "body": "The LinkedIn Business Card lives in Apple or Google Wallet and is exchanged by scanning. Designers Kevin Arcara and Luke Millar turned a buried QR-code feature into a card customizable by layout, font, color and stickers.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91645272/linkedin-is-bringing-back-the-business-card",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit/wp-cms-2/2026/11/p-1-91645272-linkedin-return-of-the-business-card.jpg"
+          },
+          {
+            "headline": "Why NFL players disguise their Caddix cleats",
+            "body": "More than 80 players, including Joe Burrow and Cooper Kupp, tape over the brand's logo to avoid fines; Caleb Williams was fined $35,823 in October. Caddix has four employees and expects about $3 million in revenue in 2026, up from just under $1 million the year before.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91646518/why-the-nfl-is-making-players-disguise-their-caddix-cleats",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit/wp-cms-2/2026/11/p-91646518-Caddix-cleats-and-the-NFL.jpg"
+          },
+          {
+            "headline": "A Mexico City mall gets giant Carsten Höller slides",
+            "body": "\"Mexico City Slides\", the artist's largest commission, comprises four stainless-steel and acrylic spiral slides at the Antara mall, 12 to 38 m tall and 31 to 90 m long. The work is part of an expansion of about 1 million sq ft and opens to the public in December.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91645729/this-mexico-city-mall-has-a-massive-carsten-holler-slide-as-an-amenity",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit,w_1024/wp-cms-2/2026/11/p-1-91645729-mexico-city-mall-slide.jpg"
+          },
+          {
+            "headline": "Brands add taste, scent and movement to storytelling",
+            "body": "Senna Super Experience in Gramado, Brazil, is due to open in December 2026 with more than 30 activations across 14 themed environments. Givaudan and Louvre Abu Dhabi released a fragrance tied to a scent tour of the museum.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/brands-add-taste-scent-and-movement-to-storytelling",
+            "image": "https://www.trendwatching.com/hubfs/Sensory%20Overlay.jpg"
+          },
+          {
+            "headline": "Designing for local needs to create global value",
+            "body": "Vijay Govindarajan (Tuck/Dartmouth) and Amos Winter (MIT), authors of \"Global by Design\", argue that affordability problems in lower-income markets are where innovation scales. Their proposal is to design for the user's concrete problem rather than export products conceived for the US.",
+            "source": "McKinsey",
+            "url": "https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-defining-customer-needs-locally-to-create-global-value",
+            "image": "https://www.mckinsey.com/~/media/mckinsey/featured%20insights/mckinsey%20books/author%20talks%20defining%20customer%20needs%20locally%20to%20create%20global%20value/defining-customer-needs-locally-to-create-global-value-thumb-1536x1536.jpg"
+          },
+          {
+            "headline": "VW ID. Buzz Beach sleeps two without a permanent conversion",
+            "body": "The UK version of the electric van starts at £65,837 and uses a removable frame with a folding mattress of about 2 m by 1.2 m. VW promises an \"Overnight mode\" that runs up to 48 hours without a hookup.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/22/vw-id-buzz-beach-sleeps-two-without-a-permanent-conversion/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/vw-id-buzz-beach-sleeps-two-without-a-permanent-conversion/id-buzz-beach-01.jpg"
+          },
+          {
+            "headline": "A removable pod turns a utility trailer into a compact home",
+            "body": "VentureXplorer's Bunkr mounts on a compatible trailer or stands alone, in footprints of about 50 to 98 sq ft. Reported base prices run from $30,000 to $40,000, with galvanized steel or aluminum framing and sleeping space for two to four people.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/19/this-removable-tiny-home-turns-a-utility-trailer-into-a-camper-without-giving-up-its-day-job/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/draft-venture-bunkr/bunkr_yanko_design_02.jpg"
+          },
+          {
+            "headline": "Espresso without a plug: the wind-up coffee maker concept",
+            "body": "Created by Arpad Bogdan at UNSW, the concept uses a spring-driven piston wound with a ratcheting knob, an aluminum body and replaceable silicone parts, with no electronics. It still needs separately heated water and has no working prototype or price.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/22/espresso-without-a-plug-the-wind-up-coffee-juicer-concept/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/espresso-without-a-plug-the-wind-up-coffee-juicer-concept/coffee-juicer-0.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "AI and technology",
+        "items": [
+          {
+            "headline": "Anthropic researcher claims he proved the Riemann hypothesis with Claude's help",
+            "body": "Mathematician Levent Alpöge released the proof as about 17 million lines of Lean code, with no traditional paper. MIT's Andrew Sutherland said he checked the code, but Imperial College's Kevin Buzzard says no one yet understands what the proof shows; the result has not been formally accepted.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/anthropic-researcher-claims-claude-helped-him-prove-the-riemann-hypothesis",
+            "image": "https://media.thenextweb.com/2026/11/anthropic-logo-screen-silhouettes-black-white.jpg"
+          },
+          {
+            "headline": "Dan Hendrycks calls for a pause on frontier AI; Max Hodak pushes back",
+            "body": "At the DealBook Summit AGI panel, the Center for AI Safety director called for an indefinite halt to the largest training runs, with carve-outs for narrow models such as AlphaFold. The Neuralink co-founder replied that enforcing a ban would require a surveillance state and that today's models already meet his definition of AGI.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/dealbook-agi-panel-hendrycks-pause-frontier-ai-hodak-surveillance",
+            "image": "https://media.thenextweb.com/2026/11/dan-hendrycks-onstage-microphone-green-curtain.jpg"
+          },
+          {
+            "headline": "OpenAI agents now finish nearly half of 2- to 4-hour research tasks",
+            "body": "According to a company report, the rate rose from 23% in March to 46%. The median researcher used about $2,400 a day of agent time in October, 62% more than in September; success ranges from 79% for monitoring training runs to 25% for inference code.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/openai-research-agents-46-percent-tasks-2400-a-day-jagged-frontier",
+            "image": "https://media.thenextweb.com/2026/11/openai-logo-phone-on-laptop-keyboard.jpg"
+          },
+          {
+            "headline": "Etsy will revise its AI training terms after sellers close their shops",
+            "body": "The new terms, effective December 16, would let Etsy and partners use seller content to train AI, and long-running shops closed in protest. VP James Ossman says the company will not train models to copy original work and will send revised terms.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/etsy-ai-terms-sellers-close-shops-revise-policy",
+            "image": "https://media.thenextweb.com/2026/11/etsy-app-orange-phone-wooden-table.jpg"
+          },
+          {
+            "headline": "The case for \"small AI\"",
+            "body": "Bhaskar Chakravorti (Fletcher School, Tufts) argues companies should buy only the intelligence each task needs, such as fraud detection, meeting summaries or routing service requests. Rules, classical machine learning or compact local models can stand in for large frontier LLMs.",
+            "source": "Harvard Business Review",
+            "url": "https://hbr.org/2026/11/the-case-for-small-ai",
+            "image": "https://hbr.org/resources/images/article_assets/2026/11/Nov26_20_MarianoPascual.jpg"
+          },
+          {
+            "headline": "We're seeing the costs of moving fast",
+            "body": "Adi Ignatius interviews complex-systems expert David Woods about last week's cascade of technology outages that hit airlines and banks. Woods says the push for speed and low cost left too little attention to failure and urges stress tests and resilience, as happened with supply chains after the pandemic.",
+            "source": "Harvard Business Review",
+            "url": "https://hbr.org/2026/11/were-seeing-the-costs-of-moving-fast",
+            "image": "https://hbr.org/resources/images/article_assets/2026/11/Agenda_11_19_SystemBreakdown_1147058273.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Society, work and health",
+        "items": [
+          {
+            "headline": "Amazon puts stickers on boxes to fight New York's proposed delivery law",
+            "body": "The stickers warn that the Delivery Protection Act (Intro 518) could add up to $5 per order and carry a QR code for contacting council members. The bill would require licensing for last-mile delivery and make couriers employees rather than contractors; Amazon threatens to move distribution centers out of the city.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2324629/amazon-resorts-to-package-stickers-in-its-fight-against-nyc-proposed-delivery-law/",
+            "image": "https://www.engadget.com/img/gallery/amazon-resorts-to-package-stickers-in-its-fight-against-nycs-proposed-delivery-law/l-intro-1795426294.jpg"
+          },
+          {
+            "headline": "Women's pain is medicine's blind spot, but innovation is starting to respond",
+            "body": "About 1% of global health R&D funding goes to female-specific conditions beyond oncology. This month the FDA approved the first new fibromyalgia treatment in more than 15 years, and the Gates Foundation committed $2.5 billion to women's health through 2030.",
+            "source": "World Economic Forum",
+            "url": "https://www.weforum.org/stories/equity-diversity-and-inclusion/womens-health-pain-gap-innovation-closing-medicines-blind-spot",
+            "image": "https://assets.weforum.org/cms/images/articles/319051/42e5869c5f01_julia-koblitz-rloawxt2fea-unsplash.jpg"
+          },
+          {
+            "headline": "Memorial services create new ways to remember loved ones",
+            "body": "Vuelve Pet in Lima composts pets' remains to grow memorial plants. FC Barcelona is building columbaria at Spotify Camp Nou, with a first phase expected in late 2027 and plots from €2,490 for ten years.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/memorial-services-create-new-ways-to-remember-loved-ones",
+            "image": "https://www.trendwatching.com/hubfs/Grief%20Infrastucture.jpg"
+          },
+          {
+            "headline": "Alice Poyzer photographs her world and what it means to be neurodivergent",
+            "body": "The \"Other Joys\" series mixes self-portraits and documentary images of her interests in taxidermy and animal shows; another series follows an autistic beauty-pageant queen. The British photographer was a finalist for the Magnum Foundation's Inge Morath Award.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/alice-poyzer-other-joys-photography-discover-191126",
+            "image": "https://m.itsnicethat.com/original_images/Alice-Poyzer-Photography-ItsNiceThat-7.jpg?class=w1440"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-11-19",
     "date": "2026-11-19",
     "displayDate": "11/19/2026",
