@@ -15,6 +15,199 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-11-24",
+    "date": "2026-11-24",
+    "displayDate": "11/24/2026",
+    "weekday": "Tuesday",
+    "tag": "TUESDAY",
+    "edition": "11/24/2026",
+    "cover": "https://www.yankodesign.com/images/design_news/2026/11/a-seat-made-from-old-harbor-rope-refuses-to-sit-still/buoy-05.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and society. In materials and housing, 3D-printed seats made from old Rotterdam harbor rope and a tiny home with a proper lounge; in design, Teenage Engineering's first CD player and a kids' bike that pauses YouTube; in AI, Anthropic launches safety monitoring without data retention, DeepMind agents optimize quantum algorithms and AI video copycats worry creators; in society, pressure against AI toys, algorithmic surveillance in fast food and women's leadership in AI. The monitored sources had little new environmental news today.",
+    "sections": [
+      {
+        "heading": "Environment, materials and housing",
+        "items": [
+          {
+            "headline": "Old Rotterdam harbor rope becomes 3D-printed public seating",
+            "body": "The Buoy series by studio The New Raw uses discarded ship rope collected in Rotterdam and shredded in Maastricht; the batch used 45 kg of recycled polypropylene, laid down layer by layer by a robot, with the orange color coming from the rope itself. The seats rock under weight and carry an engraved batch number; facilitator In4Art notes that scaling up would require a steadier rope supply.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/23/a-seat-made-from-old-harbor-rope-refuses-to-sit-still/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/a-seat-made-from-old-harbor-rope-refuses-to-sit-still/buoy-05.jpg"
+          },
+          {
+            "headline": "Tiny home on wheels fits a proper lounge into 20 feet",
+            "body": "Dragon Tiny Homes' (Georgia, US) Aria 20 combines a lounge, a galley kitchen and a loft, with 170 sq ft downstairs plus about 91 sq ft of loft. The upgraded inventory unit is listed at $49,950, down from $55,695.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/23/this-tiny-home-makes-room-for-a-proper-lounge-in-just-20-feet/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/aria-20/aria_20_yanko_design_01.jpg"
+          },
+          {
+            "headline": "Secto's smallest Octo pendant brings its birch shade to a table for two",
+            "body": "The Octo Tre 4242 by Seppo Koho measures 12.2 in across and 15.4 in tall and uses a G9 LED of up to 7 W. Its birch strips are hand-assembled in Heinola, Finland; the listed version runs on 220–240 V, with no confirmed 120 V US model.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/23/sectos-smallest-octo-pendant-lamp-brings-its-birch-shade-to-a-table-for-two/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/sectos-smallest-octo-pendant-lamp-brings-its-birch-shade-to-a-table-for-two/octo-tre-424-pendant-lamp-04.jpg"
+          },
+          {
+            "headline": "Bioethanol tabletop fireplace is built around 295-million-year-old stone",
+            "body": "LA\\VIK, by Berlin brand glør Design, pairs a bioethanol burner with larvikite stone, in an 11-inch Studio size (from EUR 220) and a 15-inch full size (about 31 lb). It won Top Design in Home Product Design at the 2026 European Product Design Award.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/23/this-award-winning-tabletop-fireplace-turns-a-295-million-year-old-stone-into-a-light-show/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/auto-draft/glor_lavik_fireplace_1.jpeg"
+          }
+        ]
+      },
+      {
+        "heading": "Design, product and brand",
+        "items": [
+          {
+            "headline": "Teenage Engineering launches its first CD player, a modular $329 device",
+            "body": "The EP/BC-1 offers varispeed from 50% to 150%, three cue points, Bluetooth with Auracast and a USB port that rips discs to 44.1 kHz/16-bit WAV. It snaps onto the $399 K.O.-AMP with a $15 dock kit; bought separately, the full set totals $743.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/23/teenage-engineerings-first-cd-player-is-a-modular-329-toy-for-grown-up-music-nerds/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/auto-draft/teenage_engineering_ep_bc1_1.jpg"
+          },
+          {
+            "headline": "Kids' floor bike pauses YouTube the moment pedaling stops",
+            "body": "Tovie, from Cubii founders Arnav Dalmia and Shivani Jain, is a seatless floor bike for kids 5 and up, weighing 24 lb. It costs $349, pre-orders are open and shipping starts in June 2027.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/23/this-kids-bike-pauses-youtube-the-second-they-stop-pedaling-for-a-very-good-reason/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/661347/tovie_pedal_to_play_1.jpg"
+          },
+          {
+            "headline": "Kodak SlideTag tracker doubles as a tiny e-ink photo display",
+            "body": "The 16.6 g keychain has a 1.54-inch six-color E Ink screen, works with Apple Find My and Google Find Hub, and holds up to 12 photos via the Kodak Memory Link app. It sells for $34.99 in blind boxes, or $280 for all eight designs.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/23/kodak-slidetag-tracker-doubles-as-tiny-e-ink-display-for-your-cherished-photo-collection/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/kodak-slidetag-with-built-in-tracking-capability-doubles-as-tiny-e-ink-display-for-your-favorite-photos/Kodak-Slidetag-8.jpg"
+          },
+          {
+            "headline": "Lighted compact mirror also charges your phone wirelessly",
+            "body": "Mica, designed by Lenny Ming Lo (Blangk) for Fancii & Co., has a Qi charging pad in its lid and a 5,000 mAh battery. The light lasts up to 10 hours on the lowest setting; no price was given.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/23/fanciis-mica-compact-mirror-tops-up-your-phone-between-touch-ups/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/fanciis-mica-compact-mirror-tops-up-your-phone-between-touch-ups/mica-wireless-charging-led-compact-mirror-01.jpg"
+          },
+          {
+            "headline": "Ultralight tent built with room for tall hikers",
+            "body": "Zpacks' DupleXL Pro fits sleepers up to 6 ft 6 in, with an 8-ft floor down the center. It costs $849; the advertised 19.1 oz excludes stakes and the trekking poles that hold it up.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/23/an-ultralight-tent-that-actually-makes-room-for-tall-hikers/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/an-ultralight-tent-that-actually-makes-room-for-tall-hikers/duplexl-01.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "AI and technology",
+        "items": [
+          {
+            "headline": "Anthropic can now watch for Claude misuse without keeping companies' data",
+            "body": "Enterprise Frontier Safeguards, now in public beta, stores prompts and responses in the customer's own Amazon or Google cloud account. Flagged risks become \"safety cases\" the customer must review within seven days; more than 100 customers, including Bridgewater, Salesforce and Stripe, helped build it.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/anthropic-enterprise-frontier-safeguards-zero-data-retention-beta",
+            "image": "https://media.thenextweb.com/2026/10/anthropic-wordmark-3d-render-purple-glass.jpg"
+          },
+          {
+            "headline": "Google DeepMind agents find cheaper quantum algorithms, and prove them",
+            "body": "Teams of Gemini 4 agents cut the cost of a laser-driven fusion fuel calculation 11.8-fold, with each result proved in the Lean theorem prover. A Cytochrome P450 simulation became 2.5 times cheaper, though DeepMind notes it still needs far more resources than early error-corrected machines will offer.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/google-deepmind-gemini-agents-quantum-algorithms-lean",
+            "image": "https://media.thenextweb.com/2026/11/google-deepmind-quantum-algorithms-qubit-sphere.jpg"
+          },
+          {
+            "headline": "AI coding agents used companies' own code less than 60% of the time",
+            "body": "DesignVerse's report tested two agents on 15 legacy codebases in aviation, banking and defense: unmanaged, they used internal components 55% to 59% of the time, versus 92% for DesignVerse's own system. The article flags the conflict of interest, since the company sells that system.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/designverse-ai-coding-drift-report-legacy-codebases",
+            "image": "https://media.thenextweb.com/2026/11/andrei-manolache-designverse-ceo-portrait-purple-studio.jpg"
+          },
+          {
+            "headline": "Google Search's AI Mode can now read your Wallet, with Drive next",
+            "body": "An opt-in, read-only link to Google Wallet lets it suggest spending cuts and card-reward use; Drive and the Gemini app follow in the coming weeks. It is limited to personal accounts, unavailable in Europe and the UK, and since October Google's policy lets this content shape ads.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/google-ai-mode-personal-intelligence-wallet-drive-gemini",
+            "image": "https://media.thenextweb.com/2026/11/google-personal-intelligence-ai-mode-wallet-drive.jpg"
+          },
+          {
+            "headline": "Sierra raises $1.75B at a $30B valuation for AI customer-service agents",
+            "body": "Bret Taylor and Clay Bavor's company nearly doubled its $15.8B valuation from May and says annual recurring revenue passed $400M in October. It charges per outcome, such as a resolved issue, and says almost half of the Fortune 50 are customers.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/sierra-1-75b-series-f-30b-valuation-ai-agents",
+            "image": "https://media.thenextweb.com/2026/10/ai-chip-brain-inside-light-bulb-purple-background.jpg"
+          },
+          {
+            "headline": "AI copycats are cloning creators' videos for millions of views",
+            "body": "A BBC Verify investigation found musicians, dancers and comedians copied frame by frame by AI-generated characters, a practice called \"reskinning\"; UK guitarist Sophie Lloyd's performances were copied by at least three accounts. Meta says it is exploring ways to limit repeat offenders.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/ai-reskinning-creators-videos-copied-bbc",
+            "image": "https://media.thenextweb.com/2026/11/phone-recording-guitarist-performance-dark-hall.jpg"
+          },
+          {
+            "headline": "What the volatility of the AI trade means for your company",
+            "body": "Paulo Carvão, a research fellow in tech and AI policy, examines AI-driven swings in the US stock market. The conversation covers which industries are most exposed, signs of a cooling trade and how companies can prepare for a downturn.",
+            "source": "Harvard Business Review",
+            "url": "https://hbr.org/2026/11/what-the-volatility-of-the-ai-trade-means-for-your-company",
+            "image": "https://hbr.org/resources/images/article_assets/2026/11/Nov26_24_172125537.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Society, work and consumption",
+        "items": [
+          {
+            "headline": "Over 150 child-safety groups urge Amazon and eBay to drop AI toys",
+            "body": "The Fairplay-led open letter asks them to stop selling chatbot toys until independent testing proves them safe, with a public answer before Christmas. More than 50 such toys were found on sale on Amazon in the US.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/child-safety-groups-amazon-ebay-ai-toys",
+            "image": "https://media.thenextweb.com/2026/10/amazon-logo-sign-building-facade-blue-sky.jpg"
+          },
+          {
+            "headline": "Fast-food workers are being ranked and reprimanded by AI",
+            "body": "Drivosity scores every delivery from 0 to 100 for Domino's franchisees, with drivers expected to stay above 85. Burger King's AI assistant \"Patty\" is in about 500 US restaurants and scores workers against a 70% friendliness target.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91647652/fast-food-workers-ranked-reprimanded-ai",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-91647652-fast-food-workers-face-AI-surveillance.jpg"
+          },
+          {
+            "headline": "Women's AI leadership is bigger than the data shows",
+            "body": "According to LinkedIn, women were 26% of US AI hires in 2025 and hold 13% of C-suite AI roles at AI companies. Laëtitia Vitaud argues the figures miss women working in policy, regulation and community roles.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91643313/womens-ai-leadership-bigger-than-data-shows",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit,w_1024/wp-cms-2/2026/11/p-91643313-women-AI-leadership.jpg"
+          },
+          {
+            "headline": "How to keep AI from turning your company into the Borg",
+            "body": "Faisal Hoque cites an IBM study of 2,000 CEOs in which 64% said they are comfortable making major decisions based on AI input. He also notes a Stanford-led study finding 11 AI systems affirmed users 49% more often than humans.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91644192/ai-the-borg",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit,w_1024/wp-cms-2/2026/11/p-91644192-how-to-keep-AI-from-turning-your-company-into-the-borg-from-star-trek.jpg"
+          },
+          {
+            "headline": "Does culture change people's personalities?",
+            "body": "Tomas Chamorro-Premuzic draws on a study of 180 British students who spent a year abroad and a meta-analysis of 25 studies with over 5,700 participants. Living abroad is linked to small shifts toward openness, agreeableness and emotional stability.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91634947/does-culture-change-peoples-personalities",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit,w_1024/wp-cms-2/2026/11/p-91634947-does-culture-change-personality.jpg"
+          },
+          {
+            "headline": "Tower Records Japan breach exposes about 11 million records",
+            "body": "The attack, detected on November 19, hit 10.2 million login records (hashed passwords), 2.8 million member profiles and 777,000 delivery records. The company says no card data leaked and has resumed shipping, but its online store remains closed.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/tower-records-japan-data-breach-11-million-records",
+            "image": "https://media.thenextweb.com/2026/11/tower-records-store-ryubo-naha-okinawa.jpg"
+          },
+          {
+            "headline": "Everyday retailers make more room for product discovery",
+            "body": "E-mart24 opened Allday Care Lab in Seoul, a 24-hour convenience store with more than 380 health, beauty and fashion products. Costco added prestige beauty discovery tables at 25 US warehouses, and Yonghui redesigned a Guangzhou store around ten health-oriented zones.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/everyday-retailers-make-more-room-for-product-discovery",
+            "image": "https://www.trendwatching.com/hubfs/Errand%20Elevation-1.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-11-23",
     "date": "2026-11-23",
     "displayDate": "11/23/2026",
