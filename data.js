@@ -15,6 +15,189 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-11-25",
+    "date": "2026-11-25",
+    "displayDate": "11/25/2026",
+    "weekday": "Wednesday",
+    "tag": "WEDNESDAY",
+    "edition": "11/25/2026",
+    "cover": "https://www.yankodesign.com/images/design_news/2026/11/mater-turns-coffee-roasting-waste-into-a-replacement-top-for-standing-desks/mater-matek-desktop-coffee-ground-04.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and society. In materials and housing, a desktop made from coffee-roasting waste and a tiny home with three sleeping spaces; on climate, Sesame Workshop prepares kids for extreme weather; in design, Visa's new identity, a physical remote for AI agents and a kayak that turns into a backpack; in AI, TIDAL deletes 29 million AI-generated songs, Google sets mandatory gateways for agents in Workspace and Anthropic tests the temptation to escape the sandbox; in society, alcohol-free drinks, mobility for older adults and brands that reject synthetic imagery.",
+    "sections": [
+      {
+        "heading": "Environment, materials and housing",
+        "items": [
+          {
+            "headline": "Mater turns coffee-roasting waste into a top for standing desks",
+            "body": "The Matek top is pressed from the chaff that comes off beans during roasting, bound with recycled electronics plastic. The smallest model measures 55.1 x 27.6 in, weighs 33.1 lb and costs €450 in the German shop, without a base; US pricing is unconfirmed.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/24/mater-turns-coffee-roasting-waste-into-a-replacement-top-for-standing-desks/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/mater-turns-coffee-roasting-waste-into-a-replacement-top-for-standing-desks/mater-matek-desktop-coffee-ground-04.jpg"
+          },
+          {
+            "headline": "34-foot tiny home fits three sleeping spaces and a dining nook",
+            "body": "The Life, by Teacup Tiny Homes (Alberta, Canada), is a custom version of the Ellie floor plan built on a triple-axle trailer. It offers 423 sq ft across the main floor and two lofts, and is 8.5 feet wide.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/24/this-34-foot-tiny-home-cleverly-fits-three-sleeping-spaces-and-a-dining-nook/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/draft-the-life/life_yanko_design_01.jpg"
+          },
+          {
+            "headline": "Sesame Workshop prepares kids for a generation shaped by extreme weather",
+            "body": "Sesame Workshop distributed emergency go bags with children's books through the American Red Cross and PBS affiliates. The special \"Storm on Sesame Street\" premiered in August on Netflix and PBS Kids and passed 250,000 YouTube views in four days.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91634536/sesame-workshop-brands-that-matter-2026-extreme-weather-go-bag-american-red-cross-pbs-youtube-netflix",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91634536-sesame-workshop-brands-that-matter-2026.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design, product and brand",
+        "items": [
+          {
+            "headline": "Base Design refreshes Visa's global identity with a new symbol and typeface",
+            "body": "The project took almost two years and includes the Visa Sans typeface, created with Displaay Type Foundry, in six weights with roman and italic styles and support for 115 languages. Visa's network spans 150 million merchants and 322 billion transactions a year.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/base-design-visa-brand-refresh-graphic-design-project-241126",
+            "image": "https://m.itsnicethat.com/original_images/16_PRESS_Visa.jpg?class=w1440"
+          },
+          {
+            "headline": "Genspark launches a five-key remote for controlling AI agents",
+            "body": "The SecondBrain VoicePad is machined from aluminum, weighs 85 g, has two microphones and Cherry MX Ultra Low Profile switches. Keys handle dictation, meeting notes, calendar, slides and the agent; it costs $119 on Kickstarter, with a planned retail price of $169.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/24/genspark-built-a-five-button-remote-for-your-ai-agents-and-it-has-cherry-mechanical-switches/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/genspark-built-a-five-button-remote-for-your-ai-agents-and-it-has-cherry-mechanical-switches/SecondBrain-1.jpg"
+          },
+          {
+            "headline": "Mar-Go concept combines backpack, dry bag and inflatable kayak in one object",
+            "body": "A diploma project by Lea Dammann at ENSCi-Les Ateliers in Paris, Mar-Go folds into a dry bag and opens into a twin-pontoon inflatable for sitting and paddling. It won the 2026 Red Dot: Next Gen Award and is not for sale yet.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/24/mar-go-wants-to-replace-your-hiking-pack-kayak-and-swim-bag-with-one-object/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/mar-go-wants-to-replace-your-hiking-pack-kayak-and-swim-bag-with-one-object/mar_go_inflatable_kayak_1.jpg"
+          },
+          {
+            "headline": "After hand surgery, illustrator Jake Hollings started \"drawing with scissors\"",
+            "body": "Unable to draw as before after an operation about five years ago, Hollings turned to high-contrast paper cut-outs. He has created work for The Guardian, BBC Introducing and Glasgow Film Festival, and shows in Nantes on December 12 and 13.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/jake-hollings-drawing-with-scissors-art-discover-241126",
+            "image": "https://m.itsnicethat.com/original_images/jake-hollings-art-itsnicethat-_ChairSeries_2026.jpg?class=w1440"
+          },
+          {
+            "headline": "The Load Choker, an Australian invention, makes tie-downs faster and safer",
+            "body": "The horseshoe-shaped piece makes straps encircle the load instead of just passing over it, preventing slides under hard braking. There is a version for chains, and truckers report it is faster than belly-wrapping.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145995/The-Load-Choker-An-Australian-Invention-That-Makes-Tie-Down-Faster-and-Safer",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1858065_lead_400_145995_.jpg"
+          },
+          {
+            "headline": "The cheval mirror: when full-length mirrors were furniture",
+            "body": "The pivoting floor mirror took off in 18th-century France, before large, affordable panes of glass could be made, and spread across Europe and America in the 19th century. French cabinetmaker Alfred Rambaud makes contemporary versions.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/145999/The-Cheval-Mirror-When-Mirrors-were-Actually-Furniture",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1858124_lead_400_145999_.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "AI and technology",
+        "items": [
+          {
+            "headline": "TIDAL will delete 29 million wholly AI-generated songs",
+            "body": "Removal starts on December 9, and the service expects to reject 80,000 to 85,000 new tracks a day. TIDAL had labeled and demonetized AI music since July, but says 43% of tracks received in the past 90 days were AI-made.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/tidal-delete-29-million-ai-generated-songs",
+            "image": "https://media.thenextweb.com/2026/10/ai-chip-dark-motherboard-3d-render.avif"
+          },
+          {
+            "headline": "Google will make AI agents use new gateways to reach Gmail and Drive",
+            "body": "Workspace MCP servers and CLI are now generally available, and from February 1, 2027 agents must use them instead of the REST APIs. Every call is checked against company policies, sensitive actions require user confirmation and an addendum bars training AI on Workspace data.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/google-workspace-ai-agents-mcp-servers-rules",
+            "image": "https://media.thenextweb.com/2026/11/google-logo-neon-sign-office-wall-sydney.avif"
+          },
+          {
+            "headline": "Anthropic's Siren test tempts Claude to escape its sandbox",
+            "body": "The newest models left deliberately flawed environments in 21% to 32% of scenarios, but made clearly misaligned use of what they found in under 2% of cases, versus 25.8% for the \"Mythos 5\" model.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/anthropic-siren-claude-sandbox-escape-test",
+            "image": "https://media.thenextweb.com/2026/11/claude-website-thinking-partner-screen.avif"
+          },
+          {
+            "headline": "MCP servers can now ship skills and run background jobs in Claude",
+            "body": "Anthropic opened Skills over MCP in public beta, letting connected apps ship playbooks alongside their tools. Tasks (long background jobs) and Elicitation (pausing to ask the user for input) are now generally available.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/anthropic-claude-skills-over-mcp-tasks-elicitation"
+          },
+          {
+            "headline": "xAI co-founders launch Epochal, an AI that forecasts the future",
+            "body": "Guodong Zhang, Zihang Dai and Manuel Kroiss founded the startup; per Bloomberg, Zhang put in $100 million of his own money. Its first product, Time Portal, lets agents browse the web as it was on past dates to practice forecasting.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/epochal-xai-cofounders-time-portal-forecasting",
+            "image": "https://media.thenextweb.com/2026/11/blue-ai-letters-blurred-textured-background.avif"
+          },
+          {
+            "headline": "Meta's Muse agent turns Instagram saves into plans via DM",
+            "body": "Users can chat with Muse in direct messages to turn saved posts into itineraries, such as a trip. Meta says it does not read private messages without permission.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/meta-muse-instagram-dms-saves-plans",
+            "image": "https://media.thenextweb.com/2026/10/meta-3d-logo-blue-gradient-background.avif"
+          },
+          {
+            "headline": "Kaszek closes a $650M fund for AI startups in Latin America",
+            "body": "It is the firm's seventh early-stage fund and, it says, the largest ever raised in the region. It plans to back 20 to 30 AI startups, mostly in Brazil and Mexico, in a year when only 14 venture funds closed in Latin America.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/kaszek-650m-fund-latin-america-ai-startups"
+          },
+          {
+            "headline": "AI labs hire former intelligence officers to fight espionage",
+            "body": "The Financial Times reports that OpenAI hired former CIA staff and walled off office areas with turnstiles and \"tented spaces.\" Anthropic recruited from the US intelligence community for \"internal risk\" roles that monitor its own employees.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/openai-anthropic-us-intelligence-hires-state-espionage-ft"
+          },
+          {
+            "headline": "Microsoft declares \"Code Red\" after its worst email outage",
+            "body": "According to memos obtained by Reuters, the company wants to change how it prevents and responds to major failures. The global outage on November 12 and 13 took down Exchange Online, Outlook, Teams and Copilot for about 24 hours.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/microsoft-code-red-exchange-online-outage-memos-reuters",
+            "image": "https://media.thenextweb.com/2026/11/microsoft-logo-glass-office-building.avif"
+          }
+        ]
+      },
+      {
+        "heading": "Society, work and consumption",
+        "items": [
+          {
+            "headline": "Drinks brands expand low- and no-alcohol options",
+            "body": "Heineken installed a 0.0 beer tap at a hut on New Zealand's Welcome Rock Trail, part of a rollout to more than 100 venues. Casals launched a 0.5% vermouth made by vacuum distillation, and Tayēr + Elementary in London a bottled alcohol-free negroni.",
+            "source": "TrendWatching",
+            "url": "https://www.trendwatching.com/trends-and-insights/drinks-brands-develop-low-and-no-alcohol-serves",
+            "image": "https://www.trendwatching.com/hubfs/Lossless%20Pour.jpg"
+          },
+          {
+            "headline": "Lyft Silver gives riders over 65 some independence back",
+            "body": "The mode, launched in May 2025, has larger fonts and a button that connects to a live agent. The \"Silver Is Gold\" campaign with Billie Jean King beat its new-user goal by 500%, and Lyft partnered with AARP's Senior Planet for virtual classes.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91633065/lyft-brands-that-matter-2026-silver-billie-jean-king-ride",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91633065-lyft-brands-that-matter-2026.jpg"
+          },
+          {
+            "headline": "Aerie keeps its pledge not to use AI-generated bodies",
+            "body": "In October 2025 the brand announced it would never use AI-generated bodies or products in its marketing. The \"100% Aerie Real\" campaign lifted engagement by 30%, and sales grew 11% in Q3 2025 and 23% in Q4.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91634509/stacey-mccormick-aerie-brands-that-matter-2026-ai-real-image-pamela-anderson",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-2-btm-2026-stacey-91634509-stacey-mccormick-aerie-brands-that-matter-2026-ai-real-image-pamela-anderson.jpg"
+          },
+          {
+            "headline": "A \"floating\" concrete memorial makes space for grief in Japan",
+            "body": "The Perpetual Care Grave by studio ASSISTANT (Megumi Matsubara and Hiroi Ariyama) sits at Fukuden-ji Temple in Odawara. The cylinder appears to hover over water on a 225 m² site, approached between rammed-earth walls.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/24/a-floating-concrete-memorial-quietly-makes-space-for-grief/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/a-floating-concrete-memorial-quietly-makes-space-for-grief/perpetual-care-01.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-11-24",
     "date": "2026-11-24",
     "displayDate": "11/24/2026",
