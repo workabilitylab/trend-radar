@@ -15,6 +15,197 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-11-26",
+    "date": "2026-11-26",
+    "displayDate": "11/26/2026",
+    "weekday": "Thursday",
+    "tag": "THURSDAY",
+    "edition": "11/26/2026",
+    "cover": "https://www.yankodesign.com/images/design_news/2026/11/the-moove-on-suitcase-prototype-brings-its-own-perch-to-the-airport/moove-on-travel-companion-elderly-03.jpg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and society. On climate, the COP31 outcomes, Africa's water opportunity, factory-built fusion and robot bins in Tokyo; in design, a keyboard with replaceable batteries, aluminum and wood curtains and a reverse-slanted typeface; in AI, rings and earbuds that become note-takers, the web of the past for agents and an API rewritten by Claude itself; in society, a suitcase designed for older travelers, AI-native teams and Black Friday cyber risk.",
+    "sections": [
+      {
+        "heading": "Environment, climate and energy",
+        "items": [
+          {
+            "headline": "Coalitions deliver progress at COP31 as global consensus frays",
+            "body": "According to BCG, more than 75 countries pledged to raise electricity to 35% of final energy use by 2035, while talks on fossil fuels and finance stalled.",
+            "source": "BCG",
+            "url": "https://www.bcg.com/publications/2026/cop31-key-takeaways",
+            "image": "https://web-assets.bcg.com/dims4/default/0fcd3a6/2147483647/strip/true/crop/1214x1620+833+0/resize/287x383!/format/webp/quality/80/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2F47%2F79%2F6a2f611b4479b380c772f3d014bc%2Fcoalitions-deliver-progress-at-cop31-as-consensus-frays-rectangle.jpg"
+          },
+          {
+            "headline": "Water resilience in Africa is a roughly $200 billion opportunity",
+            "body": "A BCG report calls for multifunctional solutions and more private-sector involvement to turn the continent's water crisis into sustainable growth.",
+            "source": "BCG",
+            "url": "https://www.bcg.com/publications/2026/africa-from-crisis-to-resilience-sustainable-water-opportunity",
+            "image": "https://web-assets.bcg.com/dims4/default/8c60aed/2147483647/strip/true/crop/1214x1620+833+0/resize/287x383!/format/webp/quality/80/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2Fe1%2F4f%2F3cc131be4f6888da2d01db6983f4%2Ffrom-crisis-to-resilience-africas-sustainable-water-opportunity-rectangle.jpg"
+          },
+          {
+            "headline": "Munich startup Starforge raises €6.6M to build fusion reactors on production lines",
+            "body": "Starforge closed a pre-seed round led by AENU and First Momentum Ventures, aiming to manufacture fusion reactors industrially, in factories.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/starforge-fusion-pre-seed-funding",
+            "image": "https://media.thenextweb.com/2026/11/starforge-founders-seated-dark-metal-wall.avif"
+          },
+          {
+            "headline": "Porsche puts the electric Boxster's battery where the engine used to be",
+            "body": "The electric 718 Boxster concept places the battery pack behind the seats, keeping the mid-engine sports car's weight balance.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/25/porsche-put-the-electric-boxsters-battery-where-the-engine-used-to-be/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/661774/porsche_boxter_prototype_1.jpg"
+          },
+          {
+            "headline": "Tokyo tests robot bins that roam and carry trash away",
+            "body": "JR East tested three autonomous robotic trash bins at Shinjuku Station from September to November 2026; results have not been released.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/25/tokyo-is-testing-robot-bins-that-actually-carry-trash-away/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/tokyo-tested-robot-bins-that-actually-carry-trash-away/trash-robot-01.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design, product and materials",
+        "items": [
+          {
+            "headline": "ZSA's wireless Voyager split keyboard makes room for replaceable batteries",
+            "body": "The wireless Voyager uses user-replaceable 18650 cells behind a Phillips screw, a nod to repairability and long product life; it costs $429.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/26/zsas-wireless-voyager-split-keyboard-makes-room-for-replaceable-batteries/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/zsas-wireless-voyager-split-keyboard-makes-room-for-replaceable-batteries/zsa-wireless-voyager-split-ergo-keyboard-05.jpg"
+          },
+          {
+            "headline": "Curtains made of aluminum or wood become room dividers",
+            "body": "Nolastar is a curtain of aluminum or wood tiles that runs on standard tracks; it is made to order and costs $365.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/146013/Curtains-Made-Out-of-Aluminum-or-Wood",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1858309_lead_400_146013_.jpeg"
+          },
+          {
+            "headline": "A stainless steel cube unfolds into a camping stove",
+            "body": "Kovea's Container Stove folds into a small steel box, with a wind-resistant burner and legs for pots up to 22 cm.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/146010/This-Stainless-Steel-Cube-Unfolds-Into-a-Camping-Stove",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1858219_lead_400_146010_.jpg"
+          },
+          {
+            "headline": "Adaptive eyeglasses promise to adjust focus for near and far on their own",
+            "body": "The VIVIFoCAL S1 claims a laser sensor shifts the lenses by distance; Core77's writer is skeptical. Listed at $340.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/146011/Adaptive-Eyeglasses-that-Automatically-Adjust-for-Close-or-Distant-Viewing",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1858250_lead_400_146011_.jpg"
+          },
+          {
+            "headline": "Backslanted: a type series that tilts letters the opposite way to italics",
+            "body": "Designer Yury Ostromentsky presents a type family with an inverted slant, using strangeness as an expressive tool.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/yury-ostromentsky-backslanted-graphic-design-project-251126"
+          },
+          {
+            "headline": "Abi Tucker uses drawing as a way of remembering, in folkloric art",
+            "body": "A profile of the artist, whose folk-inspired work treats drawing as a tool for memory and feeling.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/abi-tucker-art-discover-251126"
+          }
+        ]
+      },
+      {
+        "heading": "AI, agents and devices",
+        "items": [
+          {
+            "headline": "A smart ring tracks your sleep and becomes an AI note-taker by day",
+            "body": "Natura's Interface ring adds a button for voice notes and AI-agent requests to health tracking; it costs $159 on Kickstarter.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/25/this-smart-ring-tracks-your-sleep-and-becomes-your-ai-note-taker-when-youre-awake/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/this-smart-ring-tracks-your-sleep-and-becomes-your-ai-note-taker-when-youre-awake/ring-01.jpg"
+          },
+          {
+            "headline": "Nothing's Ear (note) turns the earbud case into an AI meeting recorder",
+            "body": "Nothing turns the earbud case into a small recorder that captures meetings for AI transcription, following devices like the Plaud One.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/25/nothings-ear-note-turns-the-earbud-case-into-a-tiny-ai-powered-meeting-recorder/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/661762/nothing_ear_note_1.jpeg"
+          },
+          {
+            "headline": "Perplexity's Time Machine lets AI agents search the web of the past",
+            "body": "The feature adds web snapshots up to 365 days old to Perplexity's Search and Context APIs.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/perplexity-time-machine-ai-agents-past-web",
+            "image": "https://media.thenextweb.com/2026/11/perplexity-time-machine-api-artwork.avif"
+          },
+          {
+            "headline": "OpenAI tests a way to shield business prompts while its models run",
+            "body": "Private Inference, an alpha with a small group of customers, uses confidential computing to protect business data while models run.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/openai-private-inference-testing-customers",
+            "image": "https://media.thenextweb.com/2026/10/openai-logo-on-monitor-blue-wall.avif"
+          },
+          {
+            "headline": "Claude rewrote the API that serves Claude; checking its work was the hard part",
+            "body": "Anthropic moved its Messages API from Python to Rust, with Claude agents writing much of the code, and reports about 70% less CPU per request.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/anthropic-claude-messages-api-rust-migration",
+            "image": "https://media.thenextweb.com/2026/10/anthropic-sign-office-building-entrance.avif"
+          },
+          {
+            "headline": "Siemens builds an AI robot to unpack parts at its Erlangen plant",
+            "body": "The robot uses a foundation model to handle deliveries; the company also showed an AI planner it expects to cut manual planning work by 70%.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/siemens-ai-unpacking-robot-production-planner-sps-2026",
+            "image": "https://media.thenextweb.com/2026/11/siemens-ai-robot-unpacking-erlangen.avif"
+          },
+          {
+            "headline": "ElevenLabs in early talks to raise at a $33B valuation",
+            "body": "According to Bloomberg, the synthetic voice company is in early talks for a Q1 2027 round, about 50% above its September valuation.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/elevenlabs-33bn-valuation-funding-talks-2027",
+            "image": "https://media.thenextweb.com/2026/09/elevenlabs-ashley-kramer-chief-revenue-officer-openai-ai-act-article-50.avif"
+          }
+        ]
+      },
+      {
+        "heading": "Work, consumption and society",
+        "items": [
+          {
+            "headline": "The Moove On suitcase concept brings a built-in perch for older travelers",
+            "body": "A Basel master's project developed with Tucano and involving people aged 75 and older, the suitcase has two upright handles and a perch to sit on at the airport.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/26/the-moove-on-suitcase-prototype-brings-its-own-perch-to-the-airport/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/the-moove-on-suitcase-prototype-brings-its-own-perch-to-the-airport/moove-on-travel-companion-elderly-03.jpg"
+          },
+          {
+            "headline": "AI media company Every raises $17.5M to help teams become AI-native",
+            "body": "The company closed a Series A led by IA Ventures at a $110M post-money valuation and has about 10,000 paying subscribers.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/every-17-5m-series-a-ai-native-media",
+            "image": "https://media.thenextweb.com/2026/11/every-17-5m-series-a-graphic.avif"
+          },
+          {
+            "headline": "How will AI shake up your growth strategy?",
+            "body": "BCG looks at how AI can accelerate or disrupt corporate growth and what organizations should rethink in their strategies.",
+            "source": "BCG",
+            "url": "https://www.bcg.com/publications/2026/ai-reshaping-corporate-growth-strategy",
+            "image": "https://web-assets.bcg.com/dims4/default/aff07d0/2147483647/strip/true/crop/1214x1620+833+0/resize/287x383!/format/webp/quality/80/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2F34%2F2d%2F1ae541a4491eb433cf3a6835a881%2Fhow-will-ai-shake-up-your-growth-strategy.jpg"
+          },
+          {
+            "headline": "Retailers face more AI-driven cyberattacks ahead of Black Friday",
+            "body": "AI-assisted attacks are getting faster and more frequent; claims data from insurer CFC suggest many retailers lack adequate cover.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/retailers-ai-cyberattacks-black-friday-insurance",
+            "image": "https://media.thenextweb.com/2026/11/hooded-silhouette-computer-code-screens.avif"
+          },
+          {
+            "headline": "WhatsApp is testing stickers with sound",
+            "body": "The app's latest public beta lets users create stickers with audio, widening the ways people express themselves in chats.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2327763/whatsapp-is-testing-stickers-with-sound/",
+            "image": "https://www.engadget.com/img/gallery/whatsapp-is-testing-stickers-with-sound/l-intro-1795609389.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-11-25",
     "date": "2026-11-25",
     "displayDate": "11/25/2026",
