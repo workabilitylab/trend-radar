@@ -15,6 +15,185 @@
 
 window.EDITIONS = [
   {
+    "id": "2026-11-27",
+    "date": "2026-11-27",
+    "displayDate": "11/27/2026",
+    "weekday": "Friday",
+    "tag": "FRIDAY",
+    "edition": "11/27/2026",
+    "cover": "https://www.yankodesign.com/images/design_news/2026/11/auto-draft/long_time_no_see_too_cd_player_1.jpeg",
+    "intro": "Overview of the last 24 hours in design, AI, environment and society. In repair and housing, a suitcase with swappable wheels, a solar house with a bridge over the pool and repairable meditation cards; in design, a triangle clock, a see-through CD player and a sleeve printed onto the arm; in AI, a phone with an assistant in Indian languages, the scramble for memory chips and Moxie Marlinspike's warning about surveillance; in society, Amazon strikes, lunch as a protected break and tech designed for grandparents.",
+    "sections": [
+      {
+        "heading": "Environment, repair and housing",
+        "items": [
+          {
+            "headline": "Weekend retreat concept swaps the front walk for a bridge over the pool",
+            "body": "Michael Jantzen's Circular Solar Pool House has a solar disk above the roof deck and rainwater tanks under the house; you enter via a short bridge across the pool.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/26/this-weekend-retreat-concept-trades-a-front-walk-for-a-bridge-over-the-pool/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/this-weekend-retreat-concept-trades-a-front-walk-for-a-bridge-over-the-pool/the-circular-solar-pool-house-01.jpg"
+          },
+          {
+            "headline": "BAGSMART's Pebble Switch lets you swap a wheel, not the whole suitcase",
+            "body": "The Pebble Switch ships with a spare set of wheels and costs $289.99, $20 more than the regular version: a practical step against discarding luggage over a single part.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/27/bagsmarts-pebble-switch-lets-you-swap-a-wheel-not-the-whole-suitcase/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/bagsmarts-pebble-switch-lets-you-swap-a-wheel-not-the-whole-suitcase/bagsmart-pebble-carry-on-switch-09.jpg"
+          },
+          {
+            "headline": "Meru offers guided meditation without a phone, starting with a card",
+            "body": "NFC cards start sessions with no app or internet; the housing uses recycled plastic and cork and is built to be taken apart and repaired. A project by Futari Design.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/26/guided-meditation-without-a-phone-meru-starts-with-a-card/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/guided-meditation-without-a-phone-meru-starts-with-a-card/meru-01.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Design, product and visual culture",
+        "items": [
+          {
+            "headline": "A clock swaps its hands for a yellow triangle",
+            "body": "Mauricio Romano's Geometry Clock keeps the numerals and uses a triangle to indicate hours and minutes; it is a design study, not yet for sale.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/27/a-triangle-tells-time-without-the-usual-clock-hands/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/a-triangle-tells-time-without-the-usual-clock-hands/geometry-clock-01.jpg"
+          },
+          {
+            "headline": "A $127 see-through CD player bets on people who want to own music again",
+            "body": "NINM Lab's Long Time No See Too has two-way Bluetooth 5.3 and a detachable magnetic speaker. The article cites Luminate data: about half of Gen Z and millennial CD buyers don't own a CD player.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/26/this-see-through-cd-player-is-a-127-middle-finger-to-the-era-of-streaming-and-not-owning-music/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/auto-draft/long_time_no_see_too_cd_player_1.jpeg"
+          },
+          {
+            "headline": "MIT's robot builds a sleeve around an arm without a stitch",
+            "body": "InSituWear, from the MIT Media Lab's Critical Matter Group, extrudes polycaprolactone directly onto the forearm; the roughly 14-inch prototype took 22 minutes.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/26/mits-robot-builds-a-sleeve-around-an-arm-without-a-stitch/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/mits-robot-builds-a-sleeve-around-an-arm-without-a-stitch/insituwear-01.jpg"
+          },
+          {
+            "headline": "Carlo Nason's Sfumato: a Space Age lighting classic",
+            "body": "The LT316 floor lamp (1966), made for Mazzega, stacks hand-blown glass sections, one per bulb, smokier toward the top; secondhand prices reach five figures.",
+            "source": "Core77",
+            "url": "https://www.core77.com/posts/146023/A-Vintage-Lighting-Design-Classic-Carlo-Nasons-Sfumato-Floor-Lamp",
+            "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1858404_lead_400_146023_.jpg"
+          },
+          {
+            "headline": "Illustrated A.G. Cook book works as a multimedia manual for PC Music",
+            "body": "The Soulbreaker Codex, designed by Jacob Hulmston and Marty Uhrecky, is structured like a game manual, with puzzle logic and a scanimation bookmark.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/jacob-hulmston-martin-uhrecky-the-soulbreaker-codex-graphic-design-publication-project-261126",
+            "image": "https://m.itsnicethat.com/original_images/ag-cook-soulbreaker-publication-itsnicethat-4.png?class=w1440"
+          },
+          {
+            "headline": "Fiona Quadri takes billboards back from advertisers and turns them into maximalist collages",
+            "body": "The Abundance of Being series fills 20 London billboard sites with portraits of local businesses and communities such as Brixton Market and Vortex Jazz Club.",
+            "source": "It's Nice That",
+            "url": "https://www.itsnicethat.com/articles/fiona-quadri-the-abundance-of-being-art-project-261126",
+            "image": "https://m.itsnicethat.com/original_images/jam_afternoon.png?class=w1440"
+          }
+        ]
+      },
+      {
+        "heading": "AI, chips and infrastructure",
+        "items": [
+          {
+            "headline": "HMD's $113 phone bets on an AI assistant in 22 Indian languages",
+            "body": "The HMD Rise ships with Sarvam AI's Indus assistant, hosted on servers in India, plus a 5,000mAh battery; sales open December 2.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/26/hmds-new-113-phone-has-one-real-feature-a-non-english-ai-assistant/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/auto-draft/hmd_rise_1.jpg"
+          },
+          {
+            "headline": "Canada adds C$700M to its AI compute fund, favoring home-grown clouds",
+            "body": "The fund reaches C$1B, with bigger subsidies for firms using Canadian-owned providers; the first new call targets health and life sciences.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/canada-ai-compute-access-fund-700m-expansion",
+            "image": "https://media.thenextweb.com/2026/10/ai-orange-neon-sign-dark-circuit-wall.jpg"
+          },
+          {
+            "headline": "Firms set up memory chip \"war rooms\" as some prices jump 10x",
+            "body": "According to the WSJ, buyers are scouring eBay and brokers for batches of five to 12 units, a direct effect of AI demand.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/memory-shortage-war-rooms-musk-samsung-wsj",
+            "image": "https://media.thenextweb.com/2026/10/circuit-board-processor-chip-macro.jpg"
+          },
+          {
+            "headline": "TDK will spend $635M to double sensor output for robots and AI data centers",
+            "body": "The company says it makes about 80% of the world's TMR sensors and aims to double output by 2031, driven by humanoid robots, AI data centers and cars.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/tdk-635m-tmr-sensors-humanoids-ai-data-centres",
+            "image": "https://media.thenextweb.com/2026/11/tdk-inakura-factory-nikaho-akita.jpg"
+          },
+          {
+            "headline": "SpaceX gets FCC approval for up to 1 million satellites for an orbital AI data center",
+            "body": "The Starmind project must have its first satellite in orbit by 2033 and 100,000 by 2035.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/",
+            "image": "https://www.engadget.com/img/gallery/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/l-intro-1795690830.jpg"
+          },
+          {
+            "headline": "Moxie Marlinspike: AI safety is building a machinery of mass surveillance",
+            "body": "Signal's creator argues oversight should target models, not users; he now runs Confer, a private AI chat service.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/moxie-marlinspike-ai-surveillance-confer-encryption",
+            "image": "https://media.thenextweb.com/2026/11/moxie-marlinspike-portrait-dark-jacket-outdoors.jpg"
+          },
+          {
+            "headline": "Firefox now spends 27% of its effort on security fixes, up from 10% a year ago",
+            "body": "The rise comes from AI-found flaws: in April Mozilla patched 271 bugs surfaced by Anthropic's Mythos model.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/firefox-mozilla-security-effort-27-percent-ai-bugs",
+            "image": "https://media.thenextweb.com/2026/11/firefox-app-smartphone-logo.jpg"
+          },
+          {
+            "headline": "Scott Aaronson says AI labs are sitting on cryptography \"bombshells\"",
+            "body": "The scientist says he is virtually certain labs hold results that would break some current cryptography, without confirming the RSA-factoring rumor.",
+            "source": "The Next Web",
+            "url": "https://thenextweb.com/news/scott-aaronson-ai-labs-cryptography-rsa-rumours",
+            "image": "https://media.thenextweb.com/2026/09/Artificial-Intelligence-letters.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Work, consumption and society",
+        "items": [
+          {
+            "headline": "Amazon workers in more than 20 countries plan strikes on Black Friday and Cyber Monday",
+            "body": "Verdi called strikes at 11 sites in Germany on Friday, and the Teamsters plan protests in Los Angeles and Chicago on the 30th.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2329231/amazon-workers-plan-protests-on-black-friday-and-cyber-monday/",
+            "image": "https://www.engadget.com/img/gallery/amazon-workers-around-the-world-plan-strikes-and-protests-on-black-friday-and-cyber-monday/l-intro-1795722145.jpg"
+          },
+          {
+            "headline": "Rockstar staff vote against union recognition",
+            "body": "About 75% rejected a formal deal a week after GTA VI's launch; the IWGB union says it will keep organizing.",
+            "source": "Engadget",
+            "url": "https://www.engadget.com/2329177/workers-gta-6-studio-rockstar-games-vote-against-union-recognition/",
+            "image": "https://www.engadget.com/img/gallery/workers-at-gta-6-studio-rockstar-games-vote-overwhelmingly-against-union-recognition/intro-1795711860.jpg"
+          },
+          {
+            "headline": "Stop scheduling meetings over lunch",
+            "body": "The piece argues that skipped lunches become an unwritten norm that fuels burnout, and proposes protected windows and leaders who model breaks; it cites O.C. Tanner data on Gen Z belonging.",
+            "source": "Fast Company",
+            "url": "https://www.fastcompany.com/91649238/stop-scheduling-meetings-over-lunch",
+            "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91649238-stop-scheduling-meetings-over-lunch.jpg"
+          },
+          {
+            "headline": "TP-Link's new security camera doubles as a video phone for grandma",
+            "body": "The Tapo C825 has a 4-inch touchscreen and a call button, costs $149.99 and records to cards of up to 512 GB with no subscription.",
+            "source": "Yanko Design",
+            "url": "https://www.yankodesign.com/2026/11/26/tp-links-new-security-camera-doubles-as-a-video-phone-for-grandma/",
+            "image": "https://www.yankodesign.com/images/design_news/2026/11/auto-draft/tapo_c825_camera_1.jpeg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-11-26",
     "date": "2026-11-26",
     "displayDate": "11/26/2026",
